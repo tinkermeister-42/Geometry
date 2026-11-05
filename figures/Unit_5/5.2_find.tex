@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (1.8,0); \coordinate (C) at (2.475,2.614);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \node[below left] at (A) {$A$}; \node[below right] at (B) {$B$}; \node[above] at (C) {$C$};
+  \node[below=2pt] at (0.9,0) {$6$}; \node[right=3pt] at (2.14,1.307) {$9$}; \node[above left=1pt] at (1.24,1.307) {$12$};
+  \coordinate (D) at (4.8,0); \coordinate (E) at (7.8,0); \coordinate (F) at (8.925,3.76);
+  \draw[fig] (D) -- (E) -- (F) -- cycle;
+  \node[below left] at (D) {$D$}; \node[below right] at (E) {$E$}; \node[above] at (F) {$F$};
+  \node[below=2pt] at (6.3,0) {$10$};
+  \ifkey\else\node[right=3pt] at (8.36,1.88) {$x$};\fi
+  \ifkey \node[right=3pt] at (8.36,1.88) {\ans{$x=15$}}; \fi
+\end{tikzpicture}
+\end{document}

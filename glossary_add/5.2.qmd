@@ -1,0 +1,27 @@
+### similar {#glossary-similar}
+
+Figures that have the same shape but not always the same size. Matching angles are equal and matching sides are proportional. The symbol is $\sim$.
+
+> **Example:** A 4 by 6 photo and an 8 by 12 photo are similar.
+
+**See Also:** {{< glink "similarity statement" >}}, {{< glink "scale factor" >}}
+
+***
+
+### similarity statement {#glossary-similarity-statement}
+
+A statement such as $\triangle ABC \sim \triangle DEF$. The order of the letters shows which vertices match.
+
+> **Example:** $\triangle ABC \sim \triangle DEF$ means $\angle A$ matches $\angle D$ and $\overline{BC}$ matches $\overline{EF}$.
+
+**See Also:** {{< glink similar >}}, {{< glink "corresponding parts" >}}
+
+***
+
+### proportional {#glossary-proportional}
+
+Two lists of numbers are proportional when the ratios of matching numbers are all equal.
+
+> **Example:** The sides 4, 6, 8 and 6, 9, 12 are proportional. Each ratio is 1.5.
+
+**See Also:** {{< glink proportion >}}

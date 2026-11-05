@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig,fill=gray!12] (0,0) rectangle (1.8,1.2);
+  \node[below=2pt] at (0.9,0) {$6$ in};  \node[left=2pt] at (0,0.6) {$4$ in};
+  \draw[fig,fill=gray!12] (3.4,0) rectangle (7.0,2.4);
+  \node[below=2pt] at (5.2,0) {$12$ in}; \node[left=2pt] at (3.4,1.2) {$8$ in};
+  \draw[fig,fill=gray!12] (8.8,0) rectangle (11.8,2.4);
+  \node[below=2pt] at (10.3,0) {$10$ in}; \node[left=2pt] at (8.8,1.2) {$8$ in};
+  \node at (0.9,0.6) {A}; \node at (5.2,1.2) {B}; \node at (10.3,1.2) {C};
+\end{tikzpicture}
+\end{document}

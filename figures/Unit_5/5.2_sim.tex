@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (1.6,0); \coordinate (C) at (2.2,2.324);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \pic[ang] {angle = B--A--C}; \pic[ang2] {angle = C--B--A};
+  \node[below left] at (A) {$A$}; \node[below right] at (B) {$B$}; \node[above] at (C) {$C$};
+  \node[below=2pt] at (0.8,0) {$4$}; \node[right=3pt] at (1.9,1.162) {$6$}; \node[above left=1pt] at (1.1,1.162) {$8$};
+  \coordinate (D) at (4.6,0); \coordinate (E) at (7.0,0); \coordinate (F) at (7.9,3.485);
+  \draw[fig] (D) -- (E) -- (F) -- cycle;
+  \pic[ang] {angle = E--D--F}; \pic[ang2] {angle = F--E--D};
+  \node[below left] at (D) {$D$}; \node[below right] at (E) {$E$}; \node[above] at (F) {$F$};
+  \node[below=2pt] at (5.8,0) {$6$}; \node[right=3pt] at (7.45,1.742) {$9$}; \node[above left=1pt] at (6.25,1.742) {$12$};
+\end{tikzpicture}
+\end{document}
