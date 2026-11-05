@@ -59,6 +59,12 @@ book:
       chapters:
         - file: chapters/Unit_1/index.qmd
         - file: chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.qmd
+        - file: chapters/Unit_1/1.2_Segment_and_Angle_Addition.qmd
+        - file: chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.qmd
+        - file: chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.qmd
+        - file: chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.qmd
+        - file: chapters/Unit_1/Summary.qmd
+        - file: chapters/Unit_1/Review.qmd
 
     - part: "Unit 2: The Pythagorean Theorem and the Coordinate Plane"
       chapters:

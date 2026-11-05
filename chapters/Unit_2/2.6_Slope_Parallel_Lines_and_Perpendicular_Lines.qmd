@@ -12,7 +12,9 @@ How can you tell, using only coordinates? The answer is in the **slope**. In thi
 
 :::{.vocab}
 {{< glink slope >}},
-{{< glink "opposite reciprocal" >}}
+{{< glink "opposite reciprocal" >}},
+{{< glink parallel >}},
+{{< glink perpendicular >}}
 :::
 
 :::{.guided-notes-link}

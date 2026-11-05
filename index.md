@@ -29,10 +29,12 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 |---|---|
 | **Unit 1: Lines, Angles, and Equations** | |
 | [1.1](chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.qmd) | Points, lines, segments, and angles |
-| 1.2 | Segment and angle addition |
-| 1.3 | Complementary, supplementary, and vertical angles |
-| 1.4 | Parallel lines and transversals |
-| 1.5 | Angles in triangles and polygons |
+| [1.2](chapters/Unit_1/1.2_Segment_and_Angle_Addition.qmd) | Segment and angle addition |
+| [1.3](chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.qmd) | Complementary, supplementary, and vertical angles |
+| [1.4](chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.qmd) | Parallel lines and transversals |
+| [1.5](chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.qmd) | Angles in triangles and polygons |
+| [Summary](chapters/Unit_1/Summary.qmd) | Unit 1 summary |
+| [Review](chapters/Unit_1/Review.qmd) | Unit 1 review |
 | **Unit 2: The Pythagorean Theorem and the Coordinate Plane** | |
 | [2.1](chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.qmd) | Square roots and simplifying radicals |
 | [2.2](chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.qmd) | The Pythagorean theorem and its converse |

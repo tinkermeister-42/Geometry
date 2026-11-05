@@ -12,6 +12,12 @@ letter-size paper.
 ## Unit 1 - Lines, Angles, and Equations
 
   - [1.1 - Points, Lines, Segments, and Angles](/guided_notes/Unit_1/1.1_Points_Lines_Segments_and_Angles.html){target="_blank"}
+  - [1.2 - Segment and Angle Addition](/guided_notes/Unit_1/1.2_Segment_and_Angle_Addition.html){target="_blank"}
+  - [1.3 - Complementary, Supplementary, and Vertical Angles](/guided_notes/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html){target="_blank"}
+  - [1.4 - Parallel Lines and Transversals](/guided_notes/Unit_1/1.4_Parallel_Lines_and_Transversals.html){target="_blank"}
+  - [1.5 - Angles in Triangles and Polygons](/guided_notes/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html){target="_blank"}
+  - [Unit 1 Summary](/guided_notes/Unit_1/Unit_1_Summary.html){target="_blank"}
+  - [Unit 1 Review](/guided_notes/Unit_1/Unit_1_Review.html){target="_blank"}
 
 ## Unit 2 - The Pythagorean Theorem and the Coordinate Plane
 

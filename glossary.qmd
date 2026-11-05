@@ -8,6 +8,30 @@ An angle that measures more than $0^\circ$ and less than $90^\circ$.
 
 ***
 
+### adjacent angles {#glossary-adjacent-angles}
+
+Two angles that share a vertex and one side, and do not overlap.
+
+**See Also:** {{< glink "linear pair" >}}
+
+***
+
+### alternate exterior angles {#glossary-alternate-exterior-angles}
+
+Two angles outside the two lines, on opposite sides of the transversal. If the two lines are parallel, alternate exterior angles are equal.
+
+**See Also:** {{< glink "alternate interior angles" >}}
+
+***
+
+### alternate interior angles {#glossary-alternate-interior-angles}
+
+Two angles between the two lines, on opposite sides of the transversal. If the two lines are parallel, alternate interior angles are equal.
+
+**See Also:** {{< glink "alternate exterior angles" >}}, {{< glink "same-side interior angles" >}}
+
+***
+
 ### angle {#glossary-angle}
 
 Two rays with the same endpoint. The endpoint is the vertex. Write $\angle ABC$, with the vertex in the middle.
@@ -17,6 +41,18 @@ Two rays with the same endpoint. The endpoint is the vertex. Write $\angle ABC$,
 > $\angle ABC$, $\angle B$, and $\angle 1$ can all name the same angle.
 
 **See Also:** {{< glink vertex >}}, {{< glink degree >}}
+
+***
+
+### angle bisector {#glossary-angle-bisector}
+
+A ray that starts at the vertex of an angle and cuts the angle into two congruent angles.
+
+> **Example:**
+>
+> If $\overrightarrow{BD}$ bisects $\angle ABC$ and $m\angle ABC = 68^\circ$, then $m\angle ABD = 34^\circ$.
+
+**See Also:** {{< glink congruent >}}
 
 ***
 
@@ -46,6 +82,28 @@ Points that lie on the same line.
 
 ***
 
+### complementary {#glossary-complementary}
+
+Two angles whose measures add to $90^\circ$. Each angle is the complement of the other.
+
+> **Example:**
+>
+> $25^\circ$ and $65^\circ$ are complementary because $25 + 65 = 90$.
+
+**See Also:** {{< glink supplementary >}}
+
+***
+
+### congruent {#glossary-congruent}
+
+Having the same size and shape. Congruent segments have the same length. Congruent angles have the same measure. The symbol is $\cong$.
+
+> **Example:**
+>
+> If $AB = 5$ and $CD = 5$, then $\overline{AB} \cong \overline{CD}$.
+
+***
+
 ### converse {#glossary-converse}
 
 The statement you get by turning an "if, then" rule around.
@@ -53,6 +111,14 @@ The statement you get by turning an "if, then" rule around.
 > **Example:** The converse of the Pythagorean theorem: if $a^2 + b^2 = c^2$, the triangle is a right triangle.
 
 **See Also:** {{< glink "Pythagorean theorem" >}}
+
+***
+
+### convex polygon {#glossary-convex-polygon}
+
+A polygon where every segment between two points of the polygon stays inside it. A polygon that is not convex is concave. A concave polygon has a corner that points inward.
+
+**See Also:** {{< glink polygon >}}
 
 ***
 
@@ -75,6 +141,14 @@ A way to show a fact for sure by using coordinates, slopes, and distances instea
 Points or lines that lie in the same plane.
 
 **See Also:** {{< glink collinear >}}
+
+***
+
+### corresponding angles {#glossary-corresponding-angles}
+
+Two angles in the same position at the two places where a transversal crosses two lines. If the two lines are parallel, corresponding angles are equal.
+
+**See Also:** {{< glink transversal >}}, {{< glink "alternate interior angles" >}}
 
 ***
 
@@ -108,6 +182,32 @@ A point at the end of a segment or the start of a ray.
 
 ***
 
+### equiangular {#glossary-equiangular}
+
+Having all angles the same measure. An equiangular triangle has three $60^\circ$ angles.
+
+***
+
+### equilateral triangle {#glossary-equilateral-triangle}
+
+A triangle with all three sides the same length. Each angle measures $60^\circ$.
+
+**See Also:** {{< glink equiangular >}}
+
+***
+
+### exterior angle {#glossary-exterior-angle}
+
+An angle outside a polygon, made by one side and the extension of the next side. An exterior angle of a triangle equals the sum of the two remote interior angles.
+
+> **Example:**
+>
+> If two angles of a triangle are $50^\circ$ and $65^\circ$, the exterior angle at the third vertex is $115^\circ$.
+
+**See Also:** {{< glink "linear pair" >}}
+
+***
+
 ### hypotenuse {#glossary-hypotenuse}
 
 The side of a right triangle across from the right angle. It is the longest side.
@@ -119,6 +219,18 @@ The side of a right triangle across from the right angle. It is the longest side
 ### intersect {#glossary-intersect}
 
 To cross or meet. Two lines intersect at a point. Two planes intersect in a line.
+
+***
+
+### isosceles triangle {#glossary-isosceles-triangle}
+
+A triangle with at least two sides the same length. The angles across from the equal sides are equal.
+
+> **Example:**
+>
+> A triangle with sides $5$, $5$, and $8$ is isosceles.
+
+**See Also:** {{< glink "equilateral triangle" >}}
 
 ***
 
@@ -146,9 +258,33 @@ A straight path of points that goes on forever in both directions. Write $\overl
 
 ***
 
+### linear pair {#glossary-linear-pair}
+
+Two adjacent angles whose outside sides are opposite rays. The angles in a linear pair are supplementary.
+
+> **Example:**
+>
+> If $m\angle 1 = 62^\circ$ and $\angle 1$ and $\angle 2$ are a linear pair, then $m\angle 2 = 118^\circ$.
+
+**See Also:** {{< glink "adjacent angles" >}}, {{< glink supplementary >}}
+
+***
+
 ### measure of an angle {#glossary-measure-of-an-angle}
 
 How far an angle opens, in degrees. Write $m\angle ABC = 40^\circ$. Read it as "the measure of angle $ABC$ is 40 degrees."
+
+***
+
+### midpoint {#glossary-midpoint}
+
+The point exactly halfway between the endpoints of a segment. It cuts the segment into two congruent segments.
+
+> **Example:**
+>
+> If $M$ is the midpoint of $\overline{AB}$ and $AM = 6$, then $MB = 6$ and $AB = 12$.
+
+**See Also:** {{< glink "segment bisector" >}}
 
 ***
 
@@ -173,6 +309,18 @@ The number you get by flipping a fraction and changing its sign. Slopes of perpe
 > **Example:** The opposite reciprocal of $\dfrac{2}{3}$ is $-\dfrac{3}{2}$.
 
 **See Also:** {{< glink "slope" >}}
+
+***
+
+### parallel {#glossary-parallel}
+
+Parallel lines are in the same plane and never meet. They stay the same distance apart. The symbol is $\parallel$. In a figure, matching arrows mark parallel lines.
+
+> **Example:**
+>
+> $\ell \parallel m$ is read "line $\ell$ is parallel to line $m$."
+
+**See Also:** {{< glink perpendicular >}}, {{< glink skew >}}
 
 ***
 
@@ -212,6 +360,18 @@ The distance around a polygon. It is the sum of the side lengths.
 
 ***
 
+### perpendicular {#glossary-perpendicular}
+
+Perpendicular lines cross to make right angles. The symbol is $\perp$.
+
+> **Example:**
+>
+> $p \perp q$ is read "line $p$ is perpendicular to line $q$."
+
+**See Also:** {{< glink parallel >}}, {{< glink "right angle" >}}
+
+***
+
 ### plane {#glossary-plane}
 
 A flat surface that goes on forever in every direction. Name it with one capital letter, like plane $P$, or with three points in it that are not on one line.
@@ -221,6 +381,24 @@ A flat surface that goes on forever in every direction. Name it with one capital
 ### point {#glossary-point}
 
 An exact location. A point has no size. Name it with a capital letter, like point $A$.
+
+***
+
+### polygon {#glossary-polygon}
+
+A closed figure made of three or more segments, called sides, that meet only at their endpoints. A polygon with $n$ sides is an $n$-gon. The angles of a polygon with $n$ sides add to $(n - 2) \cdot 180^\circ$.
+
+> **Example:**
+>
+> Triangle (3 sides), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), nonagon (9), decagon (10).
+
+**See Also:** {{< glink "regular polygon" >}}, {{< glink "convex polygon" >}}
+
+***
+
+### protractor {#glossary-protractor}
+
+A tool that measures angles in degrees. It has an outer scale and an inner scale. Read the scale that starts at $0$ on one side of the angle.
 
 ***
 
@@ -286,6 +464,18 @@ A parallelogram with a right angle.
 
 ***
 
+### regular polygon {#glossary-regular-polygon}
+
+A polygon with all sides the same length and all angles the same measure.
+
+> **Example:**
+>
+> A stop sign is a regular octagon. Each angle is $135^\circ$.
+
+**See Also:** {{< glink polygon >}}
+
+***
+
 ### rhombus {#glossary-rhombus}
 
 A quadrilateral with four sides of equal length.
@@ -300,9 +490,45 @@ An angle that measures exactly $90^\circ$. A small square at the vertex marks a 
 
 ***
 
+### same-side interior angles {#glossary-same-side-interior-angles}
+
+Two angles between the two lines, on the same side of the transversal. If the two lines are parallel, same-side interior angles are supplementary.
+
+**See Also:** {{< glink supplementary >}}, {{< glink "alternate interior angles" >}}
+
+***
+
+### scalene triangle {#glossary-scalene-triangle}
+
+A triangle with no two sides the same length.
+
+**See Also:** {{< glink "isosceles triangle" >}}, {{< glink "equilateral triangle" >}}
+
+***
+
 ### segment {#glossary-segment}
 
 Part of a line between two endpoints. Write $\overline{AB}$. Its length is written $AB$, with no bar.
+
+***
+
+### segment bisector {#glossary-segment-bisector}
+
+A point, line, ray, or segment that goes through the midpoint of a segment.
+
+**See Also:** {{< glink midpoint >}}, {{< glink "angle bisector" >}}
+
+***
+
+### skew {#glossary-skew}
+
+Skew lines are not in the same plane. They do not meet and they are not parallel.
+
+> **Example:**
+>
+> The bottom front edge of a box and the vertical edge at its back corner are skew.
+
+**See Also:** {{< glink parallel >}}
 
 ***
 
@@ -340,6 +566,32 @@ An angle that measures exactly $180^\circ$. Its sides are opposite rays, so it l
 
 ***
 
+### supplementary {#glossary-supplementary}
+
+Two angles whose measures add to $180^\circ$. Each angle is the supplement of the other.
+
+> **Example:**
+>
+> $110^\circ$ and $70^\circ$ are supplementary because $110 + 70 = 180$.
+
+**See Also:** {{< glink complementary >}}, {{< glink "linear pair" >}}
+
+***
+
+### transversal {#glossary-transversal}
+
+A line that crosses two or more other lines at different points.
+
+**See Also:** {{< glink "corresponding angles" >}}
+
+***
+
+### triangle {#glossary-triangle}
+
+A polygon with three sides and three angles. The angles of a triangle add to $180^\circ$. Write $\triangle ABC$.
+
+***
+
 ### triangle inequality {#glossary-triangle-inequality}
 
 The two shorter sides of a triangle always add to more than the longest side.
@@ -351,3 +603,15 @@ The two shorter sides of a triangle always add to more than the longest side.
 ### vertex {#glossary-vertex}
 
 The point where the two sides of an angle meet. The plural is *vertices*.
+
+***
+
+### vertical angles {#glossary-vertical-angles}
+
+The two angles across from each other when two lines cross. Vertical angles are equal.
+
+> **Example:**
+>
+> If two lines cross and one angle is $60^\circ$, the angle across from it is also $60^\circ$.
+
+**See Also:** {{< glink "linear pair" >}}

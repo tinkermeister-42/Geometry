@@ -11,6 +11,10 @@ The halfway point of a segment is its **midpoint**. You can find it by averaging
 - [ ] I can use the midpoint to solve problems and to check a point.
 :::
 
+:::{.vocab}
+{{< glink midpoint >}}
+:::
+
 :::{.guided-notes-link}
 [Printable Guided Notes for this lesson](/guided_notes/Unit_2/2.5_Midpoint.html){target="_blank"} (fill-in notes to print and write on)
 :::

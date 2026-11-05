@@ -13,6 +13,7 @@ In geometry, "it looks true" is not enough. We want to know it is true **for sur
 
 :::{.vocab}
 {{< glink "coordinate proof" >}},
+{{< glink "isosceles triangle" >}},
 {{< glink parallelogram >}},
 {{< glink rectangle >}},
 {{< glink rhombus >}},
