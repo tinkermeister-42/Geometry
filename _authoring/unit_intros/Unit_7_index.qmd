@@ -1,0 +1,42 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 7! A bike wheel, a pizza, a running track, and the coverage area of a cell tower are all circles.
+
+In this unit you learn how to measure circles: the distance around, the area inside, and the parts in between. You learn a new way to measure angles, called radians. You also learn the angles inside a circle and how to write the equation of a circle on the coordinate plane.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Find the circumference and area of a circle
+* Find arc length and the area of a sector
+* Convert between degrees and radians
+* Use inscribed angles and tangent lines to find missing angles and lengths
+* Write and graph the equation of a circle
+
+***
+
+## Topics in This Unit
+
+[**Circumference and Arc Length**](7.1_Circumference_and_Arc_Length.qmd)\
+Find the distance around a circle and around part of it.
+
+[**Area of Circles and Sectors**](7.2_Area_of_Circles_and_Sectors.qmd)\
+Find the area of a circle and of a slice of a circle.
+
+[**Radians**](7.3_Radians.qmd)\
+Measure angles with the radius. Convert between degrees and radians.
+
+[**Inscribed Angles and Tangents**](7.4_Inscribed_Angles_and_Tangents.qmd)\
+Find angles with their vertex on a circle. Use lines that touch a circle at one point.
+
+[**The Equation of a Circle**](7.5_The_Equation_of_a_Circle.qmd)\
+Use the distance formula to write the equation of a circle.
+
+[**Unit 7 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 7 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.

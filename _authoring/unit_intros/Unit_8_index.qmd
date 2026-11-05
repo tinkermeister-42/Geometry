@@ -1,0 +1,46 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 8! How much paint covers a wall? How much concrete fills a slab? How much water fits in a pool? These are questions about area and volume.
+
+In this unit you find the area of flat shapes and the surface area and volume of solids. You also use density to find weight, and you use scale factors to see how area and volume change when a shape gets bigger.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Find the area of polygons and composite figures
+* Describe cross sections and solids of revolution
+* Find the surface area of prisms, cylinders, pyramids, cones, and spheres
+* Find the volume of prisms, cylinders, pyramids, cones, and spheres
+* Use density and unit conversions to solve real problems
+* Explain how area and volume change when lengths are scaled
+
+***
+
+## Topics in This Unit
+
+[**Area of Polygons and Composite Figures**](8.1_Area_of_Polygons_and_Composite_Figures.qmd)\
+Find the area of rooms, walls, yards, and other shapes made of simple pieces.
+
+[**Cross Sections and Solids of Revolution**](8.2_Cross_Sections_and_Solids_of_Revolution.qmd)\
+Slice a solid to see a flat shape. Spin a flat shape to make a solid.
+
+[**Surface Area and Nets**](8.3_Surface_Area_and_Nets.qmd)\
+Unfold a solid into a net. Find the area of all of its faces.
+
+[**Volume of Prisms and Cylinders**](8.4_Volume_of_Prisms_and_Cylinders.qmd)\
+Find how much a box, a tank, or a slab holds.
+
+[**Volume of Pyramids, Cones, and Spheres**](8.5_Volume_of_Pyramids_Cones_and_Spheres.qmd)\
+Find the volume of solids that come to a point, and of balls.
+
+[**Density and Modeling**](8.6_Density_and_Modeling.qmd)\
+Use volume to find weight, plan materials, and compare designs.
+
+[**Unit 8 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 8 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.

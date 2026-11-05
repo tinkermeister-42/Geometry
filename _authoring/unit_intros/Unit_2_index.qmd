@@ -1,0 +1,58 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 2! A builder checks a square corner with 3, 4, and 5. A map app finds the straight-line distance between two places. Both use the same idea: the Pythagorean theorem.
+
+In this unit you learn that theorem and use it on the coordinate plane. You will find distances, midpoints, and slopes from coordinates. These tools come back in every unit after this one. At the end of the unit you use them to check what a shape really is, not just what it looks like.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Simplify square roots and use them in answers
+* Use the Pythagorean theorem to find a missing side of a right triangle
+* Decide if a triangle is right, acute, or obtuse from its side lengths
+* Solve real problems with ladders, ramps, screens, and corners
+* Find the distance and the midpoint between two points
+* Use slope to tell if two lines are parallel or perpendicular
+* Find a point that divides a segment in a given ratio
+* Find perimeter and area of shapes on the coordinate plane
+* Prove what kind of shape a figure is by using coordinates
+
+***
+
+## Topics in This Unit
+
+[**Square Roots and Simplifying Radicals**](2.1_Square_Roots_and_Simplifying_Radicals.qmd)\
+Estimate and simplify square roots. Multiply and add them.
+
+[**The Pythagorean Theorem and Its Converse**](2.2_The_Pythagorean_Theorem_and_Its_Converse.qmd)\
+Find a missing side of a right triangle. Decide if a triangle is right, acute, or obtuse.
+
+[**The Pythagorean Theorem in the Real World**](2.3_The_Pythagorean_Theorem_in_the_Real_World.qmd)\
+Square a corner, place a ladder, measure a screen, and find shortcuts.
+
+[**Distance on the Coordinate Plane**](2.4_Distance_on_the_Coordinate_Plane.qmd)\
+Find the distance between two points with a right triangle or the distance formula.
+
+[**Midpoint**](2.5_Midpoint.qmd)\
+Find the point halfway between two points. Find a missing endpoint.
+
+[**Slope, Parallel Lines, and Perpendicular Lines**](2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.qmd)\
+Parallel lines have the same slope. Perpendicular lines have opposite reciprocal slopes.
+
+[**Dividing a Segment in a Ratio**](2.7_Dividing_a_Segment_in_a_Ratio.qmd)\
+Find the point that is part of the way from one point to another.
+
+[**Perimeter and Area on the Coordinate Plane**](2.8_Perimeter_and_Area_on_the_Coordinate_Plane.qmd)\
+Find the perimeter and area of polygons from their vertices.
+
+[**Checking Shapes with Coordinates**](2.9_Checking_Shapes_with_Coordinates.qmd)\
+Use distance and slope to show what a shape is for sure.
+
+[**Unit 2 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 2 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.

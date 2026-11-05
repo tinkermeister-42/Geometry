@@ -1,0 +1,43 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 5! A map, a model car, and a photo on your phone all show something at a different size. The shape stays the same. Only the size changes.
+
+Figures with the same shape are similar. In this unit you use ratios and proportions to find missing lengths in similar figures. Then you use similar triangles to measure things you cannot reach, like the height of a tree or the width of a river.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Write and solve proportions
+* Use a scale factor to find missing lengths
+* Decide if two figures are similar
+* Decide if two triangles are similar by AA, SSS, or SAS
+* Use parallel lines to find lengths in triangles
+* Measure heights and distances with shadows and mirrors
+
+***
+
+## Topics in This Unit
+
+[**Ratios and Proportions**](5.1_Ratios_and_Proportions.qmd)\
+Write ratios, solve proportions, and use scale drawings and maps.
+
+[**Similar Figures and Scale Factor**](5.2_Similar_Figures_and_Scale_Factor.qmd)\
+Same shape, different size. Find missing sides with a scale factor.
+
+[**Similar Triangles**](5.3_Similar_Triangles.qmd)\
+Decide if two triangles are similar. Find missing sides.
+
+[**Triangle Proportionality**](5.4_Triangle_Proportionality.qmd)\
+A line parallel to one side of a triangle cuts the other sides in the same ratio.
+
+[**Indirect Measurement**](5.5_Indirect_Measurement.qmd)\
+Find the height of a tree or a building with similar triangles.
+
+[**Unit 5 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 5 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.

@@ -1,0 +1,43 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 3! When you move a picture on a phone screen, turn it, flip it, or zoom in, the phone moves every point of the picture by a rule.
+
+These moves are called transformations. In this unit you learn the rules for slides, flips, turns, and size changes on the coordinate plane. You use distance and slope from Unit 2 to check what stays the same and what changes.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Translate, reflect, rotate, and dilate figures on the coordinate plane
+* Write and use a rule like $(x, y) \rightarrow (x + 3, y - 2)$
+* Find the transformation that moves one figure onto another
+* Tell which transformations keep lengths and angles the same
+* Do two or more transformations in a row
+* Find lines of symmetry and rotational symmetry
+
+***
+
+## Topics in This Unit
+
+[**Translations**](3.1_Translations.qmd)\
+Slide a figure with a rule. Check that lengths stay the same.
+
+[**Reflections**](3.2_Reflections.qmd)\
+Flip a figure over a line. Find the line of reflection.
+
+[**Rotations**](3.3_Rotations.qmd)\
+Turn a figure around a point by $90^\circ$, $180^\circ$, or $270^\circ$.
+
+[**Dilations**](3.4_Dilations.qmd)\
+Make a figure larger or smaller with a scale factor.
+
+[**Sequences of Transformations and Symmetry**](3.5_Sequences_of_Transformations_and_Symmetry.qmd)\
+Do transformations one after another. Find symmetry in shapes and designs.
+
+[**Unit 3 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 3 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.

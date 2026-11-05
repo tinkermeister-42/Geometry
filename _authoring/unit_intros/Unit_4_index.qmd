@@ -1,0 +1,44 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 4! Two parts made in a factory must be exactly the same size and shape, or they will not fit. Same size and same shape is called congruent.
+
+In this unit you learn how to tell when two figures are congruent. For triangles, you only need to check three parts. You also learn the properties of special quadrilaterals and how to make exact drawings with a compass and a straightedge.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Use rigid motions to decide if two figures are congruent
+* Write a congruence statement and name the matching parts
+* Decide which triangles are congruent by SSS, SAS, ASA, AAS, or HL
+* Explain why SSA and AAA are not enough
+* Use the angles and sides of isosceles and equilateral triangles
+* Use the properties of parallelograms, rectangles, rhombuses, squares, trapezoids, and kites
+* Construct segments, angles, bisectors, perpendicular lines, and parallel lines
+
+***
+
+## Topics in This Unit
+
+[**Congruent Figures and Rigid Motions**](4.1_Congruent_Figures_and_Rigid_Motions.qmd)\
+Same size and shape. Match the parts and find missing sides and angles.
+
+[**Triangle Congruence: SSS, SAS, ASA, AAS, and HL**](4.2_Triangle_Congruence.qmd)\
+Three parts are enough to know two triangles are congruent, if they are the right three.
+
+[**Isosceles and Equilateral Triangles**](4.3_Isosceles_and_Equilateral_Triangles.qmd)\
+Equal sides mean equal angles. Use it to find missing angles.
+
+[**Quadrilaterals and Their Properties**](4.4_Quadrilaterals_and_Their_Properties.qmd)\
+Learn what is always true about parallelograms, rectangles, rhombuses, squares, trapezoids, and kites.
+
+[**Constructions**](4.5_Constructions.qmd)\
+Draw exact figures with only a compass and a straightedge.
+
+[**Unit 4 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 4 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.
