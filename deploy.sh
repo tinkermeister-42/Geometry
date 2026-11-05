@@ -55,7 +55,9 @@ else
   (
     cd "$ABS_TEMP_DIR"
     git switch --orphan "$DEPLOY_BRANCH"
-    rm -rf ./* .[^.]* 2>/dev/null || true
+    # A worktree's .git is a file pointing back at the repo; deleting it with
+    # the rest leaves "not a git repository" for every command after this.
+    find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
     echo "# $(basename "$ABS_REPO_ROOT") pages" > README.md
     git add README.md
     git -c commit.gpgsign=${SIGN_COMMITS} commit -m "Initialize $DEPLOY_BRANCH"
