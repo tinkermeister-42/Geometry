@@ -1,0 +1,234 @@
+# Unit 2 Review {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 2 Review](/guided_notes/Unit_2/Unit_2_Review.html){target="_blank"} (fill-in review to print and write on)
+:::
+
+{{< learn >}}
+
+### 2.1 - Square Roots and Simplifying Radicals
+
+**Example 1:** Simplify $\sqrt{96}$ and $\sqrt{20} + \sqrt{45}$.
+
+$\sqrt{96} = \sqrt{16} \cdot \sqrt{6} = 4\sqrt{6}$.
+
+$\sqrt{20} = 2\sqrt{5}$ and $\sqrt{45} = 3\sqrt{5}$. Add: $5\sqrt{5}$.
+
+### 2.2 - The Pythagorean Theorem and Its Converse
+
+**Example 2:** The legs of a right triangle are 6 and 10. Find the hypotenuse (exact and to the nearest tenth). Is a triangle with sides 7, 10, and 12 right, acute, or obtuse?
+
+$c^2 = 36 + 100 = 136$. $c = \sqrt{136} = 2\sqrt{34} \approx 11.7$.
+
+$7^2 + 10^2 = 149$ and $12^2 = 144$. $149 > 144$, so the triangle is acute.
+
+### 2.3 - The Pythagorean Theorem in the Real World
+
+**Example 3:** A 15 ft wire runs from the top of a pole to the ground 9 ft from the base of the pole. How tall is the pole?
+
+$9^2 + h^2 = 15^2$, so $h^2 = 225 - 81 = 144$.
+
+$h = 12$. The pole is 12 ft tall.
+
+### 2.4 - Distance on the Coordinate Plane
+
+**Example 4:** Find the distance from $(-3, -2)$ to $(5, 4)$.
+
+$d = \sqrt{(5 - (-3))^2 + (4 - (-2))^2} = \sqrt{64 + 36} = 10$.
+
+### 2.5 - Midpoint
+
+**Example 5:** Find the midpoint of $(-6, 1)$ and $(8, 9)$. Then find $B$ if $M(0, 4)$ is the midpoint of $\overline{AB}$ and $A$ is $(-3, 6)$.
+
+$M = \left(\dfrac{-6 + 8}{2}, \dfrac{1 + 9}{2}\right) = (1, 5)$.
+
+Step from $A$ to $M$: $(3, -2)$. $B = (0 + 3, 4 - 2) = (3, 2)$.
+
+### 2.6 - Slope, Parallel Lines, and Perpendicular Lines
+
+**Example 6:** Write the equation of the line through $(1, 4)$ that is parallel to $y = -2x + 3$.
+
+The slope is $-2$. $4 = -2(1) + b$, so $b = 6$. The equation is $y = -2x + 6$.
+
+### 2.7 - Dividing a Segment in a Ratio
+
+**Example 7:** Find the point that divides the segment from $A(-2, 3)$ to $B(10, -6)$ in the ratio $1:2$.
+
+$k = \dfrac{1}{3}$. Run $= 12$, rise $= -9$.
+
+$P = (-2 + 4,\ 3 + (-3)) = (2, 0)$.
+
+### 2.8 - Perimeter and Area on the Coordinate Plane
+
+**Example 8:** Find the perimeter and the area of the triangle with vertices $(0, 0)$, $(6, 0)$, and $(6, 8)$.
+
+Sides: $6$, $8$, and $\sqrt{36 + 64} = 10$. Perimeter $= 24$.
+
+Area $= \dfrac{1}{2}(6)(8) = 24$ square units.
+
+### 2.9 - Checking Shapes with Coordinates
+
+**Example 9:** Show that the triangle with $A(-1, 0)$, $B(3, 2)$, and $C(1, 6)$ is a right triangle.
+
+Slope of $\overline{BA}$: $\dfrac{0 - 2}{-1 - 3} = \dfrac{1}{2}$. Slope of $\overline{BC}$: $\dfrac{6 - 2}{1 - 3} = -2$.
+
+**Because** the slopes have a product of $-1$, $\overline{BA} \perp \overline{BC}$, and triangle $ABC$ is a right triangle with the right angle at $B$.
+
+{{< practice >}}
+
+**2.1 - I can simplify square roots and use them in answers.**
+
+1. $\sqrt{54}$
+
+2. $\sqrt{112}$
+
+3. $3\sqrt{8}$
+
+4. $\sqrt{6} \cdot \sqrt{18}$
+
+5. $\sqrt{12} + \sqrt{75}$
+
+6. $\dfrac{8}{\sqrt{2}}$
+
+**2.2 - I can use the Pythagorean theorem and its converse.**
+
+7. Legs 12 and 5. Find the hypotenuse.
+
+8. Hypotenuse 20, leg 16. Find the other leg.
+
+9. Legs 6 and 11. Find the hypotenuse to the nearest tenth.
+
+10. Is a triangle with sides 9, 10, and 15 right, acute, or obtuse?
+
+11. The legs are $x$ and $x + 2$. The hypotenuse is 10. Find $x$.
+
+**2.3 - I can solve real problems with right triangles.**
+
+12. A rectangular lot is 15 ft by 36 ft. How long is its diagonal?
+
+13. A 24 ft ladder has its base 6 ft from a wall. How high does it reach? Round to the nearest tenth.
+
+14. A phone screen has a 6 in diagonal and is 2.8 in wide. How tall is it? Round to the nearest tenth.
+
+15. A box is 12 in by 16 in by 15 in. How long is the longest pole that fits? (Hint: first find the floor diagonal.)
+
+**2.4 - I can find the distance between two points.**
+
+16. $(2, 5)$ and $(2, -4)$
+
+17. $(-4, 1)$ and $(2, 9)$
+
+18. $(0, 3)$ and $(5, -2)$ (exact and nearest tenth)
+
+19. The point $(k, 4)$ is 5 from $(1, 0)$. Find $k$.
+
+**2.5 - I can find a midpoint or a missing endpoint.**
+
+20. Midpoint of $(-5, 2)$ and $(3, -6)$
+
+21. Midpoint of $(4, 7)$ and $(9, 0)$
+
+22. $M(1, -3)$ is the midpoint of $\overline{AB}$ and $A$ is $(0, 4)$. Find $B$.
+
+23. The ends of a diameter are $(-2, 3)$ and $(6, -1)$. Find the center.
+
+**2.6 - I can use slope to decide parallel or perpendicular, and write equations.**
+
+24. Slope of the line through $(1, 2)$ and $(5, 10)$
+
+25. $y = \dfrac{2}{3}x + 1$ and $2x - 3y = 9$: parallel, perpendicular, or neither?
+
+26. $y = \dfrac{5}{2}x$ and $2x + 5y = 10$: parallel, perpendicular, or neither?
+
+27. Write the line through $(3, -3)$ perpendicular to $y = \dfrac{2}{3}x + 1$.
+
+**2.7 - I can find the point that divides a segment in a ratio.**
+
+28. $\dfrac{2}{5}$ of the way from $(0, 0)$ to $(10, 5)$
+
+29. Ratio $3:1$ from $(1, 1)$ to $(9, 5)$
+
+30. Ratio $1:3$ from $(-4, 0)$ to $(12, 8)$
+
+31. Ratio $3:1$ from $(9, 5)$ to $(1, 1)$. Compare it with the point for $3:1$ from $(1, 1)$ to $(9, 5)$.
+
+**2.8 - I can find perimeter and area on the coordinate plane.**
+
+32. Perimeter of the triangle $(0, 0)$, $(8, 0)$, $(8, 6)$
+
+33. Area of the trapezoid $(0, 0)$, $(7, 0)$, $(5, 4)$, $(2, 4)$
+
+34. Area of the triangle $(0, 0)$, $(6, 2)$, $(3, 5)$ by the box method
+
+35. Area of the square with vertices $(2, 0)$, $(5, 2)$, $(3, 5)$, $(0, 3)$
+
+**2.9 - I can check shapes with coordinates.**
+
+36. Is the triangle $(0, 0)$, $(5, 2)$, $(-2, 5)$ a right triangle? Write a "Because" sentence.
+
+37. Is the triangle $(0, 0)$, $(8, 0)$, $(4, 3)$ isosceles? Write a "Because" sentence.
+
+38. Name $A(1, 1)$, $B(5, 1)$, $C(8, 5)$, $D(4, 5)$ as specifically as you can.
+
+39. Three vertices of parallelogram $ABCD$ are $A(2, 1)$, $B(7, 3)$, $C(9, 8)$. Find $D$.
+
+***
+
+**Test practice**
+
+40. Which expression is equal to $\sqrt{54}$?
+
+    A. $9\sqrt{6}$\
+    B. $3\sqrt{6}$\
+    C. $6\sqrt{3}$\
+    D. $27$
+
+41. A rectangular field is 20 meters long and 21 meters wide. Hnin walks along the diagonal from one corner to the opposite corner. How many meters long is the diagonal?
+
+    A. 29\
+    B. 41\
+    C. $\sqrt{41}$\
+    D. 420
+
+42. A triangle has sides of length 9, 10, and 15. Which statement is true?
+
+    A. It is a right triangle.\
+    B. It is an acute triangle.\
+    C. It is an obtuse triangle.\
+    D. It is not a triangle.
+
+43. What is the distance between the points $(-5, -1)$ and $(7, 4)$?
+
+    A. 7\
+    B. 13\
+    C. 17\
+    D. 169
+
+44. What are the coordinates of the midpoint of the segment with endpoints $(-10, 6)$ and $(4, -2)$?
+
+    A. $(-3, 2)$\
+    B. $(-6, 4)$\
+    C. $(-7, 4)$\
+    D. $(7, -4)$
+
+45. Line $\ell$ has the equation $3x - 4y = 8$. What is the slope of a line perpendicular to line $\ell$?
+
+    A. $\dfrac{3}{4}$\
+    B. $-\dfrac{3}{4}$\
+    C. $\dfrac{4}{3}$\
+    D. $-\dfrac{4}{3}$
+
+46. Quadrilateral $ABCD$ has vertices $A(1, 1)$, $B(5, 1)$, $C(8, 5)$, and $D(4, 5)$. Which is the most specific name?
+
+    A. parallelogram\
+    B. rectangle\
+    C. rhombus\
+    D. square
+
+47. Point $P$ is $\dfrac{1}{4}$ of the way from $A(-4, 0)$ to $B(12, 8)$. What are the coordinates of $P$?
+
+    A. $(0, 2)$\
+    B. $(4, 4)$\
+    C. $(2, 1)$\
+    D. $(8, 6)$
+
