@@ -5,7 +5,7 @@
 
 
 \foreach \s/\x in {2/0,3/3.5,4/8}{
-  \draw[gray!55,thin] (\x,0) grid (\x+\s,\s);
+  \draw[gray!55,thin,step=1] (\x,0) grid (\x+\s,\s);
   \draw[fig,fill=gray!8,fill opacity=.5] (\x,0) rectangle (\x+\s,\s);
   \node[below] at (\x+\s/2,0) {$\s$};
 }
