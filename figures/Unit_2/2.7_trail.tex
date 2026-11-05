@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.42cm,y=0.42cm]
+
+\cgrid{0}{16}{0}{8}{2}
+
+\draw[fig] (2,1) -- (14,6);
+\pt{T}{(2,1)}{below right}\pt{L}{(14,6)}{above left}
+\ifkey \fill[key] (6.8,3) circle[radius=3pt]; \node[above left,key] at (6.8,3) {\ans{R(6.8, 3)}}; \fi
+
+\end{tikzpicture}
+\end{document}

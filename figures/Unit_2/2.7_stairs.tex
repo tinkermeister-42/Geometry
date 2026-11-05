@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.42cm,y=0.42cm]
+
+\cgrid{0}{14}{0}{11}{2}
+
+\draw[fig] (1,2) -- (13,10);
+\draw[gray,dashed] (1,2) -- (4,2) -- (4,4) -- (7,4) -- (7,6) -- (10,6) -- (10,8) -- (13,8) -- (13,10);
+\pt{A}{(1,2)}{above left}\pt{B}{(13,10)}{above left}
+\ifkey \foreach \p in {(4,4),(7,6),(10,8)}{\fill[key] \p circle[radius=2.5pt];} \node[below right,key] at (4,4) {\ans{P}}; \fi
+
+\end{tikzpicture}
+\end{document}

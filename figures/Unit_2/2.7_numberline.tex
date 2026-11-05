@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+
+\draw[<->,thick] (1,0) -- (15,0);
+\foreach \x in {2,6,10,14}{\draw[thick] (\x,-.12) -- (\x,.12); \node[below] at (\x,-.15) {$\x$};}
+\fill (2,0) circle[radius=2.6pt]; \fill (14,0) circle[radius=2.6pt];
+\ifkey \fill[key] (6,0) circle[radius=3pt]; \node[above,key] at (6,.2) {\ans{$\frac13$ of the way}}; \fi
+
+\end{tikzpicture}
+\end{document}
