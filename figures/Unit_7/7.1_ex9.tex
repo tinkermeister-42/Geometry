@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) circle[radius=1.8];
+  \ctr[150]{O}
+  % arcs 68, 112, 54, 126 degrees starting at 90 going clockwise
+  \onc{A}{90}{1.8}\onc{B}{22}{1.8}\onc{C}{-90}{1.8}\onc{D}{-144}{1.8}
+  \draw[fig] (O)--(A); \draw[fig] (O)--(B); \draw[fig] (O)--(C); \draw[fig] (O)--(D);
+  \node at (56:2.65) {$2x^\circ$};
+  \node at (-34:3.0) {$(3x+10)^\circ$};
+  \node at (-117:3.15) {$(x+20)^\circ$};
+  \node at (153:3.15) {$(4x-10)^\circ$};
+\end{tikzpicture}
+\end{document}

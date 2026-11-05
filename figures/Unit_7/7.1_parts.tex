@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) circle[radius=1.8];
+  \ctr[285]{P}
+  \onc{A}{60}{1.8}\onc{D}{125}{1.8}\onc{B}{200}{1.8}\onc{C}{20}{1.8}\onc{E}{235}{1.8}\onc{F}{305}{1.8}
+  \draw[fig] (P) -- (A); \draw[fig] (P) -- (D);
+  \draw[fig] (B) -- (C);
+  \draw[fig] (E) -- (F);
+  \draw[very thick] (60:1.8) arc[start angle=60,end angle=125,radius=1.8];
+  \pic[ang,angle radius=6mm] {angle = A--P--D};
+\end{tikzpicture}
+\end{document}

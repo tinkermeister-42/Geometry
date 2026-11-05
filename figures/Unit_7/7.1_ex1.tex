@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) circle[radius=1.7];
+  \ctr[300]{O}
+  \onc{A}{160}{1.7}\onc{B}{60}{1.7}\onc{C}{340}{1.7}\onc{D}{290}{1.7}
+  \draw[fig] (A) -- (C); \draw[fig] (O) -- (B); \draw[fig] (B) -- (D);
+\end{tikzpicture}
+\end{document}

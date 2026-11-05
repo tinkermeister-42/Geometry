@@ -1,0 +1,5 @@
+% Unit 7 helpers (circle figures). Centre of the circle is (0,0) unless a figure shifts it.
+% \onc[offset]{A}{angle}{R}: a labelled point on the circle at polar (angle, R); label pushed outward
+\newcommand{\onc}[4][3.6mm]{\coordinate (#2) at (#3:#4); \fill (#2) circle[radius=\ptr]; \node at ($(#2)+(#3:#1)$) {$#2$};}
+% \ctr[angle]{O}: the centre dot, label pushed out at that angle
+\newcommand{\ctr}[2][250]{\coordinate (#2) at (0,0); \fill (0,0) circle[radius=\ptr]; \node at (#1:3.4mm) {$#2$};}

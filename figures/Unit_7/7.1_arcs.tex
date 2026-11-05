@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) circle[radius=1.8];
+  \ctr[250]{O}
+  \onc{A}{0}{1.8}\onc{B}{70}{1.8}\onc{C}{200}{1.8}
+  \draw[fig] (O) -- (A); \draw[fig] (O) -- (B);
+  \draw[very thick] (0:1.8) arc[start angle=0,end angle=70,radius=1.8];
+  \pic[ang,angle radius=6mm] {angle = A--O--B};
+  \node at (35:1.0) {$70^\circ$};
+\end{tikzpicture}
+\end{document}

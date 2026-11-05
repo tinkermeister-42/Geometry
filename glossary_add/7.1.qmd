@@ -1,0 +1,139 @@
+### arc {#glossary-arc}
+
+Part of a circle between two points on the circle. Two points split a circle into a minor arc and a major arc (or two semicircles).
+
+> **Example:** In circle $P$, the arc from $A$ to $D$ is written $\overset{\frown}{AD}$.
+
+**See Also:** {{< glink "minor arc" >}}, {{< glink "major arc" >}}, {{< glink "semicircle" >}}
+
+***
+
+### arc length {#glossary-arc-length}
+
+The distance along an arc. It is a length, in units such as inches or meters. Arc length $= \dfrac{\text{central angle}}{360^\circ} \cdot 2\pi r$.
+
+> **Example:** A $90^\circ$ arc on a circle with radius $4$ is $\dfrac{90}{360} \cdot 2\pi(4) = 2\pi$ units long.
+
+**See Also:** {{< glink "arc measure" >}}, {{< glink "circumference" >}}
+
+***
+
+### arc measure {#glossary-arc-measure}
+
+The size of an arc in degrees. It equals the measure of its central angle. A semicircle measures $180^\circ$. A circle measures $360^\circ$ all the way around.
+
+> **Example:** A central angle of $70^\circ$ cuts off an arc that measures $70^\circ$.
+
+**See Also:** {{< glink "arc length" >}}, {{< glink "central angle" >}}
+
+***
+
+### center of a circle {#glossary-center-of-a-circle}
+
+The point inside a circle that is the same distance from every point on the circle. We name a circle by its center.
+
+> **Example:** In $\odot P$, the center is point $P$.
+
+**See Also:** {{< glink "circle" >}}, {{< glink "radius" >}}
+
+***
+
+### central angle {#glossary-central-angle}
+
+An angle whose vertex is the center of a circle. Its sides are two radii.
+
+> **Example:** $\angle APD$ in circle $P$ is a central angle.
+
+**See Also:** {{< glink "arc measure" >}}, {{< glink "radius" >}}
+
+***
+
+### chord {#glossary-chord}
+
+A segment with both endpoints on a circle. A diameter is a chord that goes through the center.
+
+> **Example:** In circle $P$, $\overline{EF}$ is a chord.
+
+**See Also:** {{< glink "diameter" >}}, {{< glink "circle" >}}
+
+***
+
+### circle {#glossary-circle}
+
+All the points in a plane that are the same distance from one point, the center. We write circle $P$ as $\odot P$.
+
+> **Example:** A bike wheel is a circle with its center at the hub.
+
+**See Also:** {{< glink "center of a circle" >}}, {{< glink "radius" >}}
+
+***
+
+### circumference {#glossary-circumference}
+
+The distance around a circle. $C = \pi d = 2\pi r$.
+
+> **Example:** A circle with $r = 5$ has $C = 2\pi(5) = 10\pi \approx 31.42$.
+
+**See Also:** {{< glink "pi" >}}, {{< glink "diameter" >}}
+
+***
+
+### diameter {#glossary-diameter}
+
+A chord that goes through the center of a circle. Its length is twice the radius: $d = 2r$.
+
+> **Example:** If $r = 7$, then $d = 14$.
+
+**See Also:** {{< glink "radius" >}}, {{< glink "chord" >}}
+
+***
+
+### major arc {#glossary-major-arc}
+
+An arc that is more than half of a circle. Its measure is more than $180^\circ$. We name it with three letters.
+
+> **Example:** If a minor arc measures $70^\circ$, the major arc measures $360^\circ - 70^\circ = 290^\circ$.
+
+**See Also:** {{< glink "minor arc" >}}, {{< glink "semicircle" >}}
+
+***
+
+### minor arc {#glossary-minor-arc}
+
+An arc that is less than half of a circle. Its measure is less than $180^\circ$. We name it with its two endpoints.
+
+> **Example:** $\overset{\frown}{AB}$ with $m\overset{\frown}{AB} = 70^\circ$.
+
+**See Also:** {{< glink "major arc" >}}, {{< glink "semicircle" >}}
+
+***
+
+### pi {#glossary-pi}
+
+The number $\pi$ is the circumference of a circle divided by its diameter. It is the same for every circle. $\pi \approx 3.14159$.
+
+> **Example:** A circle with $d = 10$ has $C = 10\pi \approx 31.42$.
+
+**See Also:** {{< glink "circumference" >}}
+
+***
+
+### radius {#glossary-radius}
+
+A segment from the center of a circle to a point on the circle. It is also the length of that segment. The plural is radii. All radii of a circle are equal.
+
+> **Example:** In circle $P$, $\overline{PA}$ is a radius.
+
+**See Also:** {{< glink "diameter" >}}, {{< glink "center of a circle" >}}
+
+***
+
+### semicircle {#glossary-semicircle}
+
+Half of a circle. It is an arc that measures $180^\circ$. The endpoints of a semicircle are the ends of a diameter.
+
+> **Example:** $\overset{\frown}{BAC}$, where $\overline{BC}$ is a diameter.
+
+**See Also:** {{< glink "arc" >}}, {{< glink "diameter" >}}
+
+***

@@ -1,0 +1,530 @@
+# 7.1 - Circumference and Arc Length {.unnumbered}
+
+A bike wheel is 26 inches across. Every time the wheel turns once, the bike rolls forward. How far does it go?
+
+![](/images/Unit_7/7.1_wheel.svg){width=260px fig-align="center"}
+
+The answer is the distance around the wheel. In this lesson you learn the parts of a circle and how to find the distance around it. You also learn how to find the length of just one piece of the edge.
+
+:::{.objectives}
+- [ ] I can name the parts of a circle.
+- [ ] I can find the circumference of a circle and find the radius from the circumference.
+- [ ] I can tell arc measure (degrees) from arc length (a distance).
+- [ ] I can find an arc length, and solve for a missing arc or radius.
+:::
+
+:::{.vocab}
+{{< glink circle >}},
+{{< glink "center of a circle" >}},
+{{< glink radius >}},
+{{< glink diameter >}},
+{{< glink chord >}},
+{{< glink circumference >}},
+{{< glink pi >}},
+{{< glink "central angle" >}},
+{{< glink arc >}},
+{{< glink "minor arc" >}},
+{{< glink "major arc" >}},
+{{< glink semicircle >}},
+{{< glink "arc measure" >}},
+{{< glink "arc length" >}}
+:::
+
+:::{.guided-notes-link}
+[Printable Guided Notes for this lesson](/guided_notes/Unit_7/7.1_Circumference_and_Arc_Length.html){target="_blank"} (fill-in notes to print and write on)
+:::
+
+{{< warmup >}}
+
+1. What fraction of a full turn is $90^\circ$? Write it in lowest terms.
+
+2. Find $2 \cdot 3.14 \cdot 5$.
+
+3. Solve $3x + 20 = 110$.
+
+{{< learn >}}
+
+### 7.1.1 - Parts of a Circle
+
+A **circle** is all the points in a plane that are the same distance from one point. That point is the **center**. We name a circle by its center. Circle $P$ is written $\odot P$.
+
+![](/images/Unit_7/7.1_parts.svg){width=300px fig-align="center"}
+
+| Part | What it is | In the figure |
+|:---|:---|:---:|
+| **radius** | a segment from the center to a point on the circle | $\overline{PA}$ |
+| **diameter** | a chord that goes through the center | $\overline{BC}$ |
+| **chord** | a segment with both endpoints on the circle | $\overline{EF}$ |
+| **arc** | part of the circle between two points | $\overset{\frown}{AD}$ |
+| **central angle** | an angle with its vertex at the center | $\angle APD$ |
+
+:::{.remember title="Radius and diameter"}
+All radii of one circle have the same length. A diameter is two radii in a line, so
+$$
+d = 2r \qquad\text{and}\qquad r = \frac{d}{2}.
+$$
+The diameter is the longest chord of a circle.
+:::
+
+An arc has a name too.
+
+* A **minor arc** is less than half of the circle. We name it with its two endpoints: $\overset{\frown}{AD}$.
+* A **semicircle** is exactly half of the circle. We name it with three letters: $\overset{\frown}{BAC}$.
+* A **major arc** is more than half of the circle. We name it with three letters: $\overset{\frown}{EAF}$ is the long way around from $E$ to $F$ through $A$.
+
+***
+
+**Example 1:** Name the parts
+
+![](/images/Unit_7/7.1_ex1.svg){width=250px fig-align="center"}
+
+a. Name a radius.
+
+   $\overline{OB}$. (Also $\overline{OA}$, $\overline{OC}$, and $\overline{OD}$.)
+
+b. Name a diameter.
+
+   $\overline{AC}$. It is a chord that goes through the center $O$.
+
+c. Name a chord that is not a diameter.
+
+   $\overline{BD}$. Both endpoints are on the circle, but it does not go through $O$.
+
+d. Name a semicircle.
+
+   $\overset{\frown}{ABC}$. Points $A$ and $C$ are the ends of a diameter, so the arc from $A$ to $C$ through $B$ is half of the circle.
+
+e. Name a central angle.
+
+   $\angle BOC$. Its vertex is the center $O$.
+
+:::{.you-try-m title="Use the figure in Example 1"}
+a. Name another radius that is part of the diameter.
+
+b. Name the semicircle that goes through $D$.
+:::
+
+:::{.answer title="Answer"}
+a. $\overline{OA}$ or $\overline{OC}$
+
+b. $\overset{\frown}{ADC}$
+:::
+
+***
+
+**Example 2:** Radius and diameter
+
+a. The diameter is $18$ inches. Find the radius.
+
+   $r = \dfrac{18}{2} = 9$ inches.
+
+b. The radius is $7.5$ feet. Find the diameter.
+
+   $d = 2(7.5) = 15$ feet.
+
+c. A chord goes through the center and is $26$ centimeters long. Find the radius.
+
+   A chord through the center is a diameter. So $d = 26$ and $r = 13$ centimeters.
+
+:::{.you-try-m title="Find the missing length."}
+a. $d = 11$ meters. Find $r$.
+
+b. $r = 4.2$ inches. Find $d$.
+:::
+
+:::{.answer title="Answer"}
+a. $r = 5.5$ meters
+
+b. $d = 8.4$ inches
+:::
+
+***
+
+### 7.1.2 - Circumference and Pi
+
+The distance around a circle is its **circumference**. Measure some round things. Wrap a string around each one, then measure the string. Divide the circumference $C$ by the diameter $d$.
+
+| Object | $C$ | $d$ | $C \div d$ |
+|:---|:---:|:---:|:---:|
+| bike tire | $207$ cm | $66$ cm | $3.14$ |
+| dinner plate | $81.7$ cm | $26$ cm | $3.14$ |
+| trash can lid | $188$ cm | $60$ cm | $3.13$ |
+| coin | $7.5$ cm | $2.4$ cm | $3.13$ |
+| soup can | $23.9$ cm | $7.6$ cm | $3.14$ |
+
+Every answer is close to $3.14$. The small differences come from measuring. For every circle, $C \div d$ is the same number. We call it **pi** and write it $\pi$. It is about $3.14159$. It goes on forever without a pattern.
+
+:::{.remember title="Circumference of a circle"}
+$$
+C = \pi d \qquad\text{or}\qquad C = 2\pi r
+$$
+An answer like $12\pi$ is **exact**. For a decimal, use the $\pi$ key on your calculator.
+:::
+
+***
+
+**Example 3:** Circumference from the diameter
+
+A round fountain has a diameter of $12$ feet. Find its circumference.
+
+$$
+C = \pi d = \pi(12) = 12\pi \text{ feet}
+$$
+
+On a calculator, $12\pi \approx 37.70$. The circumference is $12\pi$ feet, or about $37.70$ feet.
+
+**Example 4:** Circumference from the radius
+
+A circle has a radius of $5.5$ inches. Find its circumference.
+
+$$
+C = 2\pi r = 2\pi(5.5) = 11\pi \approx 34.56 \text{ inches}
+$$
+
+:::{.you-try-m title="Give the exact answer and a decimal rounded to the nearest hundredth."}
+a. $d = 20$ feet
+
+b. $r = 3.5$ centimeters
+:::
+
+:::{.answer title="Answer"}
+a. $C = 20\pi \approx 62.83$ feet
+
+b. $C = 2\pi(3.5) = 7\pi \approx 21.99$ centimeters
+:::
+
+***
+
+**Example 5:** Find the radius from the circumference
+
+a. A circle has a circumference of $28\pi$ centimeters. Find the radius.
+
+   $2\pi r = 28\pi$. Divide both sides by $2\pi$. Then $r = 14$ centimeters.
+
+b. A circle has a circumference of $50$ inches. Find the radius. Round to the nearest tenth.
+
+   $2\pi r = 50$, so $r = \dfrac{50}{2\pi} = \dfrac{25}{\pi} \approx 8.0$ inches.
+
+:::{.you-try-m title="Find the radius."}
+a. $C = 36\pi$ feet
+
+b. $C = 90$ centimeters. Round to the nearest tenth.
+:::
+
+:::{.answer title="Answer"}
+a. $r = 18$ feet
+
+b. $r = \dfrac{90}{2\pi} = \dfrac{45}{\pi} \approx 14.3$ centimeters
+:::
+
+***
+
+**Example 6:** The bike wheel
+
+How far does a wheel with a diameter of $26$ inches roll in one turn? How many turns make one mile? Round to the nearest tenth.
+
+One turn is one circumference:
+
+$$
+C = \pi(26) = 26\pi \approx 81.7 \text{ inches}.
+$$
+
+One mile is $5{,}280 \times 12 = 63{,}360$ inches. Divide:
+
+$$
+63{,}360 \div 81.68 \approx 775.7 \text{ turns}.
+$$
+
+The wheel rolls about $81.7$ inches in one turn. It turns about $775.7$ times in one mile.
+
+:::{.you-try-m title="A wheel has a diameter of 20 inches."}
+a. How far does it roll in one turn? Give the exact answer.
+
+b. How far does it roll in 5 turns? Round to the nearest tenth.
+:::
+
+:::{.answer title="Answer"}
+a. $20\pi$ inches
+
+b. $5 \cdot 20\pi = 100\pi \approx 314.2$ inches
+:::
+
+***
+
+### 7.1.3 - Arc Measure and Arc Length
+
+A central angle cuts a piece out of the edge of the circle. We can measure that piece in two different ways.
+
+![](/images/Unit_7/7.1_arcs.svg){width=290px fig-align="center"}
+
+* **Arc measure** tells how much of a turn the arc is. It is in **degrees**. It equals the central angle: $m\overset{\frown}{AB} = 70^\circ$.
+* **Arc length** tells how far it is along the arc. It is a **distance**, in inches, feet, or meters.
+
+The arc is the fraction $\dfrac{\text{central angle}}{360^\circ}$ of the whole circle. So the arc length is that fraction of the circumference.
+
+:::{.remember title="Arc length"}
+$$
+\text{arc length} = \frac{\text{central angle}}{360^\circ} \cdot 2\pi r
+$$
+:::
+
+A semicircle measures $180^\circ$. A major arc measures $360^\circ$ minus its minor arc.
+
+**Example 7:** Arc measure
+
+Use the figure. $m\angle AOB = 70^\circ$.
+
+a. Find $m\overset{\frown}{AB}$.
+
+   The arc measure equals the central angle. $m\overset{\frown}{AB} = 70^\circ$.
+
+b. Find $m\overset{\frown}{ACB}$.
+
+   $\overset{\frown}{ACB}$ is the major arc. $360^\circ - 70^\circ = 290^\circ$.
+
+:::{.you-try-m title="A central angle measures 125 degrees."}
+a. Find the measure of its minor arc.
+
+b. Find the measure of the matching major arc.
+:::
+
+:::{.answer title="Answer"}
+a. $125^\circ$
+
+b. $360^\circ - 125^\circ = 235^\circ$
+:::
+
+***
+
+**Example 8:** Arc length
+
+In the figure, the radius is $9$ feet. Find the length of $\overset{\frown}{AB}$. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+$$
+\text{arc length} = \frac{70}{360} \cdot 2\pi(9) = \frac{7}{36} \cdot 18\pi = 3.5\pi
+$$
+
+The arc is $3.5\pi$ feet, or about $10.99$ feet.
+
+:::{.you-try-m title="Find the arc length."}
+$r = 15$ inches and the central angle is $48^\circ$. Give the exact answer and a decimal rounded to the nearest hundredth.
+:::
+
+:::{.answer title="Answer"}
+$\dfrac{48}{360} \cdot 2\pi(15) = \dfrac{2}{15} \cdot 30\pi = 4\pi \approx 12.57$ inches
+:::
+
+***
+
+**Example 9:** The same degrees, a different length
+
+![](/images/Unit_7/7.1_conc.svg){width=260px fig-align="center"}
+
+Two circles share a center. The inner circle has radius $3$ and the outer circle has radius $6$. Both arcs have a $60^\circ$ central angle. Find each arc length.
+
+* Inner arc $\overset{\frown}{AB}$: $\dfrac{60}{360} \cdot 2\pi(3) = \dfrac{1}{6} \cdot 6\pi = \pi \approx 3.14$.
+* Outer arc $\overset{\frown}{CD}$: $\dfrac{60}{360} \cdot 2\pi(6) = \dfrac{1}{6} \cdot 12\pi = 2\pi \approx 6.28$.
+
+:::{.gotcha title="Degrees are not a distance"}
+The two arcs both measure $60^\circ$. But the outer arc is twice as long. Arc measure says how much of the circle. Arc length says how far. Two arcs with the same measure have the same length only in circles with the same radius.
+:::
+
+***
+
+### 7.1.4 - Solving with Arcs
+
+The arcs that go all the way around a circle add up to $360^\circ$.
+
+**Example 10:** Solve for $x$
+
+![](/images/Unit_7/7.1_ex9.svg){width=330px fig-align="center"}
+
+The four central angles are marked with arc measures. Find $x$ and each arc.
+
+$$
+2x + (3x + 10) + (x + 20) + (4x - 10) = 360
+$$
+
+$$
+10x + 20 = 360 \quad\Rightarrow\quad 10x = 340 \quad\Rightarrow\quad x = 34.
+$$
+
+The arcs are $2(34) = 68^\circ$, $3(34) + 10 = 112^\circ$, $34 + 20 = 54^\circ$, and $4(34) - 10 = 126^\circ$.
+
+**Check:** $68 + 112 + 54 + 126 = 360$.
+
+:::{.you-try-m title="A circle is cut into four arcs."}
+The arcs measure $x^\circ$, $(2x + 20)^\circ$, $(3x - 10)^\circ$, and $(4x)^\circ$. Find $x$ and each arc.
+:::
+
+:::{.answer title="Answer"}
+$x + (2x + 20) + (3x - 10) + 4x = 360$, so $10x + 10 = 360$ and $x = 35$. The arcs are $35^\circ$, $90^\circ$, $95^\circ$, and $140^\circ$.
+:::
+
+***
+
+**Example 11:** Find the radius from an arc length
+
+a. An arc of $150^\circ$ has length $5\pi$ centimeters. Find the radius.
+
+$$
+\frac{150}{360} \cdot 2\pi r = 5\pi \quad\Rightarrow\quad \frac{5}{6}\pi r = 5\pi \quad\Rightarrow\quad r = 6.
+$$
+
+The radius is $6$ centimeters.
+
+b. An arc of $90^\circ$ is $20$ feet long. Find the radius. Round to the nearest hundredth.
+
+$$
+\frac{90}{360} \cdot 2\pi r = 20 \quad\Rightarrow\quad \frac{\pi r}{2} = 20 \quad\Rightarrow\quad r = \frac{40}{\pi} \approx 12.73.
+$$
+
+The radius is about $12.73$ feet.
+
+:::{.you-try-m title="Find the radius."}
+a. An arc of $120^\circ$ has length $8\pi$ meters.
+
+b. An arc of $60^\circ$ is $15$ inches long. Round to the nearest hundredth.
+:::
+
+:::{.answer title="Answer"}
+a. $\dfrac{1}{3}(2\pi r) = 8\pi$, so $r = 12$ meters.
+
+b. $\dfrac{1}{6}(2\pi r) = 15$, so $\dfrac{\pi r}{3} = 15$ and $r = \dfrac{45}{\pi} \approx 14.32$ inches.
+:::
+
+***
+
+**Example 12:** A running track
+
+Each end of a track is a semicircle with radius $36.5$ meters. The two straight sides are $84.4$ meters each. How long is one lap? Round to the nearest tenth.
+
+The two ends together make one full circle:
+
+$$
+2\pi(36.5) = 73\pi \approx 229.3 \text{ meters}.
+$$
+
+Add the two straight sides: $229.3 + 2(84.4) = 398.1$.
+
+One lap is about $398.1$ meters.
+
+{{< practice >}}
+
+**Use the figure for problems 1 to 6.**
+
+![](/images/Unit_7/7.1_p_parts.svg){width=260px fig-align="center"}
+
+1. Name a radius.
+
+2. Name a diameter.
+
+3. Name a chord that is not a diameter.
+
+4. Name a minor arc.
+
+5. Name a major arc.
+
+6. Name a central angle.
+
+***
+
+**Radius and diameter.**
+
+7. The radius is $14$ inches. Find the diameter.
+
+8. The diameter is $9$ feet. Find the radius.
+
+***
+
+**Circumference.** Give the exact answer and a decimal rounded to the nearest hundredth.
+
+9. $r = 6$ meters
+
+10. $d = 15$ feet
+
+11. $r = 2.5$ inches
+
+12. $d = 40$ centimeters
+
+***
+
+**Find the radius.**
+
+13. $C = 18\pi$ inches
+
+14. $C = 44$ centimeters. Round to the nearest tenth.
+
+***
+
+**Arc measure.**
+
+15. A central angle measures $140^\circ$. Find the measure of its minor arc and of its major arc.
+
+16. A minor arc measures $x^\circ$. Its major arc measures $3x^\circ$. Find $x$ and both arcs.
+
+***
+
+**Arc length.** Give the exact answer and a decimal rounded to the nearest hundredth.
+
+17. $r = 10$ inches, central angle $72^\circ$
+
+18. $r = 4.5$ feet, central angle $200^\circ$
+
+19. $r = 12$ meters, central angle $45^\circ$
+
+20. An arc of $210^\circ$ has length $7\pi$ centimeters. Find the radius.
+
+***
+
+**Solve for $x$.** Find each arc.
+
+21. Use the figure.
+
+    ![](/images/Unit_7/7.1_p_x.svg){width=300px fig-align="center"}
+
+22. A minor arc measures $(2x + 10)^\circ$ and its major arc measures $(7x - 10)^\circ$.
+
+***
+
+**Real problems.**
+
+23. A bike wheel has a diameter of $24$ inches. How far does it roll in one turn? How many turns does it make in $100$ feet? Round to the nearest tenth.
+
+24. A track has two straight sides of $100$ meters each. Each end is a semicircle with radius $30$ meters. How long is one lap? Round to the nearest tenth.
+
+25. A pizza has a diameter of $14$ inches. It is cut into $6$ equal slices. How long is the crust on one slice? Round to the nearest hundredth.
+
+26. The minute hand of a clock is $9$ inches long. How far does the tip move in $10$ minutes? Round to the nearest hundredth.
+
+***
+
+**Find the mistake.**
+
+27. Samir says: "A circle has a diameter of $10$ inches. So $C = 2\pi(10) = 20\pi$ inches." Find his mistake. What is the correct circumference?
+
+***
+
+**Test practice**
+
+28. A circle has a circumference of $30\pi$ inches. What is the length of an arc of $60^\circ$ on this circle?
+
+    A. $2.5\pi$ inches\
+    B. $5\pi$ inches\
+    C. $10\pi$ inches\
+    D. $30\pi$ inches
+
+29. A wheel has a diameter of $30$ inches. About how many inches does it roll in $10$ turns?
+
+    A. $94.2$\
+    B. $471.2$\
+    C. $942.5$\
+    D. $1{,}885.0$
+
+***
+
+**Challenge**
+
+30. In a circle with radius $10$ feet, $\overset{\frown}{AB}$ is $5\pi$ feet long. Find $m\overset{\frown}{AB}$. Then find the length of chord $\overline{AB}$. Hint: draw the radii $\overline{OA}$ and $\overline{OB}$. Round to the nearest hundredth.
+
+31. A wheel with a diameter of $26$ inches turns $100$ times. A bigger wheel with a diameter of $29$ inches rolls the same distance. How many times does it turn? Round to the nearest tenth.

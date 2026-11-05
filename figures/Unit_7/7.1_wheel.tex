@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig,line width=2.2pt] (0,0) circle[radius=1.8];
+  \draw[fig] (0,0) circle[radius=1.55];
+  \foreach \a in {0,30,...,330} \draw (0,0) -- (\a:1.55);
+  \fill (0,0) circle[radius=3.5pt];
+  \draw[<->,thick] (-1.9,-2.45) -- (1.9,-2.45);
+  \draw (-1.9,-2.3) -- (-1.9,-2.6); \draw (1.9,-2.3) -- (1.9,-2.6);
+  \node[below] at (0,-2.55) {26 in};
+\end{tikzpicture}
+\end{document}

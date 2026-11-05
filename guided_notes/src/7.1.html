@@ -1,0 +1,483 @@
+<!--
+lesson: 7.1
+title: Circumference and Arc Length
+unit: 7
+unit_title: Circles
+slug: Circumference_and_Arc_Length
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Name the parts of a circle</li>
+      <li>Find the circumference of a circle and find the radius from the circumference</li>
+      <li>Tell arc measure (degrees) from arc length (a distance)</li>
+      <li>Find an arc length, and solve for a missing arc or radius</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. What fraction of a full turn is 90&deg;? Write it in lowest terms. &nbsp; 2. Find 2 &middot; 3.14 &middot; 5. &nbsp; 3. Solve 3<var>x</var> + 20 = 110.</div>
+    <div class="work">
+      <p>1. <span class="b s">{{a}}{{f 1/4}}{{/a}}</span></p>
+      <p>2. <span class="b s">{{a}}31.4{{/a}}</span></p>
+      <p>3. 3<var>x</var> = <span class="b s">{{a}}90{{/a}}</span>, so <var>x</var> = <span class="b s">{{a}}30{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.1.1</span>Parts of a Circle</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.6in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li>A <b>circle</b> is all the points in a plane that are the same <span class="b m">{{a}}distance{{/a}}</span> from one point, the <span class="b m">{{a}}center{{/a}}</span>.</li>
+        <li>We name a circle by its center. Circle <var>P</var> is written <span class="b s">{{a}}&#8857;<var>P</var>{{/a}}</span>.</li>
+        <li>All radii of one circle are <span class="b m">{{a}}equal{{/a}}</span>.</li>
+        <li><var>d</var> = <span class="b s">{{a}}2<var>r</var>{{/a}}</span> and <var>r</var> = <span class="b s">{{a}}{{f <var>d</var>/2}}{{/a}}</span></li>
+      </ul>
+    </div>
+    {{fig 7.1_parts|circle P with radius PA, radius PD, diameter BC, chord EF, and the arc AD drawn thick|2.6in}}
+  </div>
+
+  <table class="steps">
+    <tr><th style="width:1.1in">Part</th><th>What it is</th><th style="width:1.2in">In the figure</th></tr>
+    <tr><td><b>radius</b></td><td>a segment from the <span class="b m">{{a}}center{{/a}}</span> to a point on the circle</td><td>{{a}}{{seg PA}}{{/a}}</td></tr>
+    <tr><td><b>chord</b></td><td>a segment with both endpoints <span class="b m">{{a}}on the circle{{/a}}</span></td><td>{{a}}{{seg EF}}{{/a}}</td></tr>
+    <tr><td><b>diameter</b></td><td>a chord that goes through the <span class="b m">{{a}}center{{/a}}</span></td><td>{{a}}{{seg BC}}{{/a}}</td></tr>
+    <tr><td><b>arc</b></td><td>part of the circle between <span class="b m">{{a}}two points{{/a}}</span></td><td>{{a}}{{arc AD}}{{/a}}</td></tr>
+    <tr><td><b>central angle</b></td><td>an angle with its vertex at the <span class="b m">{{a}}center{{/a}}</span></td><td>{{a}}{{ang APD}}{{/a}}</td></tr>
+  </table>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>minor arc</b> is less than <span class="b m">{{a}}half{{/a}}</span> of the circle. It has <span class="b s">{{a}}two{{/a}}</span> letters: {{arc AD}}.</li>
+      <li>A <b>semicircle</b> is exactly half. A <b>major arc</b> is more than half. Both have <span class="b s">{{a}}three{{/a}}</span> letters: {{arc BAC}} and {{arc EAF}}.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> Name the parts.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.2in 1fr;align-items:center">
+        {{fig 7.1_ex1|circle O with diameter AC, radius OB, chord BD, and points A B C D on the circle|2.2in}}
+        <div>
+          <p>a. Name a radius. <span class="b m">{{a}}{{seg OB}}{{/a}}</span></p>
+          <p>b. Name a diameter. <span class="b m">{{a}}{{seg AC}}{{/a}}</span></p>
+          <p>c. Name a chord that is not a diameter. <span class="b m">{{a}}{{seg BD}}{{/a}}</span></p>
+          <p>d. Name a semicircle. <span class="b m">{{a}}{{arc ABC}}{{/a}}</span></p>
+          <p>e. Name a central angle. <span class="b m">{{a}}{{ang BOC}}{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> Use the figure in EX 2.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Name another radius that is part of the diameter. <span class="b m">{{a}}{{seg OA}} or {{seg OC}}{{/a}}</span></p>
+      <p>b. Name the semicircle that goes through <var>D</var>. <span class="b m">{{a}}{{arc ADC}}{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Radius and diameter</div>
+    <div class="work">
+      <p>a. <var>d</var> = 18 inches. Find <var>r</var>. <span class="b m">{{a}}{{f 18/2}} = 9 inches{{/a}}</span></p>
+      <p>b. <var>r</var> = 7.5 feet. Find <var>d</var>. <span class="b m">{{a}}2(7.5) = 15 feet{{/a}}</span></p>
+      <p>c. A chord through the center is 26 cm long. Find <var>r</var>.</p>
+      <div class="h05">{{a}}<p>A chord through the center is a diameter. 26 &divide; 2 = 13 cm.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 5.</b> Find the missing length.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. <var>d</var> = 11 meters. Find <var>r</var>. <span class="b m">{{a}}5.5 meters{{/a}}</span></p>
+      <p>b. <var>r</var> = 4.2 inches. Find <var>d</var>. <span class="b m">{{a}}8.4 inches{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.1.2</span>Circumference and Pi</h2>
+
+  <div class="keys">
+    <ul>
+      <li>The distance around a circle is its <span class="b m">{{a}}circumference{{/a}}</span>, <var>C</var>.</li>
+      <li>For every circle, <var>C</var> &divide; <var>d</var> is the same number. It is <b>pi</b>, <span class="b s">{{a}}&pi;{{/a}}</span> &asymp; <span class="b s">{{a}}3.14159{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th>Object</th><th><var>C</var> (cm)</th><th><var>d</var> (cm)</th><th><var>C</var> &divide; <var>d</var> (2 decimals)</th></tr>
+    <tr><td>bike tire</td><td>207</td><td>66</td><td>{{a}}3.14{{/a}}</td></tr>
+    <tr><td>dinner plate</td><td>81.7</td><td>26</td><td>{{a}}3.14{{/a}}</td></tr>
+    <tr><td>trash can lid</td><td>188</td><td>60</td><td>{{a}}3.13{{/a}}</td></tr>
+    <tr><td>coin</td><td>7.5</td><td>2.4</td><td>{{a}}3.13{{/a}}</td></tr>
+    <tr><td>soup can</td><td>23.9</td><td>7.6</td><td>{{a}}3.14{{/a}}</td></tr>
+  </table>
+
+  <div class="box tint">
+    <div class="lbl">Circumference of a circle</div>
+    <var>C</var> = <span class="b m">{{a}}&pi; <var>d</var>{{/a}}</span> &nbsp; or &nbsp; <var>C</var> = <span class="b m">{{a}}2 &pi; <var>r</var>{{/a}}</span>.
+    An answer like 12 &pi; is <span class="b m">{{a}}exact{{/a}}</span>. For a decimal, use the <span class="b s">{{a}}&pi;{{/a}}</span> key.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> A round fountain has a diameter of 12 feet. Find its circumference.</div>
+    <div class="work">
+      <p><var>C</var> = &pi; <var>d</var> = &pi;(12) = <span class="b m">{{a}}12 &pi; feet{{/a}}</span> &asymp; <span class="b m">{{a}}37.70 feet{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> A circle has a radius of 5.5 inches. Find its circumference.</div>
+    <div class="work">
+      <p><var>C</var> = 2 &pi; <var>r</var> = 2 &pi;(5.5) = <span class="b m">{{a}}11 &pi; inches{{/a}}</span> &asymp; <span class="b m">{{a}}34.56 inches{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> Give the exact answer and a decimal rounded to the nearest hundredth.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. <var>d</var> = 20 feet</p>
+      <div class="h05">{{a}}<p><var>C</var> = 20 &pi; &asymp; 62.83 feet</p>{{/a}}</div>
+      <p>b. <var>r</var> = 3.5 centimeters</p>
+      <div class="h05">{{a}}<p><var>C</var> = 2 &pi;(3.5) = 7 &pi; &asymp; 21.99 centimeters</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Find the radius from the circumference.</div>
+    <div class="work">
+      <p>a. <var>C</var> = 28 &pi; centimeters</p>
+      <div class="h05">{{a}}<p>2 &pi; <var>r</var> = 28 &pi;, so <var>r</var> = 14 centimeters</p>{{/a}}</div>
+      <p>b. <var>C</var> = 50 inches. Round to the nearest tenth.</p>
+      <div class="h08">{{a}}<p>2 &pi; <var>r</var> = 50, so <var>r</var> = {{f 50/2 &pi;}} = {{f 25/&pi;}} &asymp; 8.0 inches</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 10.</b> Find the radius.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. <var>C</var> = 36 &pi; feet</p>
+      <div class="h05">{{a}}<p><var>r</var> = 18 feet</p>{{/a}}</div>
+      <p>b. <var>C</var> = 90 centimeters. Round to the nearest tenth.</p>
+      <div class="h08">{{a}}<p><var>r</var> = {{f 45/&pi;}} &asymp; 14.3 centimeters</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 11.</b> A wheel has a diameter of 26 inches. How far does it roll in one turn? How many turns make one mile (63,360 inches)? Round to the nearest tenth.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:1.8in 1fr;align-items:center">
+        {{fig 7.1_wheel|a bike wheel with a diameter of 26 inches|1.8in}}
+        <div>
+          <p>One turn is one <span class="b m">{{a}}circumference{{/a}}</span>.</p>
+          <p><var>C</var> = &pi;(26) = <span class="b m">{{a}}26 &pi;{{/a}}</span> &asymp; <span class="b m">{{a}}81.7 inches{{/a}}</span></p>
+          <p>63,360 &divide; 81.68 &asymp; <span class="b m">{{a}}775.7 turns{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 12.</b> A wheel has a diameter of 20 inches.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. How far does it roll in one turn? Give the exact answer. <span class="b m">{{a}}20 &pi; inches{{/a}}</span></p>
+      <p>b. How far does it roll in 5 turns? Round to the nearest tenth.</p>
+      <div class="h05">{{a}}<p>5 &middot; 20 &pi; = 100 &pi; &asymp; 314.2 inches</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">7.1.3</span>Arc Measure and Arc Length</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.5in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li><b>Arc measure</b> is in <span class="b m">{{a}}degrees{{/a}}</span>. It equals the <span class="b m">{{a}}central angle{{/a}}</span>.</li>
+        <li><b>Arc length</b> is a <span class="b m">{{a}}distance{{/a}}</span>, in inches, feet, or meters.</li>
+        <li>A semicircle measures <span class="b s">{{a}}180&deg;{{/a}}</span>. A major arc measures 360&deg; &minus; its <span class="b m">{{a}}minor arc{{/a}}</span>.</li>
+      </ul>
+    </div>
+    {{fig 7.1_arcs|circle O with central angle AOB of 70 degrees and the minor arc AB drawn thick|2.5in}}
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Arc length</div>
+    arc length = {{f central angle/<span class="b m">{{a}}360&deg;{{/a}}</span>}} &middot; <span class="b m">{{a}}2 &pi; <var>r</var>{{/a}}</span>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 13.</b> Use the figure above. <i>m</i>&ang;<var>AOB</var> = 70&deg;.</div>
+    <div class="work">
+      <p>a. Find <i>m</i>{{arc AB}}. <span class="b m">{{a}}70&deg;{{/a}}</span></p>
+      <p>b. Find <i>m</i>{{arc ACB}}. <span class="b m">{{a}}360&deg; &minus; 70&deg; = 290&deg;{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 14.</b> A central angle measures 125&deg;.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Find the measure of its minor arc. <span class="b m">{{a}}125&deg;{{/a}}</span></p>
+      <p>b. Find the measure of the matching major arc. <span class="b m">{{a}}360&deg; &minus; 125&deg; = 235&deg;{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 15.</b> In the figure, the radius is 9 feet and the central angle is 70&deg;. Find the length of {{arc AB}}. Give the exact answer and a decimal rounded to the nearest hundredth.</div>
+    <div class="work h1">
+      {{a}}<p>{{f 70/360}} &middot; 2 &pi;(9) = {{f 7/36}} &middot; 18 &pi; = 3.5 &pi; &asymp; 10.99 feet</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 16.</b> <var>r</var> = 15 inches and the central angle is 48&deg;. Find the arc length. Give the exact answer and a decimal rounded to the nearest hundredth.<span class="yt">your turn</span></div>
+    <div class="work h1">
+      {{a}}<p>{{f 48/360}} &middot; 2 &pi;(15) = {{f 2/15}} &middot; 30 &pi; = 4 &pi; &asymp; 12.57 inches{{/a}}</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 17.</b> Two circles share a center. The inner circle has radius 3. The outer circle has radius 6. Both arcs have a 60&deg; central angle. Find each arc length.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.2in 1fr;align-items:center">
+        {{fig 7.1_conc|two circles with the same center O and the same 60 degree central angle|2.2in}}
+        <div>
+          <p>Inner arc {{arc AB}}:</p>
+          <div class="h08">{{a}}<p>{{f 60/360}} &middot; 2 &pi;(3) = {{f 1/6}} &middot; 6 &pi; = &pi; &asymp; 3.14</p>{{/a}}</div>
+          <p>Outer arc {{arc CD}}:</p>
+          <div class="h08">{{a}}<p>{{f 60/360}} &middot; 2 &pi;(6) = {{f 1/6}} &middot; 12 &pi; = 2 &pi; &asymp; 6.28</p>{{/a}}</div>
+        </div>
+      </div>
+      <div class="box warn">
+        <div class="lbl">Degrees are not a distance</div>
+        Both arcs measure 60&deg;, but the outer arc is <span class="b m">{{a}}twice{{/a}}</span> as long. Arc <span class="b m">{{a}}measure{{/a}}</span> says how much of the circle. Arc <span class="b m">{{a}}length{{/a}}</span> says how far.
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="num">7.1.4</span>Solving with Arcs</h2>
+
+  <div class="keys">
+    The arcs that go all the way around a circle add up to <span class="b s">{{a}}360&deg;{{/a}}</span>.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 18.</b> Find <var>x</var> and each arc.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">
+        {{fig 7.1_ex9|circle with center O and four central angles marked 2x, 3x+10, x+20 and 4x-10 degrees|3in}}
+        <div>
+          <p>Write the equation:</p>
+          <div class="h08">{{a}}<p>2<var>x</var> + (3<var>x</var> + 10) + (<var>x</var> + 20) + (4<var>x</var> &minus; 10) = 360</p>{{/a}}</div>
+          <div class="h08">{{a}}<p>10<var>x</var> + 20 = 360, 10<var>x</var> = 340, <var>x</var> = 34</p>{{/a}}</div>
+          <p>The arcs: <span class="b l">{{a}}68&deg;, 112&deg;, 54&deg;, 126&deg;{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 19.</b> A circle is cut into four arcs: <var>x</var>&deg;, (2<var>x</var> + 20)&deg;, (3<var>x</var> &minus; 10)&deg;, and (4<var>x</var>)&deg;. Find <var>x</var> and each arc.<span class="yt">your turn</span></div>
+    <div class="work h1">
+      {{a}}<p><var>x</var> + (2<var>x</var> + 20) + (3<var>x</var> &minus; 10) + 4<var>x</var> = 360, so 10<var>x</var> + 10 = 360 and <var>x</var> = 35.</p><p>The arcs are 35&deg;, 90&deg;, 95&deg;, and 140&deg;.</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 20.</b> Find the radius from an arc length.</div>
+    <div class="work">
+      <p>a. An arc of 150&deg; has length 5 &pi; centimeters.</p>
+      <div class="h1">{{a}}<p>{{f 150/360}} &middot; 2 &pi;<var>r</var> = 5 &pi;, so {{f 5/6}} &pi;<var>r</var> = 5 &pi; and <var>r</var> = 6 centimeters</p>{{/a}}</div>
+      <p>b. An arc of 90&deg; is 20 feet long. Round to the nearest hundredth.</p>
+      <div class="h1">{{a}}<p>{{f 90/360}} &middot; 2 &pi;<var>r</var> = 20, so {{f &pi;<var>r</var>/2}} = 20 and <var>r</var> = {{f 40/&pi;}} &asymp; 12.73 feet</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 21.</b> Find the radius.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. An arc of 120&deg; has length 8 &pi; meters.</p>
+      <div class="h08">{{a}}<p>{{f 1/3}}(2 &pi;<var>r</var>) = 8 &pi;, so <var>r</var> = 12 meters</p>{{/a}}</div>
+      <p>b. An arc of 60&deg; is 15 inches long. Round to the nearest hundredth.</p>
+      <div class="h08">{{a}}<p>{{f &pi;<var>r</var>/3}} = 15, so <var>r</var> = {{f 45/&pi;}} &asymp; 14.32 inches</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 22.</b> Each end of a track is a semicircle with radius 36.5 meters. The two straight sides are 84.4 meters each. How long is one lap? Round to the nearest tenth.</div>
+    <div class="work h13">
+      {{a}}<p>The two ends make one circle: 2 &pi;(36.5) = 73 &pi; &asymp; 229.3 m.</p><p>229.3 + 2(84.4) = 398.1 meters</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>2 &pi; <var>r</var></span><span>center</span><span>degrees</span><span>diameter</span><span>distance</span><span>radius</span><span>360&deg;</span></div>
+    <p>1. A chord that goes through the center is a <span class="b m">{{a}}diameter{{/a}}</span>.</p>
+    <p>2. Circumference is <var>C</var> = <span class="b m">{{a}}2 &pi; <var>r</var>{{/a}}</span>.</p>
+    <p>3. Arc measure is in <span class="b m">{{a}}degrees{{/a}}</span>. Arc length is a <span class="b m">{{a}}distance{{/a}}</span>.</p>
+    <p>4. The arcs around a circle add to <span class="b m">{{a}}360&deg;{{/a}}</span>.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Parts of a Circle</h3>
+
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.4in 1fr;align-items:center">
+        {{fig 7.1_p_parts|circle Q with diameter RT, radius QS, chord SU and points R S T U on the circle|2.4in}}
+        <div>
+          <p>1. Name a radius. <span class="b m">{{a}}{{seg QS}}{{/a}}</span></p>
+          <p>2. Name a diameter. <span class="b m">{{a}}{{seg RT}}{{/a}}</span></p>
+          <p>3. Name a chord that is not a diameter. <span class="b m">{{a}}{{seg SU}}{{/a}}</span></p>
+          <p>4. Name a minor arc. <span class="b m">{{a}}{{arc SU}}{{/a}}</span></p>
+          <p>5. Name a major arc. <span class="b m">{{a}}{{arc SRU}}{{/a}}</span></p>
+          <p>6. Name a central angle. <span class="b m">{{a}}{{ang SQT}}{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Radius and Diameter</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <p>7. <var>r</var> = 14 inches. Find <var>d</var>. <span class="b s">{{a}}28 in{{/a}}</span></p>
+        <p>8. <var>d</var> = 9 feet. Find <var>r</var>. <span class="b s">{{a}}4.5 ft{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Circumference: Exact Answer and Decimal (nearest hundredth)</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+      <div>
+      <p>9. <var>r</var> = 6 meters</p>
+      <div class="h05">{{a}}<p>12 &pi; &asymp; 37.70 m</p>{{/a}}</div>
+      <p>10. <var>d</var> = 15 feet</p>
+      <div class="h05">{{a}}<p>15 &pi; &asymp; 47.12 ft</p>{{/a}}</div>
+      </div><div>
+      <p>11. <var>r</var> = 2.5 inches</p>
+      <div class="h05">{{a}}<p>5 &pi; &asymp; 15.71 in</p>{{/a}}</div>
+      <p>12. <var>d</var> = 40 centimeters</p>
+      <div class="h05">{{a}}<p>40 &pi; &asymp; 125.66 cm</p>{{/a}}</div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Find the Radius</h3>
+  <div class="ex">
+    <div class="work">
+      <p>13. <var>C</var> = 18 &pi; inches</p>
+      <div class="h05">{{a}}<p><var>r</var> = 9 in</p>{{/a}}</div>
+      <p>14. <var>C</var> = 44 centimeters. Round to the nearest tenth.</p>
+      <div class="h08">{{a}}<p><var>r</var> = {{f 44/2 &pi;}} &asymp; 7.0 cm</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Arc Measure</h3>
+  <div class="ex">
+    <div class="work">
+      <p>15. A central angle measures 140&deg;. Find the measure of its minor arc and of its major arc.</p>
+      <div class="h05">{{a}}<p>minor 140&deg;; major 360&deg; &minus; 140&deg; = 220&deg;</p>{{/a}}</div>
+      <p>16. A minor arc measures <var>x</var>&deg;. Its major arc measures 3<var>x</var>&deg;. Find <var>x</var> and both arcs.</p>
+      <div class="h08">{{a}}<p><var>x</var> + 3<var>x</var> = 360, so <var>x</var> = 90. The arcs are 90&deg; and 270&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Arc Length: Exact Answer and Decimal (nearest hundredth)</h3>
+  <div class="ex">
+    <div class="work">
+      <p>17. <var>r</var> = 10 inches, central angle 72&deg;</p>
+      <div class="h05">{{a}}<p>{{f 72/360}} &middot; 20 &pi; = 4 &pi; &asymp; 12.57 in</p>{{/a}}</div>
+      <p>18. <var>r</var> = 4.5 feet, central angle 200&deg;</p>
+      <div class="h05">{{a}}<p>{{f 200/360}} &middot; 9 &pi; = 5 &pi; &asymp; 15.71 ft</p>{{/a}}</div>
+      <p>19. <var>r</var> = 12 meters, central angle 45&deg;</p>
+      <div class="h05">{{a}}<p>{{f 45/360}} &middot; 24 &pi; = 3 &pi; &asymp; 9.42 m</p>{{/a}}</div>
+      <p>20. An arc of 210&deg; has length 7 &pi; centimeters. Find the radius.</p>
+      <div class="h05">{{a}}<p>{{f 7/12}}(2 &pi;<var>r</var>) = {{f 7/6}} &pi;<var>r</var> = 7 &pi;, so <var>r</var> = 6 cm</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Solve for <var>x</var>. Find Each Arc.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">
+        {{fig 7.1_p_x|circle with center O and four central angles marked 4x, 2x+30, x+15 and 3x+15 degrees|3in}}
+        <div>
+          <p>21. Use the figure.</p>
+          <div class="h1">{{a}}<p>10<var>x</var> + 60 = 360, <var>x</var> = 30</p><p>120&deg;, 90&deg;, 45&deg;, 105&deg;</p>{{/a}}</div>
+        </div>
+      </div>
+      <p>22. A minor arc measures (2<var>x</var> + 10)&deg;. Its major arc measures (7<var>x</var> &minus; 10)&deg;.</p>
+      <div class="h05">{{a}}<p>9<var>x</var> = 360, <var>x</var> = 40. The arcs are 90&deg; and 270&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Real Problems</h3>
+  <div class="ex">
+    <div class="work">
+      <p>23. A bike wheel has a diameter of 24 inches. How far does it roll in one turn? How many turns does it make in 100 feet? Round to the nearest tenth.</p>
+      <div class="h1">{{a}}<p>24 &pi; &asymp; 75.4 in. 100 ft = 1,200 in. 1,200 &divide; 75.4 &asymp; 15.9 turns.</p>{{/a}}</div>
+      <p>24. A track has two straight sides of 100 meters each. Each end is a semicircle with radius 30 meters. How long is one lap? Round to the nearest tenth.</p>
+      <div class="h1">{{a}}<p>2 &pi;(30) = 60 &pi; &asymp; 188.5. 188.5 + 200 = 388.5 m.</p>{{/a}}</div>
+      <p>25. A pizza has a diameter of 14 inches. It is cut into 6 equal slices. How long is the crust on one slice? Round to the nearest hundredth.</p>
+      <div class="h1">{{a}}<p>14 &pi; &divide; 6 = {{f 7 &pi;/3}} &asymp; 7.33 in</p>{{/a}}</div>
+      <p>26. The minute hand of a clock is 9 inches long. How far does the tip move in 10 minutes? Round to the nearest hundredth.</p>
+      <div class="h1">{{a}}<p>10 minutes is {{f 1/6}} of a turn (60&deg;). {{f 1/6}} &middot; 18 &pi; = 3 &pi; &asymp; 9.42 in</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Find the Mistake</h3>
+  <div class="ex">
+    <div class="work">
+      <p>27. Samir says: "A circle has a diameter of 10 inches. So <var>C</var> = 2 &pi;(10) = 20 &pi; inches." Find his mistake. What is the correct circumference?</p>
+      <div class="h1">{{a}}<p>He used the diameter in <var>C</var> = 2 &pi;<var>r</var>. The radius is 5, so <var>C</var> = 2 &pi;(5) = 10 &pi; inches (or <var>C</var> = &pi;<var>d</var> = 10 &pi;).</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">28. A circle has a circumference of 30 &pi; inches. What is the length of an arc of 60&deg; on this circle?</div>
+    <div class="work">
+      <p>A. 2.5 &pi; inches</p>
+      <p>B. 5 &pi; inches {{a}}&larr; correct{{/a}}</p>
+      <p>C. 10 &pi; inches</p>
+      <p>D. 30 &pi; inches</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. A wheel has a diameter of 30 inches. About how many inches does it roll in 10 turns?</div>
+    <div class="work">
+      <p>A. 94.2</p>
+      <p>B. 471.2</p>
+      <p>C. 942.5 {{a}}&larr; correct{{/a}}</p>
+      <p>D. 1,885.0</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">30. In a circle with radius 10 feet, {{arc AB}} is 5 &pi; feet long. Find <i>m</i>{{arc AB}}. Then find the length of chord {{seg AB}}. Hint: draw the radii {{seg OA}} and {{seg OB}}. Round to the nearest hundredth.</div>
+    <div class="work h16">
+      {{a}}<p>The circumference is 20 &pi;. 5 &pi; &divide; 20 &pi; = {{f 1/4}}, so <i>m</i>{{arc AB}} = 90&deg;.</p><p>The radii make a right triangle with legs 10 and 10. <i>AB</i> = 10 &radic;2 &asymp; 14.14 feet.</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">31. A wheel with a diameter of 26 inches turns 100 times. A bigger wheel with a diameter of 29 inches rolls the same distance. How many times does it turn? Round to the nearest tenth.</div>
+    <div class="work h13">
+      {{a}}<p>Distance: 100 &middot; 26 &pi; = 2,600 &pi;. For the bigger wheel: 29 &pi; <var>n</var> = 2,600 &pi;, so <var>n</var> = {{f 2600/29}} &asymp; 89.7 turns.</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>

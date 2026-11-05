@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) circle[radius=1.8];
+  \ctr[270]{Q}
+  \onc{R}{150}{1.8}\onc{T}{330}{1.8}\onc{S}{80}{1.8}\onc{U}{20}{1.8}
+  \draw[fig] (R) -- (T); \draw[fig] (Q) -- (S); \draw[fig] (S) -- (U);
+\end{tikzpicture}
+\end{document}

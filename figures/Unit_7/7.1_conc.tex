@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1.2cm,y=1.2cm]
+  \draw[fig] (0,0) circle[radius=1.0]; \draw[fig] (0,0) circle[radius=2.0];
+  \draw[fig] (0,0) -- (2,0); \draw[fig] (0,0) -- (60:2);
+  \fill (0,0) circle[radius=\ptr] node[below left] {$O$};
+  \foreach \p/\a/\r/\pos in {A/0/1/below, C/0/2/below, B/60/1/{above left}, D/60/2/{above}} {
+     \fill (\a:\r) circle[radius=\ptr] node[\pos=2pt] {$\p$};}
+  \draw[very thick] (0:1) arc[start angle=0,end angle=60,radius=1];
+  \draw[very thick] (0:2) arc[start angle=0,end angle=60,radius=2];
+  \node at (30:0.72) {$60^\circ$};
+\end{tikzpicture}
+\end{document}
