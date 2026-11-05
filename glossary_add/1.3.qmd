@@ -1,0 +1,53 @@
+### complementary {#glossary-complementary}
+
+Two angles whose measures add to $90^\circ$. Each angle is the complement of the other.
+
+> **Example:**
+>
+> $25^\circ$ and $65^\circ$ are complementary because $25 + 65 = 90$.
+
+**See Also:** {{< glink supplementary >}}
+
+***
+
+### supplementary {#glossary-supplementary}
+
+Two angles whose measures add to $180^\circ$. Each angle is the supplement of the other.
+
+> **Example:**
+>
+> $110^\circ$ and $70^\circ$ are supplementary because $110 + 70 = 180$.
+
+**See Also:** {{< glink complementary >}}, {{< glink "linear pair" >}}
+
+***
+
+### adjacent angles {#glossary-adjacent-angles}
+
+Two angles that share a vertex and one side, and do not overlap.
+
+**See Also:** {{< glink "linear pair" >}}
+
+***
+
+### linear pair {#glossary-linear-pair}
+
+Two adjacent angles whose outside sides are opposite rays. The angles in a linear pair are supplementary.
+
+> **Example:**
+>
+> If $m\angle 1 = 62^\circ$ and $\angle 1$ and $\angle 2$ are a linear pair, then $m\angle 2 = 118^\circ$.
+
+**See Also:** {{< glink "adjacent angles" >}}, {{< glink supplementary >}}
+
+***
+
+### vertical angles {#glossary-vertical-angles}
+
+The two angles across from each other when two lines cross. Vertical angles are equal.
+
+> **Example:**
+>
+> If two lines cross and one angle is $60^\circ$, the angle across from it is also $60^\circ$.
+
+**See Also:** {{< glink "linear pair" >}}

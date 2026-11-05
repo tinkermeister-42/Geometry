@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[line] (250:3.3) -- (70:3.3);
+  \draw[line] (-3.6,0) -- (3.6,0);
+  \fill (0,0) circle[radius=\ptr];
+  \node[fill=white,inner sep=1pt] at (36:1.9) {$(4x-10)^\circ$};
+  \node[fill=white,inner sep=1pt] at (216:1.9) {$(2x+30)^\circ$};
+\end{tikzpicture}
+\end{document}

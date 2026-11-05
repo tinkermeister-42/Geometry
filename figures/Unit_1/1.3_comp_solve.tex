@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (B) at (0,0); \coordinate (A) at (0:3.0); \coordinate (C) at (90:3.0);
+  \draw[ray] (B) -- (0:3.0); \draw[ray] (B) -- (90:3.0); \draw[ray] (B) -- (56:3.0);
+  \fill (B) circle[radius=\ptr] node[below left] {$B$};
+  \node[right] at (0:3.0) {$A$}; \node[above right] at (56:3.0) {$D$}; \node[above] at (90:3.0) {$C$};
+  \pic[rt] {right angle = A--B--C};
+  \draw[thick] (0:1.1) arc (0:56:1.1); \draw[thick] (56:1.1) arc (56:90:1.1);
+  \node[fill=white,inner sep=1pt] at (28:2.0) {$(3x+5)^\circ$};
+  \node[fill=white,inner sep=1pt] at (73:2.1) {$(2x)^\circ$};
+\end{tikzpicture}
+\end{document}

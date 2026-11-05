@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\newcommand{\onean}[3]{% #1 start dir, #2 end dir, #3 label
+  \draw[ray] (0,0) -- (#1:1.9); \draw[ray] (0,0) -- (#2:1.9);
+  \fill (0,0) circle[radius=\ptr];
+  \draw[thick] (#1:0.55) arc (#1:#2:0.55);
+  \node[font=\small,fill=white,inner sep=1pt] at ({(#1+#2)/2}:1.15) {$#3$};}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}\onean{0}{25}{25^\circ}\end{scope}
+  \begin{scope}[shift={(3.2,0)}]\onean{0}{65}{65^\circ}\end{scope}
+  \node at (2.4,-0.7) {complementary: $25 + 65 = 90$};
+  \begin{scope}[shift={(8.3,0)}]\onean{0}{110}{110^\circ}\end{scope}
+  \begin{scope}[shift={(11.6,0)}]\onean{0}{70}{70^\circ}\end{scope}
+  \node at (10.5,-0.7) {supplementary: $110 + 70 = 180$};
+\end{tikzpicture}
+\end{document}

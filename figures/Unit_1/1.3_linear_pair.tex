@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (B) at (0,0); \coordinate (A) at (-3,0); \coordinate (C) at (3,0); \coordinate (D) at (62:2.8);
+  \draw[line] (-3.4,0) -- (3.4,0);
+  \draw[ray] (0,0) -- (62:2.8);
+  \fill (0,0) circle[radius=\ptr] node[below=3pt] {$B$};
+  \node[below] at (-3,0) {$A$}; \node[below] at (3,0) {$C$}; \node[above] at (62:2.8) {$D$};
+  \pic[ang,angle radius=8mm,"$1$",angle eccentricity=1.5] {angle = C--B--D};
+  \pic[ang,angle radius=8mm,"$2$",angle eccentricity=1.5] {angle = D--B--A};
+\end{tikzpicture}
+\end{document}

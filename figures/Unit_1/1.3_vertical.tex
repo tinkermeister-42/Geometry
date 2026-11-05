@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[line] (-3.4,0) -- (3.4,0);
+  \draw[line] ({60+180}:2.9) -- (60:2.9);
+  \fill (0,0) circle[radius=\ptr];
+  \node[font=\bfseries] at (30:0.85) {$1$}; \node[font=\bfseries] at (120:0.85) {$2$};
+  \node[font=\bfseries] at (210:0.85) {$3$}; \node[font=\bfseries] at (300:0.85) {$4$};
+\end{tikzpicture}
+\end{document}

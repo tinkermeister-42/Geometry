@@ -1,0 +1,24 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}
+    \coordinate (B) at (0,0); \coordinate (A) at (0:2.6); \coordinate (D) at (40:2.6); \coordinate (C) at (105:2.6);
+    \draw[ray] (0,0) -- (0:2.6); \draw[ray] (0,0) -- (40:2.6); \draw[ray] (0,0) -- (105:2.6);
+    \fill (0,0) circle[radius=\ptr] node[below left] {$B$};
+    \node[above right] at (0:2.6) {$A$}; \node[right] at (40:2.6) {$D$}; \node[above] at (105:2.6) {$C$};
+    \pic[ang,angle radius=9mm,"$1$",angle eccentricity=1.5] {angle = A--B--D};
+    \pic[ang,angle radius=9mm,"$2$",angle eccentricity=1.5] {angle = D--B--C};
+    \node at (1,-0.9) {Figure 1};
+  \end{scope}
+  \begin{scope}[shift={(6.2,0)}]
+    \coordinate (B) at (0,0); \coordinate (A) at (0:2.6); \coordinate (D) at (40:2.6); \coordinate (C) at (105:2.6);
+    \draw[ray] (0,0) -- (0:2.6); \draw[ray] (0,0) -- (40:2.6); \draw[ray] (0,0) -- (105:2.6);
+    \fill (0,0) circle[radius=\ptr] node[below left] {$B$};
+    \node[above right] at (0:2.6) {$A$}; \node[right] at (40:2.6) {$D$}; \node[above] at (105:2.6) {$C$};
+    \pic[ang,angle radius=7mm] {angle = A--B--D};
+    \pic[ang,angle radius=11mm] {angle = A--B--C};
+    \node at (1,-0.9) {Figure 2};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

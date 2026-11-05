@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[line] (-3.4,0) -- (3.4,0);
+  \draw[line] (240:2.9) -- (60:2.9);
+  \fill (0,0) circle[radius=\ptr];
+  \node at (30:1.15) {$x$}; \node at (120:1.3) {$180-x$};
+  \node at (210:1.15) {$x$}; \node at (300:1.3) {$180-x$};
+\end{tikzpicture}
+\end{document}

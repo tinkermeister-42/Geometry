@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[line] (330:3.3) -- (150:3.3);
+  \draw[line] (229:3.3) -- (49:3.3);
+  \fill (0,0) circle[radius=\ptr] node[below=3pt] {$E$};
+  \node[left] at (150:3.3) {$A$}; \node[right] at (330:3.3) {$B$};
+  \node[above right] at (49:3.3) {$C$}; \node[below left] at (229:3.3) {$D$};
+  \node[fill=white,inner sep=1pt] at (100:1.6) {$(3x+5)^\circ$};
+  \node[fill=white,inner sep=1pt] at (14:2.0) {$(2x+15)^\circ$};
+  \node[fill=white,inner sep=1pt] at (280:1.6) {$(5y+1)^\circ$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[line] (150:3.2) -- (330:3.2);
+  \draw[line] (86:3.2) -- (266:3.2);
+  \fill (0,0) circle[radius=\ptr] node[below left=1pt] {$P$};
+  \node[left] at (150:3.2) {$W$}; \node[right] at (330:3.2) {$Y$};
+  \node[above] at (86:3.2) {$X$}; \node[below] at (266:3.2) {$Z$};
+  \node[fill=white,inner sep=1pt] at (118:1.0) {$64^\circ$};
+\end{tikzpicture}
+\end{document}
