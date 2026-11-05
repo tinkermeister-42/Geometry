@@ -1,0 +1,35 @@
+### rotation {#glossary-rotation}
+
+A transformation that turns every point of a figure by the same angle about a fixed point, the center of rotation.
+
+> **Example:**
+>
+> Rotating $(2, 1)$ by $90^\circ$ counterclockwise about the origin gives $(-1, 2)$.
+
+**See Also:** {{< glink "center of rotation" >}}, {{< glink "angle of rotation" >}}
+
+***
+
+### center of rotation {#glossary-center-of-rotation}
+
+The fixed point a figure turns about in a rotation.
+
+> **Example:**
+>
+> A Ferris wheel turns about its center.
+
+**See Also:** {{< glink rotation >}}
+
+***
+
+### angle of rotation {#glossary-angle-of-rotation}
+
+The amount a figure turns in a rotation, in degrees. Counterclockwise turns are positive.
+
+> **Example:**
+>
+> A turn of $90^\circ$ clockwise has the same result as an angle of rotation of $270^\circ$ counterclockwise.
+
+**See Also:** {{< glink rotation >}}
+
+***

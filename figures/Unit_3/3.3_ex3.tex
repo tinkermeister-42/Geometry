@@ -1,0 +1,18 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+\cgrid{-3}{6}{-1}{6}{1}
+\draw[fig] (4,1) -- cycle;
+\fill (4,1) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (4,1) {$A$};
+\draw[fig] (0,0) -- (4,1);
+\ifkey
+\draw[answer] (-1,4) -- cycle;
+\fill[key] (-1,4) circle[radius=\ptr];
+\node[above left,key,inner sep=2.5pt] at (-1,4) {\ans{$A'$}};
+\draw[answer] (0,0) -- (-1,4);
+\draw[key,thick] (0.5,0) -- (0.5,0.5) -- (0,0.5);
+\fi
+\end{tikzpicture}
+\end{document}

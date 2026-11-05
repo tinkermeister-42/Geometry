@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+\cgrid{-4}{4}{-4}{4}{1}
+\draw[fig] (3,0) -- cycle;
+\fill (3,0) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (3,0) {$A$};
+\draw[fig] (0,3) -- cycle;
+\fill (0,3) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (0,3) {$A'$};
+\draw[thick] (0,0) circle[radius=3];
+\draw[thick,gray] (0,0) -- (3,0); \draw[thick,gray] (0,0) -- (0,3);
+\draw[->,thick] (1,0) arc[start angle=0,end angle=90,radius=1]; \node[font=\small] at (1.05,0.95) {$90^\circ$};
+\fill (0,0) circle[radius=\ptr]; \node[below left] at (0,0) {$O$};
+\end{tikzpicture}
+\end{document}

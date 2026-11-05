@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.4cm,y=0.4cm]
+\cgrid{-7}{7}{-4}{4}{1}
+\draw[fig,fill=gray!25] (2,-1) -- (5,-2) -- (6,2) -- (3,3) -- cycle;
+\fill (2,-1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (2,-1) {$P$};
+\fill (5,-2) circle[radius=\ptr];
+\node[below,inner sep=2.5pt] at (5,-2) {$Q$};
+\fill (6,2) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (6,2) {$R$};
+\fill (3,3) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (3,3) {$S$};
+\ifkey
+\draw[answer,fill=key!12] (-2,1) -- (-5,2) -- (-6,-2) -- (-3,-3) -- cycle;
+\fill[key] (-2,1) circle[radius=\ptr];
+\node[above right,key,inner sep=2.5pt] at (-2,1) {\ans{$P'$}};
+\fill[key] (-5,2) circle[radius=\ptr];
+\node[above,key,inner sep=2.5pt] at (-5,2) {\ans{$Q'$}};
+\fill[key] (-6,-2) circle[radius=\ptr];
+\node[below left,key,inner sep=2.5pt] at (-6,-2) {\ans{$R'$}};
+\fill[key] (-3,-3) circle[radius=\ptr];
+\node[below,key,inner sep=2.5pt] at (-3,-3) {\ans{$S'$}};
+\fi
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.34cm,y=0.34cm]
+\cgrid{-7}{7}{-7}{7}{1}
+\draw[fig,fill=gray!25] (2,1) -- (6,2) -- (5,5) -- (1,4) -- cycle;
+\fill (2,1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (2,1) {$J$};
+\fill (6,2) circle[radius=\ptr];
+\node[right,inner sep=2.5pt] at (6,2) {$K$};
+\fill (5,5) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (5,5) {$L$};
+\fill (1,4) circle[radius=\ptr];
+\node[left,inner sep=2.5pt] at (1,4) {$M$};
+\ifkey
+\draw[answer,fill=key!12] (1,-2) -- (2,-6) -- (5,-5) -- (4,-1) -- cycle;
+\fill[key] (1,-2) circle[radius=\ptr];
+\node[above left,key,inner sep=2.5pt] at (1,-2) {\ans{$J'$}};
+\fill[key] (2,-6) circle[radius=\ptr];
+\node[below,key,inner sep=2.5pt] at (2,-6) {\ans{$K'$}};
+\fill[key] (5,-5) circle[radius=\ptr];
+\node[below right,key,inner sep=2.5pt] at (5,-5) {\ans{$L'$}};
+\fill[key] (4,-1) circle[radius=\ptr];
+\node[above,key,inner sep=2.5pt] at (4,-1) {\ans{$M'$}};
+\fi
+\end{tikzpicture}
+\end{document}

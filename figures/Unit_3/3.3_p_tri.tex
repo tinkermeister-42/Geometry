@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.34cm,y=0.34cm]
+\cgrid{-7}{7}{-7}{7}{1}
+\draw[fig,fill=gray!25] (-5,1) -- (-2,2) -- (-4,5) -- cycle;
+\fill (-5,1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (-5,1) {$G$};
+\fill (-2,2) circle[radius=\ptr];
+\node[right,inner sep=2.5pt] at (-2,2) {$H$};
+\fill (-4,5) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (-4,5) {$I$};
+\ifkey
+\draw[answer,fill=key!12] (-1,-5) -- (-2,-2) -- (-5,-4) -- cycle;
+\fill[key] (-1,-5) circle[radius=\ptr];
+\node[below right,key,inner sep=2.5pt] at (-1,-5) {\ans{$G'$}};
+\fill[key] (-2,-2) circle[radius=\ptr];
+\node[above,key,inner sep=2.5pt] at (-2,-2) {\ans{$H'$}};
+\fill[key] (-5,-4) circle[radius=\ptr];
+\node[left,key,inner sep=2.5pt] at (-5,-4) {\ans{$I'$}};
+\fi
+\end{tikzpicture}
+\end{document}
