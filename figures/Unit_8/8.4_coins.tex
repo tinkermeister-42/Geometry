@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \foreach \i in {0,...,5} {\draw[fig,fill=white] (0,0.28*\i) ellipse[x radius=1,y radius=0.3]; }
+  \draw[fig] (-1,0)--(-1,1.4) (1,0)--(1,1.4);
+  \foreach \i in {0,...,5} {\draw[fig,fill=white] (4+0.3*\i,0.28*\i) ellipse[x radius=1,y radius=0.3];}
+  \draw[fig] (3,0)--(4.5,1.4) (5,0)--(6.5,1.4);
+  \draw[dashed,thick] (7.4,0)--(7.4,1.4); \node[right,font=\small] at (7.5,0.7) {same height};
+  \node[below] at (0,-0.45) {stack of coins}; \node[below] at (4.75,-0.45) {slanted stack};
+\end{tikzpicture}
+\end{document}

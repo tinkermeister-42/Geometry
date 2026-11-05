@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob,scale=0.3]
+  \draw[hid] (0,0,9)--(6,0,9) (0,0,9)--(0,4,9) (0,0,9)--(0,0,0);
+  \draw[fig] (0,0,0)--(6,0,0)--(0,4,0)--cycle;
+  \draw[fig] (6,0,0)--(6,0,9)--(0,4,9)--(0,4,0);
+  \node[below] at (3,-0.1,0) {6 in}; \node[left] at (-0.1,2,0) {4 in}; \node[below right=-2pt] at (6,0,4.5) {9 in};
+\end{tikzpicture}
+\end{document}

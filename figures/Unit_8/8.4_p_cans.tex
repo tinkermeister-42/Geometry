@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.4cm,y=0.4cm]
+  \draw[fig] (0,0) rectangle (12,8);
+  \foreach \x in {2,6,10} {\foreach \y in {2,6} {\draw[thick] (\x,\y) circle[radius=2];}}
+  \node[below] at (6,-0.1) {12 in}; \node[left] at (-0.1,4) {8 in};
+\end{tikzpicture}
+\end{document}
