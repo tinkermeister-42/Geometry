@@ -1,0 +1,36 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (5.5,2.7);
+\draw[gray!40,thin] (0,0) rectangle (5.5,2.7);
+\draw[fig] (0.65,2.1) -- (2.8,2.3);
+\fill[black] (0.65,2.1) circle[radius=\ptr]; \node[] at (0.424,2.326) {$A$};
+\fill[black] (2.8,2.3) circle[radius=\ptr]; \node[] at (3.026,2.526) {$B$};
+\fill[black] (0.8,0.8) circle[radius=\ptr]; \node[] at (0.574,0.574) {$C$};
+\draw[fig,->] (0.8,0.8) -- (5.256,1.426);
+\node[font=\small\bfseries] at (2.75,-0.4) {Start};
+\path (6,0) rectangle (11.5,2.7);
+\draw[gray!40,thin] (6,0) rectangle (11.5,2.7);
+\draw[fig] (6.65,2.1) -- (8.8,2.3);
+\fill[black] (6.65,2.1) circle[radius=\ptr]; \node[] at (6.424,2.326) {$A$};
+\fill[black] (8.8,2.3) circle[radius=\ptr]; \node[] at (9.026,2.526) {$B$};
+\fill[black] (6.8,0.8) circle[radius=\ptr]; \node[] at (6.574,0.574) {$C$};
+\draw[fig,->] (6.8,0.8) -- (11.256,1.426);
+\draw[key,thick] (8.895,0.278) arc[start angle=-14,end angle=30,radius=2.159];
+\fill[key] (8.938,1.101) circle[radius=\ptr]; \node[text=key] at (8.938,0.781) {$D$};
+\node[font=\small\bfseries] at (8.75,-0.4) {Steps 2 and 3};
+\path (12,0) rectangle (17.5,2.7);
+\draw[gray!40,thin] (12,0) rectangle (17.5,2.7);
+\draw[fig] (12.65,2.1) -- (14.8,2.3);
+\fill[black] (12.65,2.1) circle[radius=\ptr]; \node[] at (12.424,2.326) {$A$};
+\fill[black] (14.8,2.3) circle[radius=\ptr]; \node[] at (15.026,2.526) {$B$};
+\fill[black] (12.8,0.8) circle[radius=\ptr]; \node[] at (12.574,0.574) {$C$};
+\draw[fig,->] (12.8,0.8) -- (17.256,1.426);
+\draw[gray!70,thick] (14.895,0.278) arc[start angle=-14,end angle=30,radius=2.159];
+\fill[gray!70] (14.938,1.101) circle[radius=\ptr]; \node[text=gray!70] at (14.938,0.781) {$D$};
+\draw[key,thick] (13.715,2.31) -- (13.735,2.09);
+\draw[key,thick] (13.854,1.059) -- (13.884,0.841);
+\node[font=\small\bfseries] at (14.75,-0.4) {Done};
+\end{tikzpicture}
+\end{document}

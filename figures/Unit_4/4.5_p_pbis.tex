@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (11.0,5.4);
+\draw[fig] (2,3.3) -- (9,2.3);
+\fill[black] (2,3.3) circle[radius=\ptr]; \node[] at (1.68,3.3) {$A$};
+\fill[black] (9,2.3) circle[radius=\ptr]; \node[] at (9.32,2.3) {$B$};
+\ifkey
+\draw[key,thick] (6.065,4.354) arc[start angle=14.54,end angle=34.54,radius=4.2];
+\draw[key,thick] (4.655,0.045) arc[start angle=-50.8,end angle=-30.8,radius=4.2];
+\draw[key,thick] (6.345,5.555) arc[start angle=129.2,end angle=149.2,radius=4.2];
+\draw[key,thick] (4.935,1.246) arc[start angle=194.54,end angle=214.54,radius=4.2];
+\fill[key] (5.821,5.044) circle[radius=\ptr]; \node[text=key] at (5.821,5.364) {$P$};
+\fill[key] (5.179,0.556) circle[radius=\ptr]; \node[text=key] at (5.179,0.236) {$Q$};
+\draw[key,thick,<->] (5.884,5.49) -- (5.116,0.11);
+\fill[key] (5.5,2.8) circle[radius=\ptr]; \node[text=key] at (5.692,2.544) {$M$};
+\draw[key,thick] (5.718,2.769) -- (5.749,2.987) -- (5.531,3.018);
+\draw[key,thick] (3.766,3.159) -- (3.734,2.941);
+\draw[key,thick] (7.266,2.659) -- (7.234,2.441);
+\fi
+\end{tikzpicture}
+\end{document}

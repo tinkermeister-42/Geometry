@@ -1,0 +1,22 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (11.0,5.4);
+\draw[fig] (1.5,0.9) -- (6.5,0.9);
+\draw[fig] (1.5,0.9) -- (1.5,5.9);
+\fill[black] (1.5,0.9) circle[radius=\ptr]; \node[] at (1.274,0.674) {$A$};
+\draw[fig] (1.72,0.9) -- (1.72,1.12) -- (1.5,1.12);
+\ifkey
+\draw[key,thick] (3.282,0.649) arc[start angle=-8,end angle=98,radius=1.8];
+\fill[key] (3.3,0.9) circle[radius=\ptr]; \node[text=key] at (3.46,0.623) {$P$};
+\fill[key] (1.5,2.7) circle[radius=\ptr]; \node[text=key] at (1.5,3.02) {$Q$};
+\draw[key,thick] (4.252,2.883) arc[start angle=64.348,end angle=96.348,radius=2.2];
+\draw[key,thick] (3.687,2.457) arc[start angle=-6.348,end angle=25.652,radius=2.2];
+\fill[key] (3.669,3.069) circle[radius=\ptr]; \node[text=key] at (3.829,3.346) {$R$};
+\draw[key,thick,->] (1.5,0.9) -- (4.823,4.223);
+\draw[key,thick] (2.4,0.9) arc[start angle=0,end angle=45,radius=0.9];
+\draw[key,thick] (2.136,1.536) arc[start angle=45,end angle=90,radius=0.9];
+\fi
+\end{tikzpicture}
+\end{document}

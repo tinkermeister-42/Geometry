@@ -1,0 +1,25 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (11.0,5.4);
+\draw[fig] (5.5,2.7) circle[radius=2.3];
+\draw[fig] (3.339,3.487) -- (7.262,4.178);
+\draw[fig] (4.713,0.539) -- (7.492,1.55);
+\fill[black] (3.339,3.487) circle[radius=\ptr]; \node[] at (3.038,3.596) {$A$};
+\fill[black] (7.262,4.178) circle[radius=\ptr]; \node[] at (7.507,4.384) {$B$};
+\fill[black] (4.713,0.539) circle[radius=\ptr]; \node[] at (4.604,0.238) {$C$};
+\fill[black] (7.492,1.55) circle[radius=\ptr]; \node[] at (7.769,1.39) {$D$};
+\ifkey
+\draw[key,thick,<->] (4.745,6.984) -- (5.856,0.681);
+\draw[key,thick] (5.517,3.871) -- (5.479,4.087) -- (5.262,4.049);
+\draw[key,thick] (4.3,3.768) -- (4.339,3.551);
+\draw[key,thick] (6.262,4.114) -- (6.3,3.897);
+\draw[key,thick,<->] (5.008,4.051) -- (7.197,-1.963);
+\draw[key,thick] (6.309,1.12) -- (6.234,1.326) -- (6.027,1.251);
+\draw[key,thick] (5.37,0.895) -- (5.446,0.688);
+\draw[key,thick] (6.76,1.401) -- (6.835,1.194);
+\fill[key] (5.5,2.7) circle[radius=\ptr]; \node[text=key] at (5.66,2.423) {$O$};
+\fi
+\end{tikzpicture}
+\end{document}

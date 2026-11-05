@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (11.0,5.4);
+\draw[fig,<->] (0.4,1) -- (10.6,1);
+\fill[black] (10,1) circle[radius=\ptr]; \node[] at (10,1.32) {$\ell$};
+\fill[black] (4.609,3.675) circle[radius=\ptr]; \node[] at (4.383,3.902) {$P$};
+\fill[black] (2.2,1) circle[radius=\ptr]; \node[] at (2.2,0.68) {$A$};
+\draw[fig,<->] (1.531,0.257) -- (5.679,4.864);
+\ifkey
+\draw[key,thick] (3.493,0.864) arc[start angle=-6,end angle=60,radius=1.3];
+\draw[key,thick] (5.902,3.539) arc[start angle=-6,end angle=60,radius=1.3];
+\draw[key,thick] (5.626,3.594) arc[start angle=-82,end angle=-50,radius=1.058];
+\fill[key] (5.909,3.675) circle[radius=\ptr]; \node[text=key] at (5.909,3.355) {$Z$};
+\draw[key,thick,<->] (1.209,3.675) -- (9.609,3.675);
+\draw[key,thick] (2.75,1) arc[start angle=0,end angle=48,radius=0.55];
+\draw[key,thick] (5.159,3.675) arc[start angle=0,end angle=48,radius=0.55];
+\fi
+\end{tikzpicture}
+\end{document}

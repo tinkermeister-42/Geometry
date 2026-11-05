@@ -1,0 +1,42 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (5.5,2.7);
+\draw[gray!40,thin] (0,0) rectangle (5.5,2.7);
+\draw[fig] (0.6,0.45) -- (3.285,0.732);
+\draw[fig] (0.6,0.45) -- (1.434,3.018);
+\fill[black] (0.6,0.45) circle[radius=\ptr]; \node[] at (0.374,0.224) {$A$};
+\draw[key,thick] (1.499,0.419) arc[start angle=-2,end angle=80,radius=0.9];
+\fill[key] (1.495,0.544) circle[radius=\ptr]; \node[text=key] at (1.655,0.267) {$P$};
+\fill[key] (0.878,1.306) circle[radius=\ptr]; \node[text=key] at (0.878,1.626) {$Q$};
+\node[font=\small\bfseries] at (2.75,-0.4) {Step 1};
+\path (6,0) rectangle (11.5,2.7);
+\draw[gray!40,thin] (6,0) rectangle (11.5,2.7);
+\draw[fig] (6.6,0.45) -- (9.285,0.732);
+\draw[fig] (6.6,0.45) -- (7.434,3.018);
+\fill[black] (6.6,0.45) circle[radius=\ptr]; \node[] at (6.374,0.224) {$A$};
+\draw[gray!70,thick] (7.499,0.419) arc[start angle=-2,end angle=80,radius=0.9];
+\fill[gray!70] (7.495,0.544) circle[radius=\ptr]; \node[text=gray!70] at (7.655,0.267) {$P$};
+\fill[gray!70] (6.878,1.306) circle[radius=\ptr]; \node[text=gray!70] at (6.878,1.626) {$Q$};
+\draw[key,thick] (8.158,1.358) arc[start angle=50.829,end angle=82.829,radius=1.05];
+\draw[key,thick] (7.924,1.218) arc[start angle=-4.829,end angle=27.171,radius=1.05];
+\fill[key] (7.908,1.509) circle[radius=\ptr]; \node[text=key] at (8.068,1.787) {$R$};
+\node[font=\small\bfseries] at (8.75,-0.4) {Step 2};
+\path (12,0) rectangle (17.5,2.7);
+\draw[gray!40,thin] (12,0) rectangle (17.5,2.7);
+\draw[fig] (12.6,0.45) -- (15.285,0.732);
+\draw[fig] (12.6,0.45) -- (13.434,3.018);
+\fill[black] (12.6,0.45) circle[radius=\ptr]; \node[] at (12.374,0.224) {$A$};
+\draw[gray!70,thick] (13.499,0.419) arc[start angle=-2,end angle=80,radius=0.9];
+\fill[gray!70] (13.495,0.544) circle[radius=\ptr]; \node[text=gray!70] at (13.655,0.267) {$P$};
+\fill[gray!70] (12.878,1.306) circle[radius=\ptr]; \node[text=gray!70] at (12.878,1.626) {$Q$};
+\draw[gray!70,thick] (14.158,1.358) arc[start angle=50.829,end angle=82.829,radius=1.05];
+\draw[gray!70,thick] (13.924,1.218) arc[start angle=-4.829,end angle=27.171,radius=1.05];
+\fill[gray!70] (13.908,1.509) circle[radius=\ptr]; \node[text=gray!70] at (14.068,1.787) {$R$};
+\draw[key,thick,->] (12.6,0.45) -- (14.582,2.055);
+\draw[key,thick] (13.048,0.497) arc[start angle=6,end angle=39,radius=0.45];
+\draw[key,thick] (12.95,0.733) arc[start angle=39,end angle=72,radius=0.45];
+\node[font=\small\bfseries] at (14.75,-0.4) {Step 3};
+\end{tikzpicture}
+\end{document}

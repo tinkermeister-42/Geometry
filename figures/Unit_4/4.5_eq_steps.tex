@@ -1,0 +1,35 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (5.5,2.7);
+\draw[gray!40,thin] (0,0) rectangle (5.5,2.7);
+\draw[fig] (1.65,0.35) -- (3.95,0.35);
+\fill[black] (1.65,0.35) circle[radius=\ptr]; \node[] at (1.424,0.124) {$A$};
+\fill[black] (3.95,0.35) circle[radius=\ptr]; \node[] at (4.176,0.124) {$B$};
+\node[font=\small\bfseries] at (2.75,-0.4) {Start};
+\path (6,0) rectangle (11.5,2.7);
+\draw[gray!40,thin] (6,0) rectangle (11.5,2.7);
+\draw[fig] (7.65,0.35) -- (9.95,0.35);
+\fill[black] (7.65,0.35) circle[radius=\ptr]; \node[] at (7.424,0.124) {$A$};
+\fill[black] (9.95,0.35) circle[radius=\ptr]; \node[] at (10.176,0.124) {$B$};
+\draw[key,thick] (9.359,1.889) arc[start angle=42,end angle=78,radius=2.3];
+\draw[key,thick] (9.472,2.6) arc[start angle=102,end angle=138,radius=2.3];
+\fill[key] (8.8,2.342) circle[radius=\ptr]; \node[text=key] at (8.8,2.662) {$C$};
+\node[font=\small\bfseries] at (8.75,-0.4) {Step 1};
+\path (12,0) rectangle (17.5,2.7);
+\draw[gray!40,thin] (12,0) rectangle (17.5,2.7);
+\draw[fig] (13.65,0.35) -- (15.95,0.35);
+\fill[black] (13.65,0.35) circle[radius=\ptr]; \node[] at (13.424,0.124) {$A$};
+\fill[black] (15.95,0.35) circle[radius=\ptr]; \node[] at (16.176,0.124) {$B$};
+\draw[gray!70,thick] (15.359,1.889) arc[start angle=42,end angle=78,radius=2.3];
+\draw[gray!70,thick] (15.472,2.6) arc[start angle=102,end angle=138,radius=2.3];
+\fill[gray!70] (14.8,2.342) circle[radius=\ptr]; \node[text=gray!70] at (14.8,2.662) {$C$};
+\draw[key,thick] (13.65,0.35) -- (14.8,2.342);
+\draw[key,thick] (15.95,0.35) -- (14.8,2.342);
+\draw[key,thick] (14.8,0.46) -- (14.8,0.24);
+\draw[key,thick] (14.13,1.401) -- (14.32,1.291);
+\draw[key,thick] (15.28,1.291) -- (15.47,1.401);
+\node[font=\small\bfseries] at (14.75,-0.4) {Done};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,63 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (5.5,2.7);
+\draw[gray!40,thin] (0,0) rectangle (5.5,2.7);
+\draw[fig] (0.65,1.6) -- (2.742,1.783);
+\draw[fig] (0.65,1.6) -- (1.914,3.277);
+\fill[black] (0.65,1.6) circle[radius=\ptr]; \node[] at (0.424,1.374) {$A$};
+\draw[fig,->] (3.2,0.5) -- (5.491,0.7);
+\fill[black] (3.2,0.5) circle[radius=\ptr]; \node[] at (2.974,0.274) {$D$};
+\draw[key,thick] (1.399,1.561) arc[start angle=-3,end angle=61,radius=0.75];
+\fill[key] (1.397,1.665) circle[radius=\ptr]; \node[text=key] at (1.557,1.388) {$P$};
+\fill[key] (1.101,2.199) circle[radius=\ptr]; \node[text=key] at (1.101,2.519) {$Q$};
+\node[font=\small\bfseries] at (2.75,-0.4) {Step 1};
+\path (6,0) rectangle (11.5,2.7);
+\draw[gray!40,thin] (6,0) rectangle (11.5,2.7);
+\draw[fig] (6.65,1.6) -- (8.742,1.783);
+\draw[fig] (6.65,1.6) -- (7.914,3.277);
+\fill[black] (6.65,1.6) circle[radius=\ptr]; \node[] at (6.424,1.374) {$A$};
+\draw[fig,->] (9.2,0.5) -- (11.491,0.7);
+\fill[black] (9.2,0.5) circle[radius=\ptr]; \node[] at (8.974,0.274) {$D$};
+\draw[gray!70,thick] (7.399,1.561) arc[start angle=-3,end angle=61,radius=0.75];
+\fill[gray!70] (7.397,1.665) circle[radius=\ptr]; \node[text=gray!70] at (7.557,1.388) {$P$};
+\fill[gray!70] (7.101,2.199) circle[radius=\ptr]; \node[text=gray!70] at (7.101,2.519) {$Q$};
+\draw[key,thick] (9.949,0.461) arc[start angle=-3,end angle=65,radius=0.75];
+\fill[key] (9.947,0.565) circle[radius=\ptr]; \node[text=key] at (10.107,0.288) {$R$};
+\node[font=\small\bfseries] at (8.75,-0.4) {Step 2};
+\path (0,-3.6) rectangle (5.5,-0.9);
+\draw[gray!40,thin] (0,-3.6) rectangle (5.5,-0.9);
+\draw[fig] (0.65,-2) -- (2.742,-1.817);
+\draw[fig] (0.65,-2) -- (1.914,-0.323);
+\fill[black] (0.65,-2) circle[radius=\ptr]; \node[] at (0.424,-2.226) {$A$};
+\draw[fig,->] (3.2,-3.1) -- (5.491,-2.9);
+\fill[black] (3.2,-3.1) circle[radius=\ptr]; \node[] at (2.974,-3.326) {$D$};
+\draw[gray!70,thick] (1.399,-2.039) arc[start angle=-3,end angle=61,radius=0.75];
+\fill[gray!70] (1.397,-1.935) circle[radius=\ptr]; \node[text=gray!70] at (1.557,-2.212) {$P$};
+\fill[gray!70] (1.101,-1.401) circle[radius=\ptr]; \node[text=gray!70] at (1.101,-1.081) {$Q$};
+\draw[gray!70,thick] (3.949,-3.139) arc[start angle=-3,end angle=65,radius=0.75];
+\fill[gray!70] (3.947,-3.035) circle[radius=\ptr]; \node[text=gray!70] at (4.107,-3.312) {$R$};
+\draw[key,thick] (3.81,-2.44) arc[start angle=103,end angle=135,radius=0.61];
+\fill[key] (3.651,-2.501) circle[radius=\ptr]; \node[text=key] at (3.651,-2.181) {$S$};
+\node[font=\small\bfseries] at (2.75,-4) {Step 3};
+\path (6,-3.6) rectangle (11.5,-0.9);
+\draw[gray!40,thin] (6,-3.6) rectangle (11.5,-0.9);
+\draw[fig] (6.65,-2) -- (8.742,-1.817);
+\draw[fig] (6.65,-2) -- (7.914,-0.323);
+\fill[black] (6.65,-2) circle[radius=\ptr]; \node[] at (6.424,-2.226) {$A$};
+\draw[fig,->] (9.2,-3.1) -- (11.491,-2.9);
+\fill[black] (9.2,-3.1) circle[radius=\ptr]; \node[] at (8.974,-3.326) {$D$};
+\draw[gray!70,thick] (7.399,-2.039) arc[start angle=-3,end angle=61,radius=0.75];
+\fill[gray!70] (7.397,-1.935) circle[radius=\ptr]; \node[text=gray!70] at (7.557,-2.212) {$P$};
+\fill[gray!70] (7.101,-1.401) circle[radius=\ptr]; \node[text=gray!70] at (7.101,-1.081) {$Q$};
+\draw[gray!70,thick] (9.949,-3.139) arc[start angle=-3,end angle=65,radius=0.75];
+\fill[gray!70] (9.947,-3.035) circle[radius=\ptr]; \node[text=gray!70] at (10.107,-3.312) {$R$};
+\draw[gray!70,thick] (9.81,-2.44) arc[start angle=103,end angle=135,radius=0.61];
+\fill[gray!70] (9.651,-2.501) circle[radius=\ptr]; \node[text=gray!70] at (9.651,-2.181) {$S$};
+\draw[key,thick,->] (9.2,-3.1) -- (10.464,-1.423);
+\draw[key,thick] (7.024,-1.967) arc[start angle=5,end angle=53,radius=0.375];
+\draw[key,thick] (9.574,-3.067) arc[start angle=5,end angle=53,radius=0.375];
+\node[font=\small\bfseries] at (8.75,-4) {Step 4};
+\end{tikzpicture}
+\end{document}

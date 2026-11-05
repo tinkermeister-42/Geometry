@@ -1,0 +1,28 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\path (0,0) rectangle (11.0,5.4);
+\draw[fig] (5.5,2.7) circle[radius=2.2];
+\fill[black] (5.5,2.7) circle[radius=\ptr]; \node[] at (5.5,2.38) {$O$};
+\fill[black] (5.5,4.9) circle[radius=\ptr]; \node[] at (5.5,5.22) {$1$};
+\ifkey
+\draw[key,thick] (7.028,3.317) arc[start angle=-46,end angle=-14,radius=2.2];
+\fill[key] (7.405,3.8) circle[radius=\ptr]; \node[text=key] at (7.682,3.96) {$2$};
+\draw[key,thick] (6.799,1.685) arc[start angle=-106,end angle=-74,radius=2.2];
+\draw[key,thick] (5.271,1.068) arc[start angle=-166,end angle=-134,radius=2.2];
+\draw[key,thick] (3.972,2.083) arc[start angle=134,end angle=166,radius=2.2];
+\draw[key,thick] (4.201,3.715) arc[start angle=74,end angle=106,radius=2.2];
+\fill[key] (7.405,1.6) circle[radius=\ptr]; \node[text=key] at (7.682,1.44) {$3$};
+\fill[key] (5.5,0.5) circle[radius=\ptr]; \node[text=key] at (5.5,0.18) {$4$};
+\fill[key] (3.595,1.6) circle[radius=\ptr]; \node[text=key] at (3.318,1.44) {$5$};
+\fill[key] (3.595,3.8) circle[radius=\ptr]; \node[text=key] at (3.318,3.96) {$6$};
+\draw[key,thick] (5.5,4.9) -- (7.405,3.8);
+\draw[key,thick] (7.405,3.8) -- (7.405,1.6);
+\draw[key,thick] (7.405,1.6) -- (5.5,0.5);
+\draw[key,thick] (5.5,0.5) -- (3.595,1.6);
+\draw[key,thick] (3.595,1.6) -- (3.595,3.8);
+\draw[key,thick] (3.595,3.8) -- (5.5,4.9);
+\fi
+\end{tikzpicture}
+\end{document}
