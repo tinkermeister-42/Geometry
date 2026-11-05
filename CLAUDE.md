@@ -17,10 +17,11 @@ no PDF reader. Handouts use the Algebra 1 book's guided-notes builder
 - **Figures:** `scripts/make-figures.sh [1.1 ...]` turns
   `figures/Unit_X/<name>.tex` into `images/Unit_X/<name>.svg` (pdflatex,
   pdftocairo). Shared macros are in `figures/preamble.tex`
-- **Guided notes:** `python3 scripts/build-guided-notes.py [1.1 ...]` builds
-  `guided_notes/Unit_X/<lesson>_<Slug>.html` and `_KEY.html` from
-  `guided_notes/src/<lesson>.html`, and rewrites the listing page
-  `guided-notes.qmd`. Never edit the built files or the listing by hand
+- **Printables:** `python3 scripts/build-guided-notes.py [1.1 1.Review Unit1_Quiz ...]`
+  builds `guided_notes/Unit_X/<lesson>_<Slug>.html` and `_KEY.html` from
+  `guided_notes/src/<lesson>.html`, quizzes from `assessments/src/`, and
+  rewrites the listing page `guided-notes.qmd` and the teacher bookmark.
+  Never edit the built files, the listing or the bookmark by hand
 - **Both at once:** `./build.sh [1.1 ...]`. Commit the SVGs and built HTML
 - **Render:** `quarto render --to html` (run it twice on a fresh clone: the
   glossary post-render writes `glossary.json` after the copy step)
@@ -99,7 +100,9 @@ are the Algebra 1 set (`.remember`, `.you-try`, `.you-try-m` + `.answer`,
 
 ## Geometry Notation
 Real notation, explained the first few times it appears, each symbol with a
-glossary entry.
+glossary entry. Check page math with
+`pandoc -f markdown -t html --mathml <file>.qmd -o /dev/null`: a "Could not
+convert TeX math" warning is a typo MathJax will show raw.
 
 | Idea | Page (MathJax) | Handout |
 |---|---|---|
@@ -107,6 +110,7 @@ glossary entry.
 | ray | `$\overrightarrow{AB}$` | `{{ray AB}}` |
 | line | `$\overleftrightarrow{AB}$` | `{{line AB}}` |
 | length of a segment | `$AB$` | `<var>AB</var>` |
+| arc, its measure | `$\overset{\frown}{AB}$`, `$m\overset{\frown}{AB}$` | `{{arc AB}}`, `<i>m</i>{{arc AB}}` |
 | angle, its measure | `$\angle ABC$`, `$m\angle ABC$` | `{{ang ABC}}`, `{{mang ABC}}` |
 | congruent, parallel, perpendicular | `$\cong$`, `$\parallel$`, `$\perp$` | `&cong;`, `&#8741;`, `&perp;` |
 
@@ -145,11 +149,20 @@ pitch, screens, angles of elevation. Volume uses concrete, water and paint.
   line break). Trailing double spaces get stripped by editors
 - **Summary page** (`Summary.qmd`) between the last lesson and the review:
   every tool the unit teaches, in the lessons' own words and notation; nothing
-  new. A printable version is a guided-notes fragment
+  new. Its printable is `guided_notes/src/<n>.Summary.html` (header
+  `lesson: Unit <n>`, `title: Summary`, `slug: Summary`,
+  `file: Unit_<n>_Summary`, `page: Summary`, `label: Unit Summary`)
 - **Review page** (`Review.qmd`) mirrors the quiz goal for goal, at 2-3x the
-  problems, then ends with test-style multiple choice
-- **Quizzes are HTML too.** Format to settle with the teacher when Unit 1 is
-  written
+  problems, then ends with test-style multiple choice. Printable:
+  `guided_notes/src/<n>.Review.html` (`file: Unit_<n>_Review`,
+  `page: Review`, `label: Unit Review`)
+- **Quiz:** one per unit, the Statistics shape: a section per lesson headed
+  by its "I can" goal, two questions per lesson. Fragment
+  `assessments/src/Unit<n>_Quiz.html` (`lesson: Unit <n>`, `title: Quiz`,
+  `slug: Quiz`, `file: Unit<n>_Quiz`) builds to
+  `/assessments/Unit_<n>/Unit<n>_Quiz.html` and `_KEY.html`, unlisted
+- **Teacher bookmark:** `/assessments/index.html` lists every printable with
+  its key. The builder writes it; nothing links to it
 
 ## Branches
 

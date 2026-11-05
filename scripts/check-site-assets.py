@@ -4,7 +4,8 @@
 - every figures/Unit_X/<name>.tex has images/Unit_X/<name>.svg (and
   <name>_KEY.svg when it uses \\ifkey), newer than the .tex and the shared
   figures/preamble.tex.  Run scripts/make-figures.sh to fix
-- every guided-notes handout and key matches what its fragment builds today.
+- every printable (guided notes, summary, review, quiz) and key matches what
+  its fragment builds today.
   Run scripts/build-guided-notes.py to fix
 - every handout, and every image a handout shows, is in _book/
 
@@ -64,7 +65,8 @@ if notes.returncode:
 
 book = root / "_book"
 if book.exists():
-    for page in sorted(root.glob("guided_notes/Unit_*/*.html")):
+    for page in (sorted(root.glob("guided_notes/Unit_*/*.html")) +
+                 sorted(root.glob("assessments/Unit_*/*.html")) + [root / "assessments" / "index.html"]):
         rel = page.relative_to(root)
         if not (book / rel).exists():
             bad.append(f"not in site: _book/{rel}")

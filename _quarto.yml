@@ -11,6 +11,10 @@ resources:
   # Built by scripts/build-guided-notes.py.
   - guided_notes/Unit_*/*.html
   - guided_notes/assets/*
+  # Quizzes and their keys, and the teacher bookmark that lists every
+  # printable with its key.  Unlisted: nothing in the book links to them.
+  - assessments/Unit_*/*.html
+  - assessments/index.html
   # Figures.  Quarto copies an image it finds in a rendered .qmd; a figure
   # that only a handout shows (a blank grid, a _KEY twin) is invisible to it,
   # so all of them are listed here.
