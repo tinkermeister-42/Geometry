@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \fill[gray!35] (0,0) circle[radius=2.0]; \fill[white] (0,0) circle[radius=1.2];
+  \draw[fig] (0,0) circle[radius=2.0]; \draw[fig] (0,0) circle[radius=1.2];
+  \fill (0,0) circle[radius=\ptr];
+  \draw[thick] (0,0) -- (1.2,0); \node[above] at (0.6,0) {6};
+  \draw[thick] (0,0) -- (-2.0,0); \node[above] at (-1.6,0) {10};
+\end{tikzpicture}
+\end{document}

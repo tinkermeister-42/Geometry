@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{2.0}
+  \fill[gray!35] (0,0) -- (0:\R) arc[start angle=0,end angle=60,radius=\R] -- cycle;
+  \draw[fig] (0,0) circle[radius=\R];
+  \draw[fig] (0,0) -- (0:\R); \draw[fig] (0,0) -- (60:\R);
+  \fill (0,0) circle[radius=\ptr];
+  \coordinate (O) at (0,0); \coordinate (A) at (1,0); \coordinate (B) at (60:1);
+  \pic[ang,angle radius=6mm] {angle = A--O--B};
+  \node at (30:0.95) {$\theta$};
+  \node[below] at (1.0,0) {$r$};
+\end{tikzpicture}
+\end{document}

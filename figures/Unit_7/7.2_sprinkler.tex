@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{2.2}
+  \fill[gray!35] (0,0) -- (210:\R) arc[start angle=210,end angle=330,radius=\R] -- cycle;
+  \draw[fig] (0,0) -- (210:\R) arc[start angle=210,end angle=330,radius=\R] -- cycle;
+  \fill (0,0) circle[radius=\ptr]; \node[above] at (0,0.05) {sprinkler};
+  \node at (270:1.2) {$120^\circ$}; \node[right] at (330:1.1) {15 ft};
+\end{tikzpicture}
+\end{document}

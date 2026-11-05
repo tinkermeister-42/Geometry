@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) rectangle (2,3);
+  \draw[fig] (0,3) arc[start angle=180,end angle=0,radius=1];
+  \node[below] at (1,-0.05) {4 ft}; \node[left] at (-0.05,1.5) {6 ft};
+\end{tikzpicture}
+\end{document}
