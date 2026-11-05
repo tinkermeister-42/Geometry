@@ -99,7 +99,7 @@ $A_1 = (5, -5)$, $B_1 = (7, -5)$, $C_1 = (5, -7)$
 
 $A_2 = (5, 1)$, $B_2 = (7, 1)$, $C_2 = (5, -1)$
 
-:::{.you-try title="Use $R(3, 4)$. Is "translate by $(x + 2, y)$, then reflect over the $y$-axis" the same as "reflect over the $y$-axis, then translate by $(x + 2, y)$"?"}
+:::{.you-try title="Use $R(3, 4)$. Is translate by $(x + 2, y)$, then reflect over the $y$-axis, the same as reflect over the $y$-axis, then translate by $(x + 2, y)$?"}
 First way: $(5, 4) \rightarrow (-5, 4)$. Second way: $(-3, 4) \rightarrow (-1, 4)$. They are not the same.
 :::
 

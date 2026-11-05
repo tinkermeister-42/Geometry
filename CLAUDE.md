@@ -16,7 +16,8 @@ no PDF reader. Handouts use the Algebra 1 book's guided-notes builder
 ## Build & Deploy
 - **Figures:** `scripts/make-figures.sh [1.1 ...]` turns
   `figures/Unit_X/<name>.tex` into `images/Unit_X/<name>.svg` (pdflatex,
-  pdftocairo). Shared macros are in `figures/preamble.tex`
+  pdftocairo). Shared macros are in `figures/preamble.tex`; Units 7 and 8
+  add circle and 3D helpers in `figures/c7.tex` and `figures/c8.tex`
 - **Printables:** `python3 scripts/build-guided-notes.py [1.1 1.Review Unit1_Quiz ...]`
   builds `guided_notes/Unit_X/<lesson>_<Slug>.html` and `_KEY.html` from
   `guided_notes/src/<lesson>.html`, quizzes from `assessments/src/`, and
@@ -42,6 +43,14 @@ no PDF reader. Handouts use the Algebra 1 book's guided-notes builder
 - **Fresh clone mtimes:** checkout writes files in no useful order, so the
   asset check can call committed SVGs stale. They are not:
   `git ls-files 'images/*.svg' | xargs touch`
+
+## Authoring kit
+`_authoring/` (Quarto ignores it) holds the lesson specs (`specs.md`), the
+writer briefs (`brief-unit.md` is the lean one-writer-per-unit version that
+wrote the book), `preview.sh` (builds a lesson's figures and printables and
+screenshots them for a visual check) and `wire.py` (merges `glossary_add/`
+into the glossary and rewrites the sidebar and course map). All 47 lessons
+were written in November 2026; later work is revision.
 
 ## Structure
 ```

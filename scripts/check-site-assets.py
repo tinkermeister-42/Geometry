@@ -52,7 +52,10 @@ for src in sorted(root.glob("figures/Unit_*/*.tex")):
     names = [src.stem]
     if "\\ifkey" in src.read_text():
         names.append(src.stem + "_KEY")
-    newest = max(stamp(src), stamp(preamble))
+    # shared helpers a figure \input's from figures/ (preamble.tex, c7.tex, ...)
+    helpers = [root / "figures" / (h + ".tex")
+               for h in re.findall(r"\\input\{\.\./([^}]+)\}", src.read_text())]
+    newest = max([stamp(src), stamp(preamble)] + [stamp(h) for h in helpers if h.exists()])
     for name in names:
         svg = root / "images" / src.parent.name / (name + ".svg")
         if not svg.exists() or stamp(svg) < newest:
