@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.28cm,y=0.28cm]
+  \draw[fig] (0,0)--(14,0)--(18,9)--(4,9)--cycle;
+  \draw[dashed,thick] (4,0)--(4,9); \rtmark{(14,0)}{(4,0)}{(4,9)}
+  \node[below] at (7,-0.1) {14 ft}; \node[left] at (2.6,4.5) {9 ft};
+  \node[right] at (16.2,4.5) {10 ft};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.5cm,y=0.5cm]
+  \draw[fig] (0,0) rectangle (16,8);
+  \draw[fig,shade] (3,3) rectangle (8,7);
+  \draw[fig,shade] (11,0) rectangle (14,7);
+  \node[below] at (8,-0.1) {16 ft}; \node[left] at (-0.1,4) {8 ft};
+  \node[font=\small] at (5.5,5) {window}; \node[font=\small] at (5.5,4.2) {5 ft by 4 ft};
+  \node[font=\small,align=center] at (12.5,3.5) {door\\3 ft by\\7 ft};
+\end{tikzpicture}
+\end{document}

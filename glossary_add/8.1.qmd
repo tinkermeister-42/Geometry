@@ -1,0 +1,37 @@
+### apothem {#glossary-apothem}
+
+The distance from the center of a regular polygon to the middle of a side. It is perpendicular to that side.
+
+> **Example:** A regular hexagon with side 6 has an apothem of $3\sqrt{3}$.
+
+**See Also:** {{< glink "regular polygon" >}}, {{< glink area >}}
+
+***
+
+### base of a polygon {#glossary-base-of-a-polygon}
+
+The side of a parallelogram, triangle, or trapezoid that you measure the height to. You can choose any side as the base.
+
+**See Also:** {{< glink "height of a polygon" >}}
+
+***
+
+### height of a polygon {#glossary-height-of-a-polygon}
+
+The distance from the base to the opposite side (or opposite vertex), measured at a right angle to the base. It is not the length of a slanted side.
+
+> **Example:** A parallelogram with base 14 ft and a slanted side of 10 ft can have a height of 9 ft.
+
+**See Also:** {{< glink "base of a polygon" >}}, {{< glink area >}}
+
+***
+
+### composite figure {#glossary-composite-figure}
+
+A figure made of two or more simple shapes. Find its area by adding the areas of the parts, or by subtracting a part from a larger shape.
+
+> **Example:** An L-shaped room is a large rectangle with a small rectangle removed.
+
+**See Also:** {{< glink "shaded region" >}}, {{< glink area >}}
+
+***

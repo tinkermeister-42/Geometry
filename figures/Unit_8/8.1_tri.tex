@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig,shade] (0,0)--(4,0)--(1.2,2.2)--cycle;
+  \draw[dashed,thick] (1.2,0)--(1.2,2.2); \rtmark{(4,0)}{(1.2,0)}{(1.2,2.2)}
+  \node[below] at (2,-0.05) {base $b$}; \node[right,font=\small] at (1.25,0.9) {$h$};
+  \draw[->,very thick] (4.9,1.1)--(6.1,1.1);
+  \begin{scope}[shift={(6.9,0)}]
+    \draw[fig,shade] (0,0)--(4,0)--(1.2,2.2)--cycle;
+    \draw[fig] (4,0)--(5.2,2.2)--(1.2,2.2);
+    \draw[dashed,thick] (1.2,0)--(1.2,2.2);
+    \node[below] at (2,-0.05) {base $b$}; \node[left,font=\small] at (1.15,0.9) {$h$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

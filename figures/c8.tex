@@ -1,0 +1,34 @@
+% Unit 8 helpers. One oblique style for every solid: the front face is drawn true
+% size, receding edges go up and to the right at 35 degrees at half length,
+% hidden edges are dashed.  Round solids use an ellipse of height 0.3 x width
+% for every circle that lies flat.
+\tikzset{ob/.style={x=1cm,y=1cm,z={(0.4096cm,0.2868cm)}}}
+\tikzset{hid/.style={thick,dash pattern=on 3pt off 2pt}}
+\tikzset{shade/.style={fill=gray!22}}
+\tikzset{dim/.style={font=\small}}
+% \cuboid{w}{h}{d}: box with front-left-bottom corner at the origin (use [ob])
+\newcommand{\cuboid}[3]{%
+  \draw[hid] (0,0,#3)--(#1,0,#3) (0,0,#3)--(0,#2,#3) (0,0,#3)--(0,0,0);
+  \draw[fig] (0,0,0)--(#1,0,0)--(#1,#2,0)--(0,#2,0)--cycle;
+  \draw[fig] (0,#2,0)--(0,#2,#3)--(#1,#2,#3)--(#1,#2,0) (#1,0,0)--(#1,0,#3)--(#1,#2,#3);}
+% \cyl{r}{h}: standing cylinder, base centre at the origin (plain xy canvas)
+\newcommand{\cyl}[2]{%
+  \draw[hid] (#1,0) arc[start angle=0,end angle=180,x radius=#1,y radius=0.3*#1];
+  \draw[fig] (-#1,0) arc[start angle=180,end angle=360,x radius=#1,y radius=0.3*#1];
+  \draw[fig] (0,#2) ellipse[x radius=#1,y radius=0.3*#1];
+  \draw[fig] (-#1,0)--(-#1,#2) (#1,0)--(#1,#2);}
+% \cone{r}{h}: standing cone, base centre at the origin
+\newcommand{\cone}[2]{%
+  \draw[hid] (#1,0) arc[start angle=0,end angle=180,x radius=#1,y radius=0.3*#1];
+  \draw[fig] (-#1,0) arc[start angle=180,end angle=360,x radius=#1,y radius=0.3*#1];
+  \draw[fig] (-#1,0)--(0,#2)--(#1,0);}
+% \ball{r}: sphere with centre at the origin
+\newcommand{\ball}[1]{%
+  \draw[fig] (0,0) circle[radius=#1];
+  \draw[hid] (#1,0) arc[start angle=0,end angle=180,x radius=#1,y radius=0.3*#1];
+  \draw[fig] (-#1,0) arc[start angle=180,end angle=360,x radius=#1,y radius=0.3*#1];}
+% \sqpyr{w}{d}{h}: pyramid on a w by d rectangle, apex over the centre (use [ob])
+\newcommand{\sqpyr}[3]{%
+  \draw[hid] (0,0,#2)--(#1,0,#2) (0,0,#2)--(0,0,0) (0,0,#2)--(#1/2,#3,#2/2);
+  \draw[fig] (0,0,0)--(#1,0,0)--(#1,0,#2) (0,0,0)--(#1/2,#3,#2/2) (#1,0,0)--(#1/2,#3,#2/2) (#1,0,#2)--(#1/2,#3,#2/2);}
+\newcommand{\rtmark}[3]{\coordinate (rta) at #1; \coordinate (rtb) at #2; \coordinate (rtc) at #3; \pic[rt] {right angle = rta--rtb--rtc};}

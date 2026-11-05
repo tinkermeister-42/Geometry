@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.19cm,y=0.19cm]
+  \def\s{12.5}\def\a{15.1}\def\r{16.3}
+  \foreach \i in {0,...,7} {\coordinate (V\i) at ({22.5+45*\i}:\r);}
+  \coordinate (O) at (0,0); \coordinate (M) at (0,-\a);
+  \draw[fig] (V0)--(V1)--(V2)--(V3)--(V4)--(V5)--(V6)--(V7)--cycle;
+  \draw[dashed,thick] (O)--(M); \rtmark{(V6)}{(M)}{(O)}
+  \fill (O) circle[radius=\ptr];
+  \node[below=2pt] at (M) {12.5 in}; \node[right,font=\small] at (0.1,-8) {15.1 in};
+\end{tikzpicture}
+\end{document}

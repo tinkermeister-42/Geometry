@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.85cm,y=0.85cm]
+  \foreach \i in {0,...,5} {\coordinate (V\i) at (60*\i:3);}
+  \coordinate (O) at (0,0); \coordinate (M) at (0,-2.598);
+  \draw[fig] (V0)--(V1)--(V2)--(V3)--(V4)--(V5)--cycle;
+  \draw[fig,shade] (O)--(V4)--(V5)--cycle;
+  \draw[thick] (O)--(V4) (O)--(V5);
+  \draw[dashed,thick] (O)--(M); \rtmark{(V5)}{(M)}{(O)}
+  \fill (O) circle[radius=\ptr];
+  \node[below] at (M) {6 in}; \node[right,font=\small] at (0.04,-1.9) {$a$};
+  \node[left,font=\small] at (-0.85,-1.1) {6 in}; \node[right,font=\small] at (0.85,-1.1) {6 in};
+\end{tikzpicture}
+\end{document}

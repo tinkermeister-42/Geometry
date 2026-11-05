@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.33cm,y=0.33cm]
+  \draw[fig] (0,0)--(18,0)--(15,8)--(3,8)--cycle;
+  \draw[dashed,thick] (3,0)--(3,8); \rtmark{(18,0)}{(3,0)}{(3,8)}
+  \node[above] at (6,8.1) {$x$}; \node[below] at (6,-0.1) {$x + 6$}; \node[right] at (3.2,4) {8 ft};
+\end{tikzpicture}
+\end{document}
