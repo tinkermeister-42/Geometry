@@ -62,3 +62,15 @@ letter-size paper.
   - [5.5 - Indirect Measurement](/guided_notes/Unit_5/5.5_Indirect_Measurement.html){target="_blank"}
   - [Unit 5 Summary](/guided_notes/Unit_5/Unit_5_Summary.html){target="_blank"}
   - [Unit 5 Review](/guided_notes/Unit_5/Unit_5_Review.html){target="_blank"}
+
+## Unit 6 - Right Triangle Trigonometry
+
+  - [6.1 - Special Right Triangles](/guided_notes/Unit_6/6.1_Special_Right_Triangles.html){target="_blank"}
+  - [6.2 - The Trigonometric Ratios](/guided_notes/Unit_6/6.2_The_Trigonometric_Ratios.html){target="_blank"}
+  - [6.3 - Solving for a Side](/guided_notes/Unit_6/6.3_Solving_for_a_Side.html){target="_blank"}
+  - [6.4 - Solving for an Angle](/guided_notes/Unit_6/6.4_Solving_for_an_Angle.html){target="_blank"}
+  - [6.5 - Sine and Cosine of Complementary Angles](/guided_notes/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.html){target="_blank"}
+  - [6.6 - Angles of Elevation and Depression](/guided_notes/Unit_6/6.6_Angles_of_Elevation_and_Depression.html){target="_blank"}
+  - [6.7 - Modeling with Right Triangles](/guided_notes/Unit_6/6.7_Modeling_with_Right_Triangles.html){target="_blank"}
+  - [Unit 6 Summary](/guided_notes/Unit_6/Unit_6_Summary.html){target="_blank"}
+  - [Unit 6 Review](/guided_notes/Unit_6/Unit_6_Review.html){target="_blank"}

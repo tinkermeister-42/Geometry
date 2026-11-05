@@ -72,13 +72,15 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_5/Summary.qmd) | Unit 5 summary |
 | [Review](chapters/Unit_5/Review.qmd) | Unit 5 review |
 | **Unit 6: Right Triangle Trigonometry** | |
-| 6.1 | Special right triangles |
-| 6.2 | The trigonometric ratios |
-| 6.3 | Solving for a side |
-| 6.4 | Solving for an angle |
-| 6.5 | Sine and cosine of complementary angles |
-| 6.6 | Angles of elevation and depression |
-| 6.7 | Modeling with right triangles |
+| [6.1](chapters/Unit_6/6.1_Special_Right_Triangles.qmd) | Special right triangles |
+| [6.2](chapters/Unit_6/6.2_The_Trigonometric_Ratios.qmd) | The trigonometric ratios |
+| [6.3](chapters/Unit_6/6.3_Solving_for_a_Side.qmd) | Solving for a side |
+| [6.4](chapters/Unit_6/6.4_Solving_for_an_Angle.qmd) | Solving for an angle |
+| [6.5](chapters/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.qmd) | Sine and cosine of complementary angles |
+| [6.6](chapters/Unit_6/6.6_Angles_of_Elevation_and_Depression.qmd) | Angles of elevation and depression |
+| [6.7](chapters/Unit_6/6.7_Modeling_with_Right_Triangles.qmd) | Modeling with right triangles |
+| [Summary](chapters/Unit_6/Summary.qmd) | Unit 6 summary |
+| [Review](chapters/Unit_6/Review.qmd) | Unit 6 review |
 | **Unit 7: Circles** | |
 | 7.1 | Circumference and arc length |
 | 7.2 | Area of circles and sectors |

@@ -114,5 +114,18 @@ book:
         - file: chapters/Unit_5/Summary.qmd
         - file: chapters/Unit_5/Review.qmd
 
+    - part: "Unit 6: Right Triangle Trigonometry"
+      chapters:
+        - file: chapters/Unit_6/index.qmd
+        - file: chapters/Unit_6/6.1_Special_Right_Triangles.qmd
+        - file: chapters/Unit_6/6.2_The_Trigonometric_Ratios.qmd
+        - file: chapters/Unit_6/6.3_Solving_for_a_Side.qmd
+        - file: chapters/Unit_6/6.4_Solving_for_an_Angle.qmd
+        - file: chapters/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.qmd
+        - file: chapters/Unit_6/6.6_Angles_of_Elevation_and_Depression.qmd
+        - file: chapters/Unit_6/6.7_Modeling_with_Right_Triangles.qmd
+        - file: chapters/Unit_6/Summary.qmd
+        - file: chapters/Unit_6/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd
