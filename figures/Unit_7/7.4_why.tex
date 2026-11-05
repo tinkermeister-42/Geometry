@@ -1,0 +1,18 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \coordinate (O) at (0,0);
+  \onc{B}{180}{\R}\onc{C}{0}{\R}\onc{A}{70}{\R}
+  \fill (O) circle[radius=\ptr]; \node at (250:3.4mm) {$O$};
+  \draw[fig] (B)--(C); \draw[fig] (B)--(A); \draw[fig] (O)--(A);
+  \pic[ang,angle radius=7mm] {angle = C--B--A};
+  \pic[ang,angle radius=5mm] {angle = B--A--O};
+  \pic[ang,angle radius=4mm] {angle = C--O--A};
+  \node at ($(B)+(17:1.0)$) {$x$};
+  \node at ($(A)+(232:0.75)$) {$x$};
+  \node at (38:0.72) {$2x$};
+\end{tikzpicture}
+\end{document}

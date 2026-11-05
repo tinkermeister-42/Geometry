@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \onc{A}{180}{\R}\onc{C}{0}{\R}\onc{B}{65}{\R}
+  \fill (0,0) circle[radius=\ptr]; \node at (270:3.4mm) {$O$};
+  \draw[fig] (A)--(C); \draw[fig] (A)--(B); \draw[fig] (B)--(C);
+  \pic[rt] {right angle = A--B--C};
+\end{tikzpicture}
+\end{document}

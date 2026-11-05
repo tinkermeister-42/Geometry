@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \onc{A}{100}{\R}\onc{B}{190}{\R}\onc{C}{310}{\R}\onc{D}{40}{\R}
+  \draw[fig] (A)--(B)--(C)--(D)--cycle;
+  \pic[ang,angle radius=5mm] {angle = B--A--D};
+  \pic[ang,angle radius=5mm] {angle = D--C--B};
+  \node at ($(A)+(287:1.35)$) {$(3x+10)^\circ$};
+  \node at ($(C)+(122:1.5)$) {$(5x+10)^\circ$};
+\end{tikzpicture}
+\end{document}

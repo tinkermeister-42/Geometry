@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\r{1.08}
+  \draw[fig] (0,0) circle[radius=\r]; \draw[fig] (3.6,0) circle[radius=\r];
+  \draw[very thick] (0,\r)--(3.6,\r); \draw[very thick] (0,-\r)--(3.6,-\r);
+  \draw[very thick] (0,-\r) arc[start angle=-90,end angle=-270,radius=\r];
+  \draw[very thick] (3.6,-\r) arc[start angle=-90,end angle=90,radius=\r];
+  \fill (0,0) circle[radius=\ptr]; \fill (3.6,0) circle[radius=\ptr];
+  \draw[dashed] (0,0)--(3.6,0); \node[above] at (1.8,0.02) {10 in};
+  \node[below] at (0,-\r-0.05) {$r = 3$ in};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}
+  \begin{scope}[x=0.46cm,y=0.46cm]
+    \cgrid{-6}{6}{-6}{6}{2}
+    \draw[fig] (0,0) circle[radius=5];
+    \coordinate (O) at (0,0); \coordinate (T) at (-3,4);
+    \draw[fig] (O)--(T);
+    \draw[thick,<->] (-6,1.75) -- (-0.33,6);
+    \fill (O) circle[radius=\ptr]; \fill (T) circle[radius=\ptr];
+    \node[below right] at (O) {$O$}; \node[left] at ($(T)+(-0.1,0.15)$) {$T(-3,4)$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

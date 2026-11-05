@@ -1,0 +1,49 @@
+### inscribed angle {#glossary-inscribed-angle}
+
+An angle with its vertex on a circle and both sides chords of the circle. Its measure is half of its intercepted arc.
+
+> **Example:** An inscribed angle that intercepts an $80^\circ$ arc measures $40^\circ$.
+
+**See Also:** {{< glink "intercepted arc" >}}, {{< glink "central angle" >}}
+
+***
+
+### inscribed quadrilateral {#glossary-inscribed-quadrilateral}
+
+A four-sided figure with all four vertices on a circle. Its opposite angles are supplementary.
+
+> **Example:** If $m\angle A = 70^\circ$, then the opposite angle is $m\angle C = 110^\circ$.
+
+**See Also:** {{< glink "inscribed angle" >}}, {{< glink "supplementary" >}}
+
+***
+
+### intercepted arc {#glossary-intercepted-arc}
+
+The arc that lies inside an inscribed or central angle, between its two sides.
+
+> **Example:** $\angle ABC$ intercepts $\overset{\frown}{AC}$.
+
+**See Also:** {{< glink "inscribed angle" >}}, {{< glink "arc measure" >}}
+
+***
+
+### point of tangency {#glossary-point-of-tangency}
+
+The one point where a tangent line touches a circle.
+
+> **Example:** In the figure, the tangent line touches the circle at $T$, the point of tangency.
+
+**See Also:** {{< glink "tangent to a circle" >}}
+
+***
+
+### tangent to a circle {#glossary-tangent-to-a-circle}
+
+A line in the plane of a circle that touches the circle at exactly one point. It is perpendicular to the radius at that point. Two tangent segments from one outside point are equal.
+
+> **Example:** A line tangent at $T(-3, 4)$ to the circle $x^2 + y^2 = 25$ has slope $\dfrac{3}{4}$.
+
+**See Also:** {{< glink "point of tangency" >}}, {{< glink "radius" >}}, {{< glink "perpendicular" >}}
+
+***

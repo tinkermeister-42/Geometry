@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \onc{A}{229}{\R}\onc{B}{311}{\R}\onc{C}{70}{\R}\onc{D}{125}{\R}
+  \draw[fig] (C)--(A); \draw[fig] (C)--(B); \draw[fig] (D)--(A); \draw[fig] (D)--(B);
+  \node at ($(C)+(22:1.45)$) {$(7x-8)^\circ$};
+  \node at ($(D)+(158:1.5)$) {$(4x+13)^\circ$};
+\end{tikzpicture}
+\end{document}

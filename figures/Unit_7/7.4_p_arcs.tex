@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \onc{A}{120}{\R}\onc{B}{220}{\R}\onc{C}{350}{\R}
+  \draw[fig] (A)--(B)--(C)--cycle;
+  \node at (170:2.45) {$100^\circ$}; \node at (285:2.5) {$130^\circ$}; \node at (55:2.5) {$130^\circ$};
+\end{tikzpicture}
+\end{document}

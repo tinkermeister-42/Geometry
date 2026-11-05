@@ -1,0 +1,18 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\r{1.2}
+  \draw[fig] (0,0) circle[radius=\r];
+  \coordinate (O) at (0,0); \coordinate (P) at (3.2,0);
+  \coordinate (A) at (68.0:\r); \coordinate (B) at (-68.0:\r);
+  \draw[fig] (P)--(A); \draw[fig] (P)--(B); \draw[thin,dashed] (O)--(A); \draw[thin,dashed] (O)--(B);
+  \fill (O) circle[radius=\ptr]; \node at (180:3.4mm) {$O$};
+  \fill (A) circle[radius=\ptr]; \node at ($(A)+(100:3.6mm)$) {$A$};
+  \fill (B) circle[radius=\ptr]; \node at ($(B)+(-100:3.6mm)$) {$B$};
+  \fill (P) circle[radius=\ptr]; \node[right] at (P) {$P$};
+  \pic[rt] {right angle = O--A--P}; \pic[rt] {right angle = P--B--O};
+  \node[above right,sloped] at ($(A)!0.5!(P)$) {$3x+4$};
+  \node[below right,sloped] at ($(B)!0.5!(P)$) {$5x-10$};
+\end{tikzpicture}
+\end{document}

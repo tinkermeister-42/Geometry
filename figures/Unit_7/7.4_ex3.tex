@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig] (0,0) circle[radius=\R];
+  \onc{A}{20}{\R}\onc{C}{100}{\R}\onc{B}{230}{\R}
+  \draw[fig] (B)--(A); \draw[fig] (B)--(C);
+  \draw[very thick] (20:\R) arc[start angle=20,end angle=100,radius=\R];
+  \pic[ang,angle radius=6mm] {angle = A--B--C};
+  \node at (0.3,0.3) {$(3x+5)^\circ$};
+  \node at (60:2.75) {$(10x-30)^\circ$};
+\end{tikzpicture}
+\end{document}

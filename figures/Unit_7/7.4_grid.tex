@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}
+  \begin{scope}[x=0.46cm,y=0.46cm]
+    \cgrid{-6}{6}{-6}{6}{2}
+    \draw[fig] (0,0) circle[radius=5];
+    \coordinate (A) at (-5,0); \coordinate (B) at (3,4); \coordinate (C) at (5,0);
+    \draw[fig] (A)--(B)--(C)--cycle;
+    \foreach \p in {A,B,C} \fill (\p) circle[radius=\ptr];
+    \node[above left] at (A) {$A(-5,0)$}; \node[above right] at (B) {$B(3,4)$}; \node[above right] at (C) {$C(5,0)$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

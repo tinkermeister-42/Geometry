@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.8}
+  \draw[fig,fill=gray!20] (0,0) circle[radius=\R];
+  \onc{A}{215}{\R}\onc{B}{325}{\R}\onc{C}{90}{\R}\onc{D}{50}{\R}\onc{E}{130}{\R}
+  \draw[fig] (C)--(A); \draw[fig] (C)--(B);
+  \draw[gray,thin] (D)--(A); \draw[gray,thin] (D)--(B); \draw[gray,thin] (E)--(A); \draw[gray,thin] (E)--(B);
+  \pic[ang,angle radius=6mm] {angle = A--C--B};
+\end{tikzpicture}
+\end{document}

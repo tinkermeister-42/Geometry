@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.7}
+  \draw[fig] (0,0) circle[radius=\R];
+  \coordinate (O) at (0,0); \coordinate (T) at (0,\R); \coordinate (R) at (1,\R);
+  \draw[line] (-2.3,\R) -- (2.3,\R);
+  \draw[fig] (O)--(T);
+  \fill (O) circle[radius=\ptr]; \node at (225:3.4mm) {$O$};
+  \fill (T) circle[radius=\ptr]; \node[above left] at (T) {$T$};
+  \pic[rt] {right angle = O--T--R};
+  \node[right] at (0.04,0.85) {$r$};
+  \node[above] at (1.7,\R+0.05) {tangent line};
+\end{tikzpicture}
+\end{document}
