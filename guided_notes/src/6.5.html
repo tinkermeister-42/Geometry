@@ -1,0 +1,302 @@
+<!--
+lesson: 6.5
+title: Sine and Cosine of Complementary Angles
+unit: 6
+unit_title: Right Triangle Trigonometry
+slug: Sine_and_Cosine_of_Complementary_Angles
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Explain why the acute angles of a right triangle are complementary</li>
+      <li>Use sin <var>A</var> = cos(90&deg; &minus; <var>A</var>) to rewrite and compare values</li>
+      <li>Solve equations such as sin(2<var>x</var> + 10)&deg; = cos(3<var>x</var>)&deg;</li>
+      <li>Use tan <var>A</var> = {{f sin <var>A</var>/cos <var>A</var>}} and tan <var>A</var> &middot; tan(90&deg; &minus; <var>A</var>) = 1</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. Two angles are complementary. One is 35&deg;. Find the other. &nbsp; 2. Find sin 20&deg; and cos 70&deg; to four places. &nbsp; 3. Solve 2<var>x</var> + 10 + 3<var>x</var> = 90.</div>
+    <div class="work">
+<p>1. <span class="b s">{{a}}55&deg;{{/a}}</span></p><p>2. <span class="b s">{{a}}0.3420{{/a}}</span> and <span class="b s">{{a}}0.3420{{/a}}</span></p><p>3. 5<var>x</var> + 10 = 90, so <var>x</var> = <span class="b s">{{a}}16{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">6.5.1</span>The Acute Angles Are Complementary</h2>
+
+  <div class="keys">
+    <ul>
+      <li>The angles of a triangle add to <span class="b s">{{a}}180&deg;{{/a}}</span>. A right triangle has a <span class="b s">{{a}}90&deg;{{/a}}</span> angle.</li>
+      <li>So the two acute angles add to <span class="b s">{{a}}90&deg;{{/a}}</span>. They are <span class="b m">{{a}}complementary{{/a}}</span>.</li>
+      <li><i>m</i>&ang;<var>B</var> = 90&deg; &minus; <span class="b s">{{a}}<i>m</i>&ang;<var>A</var>{{/a}}</span></li>
+    </ul>
+  </div>
+
+  <h2><span class="num">6.5.2</span>Sine and Cosine Trade Places</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> Use the triangle. Side <var>a</var> is opposite <var>A</var>. Write each ratio.</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:2.7in 1fr;align-items:center">{{fig 6.5_tri|right triangle with right angle at C, sides a (across from A), b (across from B), hypotenuse c, and acute angles A and B|2.7in}}<div>
+<p>sin <var>A</var> = <span class="b s">{{a}}{{f <var>a</var>/<var>c</var>}}{{/a}}</span></p><p>cos <var>B</var> = <span class="b s">{{a}}{{f <var>a</var>/<var>c</var>}}{{/a}}</span></p><p>So sin <var>A</var> = <span class="b s">{{a}}cos <var>B</var>{{/a}}</span></p><p>Since <var>B</var> = 90&deg; &minus; <var>A</var>: sin <var>A</var> = cos(<span class="b s">{{a}}90&deg; &minus; <var>A</var>{{/a}}</span>)</p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="keys">
+    <ul>
+      <li>sin <var>A</var> = cos(<span class="b m">{{a}}90&deg; &minus; <var>A</var>{{/a}}</span>) &nbsp; and &nbsp; cos <var>A</var> = sin(<span class="b m">{{a}}90&deg; &minus; <var>A</var>{{/a}}</span>)</li>
+      <li>The sine of an angle equals the <span class="b m">{{a}}cosine{{/a}}</span> of its complement.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th>Angle <var>A</var></th><th>sin <var>A</var></th><th>Complement</th><th>cos(90&deg; &minus; <var>A</var>)</th></tr>
+    <tr><td>15&deg;</td><td>{{a}}0.2588{{/a}}</td><td>75&deg;</td><td>{{a}}0.2588{{/a}}</td></tr>
+    <tr><td>28&deg;</td><td>{{a}}0.4695{{/a}}</td><td>62&deg;</td><td>{{a}}0.4695{{/a}}</td></tr>
+    <tr><td>40&deg;</td><td>{{a}}0.6428{{/a}}</td><td>50&deg;</td><td>{{a}}0.6428{{/a}}</td></tr>
+    <tr><td>62&deg;</td><td>{{a}}0.8829{{/a}}</td><td>28&deg;</td><td>{{a}}0.8829{{/a}}</td></tr>
+  </table>
+
+  <h2><span class="num">6.5.3</span>Using the Rule</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 3.</b> Write each value as the sine or cosine of another angle. a. cos 15&deg; b. sin 41&deg;</div>
+    <div class="work">
+<p>a. cos 15&deg; = sin(<span class="b s">{{a}}75&deg;{{/a}}</span>) &nbsp; b. sin 41&deg; = cos(<span class="b s">{{a}}49&deg;{{/a}}</span>)</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> You know sin 28&deg; &asymp; 0.4695. Find cos 62&deg; without a calculator.</div>
+    <div class="work">
+<p>28&deg; + 62&deg; = <span class="b s">{{a}}90&deg;{{/a}}</span>, so cos 62&deg; = <span class="b s">{{a}}0.4695{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 5.</b> a. Write sin 12&deg; as a cosine. b. cos 73&deg; &asymp; 0.2924. Find sin 17&deg;.<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h08">{{a}}<p>a. cos 78&deg; &nbsp; b. sin 17&deg; = cos 73&deg; &asymp; 0.2924</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">6.5.4</span>Solving Equations</h2>
+
+  <div class="keys">
+    <ul>
+      <li>If sin(one angle) = cos(another angle), the angles are <span class="b m">{{a}}complementary{{/a}}</span>. They add to <span class="b s">{{a}}90{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> Solve sin(2<var>x</var> + 10)&deg; = cos(3<var>x</var>)&deg;. Check.</div>
+    <div class="work">
+<p>(2<var>x</var> + 10) + 3<var>x</var> = <span class="b s">{{a}}90{{/a}}</span></p><p>5<var>x</var> + 10 = 90, so 5<var>x</var> = <span class="b s">{{a}}80{{/a}}</span> and <var>x</var> = <span class="b s">{{a}}16{{/a}}</span></p><p>Check: the angles are <span class="b s">{{a}}42&deg;{{/a}}</span> and <span class="b s">{{a}}48&deg;{{/a}}</span>. sin 42&deg; &asymp; <span class="b s">{{a}}0.6691{{/a}}</span> and cos 48&deg; &asymp; <span class="b s">{{a}}0.6691{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Solve sin(<var>x</var> + 20)&deg; = cos(2<var>x</var> &minus; 5)&deg;. What are the angles?</div>
+    <div class="work">
+<p>(<var>x</var> + 20) + (2<var>x</var> &minus; 5) = 90, so 3<var>x</var> + 15 = 90 and <var>x</var> = <span class="b s">{{a}}25{{/a}}</span></p><p>The angles are <span class="b s">{{a}}45&deg;{{/a}}</span> and <span class="b s">{{a}}45&deg;{{/a}}</span>.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> Solve and check. a. sin(4<var>x</var> &minus; 6)&deg; = cos(<var>x</var> + 16)&deg; b. sin(<var>x</var> + 5)&deg; = cos(3<var>x</var> + 15)&deg;<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h1">{{a}}<p>a. 5<var>x</var> + 10 = 90, <var>x</var> = 16. Angles 58&deg; and 32&deg;.</p><p>b. 4<var>x</var> + 20 = 90, <var>x</var> = 17.5. Angles 22.5&deg; and 67.5&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box warn">
+    <div class="lbl">Equal angles are not the rule</div>
+    sin <var>A</var> = cos <var>A</var> is true only when <var>A</var> = <span class="b s">{{a}}45&deg;{{/a}}</span>. The rule pairs an angle with its <span class="b m">{{a}}complement{{/a}}</span>.
+  </div>
+
+  <h2><span class="num">6.5.5</span>Two More Facts</h2>
+
+  <div class="keys">
+    <ul>
+      <li>tan <var>A</var> = {{f sin <var>A</var>/cos <var>A</var>}} because {{f <var>a</var>/<var>c</var>/<var>b</var>/<var>c</var>}} = <span class="b s">{{a}}{{f <var>a</var>/<var>b</var>}}{{/a}}</span></li>
+      <li>tan <var>A</var> &middot; tan(90&deg; &minus; <var>A</var>) = <span class="b s">{{a}}1{{/a}}</span>. The two tangents are <span class="b m">{{a}}reciprocals{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Check that tan 35&deg; = {{f sin 35&deg;/cos 35&deg;}} with a calculator.</div>
+    <div class="work">
+<p>sin 35&deg; &asymp; <span class="b s">{{a}}0.5736{{/a}}</span>, cos 35&deg; &asymp; <span class="b s">{{a}}0.8192{{/a}}</span></p><p>{{f 0.5736/0.8192}} &asymp; <span class="b s">{{a}}0.7002{{/a}}</span> = tan 35&deg;</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> tan 40&deg; &asymp; 0.8391. Find tan 50&deg; without a calculator.</div>
+    <div class="work">
+<p>40&deg; + 50&deg; = 90&deg;, so tan 50&deg; = {{f 1/tan 40&deg;}} &asymp; <span class="b s">{{a}}1.1918{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 11.</b> A right triangle has sin <var>A</var> = 0.6 and cos <var>A</var> = 0.8. a. Find tan <var>A</var>. b. Find tan <var>B</var> for the other acute angle <var>B</var>.<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h08">{{a}}<p>a. tan <var>A</var> = {{f 0.6/0.8}} = 0.75 &nbsp; b. tan <var>B</var> = {{f 1/0.75}} &asymp; 1.3333</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> A 20-foot ladder makes a 70&deg; angle with the ground and a 20&deg; angle with the wall. Find the height two ways (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:1.5in 1fr;align-items:center">{{fig 6.5_ladder|a 20 foot ladder against a wall that makes a 70 degree angle with the ground and a 20 degree angle with the wall, reaching height h|1.5in}}<div>
+<p>With the ground angle: <var>h</var> = 20sin 70&deg; &asymp; <span class="b s">{{a}}18.8{{/a}}</span> ft</p><p>With the wall angle: <var>h</var> = 20cos 20&deg; &asymp; <span class="b s">{{a}}18.8{{/a}}</span> ft</p><p>They match because sin 70&deg; = <span class="b s">{{a}}cos 20&deg;{{/a}}</span>.</p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 13.</b> Error analysis. Lucía says: "sin 30&deg; = cos 30&deg;." What is wrong?</div>
+    <div class="work">
+<div class="h08">{{a}}<p>The rule pairs an angle with its complement. sin 30&deg; = cos 60&deg; = 0.5, but cos 30&deg; &asymp; 0.8660.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>45&deg;</span><span>complement</span><span>complementary</span><span>cosine</span><span>reciprocals</span><span>sine</span></div>
+    <p>1. The acute angles of a right triangle are <span class="b m">{{a}}complementary{{/a}}</span>. They add to 90&deg;.</p>
+    <p>2. sin <var>A</var> = cos(90&deg; &minus; <var>A</var>). The sine of an angle is the <span class="b m">{{a}}cosine{{/a}}</span> of its <span class="b m">{{a}}complement{{/a}}</span>.</p>
+    <p>3. If sin(one angle) = cos(another), the two angles add to 90&deg;.</p>
+    <p>4. tan <var>A</var> = {{f sin <var>A</var>/cos <var>A</var>}}, and tan <var>A</var> and tan(90&deg; &minus; <var>A</var>) are <span class="b m">{{a}}reciprocals{{/a}}</span>.</p>
+  </div>
+
+
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Write the same value with the other function. Fill in the blank.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <p>1. sin 20&deg; = cos ___&deg; <span class="b s">{{a}}cos 70&deg;{{/a}}</span></p>
+        <p>2. cos 33&deg; = sin ___&deg; <span class="b s">{{a}}sin 57&deg;{{/a}}</span></p>
+        <p>3. sin 64&deg; = cos ___&deg; <span class="b s">{{a}}cos 26&deg;{{/a}}</span></p>
+        <p>4. cos 87&deg; = sin ___&deg; <span class="b s">{{a}}sin 3&deg;{{/a}}</span></p>
+        <p>5. sin 8&deg; = cos ___&deg; <span class="b s">{{a}}cos 82&deg;{{/a}}</span></p>
+        <p>6. cos 51&deg; = sin ___&deg; <span class="b s">{{a}}sin 39&deg;{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Use the rule. Do not use a calculator.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>7. sin 40&deg; &asymp; 0.6428. Find cos 50&deg;. <span class="b s">{{a}}0.6428{{/a}}</span></p>
+      <p>8. cos 65&deg; &asymp; 0.4226. Find sin 25&deg;. <span class="b s">{{a}}0.4226{{/a}}</span></p>
+      <p>9. sin 17&deg; &asymp; 0.2924. Find cos 73&deg;. <span class="b s">{{a}}0.2924{{/a}}</span></p>
+      <p>10. cos 8&deg; &asymp; 0.9903. Find sin 82&deg;. <span class="b s">{{a}}0.9903{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h3>Solve for <var>x</var>. Show the equation you write. Check your answer.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>11. sin(4<var>x</var> &minus; 2)&deg; = cos(2<var>x</var> + 2)&deg;</p>
+<div class="h08">{{a}}<p>6<var>x</var> = 90, <var>x</var> = 15. The angles are 58&deg; and 32&deg;.</p>{{/a}}</div>
+      <p>12. sin(<var>x</var> + 10)&deg; = cos(3<var>x</var> &minus; 4)&deg;</p>
+<div class="h08">{{a}}<p>4<var>x</var> + 6 = 90, <var>x</var> = 21. The angles are 31&deg; and 59&deg;.</p>{{/a}}</div>
+      <p>13. cos(2<var>x</var> + 7)&deg; = sin(<var>x</var> + 11)&deg;</p>
+<div class="h08">{{a}}<p>3<var>x</var> + 18 = 90, <var>x</var> = 24. The angles are 55&deg; and 35&deg;.</p>{{/a}}</div>
+      <p>14. cos(6<var>x</var>)&deg; = sin(3<var>x</var> + 9)&deg;</p>
+<div class="h08">{{a}}<p>9<var>x</var> + 9 = 90, <var>x</var> = 9. The angles are 54&deg; and 36&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Tangent facts.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>15. In a right triangle, sin <var>A</var> = 0.28 and cos <var>A</var> = 0.96. Find tan <var>A</var> to four places. <span class="b m">{{a}}tan <var>A</var> = {{f 0.28/0.96}} &asymp; 0.2917{{/a}}</span></p>
+      <p>16. tan 20&deg; &asymp; 0.3640. Find tan 70&deg; to four places. Use the rule, then check with a calculator.</p>
+<div class="h05">{{a}}<p>{{f 1/0.3640}} &asymp; 2.7473; calculator 2.7475</p>{{/a}}</div>
+      <p>17. Without a calculator, find tan 45&deg;. Hint: 45&deg; is its own complement.</p>
+<div class="h05">{{a}}<p>tan 45&deg; &middot; tan 45&deg; = 1, so tan 45&deg; = 1.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Use the figure. The right angle is at <var>C</var>. Write each answer as a fraction.</h3>
+  <div class="ex">
+    <div class="work">
+      {{fig 6.5_p_tri|right triangle ABC with the right angle at C, AC = 24, BC = 10, AB = 26|2.4in}}
+      <p>18. sin <var>A</var> <span class="b s">{{a}}{{f 10/26}} = {{f 5/13}}{{/a}}</span></p>
+      <p>19. cos <var>B</var> <span class="b s">{{a}}{{f 10/26}} = {{f 5/13}}{{/a}}</span></p>
+      <p>20. What do you notice about your answers to problems 18 and 19?</p>
+<div class="h05">{{a}}<p>They are equal. sin <var>A</var> = cos <var>B</var> because <var>A</var> and <var>B</var> are complementary.</p>{{/a}}</div>
+      <p>21. tan <var>A</var> and tan <var>B</var>. What is their product?</p>
+<div class="h08">{{a}}<p>tan <var>A</var> = {{f 10/24}} = {{f 5/12}}; tan <var>B</var> = {{f 24/10}} = {{f 12/5}}; product = 1</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Real problems. Round to the nearest tenth.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>22. A 15-foot ladder makes a 65&deg; angle with the ground. Find the height it reaches using sin 65&deg;. Then find it again using the angle the ladder makes with the wall.</p>
+<div class="h1">{{a}}<p>15sin 65&deg; &asymp; 13.6 ft; wall angle 25&deg;, so 15cos 25&deg; &asymp; 13.6 ft</p>{{/a}}</div>
+      <p>23. A roof makes a 33.7&deg; angle with the horizontal. What angle does it make with a vertical wall? Use the angle sum of the right triangle.</p>
+<div class="h08">{{a}}<p>90&deg; &minus; 33.7&deg; = 56.3&deg;</p>{{/a}}</div>
+      <p>24. A wire 30 feet long runs from the top of a pole to the ground and makes a 42&deg; angle with the ground. Write the height of the pole in two ways, with sin and with cos. Then find it.</p>
+<div class="h1">{{a}}<p>30sin 42&deg; = 30cos 48&deg; &asymp; 20.1 ft</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Find the mistake.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>25. Kofi says: "sin 35&deg; = cos 35&deg;, so both are 0.7071." Find his mistake. What is sin 35&deg; equal to?</p>
+<div class="h1">{{a}}<p>They are equal only at 45&deg;. sin 35&deg; &asymp; 0.5736 and cos 35&deg; &asymp; 0.8192. sin 35&deg; = cos 55&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">26. In a right triangle, one acute angle <var>A</var> measures 37&deg; and sin <var>A</var> &asymp; 0.6018. The other acute angle is <var>B</var>. Which statement must be true?</div>
+    <div class="work">
+      <p>A. cos <var>B</var> &asymp; 0.6018 {{a}}&larr; correct{{/a}}</p>
+      <p>B. sin <var>B</var> &asymp; 0.6018</p>
+      <p>C. tan <var>B</var> &asymp; 0.6018</p>
+      <p>D. cos <var>B</var> &asymp; 0.7986</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">27. If sin(3<var>x</var> + 6)&deg; = cos(<var>x</var> + 4)&deg;, what is the value of <var>x</var>?</div>
+    <div class="work">
+      <p>A. 20 {{a}}&larr; correct{{/a}}</p>
+      <p>B. 22.5</p>
+      <p>C. 40</p>
+      <p>D. 80</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">28. A right triangle has legs 7 and 24 and hypotenuse 25. Find sin <var>A</var> and cos <var>A</var> for the angle opposite the leg of length 7. Then find (sin <var>A</var>)<sup>2</sup> + (cos <var>A</var>)<sup>2</sup>. What do you notice?</div>
+    <div class="work h16">
+      {{a}}<p>sin <var>A</var> = {{f 7/25}}, cos <var>A</var> = {{f 24/25}}. {{f 49/625}} + {{f 576/625}} = {{f 625/625}} = 1. The sum of the squares is always 1 (it is the Pythagorean theorem divided by <var>c</var><sup>2</sup>).</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. Use tan <var>A</var> &middot; tan(90&deg; &minus; <var>A</var>) = 1 with <var>A</var> = 45&deg; to explain why tan 45&deg; = 1.</div>
+    <div class="work h13">
+      {{a}}<p>45&deg; is its own complement, so tan 45&deg; &middot; tan 45&deg; = 1. A tangent of an acute angle is positive, so tan 45&deg; = 1.</p>{{/a}}
+    </div>
+  </div>
+
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>

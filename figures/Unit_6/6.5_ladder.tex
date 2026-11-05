@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PA) at (0.000,0.000);
+\coordinate (PC) at (1.710,0.000);
+\coordinate (PB) at (1.710,4.698);
+\draw[ultra thick] (-0.5,0) -- (2.110,0);
+\draw[ultra thick] (1.710,0) -- (1.710,5.098);
+\draw[fig] (0.000,0.000) -- (1.710,4.698);
+\pic[rt,angle radius=0.22cm] {right angle = PA--PC--PB};
+\node[anchor=center] at (0.255,2.568) {$20$ ft};
+\node[anchor=center] at (0.819,0.574) {$70^\circ$};
+\pic[ang,angle radius=0.45cm] {angle = PC--PA--PB};
+\node[anchor=center] at (1.293,2.335) {$20^\circ$};
+\pic[ang,angle radius=0.70cm] {angle = PA--PB--PC};
+\node[anchor=center] at (1.935,2.349) {$h$};
+\end{tikzpicture}
+\end{document}

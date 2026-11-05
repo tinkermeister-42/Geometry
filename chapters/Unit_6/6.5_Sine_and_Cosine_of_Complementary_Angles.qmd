@@ -1,0 +1,321 @@
+# 6.5 - Sine and Cosine of Complementary Angles {.unnumbered}
+
+A $20$-foot ladder leans against a wall. The ladder makes a $70^\circ$ angle with the ground. It also makes a $20^\circ$ angle with the wall.
+
+![](/images/Unit_6/6.5_ladder.svg){width=300px fig-align="center"}
+
+Mia finds the height with $20\sin 70^\circ$. Jamal finds it with $20\cos 20^\circ$. They get the same answer. Is that luck? In this lesson you learn why the sine of one angle equals the cosine of the other angle.
+
+:::{.objectives}
+- [ ] I can explain why the acute angles of a right triangle are complementary.
+- [ ] I can use $\sin A = \cos(90^\circ - A)$ to rewrite and compare values.
+- [ ] I can solve equations such as $\sin(2x + 10)^\circ = \cos(3x)^\circ$.
+- [ ] I can use $\tan A = \dfrac{\sin A}{\cos A}$ and $\tan A \cdot \tan(90^\circ - A) = 1$.
+:::
+
+:::{.vocab}
+{{< glink "complementary" >}},
+{{< glink "sine" >}},
+{{< glink "cosine" >}},
+{{< glink "tangent" >}},
+{{< glink "opposite side" >}},
+{{< glink "adjacent side" >}}
+:::
+
+:::{.guided-notes-link}
+[Printable Guided Notes for this lesson](/guided_notes/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.html){target="_blank"} (fill-in notes to print and write on)
+:::
+
+{{< warmup >}}
+
+1. Two angles are complementary. One is $35^\circ$. Find the other.
+
+2. Find $\sin 20^\circ$ and $\cos 70^\circ$ to four decimal places.
+
+3. Solve $2x + 10 + 3x = 90$.
+
+{{< learn >}}
+
+### 6.5.1 - The Acute Angles Are Complementary
+
+The three angles of a triangle add to $180^\circ$. A right triangle has one $90^\circ$ angle. So the other two angles add to $90^\circ$:
+
+$$
+m\angle A + m\angle B = 90^\circ \qquad\text{so}\qquad m\angle B = 90^\circ - m\angle A.
+$$
+
+Angles that add to $90^\circ$ are **complementary** (Lesson 1.3). In a right triangle, the two acute angles are always complementary.
+
+![](/images/Unit_6/6.5_tri.svg){width=330px fig-align="center"}
+
+***
+
+### 6.5.2 - Sine and Cosine Trade Places
+
+Look at the triangle. The side $a$ is opposite $A$. It is adjacent to $B$. The side $b$ is adjacent to $A$. It is opposite $B$.
+
+$$
+\sin A = \frac{a}{c} \qquad \cos B = \frac{a}{c}
+$$
+
+The two ratios are the same fraction. So $\sin A = \cos B$. Since $B = 90^\circ - A$:
+
+:::{.remember title="Complementary angles rule"}
+$$
+\sin A = \cos(90^\circ - A) \qquad\qquad \cos A = \sin(90^\circ - A)
+$$
+
+The sine of an angle equals the cosine of its complement.
+:::
+
+Check it with a calculator. Round to four decimal places.
+
+| Angle $A$ | $\sin A$ | Complement | $\cos(90^\circ - A)$ |
+|:---:|:---:|:---:|:---:|
+| $15^\circ$ | $0.2588$ | $75^\circ$ | $0.2588$ |
+| $28^\circ$ | $0.4695$ | $62^\circ$ | $0.4695$ |
+| $40^\circ$ | $0.6428$ | $50^\circ$ | $0.6428$ |
+| $62^\circ$ | $0.8829$ | $28^\circ$ | $0.8829$ |
+
+In every row the two values match. That is the reason for the name **co**sine: it is the sine of the **co**mplement.
+
+***
+
+### 6.5.3 - Using the Rule
+
+**Example 1:** Find a complement
+
+Write each value as the sine or cosine of another angle.
+
+a. $\cos 15^\circ = \sin(90^\circ - 15^\circ) = \sin 75^\circ$
+
+b. $\sin 41^\circ = \cos(90^\circ - 41^\circ) = \cos 49^\circ$
+
+**Example 2:** Use a known value
+
+You know that $\sin 28^\circ \approx 0.4695$. Find $\cos 62^\circ$ without a calculator.
+
+The angles $28^\circ$ and $62^\circ$ add to $90^\circ$. So $\cos 62^\circ = \sin 28^\circ \approx 0.4695$.
+
+:::{.you-try-m title="Use the complementary angles rule."}
+a. Write $\sin 12^\circ$ as a cosine.
+
+b. You know $\cos 73^\circ \approx 0.2924$. Find $\sin 17^\circ$.
+:::
+
+:::{.answer title="Answer"}
+a. $\cos 78^\circ$
+
+b. $\sin 17^\circ = \cos 73^\circ \approx 0.2924$
+:::
+
+***
+
+### 6.5.4 - Solving Equations
+
+If $\sin(\text{one angle}) = \cos(\text{another angle})$, the two angles are complementary. They add to $90^\circ$.
+
+**Example 3:** Solve for $x$
+
+Solve $\sin(2x + 10)^\circ = \cos(3x)^\circ$.
+
+The angles are complementary:
+
+$$
+(2x + 10) + 3x = 90 \quad\Rightarrow\quad 5x + 10 = 90 \quad\Rightarrow\quad 5x = 80 \quad\Rightarrow\quad x = 16.
+$$
+
+**Check:** $2(16) + 10 = 42$ and $3(16) = 48$. Then $\sin 42^\circ \approx 0.6691$ and $\cos 48^\circ \approx 0.6691$. They match.
+
+**Example 4:** Solve for $x$
+
+Solve $\sin(x + 20)^\circ = \cos(2x - 5)^\circ$.
+
+$$
+(x + 20) + (2x - 5) = 90 \quad\Rightarrow\quad 3x + 15 = 90 \quad\Rightarrow\quad x = 25.
+$$
+
+The angles are $45^\circ$ and $45^\circ$. **Check:** $\sin 45^\circ = \cos 45^\circ \approx 0.7071$.
+
+:::{.you-try-m title="Solve for x. Check your answer."}
+a. $\sin(4x - 6)^\circ = \cos(x + 16)^\circ$
+
+b. $\sin(x + 5)^\circ = \cos(3x + 15)^\circ$
+:::
+
+:::{.answer title="Answer"}
+a. $(4x - 6) + (x + 16) = 90$, so $5x + 10 = 90$ and $x = 16$. The angles are $58^\circ$ and $32^\circ$.
+
+b. $(x + 5) + (3x + 15) = 90$, so $4x + 20 = 90$ and $x = 17.5$. The angles are $22.5^\circ$ and $67.5^\circ$.
+:::
+
+:::{.gotcha title="Equal angles are not the rule"}
+$\sin A = \cos A$ is true only when $A = 45^\circ$. For other angles, $\sin A$ and $\cos A$ are different. For example, $\sin 35^\circ \approx 0.5736$ but $\cos 35^\circ \approx 0.8192$. The rule pairs an angle with its **complement**.
+:::
+
+***
+
+### 6.5.5 - Two More Facts
+
+**Tangent from sine and cosine.** Divide the side ratios:
+
+$$
+\frac{\sin A}{\cos A} = \frac{a/c}{b/c} = \frac{a}{b} = \tan A.
+$$
+
+**Tangent and the complement.** The side $a$ is opposite $A$ and adjacent to $B$. So $\tan A = \dfrac{a}{b}$ and $\tan B = \dfrac{b}{a}$. These are reciprocals:
+
+$$
+\tan A \cdot \tan(90^\circ - A) = 1.
+$$
+
+**Example 5:** Tangent from sine and cosine
+
+Check that $\tan 35^\circ = \dfrac{\sin 35^\circ}{\cos 35^\circ}$.
+
+$\dfrac{0.5736}{0.8192} \approx 0.7002$, and a calculator gives $\tan 35^\circ \approx 0.7002$.
+
+**Example 6:** Use the product rule
+
+$\tan 40^\circ \approx 0.8391$. Find $\tan 50^\circ$ without a calculator.
+
+The angles $40^\circ$ and $50^\circ$ are complementary, so $\tan 50^\circ = \dfrac{1}{\tan 40^\circ} \approx \dfrac{1}{0.8391} \approx 1.1918$.
+
+:::{.you-try-m title="A right triangle has sin A = 0.6 and cos A = 0.8."}
+a. Find $\tan A$.
+
+b. Find $\tan B$, where $B$ is the other acute angle.
+:::
+
+:::{.answer title="Answer"}
+a. $\tan A = \dfrac{0.6}{0.8} = 0.75$
+
+b. $\tan B = \dfrac{1}{0.75} \approx 1.3333$. (Also $\sin B = \cos A = 0.8$ and $\cos B = \sin A = 0.6$, so $\tan B = \frac{0.8}{0.6}$.)
+:::
+
+***
+
+**Example 7:** Two ways to find the height
+
+![](/images/Unit_6/6.5_ladder.svg){width=300px fig-align="center"}
+
+A $20$-foot ladder makes a $70^\circ$ angle with the ground and a $20^\circ$ angle with the wall. Find how high it reaches in two ways. Round to the nearest tenth.
+
+* From the ground angle: $h = 20\sin 70^\circ \approx 18.8$ feet.
+* From the wall angle: $h$ is adjacent to $20^\circ$, so $h = 20\cos 20^\circ \approx 18.8$ feet.
+
+Both ways give the same height, because $\sin 70^\circ = \cos 20^\circ$.
+
+:::{.think title="Error analysis"}
+Lucía says: "$\sin 30^\circ = \cos 30^\circ$, because the sine of an angle is the cosine of the angle." What is wrong?
+
+The rule pairs an angle with its **complement**, not with itself. $\sin 30^\circ = \cos 60^\circ = 0.5$. But $\cos 30^\circ \approx 0.8660$.
+:::
+
+
+{{< practice >}}
+
+**Write the same value with the other function. Fill in the blank.**
+
+1. $\sin 20^\circ = \cos \_\_\_^\circ$
+
+2. $\cos 33^\circ = \sin \_\_\_^\circ$
+
+3. $\sin 64^\circ = \cos \_\_\_^\circ$
+
+4. $\cos 87^\circ = \sin \_\_\_^\circ$
+
+5. $\sin 8^\circ = \cos \_\_\_^\circ$
+
+6. $\cos 51^\circ = \sin \_\_\_^\circ$
+
+***
+
+**Use the rule. Do not use a calculator.**
+
+7. $\sin 40^\circ \approx 0.6428$. Find $\cos 50^\circ$.
+
+8. $\cos 65^\circ \approx 0.4226$. Find $\sin 25^\circ$.
+
+9. $\sin 17^\circ \approx 0.2924$. Find $\cos 73^\circ$.
+
+10. $\cos 8^\circ \approx 0.9903$. Find $\sin 82^\circ$.
+
+***
+
+**Solve for $x$. Show the equation you write. Check your answer.**
+
+11. $\sin(4x - 2)^\circ = \cos(2x + 2)^\circ$
+
+12. $\sin(x + 10)^\circ = \cos(3x - 4)^\circ$
+
+13. $\cos(2x + 7)^\circ = \sin(x + 11)^\circ$
+
+14. $\cos(6x)^\circ = \sin(3x + 9)^\circ$
+
+***
+
+**Tangent facts.**
+
+15. In a right triangle, $\sin A = 0.28$ and $\cos A = 0.96$. Find $\tan A$ to four places.
+
+16. $\tan 20^\circ \approx 0.3640$. Find $\tan 70^\circ$ to four places. Use the rule, then check with a calculator.
+
+17. Without a calculator, find $\tan 45^\circ$. Hint: $45^\circ$ is its own complement.
+
+***
+
+**Use the figure. The right angle is at $C$. Write each answer as a fraction.**
+
+![](/images/Unit_6/6.5_p_tri.svg){width=300px fig-align="center"}
+
+18. $\sin A$
+
+19. $\cos B$
+
+20. What do you notice about your answers to problems 18 and 19?
+
+21. $\tan A$ and $\tan B$. What is their product?
+
+***
+
+**Real problems. Round to the nearest tenth.**
+
+22. A $15$-foot ladder makes a $65^\circ$ angle with the ground. Find the height it reaches using $\sin 65^\circ$. Then find it again using the angle the ladder makes with the wall.
+
+23. A roof makes a $33.7^\circ$ angle with the horizontal. What angle does it make with a vertical wall? Use the angle sum of the right triangle.
+
+24. A wire $30$ feet long runs from the top of a pole to the ground and makes a $42^\circ$ angle with the ground. Write the height of the pole in two ways, with $\sin$ and with $\cos$. Then find it.
+
+***
+
+**Find the mistake.**
+
+25. Kofi says: "$\sin 35^\circ = \cos 35^\circ$, so both are $0.7071$." Find his mistake. What is $\sin 35^\circ$ equal to?
+
+***
+
+**Test practice**
+
+26. In a right triangle, one acute angle $A$ measures $37^\circ$ and $\sin A \approx 0.6018$. The other acute angle is $B$. Which statement must be true?
+
+    A. $\cos B \approx 0.6018$\
+    B. $\sin B \approx 0.6018$\
+    C. $\tan B \approx 0.6018$\
+    D. $\cos B \approx 0.7986$
+
+27. If $\sin(3x + 6)^\circ = \cos(x + 4)^\circ$, what is the value of $x$?
+
+    A. $20$\
+    B. $22.5$\
+    C. $40$\
+    D. $80$
+
+***
+
+**Challenge**
+
+28. A right triangle has legs $7$ and $24$ and hypotenuse $25$. Find $\sin A$ and $\cos A$ for the angle opposite the leg of length $7$. Then find $(\sin A)^2 + (\cos A)^2$. What do you notice?
+
+29. Use $\tan A \cdot \tan(90^\circ - A) = 1$ with $A = 45^\circ$ to explain why $\tan 45^\circ = 1$.
+
