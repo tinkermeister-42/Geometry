@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \foreach \i in {0,...,4} {\coordinate (P\i) at ({90+72*\i}:1.7);}
+  \foreach \i/\j in {0/1,1/2,2/3,3/4,4/0} {\draw[fig] (P\i) -- (P\j);}
+  \foreach \i/\p/\n in {0/4/1,1/0/2,2/1/3,3/2/4,4/3/5} {
+    \pgfmathtruncatemacro{\q}{mod(\i+1,5)}
+    \coordinate (E\i) at ($(P\i)!-0.55!(P\p)$);
+    \draw[thick] (P\i) -- (E\i);
+    \fill (P\i) circle[radius=\ptr];
+    \pic[ang,angle radius=6mm] {angle = E\i--P\i--P\q};}
+  \node[font=\small] at ($(P0)+(-0.35,0.7)$) {$1$};
+  \node[font=\small] at ($(P1)+(-0.75,0.0)$) {$2$};
+  \node[font=\small] at ($(P2)+(-0.25,-0.7)$) {$3$};
+  \node[font=\small] at ($(P3)+(0.25,-0.7)$) {$4$};
+  \node[font=\small] at ($(P4)+(0.75,0.0)$) {$5$};
+\end{tikzpicture}
+\end{document}

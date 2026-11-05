@@ -1,0 +1,24 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (1.4,2.2); \coordinate (C) at (3.6,0);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \fill (A) circle[radius=\ptr]; \fill (B) circle[radius=\ptr]; \fill (C) circle[radius=\ptr];
+  \pic[ang,angle radius=6mm,"$1$",angle eccentricity=1.6] {angle = C--A--B};
+  \pic[ang,angle radius=6mm,"$2$",angle eccentricity=1.6] {angle = A--B--C};
+  \pic[ang,angle radius=6mm,"$3$",angle eccentricity=1.6] {angle = B--C--A};
+  \node at (5.1,1.1) {$\rightarrow$};
+  \begin{scope}[shift={(8.5,0)}]
+    \coordinate (P) at (0,0);
+    \draw[line] (-2.6,0) -- (2.6,0);
+    % angles 1,2,3 placed side by side on a line: sizes from triangle
+    \pgfmathsetmacro{\aone}{atan2(2.2,1.4)}\pgfmathsetmacro{\athree}{atan2(2.2,3.6-1.4)}
+    \pgfmathsetmacro{\atwo}{180-\aone-\athree}
+    \draw[ray] (0,0) -- (\athree:2.2); \draw[ray] (0,0) -- ({\athree+\atwo}:2.2);
+    \fill (0,0) circle[radius=\ptr];
+    \draw[thick] (0:0.7) arc (0:\athree:0.7); \draw[thick] (\athree:0.7) arc (\athree:{\athree+\atwo}:0.7); \draw[thick] ({\athree+\atwo}:0.7) arc ({\athree+\atwo}:180:0.7);
+    \node[font=\small] at ({\athree/2}:1.05) {$3$}; \node[font=\small] at ({\athree+\atwo/2}:1.05) {$2$}; \node[font=\small] at ({\athree+\atwo+\aone/2}:1.05) {$1$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

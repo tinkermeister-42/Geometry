@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \pgfmathsetmacro{\L}{3.6}
+  \coordinate (B) at (0,0);
+  \coordinate (A) at (250:\L); \coordinate (C) at (290:\L);
+  \draw[fig,tick1] (B) -- (A); \draw[fig,tick1] (B) -- (C); \draw[fig] (A) -- (C);
+  \fill (A) circle[radius=\ptr] node[below left] {$A$}; \fill (B) circle[radius=\ptr] node[above] {$B$}; \fill (C) circle[radius=\ptr] node[below right] {$C$};
+  \pic[ang,angle radius=9mm,"$40^\circ$",angle eccentricity=1.7,font=\small] {angle = A--B--C};
+  \pic[ang,angle radius=7mm,"$?$",angle eccentricity=1.9] {angle = C--A--B};
+  \pic[ang,angle radius=7mm,"$?$",angle eccentricity=1.9] {angle = B--C--A};
+\end{tikzpicture}
+\end{document}

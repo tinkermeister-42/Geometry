@@ -1,0 +1,81 @@
+### triangle {#glossary-triangle}
+
+A polygon with three sides and three angles. The angles of a triangle add to $180^\circ$. Write $\triangle ABC$.
+
+***
+
+### scalene triangle {#glossary-scalene-triangle}
+
+A triangle with no two sides the same length.
+
+**See Also:** {{< glink "isosceles triangle" >}}, {{< glink "equilateral triangle" >}}
+
+***
+
+### isosceles triangle {#glossary-isosceles-triangle}
+
+A triangle with at least two sides the same length. The angles across from the equal sides are equal.
+
+> **Example:**
+>
+> A triangle with sides $5$, $5$, and $8$ is isosceles.
+
+**See Also:** {{< glink "equilateral triangle" >}}
+
+***
+
+### equilateral triangle {#glossary-equilateral-triangle}
+
+A triangle with all three sides the same length. Each angle measures $60^\circ$.
+
+**See Also:** {{< glink equiangular >}}
+
+***
+
+### equiangular {#glossary-equiangular}
+
+Having all angles the same measure. An equiangular triangle has three $60^\circ$ angles.
+
+***
+
+### exterior angle {#glossary-exterior-angle}
+
+An angle outside a polygon, made by one side and the extension of the next side. An exterior angle of a triangle equals the sum of the two remote interior angles.
+
+> **Example:**
+>
+> If two angles of a triangle are $50^\circ$ and $65^\circ$, the exterior angle at the third vertex is $115^\circ$.
+
+**See Also:** {{< glink "linear pair" >}}
+
+***
+
+### polygon {#glossary-polygon}
+
+A closed figure made of three or more segments, called sides, that meet only at their endpoints. A polygon with $n$ sides is an $n$-gon. The angles of a polygon with $n$ sides add to $(n - 2) \cdot 180^\circ$.
+
+> **Example:**
+>
+> Triangle (3 sides), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), nonagon (9), decagon (10).
+
+**See Also:** {{< glink "regular polygon" >}}, {{< glink "convex polygon" >}}
+
+***
+
+### regular polygon {#glossary-regular-polygon}
+
+A polygon with all sides the same length and all angles the same measure.
+
+> **Example:**
+>
+> A stop sign is a regular octagon. Each angle is $135^\circ$.
+
+**See Also:** {{< glink polygon >}}
+
+***
+
+### convex polygon {#glossary-convex-polygon}
+
+A polygon where every segment between two points of the polygon stays inside it. A polygon that is not convex is concave. A concave polygon has a corner that points inward.
+
+**See Also:** {{< glink polygon >}}

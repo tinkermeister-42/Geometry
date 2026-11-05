@@ -1,0 +1,52 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}[shift={(0,0)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (1.0,2.2);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \node[font=\small] at (1.5,-0.55) {scalene};
+  \end{scope}
+  \begin{scope}[shift={(4.2,0)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (1.5,2.4);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \draw[fig,tick1] (A) -- (C);
+    \draw[fig,tick1] (B) -- (C);
+    \node[font=\small] at (1.5,-0.55) {isosceles};
+  \end{scope}
+  \begin{scope}[shift={(8.4,0)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (1.5,2.598);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \draw[fig,tick1] (A) -- (B);
+    \draw[fig,tick1] (B) -- (C);
+    \draw[fig,tick1] (A) -- (C);
+    \node[font=\small] at (1.5,-0.55) {equilateral};
+  \end{scope}
+  \begin{scope}[shift={(0,-3.6)}]
+  \end{scope}
+  \begin{scope}[shift={(0,-3.6)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (1.4,1.9);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \node[font=\small] at (1.5,-0.55) {acute};
+  \end{scope}
+  \begin{scope}[shift={(4.2,-3.6)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (2.6,0); \coordinate (C) at (0,1.9);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \pic[rt] {right angle = B--A--C};
+    \node[font=\small] at (1.5,-0.55) {right};
+  \end{scope}
+  \begin{scope}[shift={(8.9,-3.6)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (-0.7,1.2);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \node[font=\small] at (1.5,-0.55) {obtuse};
+  \end{scope}
+  \begin{scope}[shift={(13.2,-3.6)}]
+    \coordinate (A) at (0,0); \coordinate (B) at (3,0); \coordinate (C) at (1.5,2.598);
+    \draw[fig] (A) -- (B) -- (C) -- cycle;
+    \pic[ang,angle radius=5mm,"$60^\circ$",angle eccentricity=1.9,font=\scriptsize] {angle = B--A--C};
+    \pic[ang,angle radius=5mm,"$60^\circ$",angle eccentricity=1.9,font=\scriptsize] {angle = C--B--A};
+    \pic[ang,angle radius=5mm,"$60^\circ$",angle eccentricity=1.9,font=\scriptsize] {angle = A--C--B};
+    \node[font=\small] at (1.5,-0.55) {equiangular};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

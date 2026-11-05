@@ -1,0 +1,337 @@
+<!--
+lesson: 1.5
+title: Angles in Triangles and Polygons
+unit: 1
+unit_title: Lines, Angles, and Equations
+slug: Angles_in_Triangles_and_Polygons
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Use the triangle angle sum to find a missing angle</li>
+      <li>Classify triangles by their sides and by their angles</li>
+      <li>Use the exterior angle of a triangle</li>
+      <li>Find the angle sum, one angle of a regular polygon, and the number of sides</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="q">1. Parallel lines are cut by a transversal. Alternate interior angles are (2<var>x</var> + 5)&deg; and (3<var>x</var> &minus; 20)&deg;. Find <var>x</var>. &nbsp;
+      2. Find the supplement of 115&deg;. &nbsp; 3. Solve 6<var>x</var> + 6 = 180.</div>
+    <div class="work">
+      <div class="cols3">
+        <div class="h08">{{a}}<p>1. 2<var>x</var> + 5 = 3<var>x</var> &minus; 20, <var>x</var> = 25</p>{{/a}}</div>
+        <div class="h08">{{a}}<p>2. 180 &minus; 115 = 65&deg;</p>{{/a}}</div>
+        <div class="h08">{{a}}<p>3. 6<var>x</var> = 174, <var>x</var> = 29</p>{{/a}}</div>
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="num">1.5.1</span>The Triangle Angle Sum</h2>
+
+  <div class="keys">
+    The three angles of a triangle add to <span class="b s">{{a}}180&deg;{{/a}}</span>.
+    Cut off the corners and put them together: they make a <span class="b m">{{a}}straight line{{/a}}</span>.
+    A line through <var>B</var> parallel to {{seg AC}} shows why: the <span class="b m">{{a}}alternate interior{{/a}}</span> angles are equal.
+  </div>
+  <div class="cols2" style="grid-template-columns:1fr 1fr;align-items:center">
+    {{fig 1.5_tear|a triangle with angles 1, 2, 3, and the three angles placed side by side on a straight line|3.4in}}
+    {{fig 1.5_parallel|triangle ABC with a line through B parallel to AC; angles 1 and 3 at B equal angles 1 and 3 at A and C|3.4in}}
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> A triangle has angles of 48&deg; and 67&deg;. Find the third angle.</div>
+    <div class="work h08">{{a}}<p>48 + 67 + <var>x</var> = 180, so 115 + <var>x</var> = 180 and <var>x</var> = 65&deg;.</p>{{/a}}</div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 2.</b> A triangle has a right angle and a 37&deg; angle. Find the third angle.<span class="yt">your turn</span></div>
+    <div class="work h05">{{a}}<p>90 + 37 + <var>x</var> = 180, <var>x</var> = 53&deg;</p>{{/a}}</div>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 3.</b> The angles are (2<var>x</var>)&deg;, (3<var>x</var> + 10)&deg;, and (<var>x</var> &minus; 4)&deg;. Find <var>x</var> and each angle.</div>
+    <div class="work">
+      <p>Equation: <span class="b xl">{{a}}2<var>x</var> + (3<var>x</var> + 10) + (<var>x</var> &minus; 4) = 180{{/a}}</span></p>
+      <p>Solve: <span class="b l">{{a}}6<var>x</var> + 6 = 180, <var>x</var> = 29{{/a}}</span></p>
+      <p>Angles: <span class="b s">{{a}}58&deg;{{/a}}</span> <span class="b s">{{a}}97&deg;{{/a}}</span> <span class="b s">{{a}}25&deg;{{/a}}</span></p>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 4.</b> The angles are (<var>x</var> + 15)&deg;, (2<var>x</var> &minus; 5)&deg;, and (3<var>x</var> + 2)&deg;. Find <var>x</var> and each angle.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>6<var>x</var> + 12 = 180, <var>x</var> = 28. The angles are 43&deg;, 51&deg;, and 86&deg;.</p>{{/a}}</div>
+  </div>
+
+  <h2><span class="num">1.5.2</span>Classifying Triangles</h2>
+
+  {{fig 1.5_classify|six triangles: scalene, isosceles, equilateral, acute, right, obtuse, and an equiangular triangle with three 60 degree angles|6in}}
+
+  <table class="steps">
+    <tr><th style="width:1.3in">By sides</th><th>Meaning</th><th style="width:1.3in">By angles</th><th>Meaning</th></tr>
+    <tr><td>scalene</td><td>{{a}}no sides the same{{/a}}</td><td>acute</td><td>{{a}}all angles less than 90&deg;{{/a}}</td></tr>
+    <tr><td>isosceles</td><td>{{a}}at least two sides the same{{/a}}</td><td>right</td><td>{{a}}one 90&deg; angle{{/a}}</td></tr>
+    <tr><td>equilateral</td><td>{{a}}all three sides the same{{/a}}</td><td>obtuse</td><td>{{a}}one angle over 90&deg;{{/a}}</td></tr>
+    <tr><td></td><td></td><td>equiangular</td><td>{{a}}all angles 60&deg;{{/a}}</td></tr>
+  </table>
+  <div class="box tint">
+    <div class="lbl">Isosceles triangles</div>
+    The angles across from the equal sides are equal. They are the <span class="b m">{{a}}base angles{{/a}}</span>.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Name each triangle two ways.</div>
+    <div class="work">
+      <p>a. Sides 4, 4, 4 and angles 60&deg;, 60&deg;, 60&deg;. <span class="b l">{{a}}equilateral and equiangular{{/a}}</span></p>
+      <p>b. Angles 90&deg;, 45&deg;, 45&deg;. <span class="b l">{{a}}right and isosceles{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> The tick marks show <var>AB</var> = <var>BC</var>. The top angle is 40&deg;. Find the base angles.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:1.9in 1fr;align-items:center">
+        {{fig 1.5_iso_ang|isosceles triangle ABC with equal sides AB and BC and a 40 degree angle at B|1.8in}}
+        <div>
+          <p>The base angles add to 180 &minus; 40 = <span class="b s">{{a}}140{{/a}}</span>.</p>
+          <p>Each base angle: <span class="b s">{{a}}70&deg;{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 7.</b> An isosceles triangle has a base angle of 55&deg;. Find the top angle.<span class="yt">your turn</span></div>
+    <div class="work h05">{{a}}<p>180 &minus; 55 &minus; 55 = 70&deg;</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> The tick marks show <var>AB</var> = <var>BC</var>. Find <var>x</var> and the perimeter.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:1.9in 1fr;align-items:center">
+        {{fig 1.5_iso_solve|isosceles triangle ABC with equal sides 3x+1 and 2x+9 and base 12|1.4in}}
+        <div>
+          <p>Equal sides: <span class="b l">{{a}}3<var>x</var> + 1 = 2<var>x</var> + 9{{/a}}</span></p>
+          <p><var>x</var> = <span class="b s">{{a}}8{{/a}}</span> &nbsp; Each equal side: <span class="b s">{{a}}25{{/a}}</span></p>
+          <p>Perimeter: <span class="b l">{{a}}25 + 25 + 12 = 62{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 9.</b> Equal sides (5<var>x</var> &minus; 4) and (3<var>x</var> + 10), third side 20. Find <var>x</var> and the perimeter.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>5<var>x</var> &minus; 4 = 3<var>x</var> + 10, <var>x</var> = 7. Each equal side is 31. Perimeter 82.</p>{{/a}}</div>
+  </div>
+
+  <h2><span class="num">1.5.3</span>Exterior Angles</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 3.2in;align-items:center">
+    <div class="keys">
+      An <b>exterior angle</b> is outside the triangle, next to an inside angle. The two inside angles far from it are the <span class="b m">{{a}}remote interior{{/a}}</span> angles.
+      <p>Exterior angle = <span class="b l">{{a}}the sum of the two remote angles{{/a}}</span></p>
+    </div>
+    {{fig 1.5_exterior|triangle ABC with side AC extended to D; angle A is 50 degrees, angle B is 65 degrees, the exterior angle at C is unknown|3.1in}}
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> In the figure, find the exterior angle.</div>
+    <div class="work h05">{{a}}<p>50 + 65 = 115&deg;</p>{{/a}}</div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 11.</b> An exterior angle is 130&deg;. One remote angle is 80&deg;. Find the other.<span class="yt">your turn</span></div>
+    <div class="work h05">{{a}}<p>130 &minus; 80 = 50&deg;</p>{{/a}}</div>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> Find <var>x</var> and the exterior angle.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3.2in 1fr;align-items:center">
+        {{fig 1.5_ext_solve|triangle ABC with side AC extended to D; remote angles x+30 and x+36 degrees, exterior angle 4x-6 degrees|3.1in}}
+        <div>
+          <p>Equation: <span class="b l">{{a}}4<var>x</var> &minus; 6 = (<var>x</var> + 30) + (<var>x</var> + 36){{/a}}</span></p>
+          <p><var>x</var> = <span class="b s">{{a}}36{{/a}}</span> &nbsp; Exterior angle: <span class="b s">{{a}}138&deg;{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> Exterior angle (7<var>x</var> &minus; 3)&deg;, remote angles (2<var>x</var> + 22)&deg; and (3<var>x</var> + 5)&deg;. Find <var>x</var> and the exterior angle.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>7<var>x</var> &minus; 3 = 5<var>x</var> + 27, <var>x</var> = 15. The exterior angle is 102&deg;.</p>{{/a}}</div>
+  </div>
+
+  <h2><span class="num">1.5.4</span>Polygons</h2>
+
+  <div class="keys">
+    A <b>polygon</b> is a closed figure made of <span class="b m">{{a}}segments{{/a}}</span>. A <b>regular</b> polygon has all sides <span class="b s">{{a}}equal{{/a}}</span> and all angles <span class="b s">{{a}}equal{{/a}}</span>.
+    A polygon with <var>n</var> sides makes <span class="b m">{{a}}<var>n</var> &minus; 2{{/a}}</span> triangles. The angles add to
+    <span class="b l">{{a}}(<var>n</var> &minus; 2) &middot; 180&deg;{{/a}}</span>.
+  </div>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.4in;align-items:center">
+    <table class="fill">
+      <tr><th>Sides</th><th>Name</th><th>Triangles</th><th>Angle sum</th></tr>
+      <tr><td>3</td><td>triangle</td><td>{{a}}1{{/a}}</td><td>{{a}}180&deg;{{/a}}</td></tr>
+      <tr><td>4</td><td>quadrilateral</td><td>{{a}}2{{/a}}</td><td>{{a}}360&deg;{{/a}}</td></tr>
+      <tr><td>5</td><td>pentagon</td><td>{{a}}3{{/a}}</td><td>{{a}}540&deg;{{/a}}</td></tr>
+      <tr><td>6</td><td>hexagon</td><td>{{a}}4{{/a}}</td><td>{{a}}720&deg;{{/a}}</td></tr>
+      <tr><td>7</td><td>heptagon</td><td>{{a}}5{{/a}}</td><td>{{a}}900&deg;{{/a}}</td></tr>
+      <tr><td>8</td><td>octagon</td><td>{{a}}6{{/a}}</td><td>{{a}}1080&deg;{{/a}}</td></tr>
+    </table>
+    {{fig 1.5_diagonals|a hexagon cut into 4 triangles by diagonals from one corner|2.3in}}
+  </div>
+  <p>9 sides: nonagon. 10 sides: decagon. A polygon with no corner pointing inward is <b>convex</b>.</p>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 14.</b> Find the angle sum of a pentagon and of a decagon.</div>
+    <div class="work">
+      <p>Pentagon: <span class="b l">{{a}}(5 &minus; 2) &middot; 180 = 540&deg;{{/a}}</span></p>
+      <p>Decagon: <span class="b l">{{a}}(10 &minus; 2) &middot; 180 = 1440&deg;{{/a}}</span></p>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 15.</b> Find one angle of a regular pentagon and of a regular decagon. (Divide the sum by <var>n</var>.)<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>540 &divide; 5 = 108&deg;. &nbsp;1440 &divide; 10 = 144&deg;.</p>{{/a}}</div>
+  </div>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.4in;align-items:center">
+    <div class="keys">
+      Walk around a polygon. You turn at each corner, and in one trip you turn a full circle.
+      The exterior angles of a convex polygon add to <span class="b s">{{a}}360&deg;{{/a}}</span>.
+      <p>Regular polygon: exterior angle = <span class="b m">{{a}}360 &divide; <var>n</var>{{/a}}</span>. Interior angle = <span class="b m">{{a}}180 &minus; exterior{{/a}}</span>.</p>
+    </div>
+    {{fig 1.5_walk|a pentagon with its five exterior angles marked 1 to 5|2.3in}}
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 16.</b> Find the number of sides.</div>
+    <div class="work">
+      <p>a. The angles add to 1260&deg;. <span class="b xl">{{a}}(<var>n</var> &minus; 2) &middot; 180 = 1260, <var>n</var> &minus; 2 = 7, <var>n</var> = 9{{/a}}</span></p>
+      <p>b. Each angle of a regular polygon is 150&deg;. Exterior: <span class="b s">{{a}}30&deg;{{/a}}</span> &nbsp; <var>n</var> = <span class="b l">{{a}}360 &divide; 30 = 12{{/a}}</span></p>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 17.</b> The angles of a polygon add to 1620&deg;. Find <var>n</var>.<span class="yt">your turn</span></div>
+    <div class="work h05">{{a}}<p><var>n</var> &minus; 2 = 9, <var>n</var> = 11</p>{{/a}}</div>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 18.</b> A quadrilateral has angles <var>x</var>&deg;, (2<var>x</var>)&deg;, (<var>x</var> + 50)&deg;, and 90&deg;. Find <var>x</var> and each angle.</div>
+    <div class="work">
+      <p>Sum: <span class="b s">{{a}}360&deg;{{/a}}</span> &nbsp; Equation: <span class="b l">{{a}}<var>x</var> + 2<var>x</var> + (<var>x</var> + 50) + 90 = 360{{/a}}</span></p>
+      <p><var>x</var> = <span class="b s">{{a}}55{{/a}}</span> &nbsp; Angles: <span class="b l">{{a}}55&deg;, 110&deg;, 105&deg;, 90&deg;{{/a}}</span></p>
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 19.</b> A quadrilateral has angles <var>x</var>&deg;, (<var>x</var> + 20)&deg;, (2<var>x</var>)&deg;, and (<var>x</var> + 40)&deg;. Find <var>x</var> and each angle.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>5<var>x</var> + 60 = 360, <var>x</var> = 60. The angles are 60&deg;, 80&deg;, 120&deg;, 100&deg;.</p>{{/a}}</div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>180&deg;</span><span>360&deg;</span><span>base</span><span>exterior</span><span>remote</span><span>regular</span></div>
+    <p>1. The angles of a triangle add to <span class="b m">{{a}}180&deg;{{/a}}</span>.</p>
+    <p>2. The <span class="b m">{{a}}base{{/a}}</span> angles of an isosceles triangle are equal.</p>
+    <p>3. An <span class="b m">{{a}}exterior{{/a}}</span> angle equals the sum of the two <span class="b m">{{a}}remote{{/a}}</span> interior angles.</p>
+    <p>4. The angles of an <var>n</var>-sided polygon add to (<var>n</var> &minus; 2) &middot; 180&deg;. The exterior angles add to <span class="b m">{{a}}360&deg;{{/a}}</span>.</p>
+    <p>5. All angles of a <span class="b m">{{a}}regular{{/a}}</span> polygon are equal.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>The Triangle Angle Sum</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <div><p>1. Angles 35&deg; and 80&deg;. Third angle?</p><div class="h05">{{a}}<p>65&deg;</p>{{/a}}</div></div>
+        <div><p>2. Angles 112&deg; and 28&deg;. Third angle?</p><div class="h05">{{a}}<p>40&deg;</p>{{/a}}</div></div>
+        <div><p>3. A right triangle has an acute angle of 54&deg;. Other acute angle?</p><div class="h05">{{a}}<p>36&deg;</p>{{/a}}</div></div>
+        <div><p>4. The angles are (2<var>x</var> + 4)&deg;, (3<var>x</var> &minus; 9)&deg;, (<var>x</var> + 5)&deg;. Find <var>x</var> and each angle.</p><div class="h08">{{a}}<p>6<var>x</var> = 180, <var>x</var> = 30. The angles are 64&deg;, 81&deg;, 35&deg;.</p>{{/a}}</div></div>
+      </div>
+      <p>5. The angles are <var>x</var>&deg;, (2<var>x</var>)&deg;, (3<var>x</var>)&deg;. Find each angle. Then classify the triangle by its angles.</p>
+      <div class="h05">{{a}}<p>6<var>x</var> = 180. The angles are 30&deg;, 60&deg;, 90&deg;. Right triangle.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Classify Triangles</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols3">
+        <p>6. Sides 6, 6, 9 <span class="b s">{{a}}isosceles{{/a}}</span></p>
+        <p>7. Sides 5, 8, 10 <span class="b s">{{a}}scalene{{/a}}</span></p>
+        <p>8. Angles 20&deg;, 40&deg;, 120&deg; <span class="b s">{{a}}obtuse{{/a}}</span></p>
+        <p>9. Angles 50&deg;, 60&deg;, 70&deg; <span class="b s">{{a}}acute{{/a}}</span></p>
+        <p>10. Isosceles, top 80&deg;. Base angles? <span class="b s">{{a}}50&deg; each{{/a}}</span></p>
+        <p>11. Isosceles, base angle 35&deg;. Top? <span class="b s">{{a}}110&deg;{{/a}}</span></p>
+      </div>
+      <p>12. An isosceles triangle has equal sides (4<var>x</var> &minus; 3) and (2<var>x</var> + 11). The third side is 14. Find <var>x</var> and the perimeter.</p>
+      <div class="h08">{{a}}<p>4<var>x</var> &minus; 3 = 2<var>x</var> + 11, <var>x</var> = 7. Equal sides 25. Perimeter 25 + 25 + 14 = 64.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Exterior Angles</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <div><p>13. Remote angles 40&deg; and 75&deg;. Exterior angle?</p><div class="h05">{{a}}<p>115&deg;</p>{{/a}}</div></div>
+        <div><p>14. Exterior angle 140&deg;, one remote angle 90&deg;. Other remote angle?</p><div class="h05">{{a}}<p>50&deg;</p>{{/a}}</div></div>
+      </div>
+      <p>15. An exterior angle is (7<var>x</var> &minus; 10)&deg;. The remote angles are (3<var>x</var> + 2)&deg; and (2<var>x</var> + 12)&deg;. Find <var>x</var> and the three angles.</p>
+      <div class="h08">{{a}}<p>7<var>x</var> &minus; 10 = 5<var>x</var> + 14, <var>x</var> = 12. Exterior 74&deg;, remote 38&deg; and 36&deg;.</p>{{/a}}</div>
+      <p>16. A triangle has angles 50&deg;, 60&deg;, 70&deg;. Kofi says the exterior angle at the 70&deg; corner is 50 + 60 + 70 = 180&deg;. What did he do wrong? Find the correct angle.</p>
+      <div class="h08">{{a}}<p>He added all three angles. Add only the two remote angles: 50 + 60 = 110&deg;. (Check: 180 &minus; 70 = 110.)</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Polygons</h3>
+  <div class="ex">
+    <div class="work">
+      <p>17. Name a polygon with 6 sides. Name a polygon with 9 sides. <span class="b l">{{a}}hexagon, nonagon{{/a}}</span></p>
+      <div class="cols2">
+        <p>18. Angle sum of a heptagon <span class="b s">{{a}}900&deg;{{/a}}</span></p>
+        <p>19. Angle sum of a decagon <span class="b s">{{a}}1440&deg;{{/a}}</span></p>
+      </div>
+      <p>20. Find the angle sum of a regular nonagon. Then find one angle.</p>
+      <div class="h05">{{a}}<p>7 &middot; 180 = 1260&deg;. 1260 &divide; 9 = 140&deg;.</p>{{/a}}</div>
+      <div class="cols2">
+        <div><p>21. A quadrilateral has angles 85&deg;, 95&deg;, 110&deg;, and <var>x</var>&deg;. Find <var>x</var>.</p><div class="h05">{{a}}<p>360 &minus; 290 = 70&deg;</p>{{/a}}</div></div>
+        <div><p>22. Each angle of a regular polygon is 156&deg;. How many sides?</p><div class="h05">{{a}}<p>Exterior 24&deg;. 360 &divide; 24 = 15.</p>{{/a}}</div></div>
+      </div>
+      <p>23. Each exterior angle of a regular polygon is 40&deg;. How many sides?</p>
+      <div class="h05">{{a}}<p>360 &divide; 40 = 9</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Real Problems</h3>
+  <div class="ex">
+    <div class="work">
+      <p>24. A stop sign is a regular octagon. Find each interior angle and each exterior angle.</p>
+      <div class="h08">{{a}}<p>Exterior: 360 &divide; 8 = 45&deg;. Interior: 180 &minus; 45 = 135&deg;.</p>{{/a}}</div>
+      <p>25. Esperanza wants to cover a floor with regular pentagon tiles. The corners must meet at a point with no gap. Will it work? (Hint: angles around a point add to 360&deg;.)</p>
+      <div class="h08">{{a}}<p>No. Each angle is 108&deg;. 3 &times; 108 = 324 and 4 &times; 108 = 432. Neither is 360.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>What Does the Figure Show?</h3>
+  <div class="ex">
+    <div class="work">
+      <p>26. In a drawing, triangle <var>ABC</var> looks like <var>AB</var> = <var>AC</var>. It has no tick marks and no angles are given. Can you say {{mang B}} = {{mang C}}? Explain.</p>
+      {{a}}<p>No. We cannot tell from the look. Without marks we do not know the sides are equal.</p>{{/a}}
+      <div class="ruled"></div><div class="ruled"></div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">27. The angles of a triangle are (<var>x</var> + 10)&deg;, (2<var>x</var>)&deg;, and (3<var>x</var> &minus; 10)&deg;. What is the largest angle?</div>
+    <div class="work"><div class="cols4"><p>A. 40&deg;</p><p>B. 60&deg;</p><p>C. 80&deg; {{a}}&larr; correct{{/a}}</p><p>D. 120&deg;</p></div></div>
+  </div>
+  <div class="ex">
+    <div class="q">28. Each exterior angle of a regular polygon is 36&deg;. How many sides does it have?</div>
+    <div class="work"><div class="cols4"><p>A. 5</p><p>B. 8</p><p>C. 10 {{a}}&larr; correct{{/a}}</p><p>D. 12</p></div></div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">29. Each interior angle of a regular polygon is 5 times its exterior angle. Find the number of sides.</div>
+    <div class="work h08">{{a}}<p>Interior + exterior = 180, so 6 &times; exterior = 180 and exterior = 30&deg;. <var>n</var> = 360 &divide; 30 = 12.</p>{{/a}}</div>
+  </div>
+  <div class="ex">
+    <div class="q">30. Use the interior angle sum to explain why the exterior angles of a polygon add to 360&deg;. (Hint: at each corner, interior plus exterior is 180&deg;.)</div>
+    <div class="work h1">{{a}}<p><var>n</var> corners give <var>n</var> &middot; 180. Take away the interior sum (<var>n</var> &minus; 2) &middot; 180. What is left is 2 &middot; 180 = 360&deg;.</p>{{/a}}</div>
+  </div>

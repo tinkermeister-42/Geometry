@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (C) at (4,0); \coordinate (B) at (50:4); \coordinate (D) at (6.2,0);
+  \draw[fig] (A) -- (B) -- (C); \draw[ray] (A) -- (6.2,0);
+  \fill (A) circle[radius=\ptr] node[below left] {$A$}; \fill (B) circle[radius=\ptr] node[above] {$B$}; \fill (C) circle[radius=\ptr] node[below=3pt] {$C$}; \fill (D) circle[radius=\ptr] node[below] {$D$};
+  \pic[ang,angle radius=8mm,"$50^\circ$",angle eccentricity=1.75,font=\small] {angle = C--A--B};
+  \pic[ang,angle radius=6mm,"$65^\circ$",angle eccentricity=1.95,font=\small] {angle = A--B--C};
+  \pic[ang,angle radius=8mm,"$?$",angle eccentricity=1.6] {angle = D--C--B};
+  \node[font=\small] at (3.3,0.55) {};
+\end{tikzpicture}
+\end{document}

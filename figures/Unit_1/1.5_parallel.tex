@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (C) at (5,0); \coordinate (B) at (1.6,2.4);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \draw[<->,thick] (-1,2.4) -- (6.4,2.4); \path[par1] (4.6,2.4) -- (5.2,2.4);
+  \draw[<->,thick] (-0.9,0) -- (5.9,0); \path[par1] (4.0,0) -- (4.6,0);
+  \fill (A) circle[radius=\ptr] node[below left] {$A$}; \fill (B) circle[radius=\ptr] node[above=3pt] {$B$}; \fill (C) circle[radius=\ptr] node[below right] {$C$};
+  \node[font=\small] at (0.7,0.25) {$1$}; \node[font=\small] at (4.25,0.3) {$3$}; \node[font=\small] at (1.62,1.75) {$2$};
+  \node[font=\small] at (0.55,2.15) {$1$}; \node[font=\small] at (2.85,2.15) {$3$};
+\end{tikzpicture}
+\end{document}

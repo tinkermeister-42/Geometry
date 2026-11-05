@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (C) at (4,0); \coordinate (B) at (66:2.8143); \coordinate (D) at (6.4,0);
+  \draw[fig] (A) -- (B) -- (C); \draw[ray] (A) -- (D);
+  \fill (A) circle[radius=\ptr] node[below left] {$A$}; \fill (B) circle[radius=\ptr] node[above] {$B$}; \fill (C) circle[radius=\ptr] node[below=3pt] {$C$}; \fill (D) circle[radius=\ptr] node[below] {$D$};
+  \node[font=\small] at (-0.95,0.75) {$(x+30)^\circ$};
+  \node[font=\small,fill=white,inner sep=1pt] at (1.3,1.9) {};
+  \pic[ang,angle radius=6mm] {angle = C--A--B};
+  \pic[ang,angle radius=6mm] {angle = A--B--C};
+  \node[font=\small] at (2.75,2.55) {$(x+36)^\circ$};
+  \pic[ang,angle radius=8mm] {angle = D--C--B};
+  \node[font=\small,anchor=west] at (4.55,0.9) {$(4x-6)^\circ$};
+\end{tikzpicture}
+\end{document}

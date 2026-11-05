@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \foreach \i in {0,...,5} {\coordinate (P\i) at ({90+60*\i}:2.0);}
+  \draw[fig] (P0) -- (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
+  \draw[thick,dashed] (P0) -- (P2); \draw[thick,dashed] (P0) -- (P3); \draw[thick,dashed] (P0) -- (P4);
+  \foreach \i in {0,...,5} {\fill (P\i) circle[radius=\ptr];}
+  \node[font=\small] at (-0.75,0.15) {$1$}; \node[font=\small] at (-0.95,-1.0) {$2$}; \node[font=\small] at (0.95,-1.0) {$3$}; \node[font=\small] at (0.75,0.15) {$4$};
+  \node[above] at (P0) {};
+\end{tikzpicture}
+\end{document}

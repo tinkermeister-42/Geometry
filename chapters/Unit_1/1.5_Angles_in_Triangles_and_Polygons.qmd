@@ -1,0 +1,417 @@
+# 1.5 - Angles in Triangles and Polygons {.unnumbered}
+
+A stop sign is a regular octagon. A honeycomb cell is a regular hexagon. A gazebo floor, a floor tile, and a soccer ball panel are all polygons. Each corner of these shapes is an angle.
+
+![](/images/Unit_1/1.5_convex.svg){width=420px fig-align="center"}
+
+Every triangle has angles that add to the same number. Because of that, we can find the angles in any polygon. In this lesson you learn the rules and use them to solve for missing angles.
+
+:::{.objectives}
+- [ ] I can use the triangle angle sum to find a missing angle.
+- [ ] I can classify triangles by their sides and by their angles.
+- [ ] I can use the exterior angle of a triangle.
+- [ ] I can find the angle sum, one angle of a regular polygon, and the number of sides.
+:::
+
+:::{.vocab}
+{{< glink triangle >}},
+{{< glink "scalene triangle" >}},
+{{< glink "isosceles triangle" >}},
+{{< glink "equilateral triangle" >}},
+{{< glink equiangular >}},
+{{< glink "exterior angle" >}},
+{{< glink polygon >}},
+{{< glink "regular polygon" >}},
+{{< glink "convex polygon" >}}
+:::
+
+:::{.guided-notes-link}
+[Printable Guided Notes for this lesson](/guided_notes/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html){target="_blank"} (fill-in notes to print and write on)
+:::
+
+{{< warmup >}}
+
+1. Two parallel lines are cut by a transversal. Two alternate interior angles are $(2x + 5)^\circ$ and $(3x - 20)^\circ$. Find $x$.
+
+2. Find the supplement of $115^\circ$.
+
+3. Solve $6x + 6 = 180$.
+
+{{< learn >}}
+
+### 1.5.1 - The Triangle Angle Sum
+
+Cut the three corners off a paper triangle. Put the corners together at one point. They make a straight line.
+
+![](/images/Unit_1/1.5_tear.svg){width=560px fig-align="center"}
+
+:::{.remember title="Triangle Angle Sum"}
+The three angles of a triangle add to $180^\circ$.
+:::
+
+Paper can fool us, so here is the reason. Draw a line through $B$ parallel to $\overline{AC}$.
+
+![](/images/Unit_1/1.5_parallel.svg){width=440px fig-align="center"}
+
+The angle marked $1$ at $B$ is equal to the angle marked $1$ at $A$. They are alternate interior angles. The angle marked $3$ at $B$ is equal to the angle marked $3$ at $C$. The three angles at $B$ make a straight line, so $1 + 2 + 3 = 180^\circ$.
+
+**Example 1:** Find the third angle
+
+A triangle has angles of $48^\circ$ and $67^\circ$. Find the third angle.
+
+$$
+48 + 67 + x = 180 \quad\text{so}\quad 115 + x = 180 \quad\text{so}\quad x = 65
+$$
+
+:::{.you-try-m title="Find the third angle"}
+A triangle has a right angle and a $37^\circ$ angle. Find the third angle.
+:::
+
+:::{.answer title="Answer"}
+$90 + 37 + x = 180$, so $x = 53^\circ$.
+:::
+
+**Example 2:** Solve for $x$
+
+The angles of a triangle are $(2x)^\circ$, $(3x + 10)^\circ$, and $(x - 4)^\circ$. Find $x$ and each angle.
+
+$$
+2x + (3x + 10) + (x - 4) = 180 \quad\text{so}\quad 6x + 6 = 180 \quad\text{so}\quad x = 29
+$$
+
+The angles are $2(29) = 58^\circ$, $3(29) + 10 = 97^\circ$, and $29 - 4 = 25^\circ$. Check: $58 + 97 + 25 = 180$.
+
+:::{.you-try-m title="Solve for $x$"}
+The angles of a triangle are $(x + 15)^\circ$, $(2x - 5)^\circ$, and $(3x + 2)^\circ$. Find $x$ and each angle.
+:::
+
+:::{.answer title="Answer"}
+$6x + 12 = 180$, so $x = 28$. The angles are $43^\circ$, $51^\circ$, and $86^\circ$.
+:::
+
+***
+
+### 1.5.2 - Classifying Triangles
+
+We name a triangle two ways: by its **sides** and by its **angles**.
+
+![](/images/Unit_1/1.5_classify.svg){width=620px fig-align="center"}
+
+| By sides | Meaning |
+|:---|:---|
+| **scalene** | no sides the same length |
+| **isosceles** | at least two sides the same length |
+| **equilateral** | all three sides the same length |
+
+| By angles | Meaning |
+|:---|:---|
+| **acute** | all three angles less than $90^\circ$ |
+| **right** | one $90^\circ$ angle |
+| **obtuse** | one angle more than $90^\circ$ |
+| **equiangular** | all three angles the same ($60^\circ$ each) |
+
+:::{.remember title="Isosceles triangles"}
+In an isosceles triangle, the two angles across from the equal sides are equal. They are the **base angles**.
+:::
+
+**Example 3:** Name it two ways
+
+a. A triangle has sides $4$, $4$, and $4$ and angles $60^\circ$, $60^\circ$, $60^\circ$.
+
+   It is **equilateral** and **equiangular**.
+
+b. A triangle has angles $90^\circ$, $45^\circ$, and $45^\circ$.
+
+   It has a $90^\circ$ angle, so it is **right**. It has two equal angles, so it is **isosceles**.
+
+**Example 4:** Base angles
+
+![](/images/Unit_1/1.5_iso_ang.svg){width=240px fig-align="center"}
+
+The tick marks show $AB = BC$. The angle at $B$ is $40^\circ$. Find the base angles.
+
+The base angles are equal. The three angles add to $180$, so the two base angles add to $180 - 40 = 140$. Each one is $140 \div 2 = 70^\circ$.
+
+:::{.you-try-m title="Base angles"}
+An isosceles triangle has a base angle of $55^\circ$. Find the angle at the top.
+:::
+
+:::{.answer title="Answer"}
+The base angles are $55^\circ$ and $55^\circ$. $180 - 55 - 55 = 70^\circ$.
+:::
+
+**Example 5:** An isosceles triangle with $x$
+
+![](/images/Unit_1/1.5_iso_solve.svg){width=200px fig-align="center"}
+
+The tick marks show $AB = BC$. Find $x$ and the perimeter.
+
+$$
+3x + 1 = 2x + 9 \quad\text{so}\quad x = 8
+$$
+
+Each equal side is $3(8) + 1 = 25$. The perimeter is $25 + 25 + 12 = 62$.
+
+:::{.you-try-m title="An isosceles triangle with $x$"}
+The equal sides of an isosceles triangle are $(5x - 4)$ and $(3x + 10)$. The third side is $20$. Find $x$ and the perimeter.
+:::
+
+:::{.answer title="Answer"}
+$5x - 4 = 3x + 10$, so $x = 7$. Each equal side is $31$. The perimeter is $31 + 31 + 20 = 82$.
+:::
+
+***
+
+### 1.5.3 - Exterior Angles
+
+Extend one side of a triangle. The angle outside the triangle, next to an inside angle, is an **exterior angle**. The two inside angles far from it are the **remote interior angles**.
+
+![](/images/Unit_1/1.5_exterior.svg){width=440px fig-align="center"}
+
+:::{.remember title="Exterior Angle"}
+An exterior angle of a triangle equals the sum of its two remote interior angles.
+:::
+
+Why? The exterior angle and its inside neighbor are a linear pair, so they add to $180^\circ$. The three inside angles also add to $180^\circ$. So the exterior angle equals the other two inside angles together.
+
+**Example 6:** Find an exterior angle
+
+In the figure, the remote angles are $50^\circ$ and $65^\circ$. The exterior angle is $50 + 65 = 115^\circ$.
+
+:::{.you-try-m title="Find an angle"}
+An exterior angle is $130^\circ$. One remote angle is $80^\circ$. Find the other remote angle.
+:::
+
+:::{.answer title="Answer"}
+$130 - 80 = 50^\circ$.
+:::
+
+**Example 7:** Solve for $x$
+
+![](/images/Unit_1/1.5_ext_solve.svg){width=440px fig-align="center"}
+
+Find $x$ and the exterior angle.
+
+$$
+4x - 6 = (x + 30) + (x + 36) \quad\text{so}\quad 4x - 6 = 2x + 66 \quad\text{so}\quad x = 36
+$$
+
+The exterior angle is $4(36) - 6 = 138^\circ$. The remote angles are $66^\circ$ and $72^\circ$.
+
+:::{.you-try-m title="Solve for $x$"}
+An exterior angle is $(7x - 3)^\circ$. The remote angles are $(2x + 22)^\circ$ and $(3x + 5)^\circ$. Find $x$ and the exterior angle.
+:::
+
+:::{.answer title="Answer"}
+$7x - 3 = 5x + 27$, so $x = 15$. The exterior angle is $102^\circ$.
+:::
+
+***
+
+### 1.5.4 - Polygons
+
+A **polygon** is a closed figure made of segments. We name a polygon by its number of sides.
+
+| Sides | Name | Sides | Name |
+|:---:|:---|:---:|:---|
+| 3 | triangle | 7 | heptagon |
+| 4 | quadrilateral | 8 | octagon |
+| 5 | pentagon | 9 | nonagon |
+| 6 | hexagon | 10 | decagon |
+
+A polygon with $n$ sides is an $n$-gon. A polygon is **convex** if no corner points inward (see the figure at the top of the lesson). A **regular** polygon has all sides equal and all angles equal.
+
+**The angle sum.** Pick one corner. Draw all the diagonals from it. They cut the polygon into triangles.
+
+![](/images/Unit_1/1.5_diagonals.svg){width=300px fig-align="center"}
+
+A hexagon makes $4$ triangles, and each triangle has $180^\circ$. So the angles of a hexagon add to $4 \cdot 180 = 720^\circ$.
+
+:::{.remember title="Polygon Angle Sum"}
+A polygon with $n$ sides makes $n - 2$ triangles. The interior angles add to
+$$
+(n - 2) \cdot 180^\circ.
+$$
+:::
+
+**Example 8:** Angle sum
+
+Find the angle sum of a pentagon and of an octagon.
+
+Pentagon: $(5 - 2) \cdot 180 = 540^\circ$.
+
+Octagon: $(8 - 2) \cdot 180 = 1080^\circ$.
+
+:::{.you-try-m title="Angle sum"}
+Find the angle sum of a hexagon. Check it with the figure above.
+:::
+
+:::{.answer title="Answer"}
+$(6 - 2) \cdot 180 = 720^\circ$. It matches the $4$ triangles.
+:::
+
+**Example 9:** One angle of a regular polygon
+
+In a regular polygon, all angles are equal. Divide the sum by $n$.
+
+a. Regular pentagon: $540 \div 5 = 108^\circ$.
+
+b. Regular decagon: $(10 - 2) \cdot 180 = 1440$, and $1440 \div 10 = 144^\circ$.
+
+:::{.you-try-m title="One angle"}
+Find one angle of a regular hexagon.
+:::
+
+:::{.answer title="Answer"}
+$720 \div 6 = 120^\circ$.
+:::
+
+**Exterior angles.** Walk around a polygon. At each corner you turn by the exterior angle. After one trip around you have turned one full circle, $360^\circ$.
+
+![](/images/Unit_1/1.5_walk.svg){width=320px fig-align="center"}
+
+:::{.remember title="Exterior Angle Sum"}
+The exterior angles of any convex polygon add to $360^\circ$.
+:::
+
+For a regular polygon with $n$ sides, each exterior angle is $360 \div n$. Each interior angle is $180$ minus the exterior angle.
+
+**Example 10:** Find the number of sides
+
+a. The angles of a polygon add to $1260^\circ$. Find $n$.
+
+   $(n - 2) \cdot 180 = 1260$, so $n - 2 = 7$ and $n = 9$.
+
+b. Each angle of a regular polygon is $150^\circ$. Find $n$.
+
+   The exterior angle is $180 - 150 = 30^\circ$. So $n = 360 \div 30 = 12$.
+
+:::{.you-try-m title="Find $n$"}
+The angles of a polygon add to $1620^\circ$. Find $n$.
+:::
+
+:::{.answer title="Answer"}
+$n - 2 = 9$, so $n = 11$.
+:::
+
+**Example 11:** Solve for $x$
+
+A quadrilateral has angles $x^\circ$, $(2x)^\circ$, $(x + 50)^\circ$, and $90^\circ$. Find $x$ and each angle.
+
+The sum for a quadrilateral is $(4 - 2) \cdot 180 = 360$.
+
+$$
+x + 2x + (x + 50) + 90 = 360 \quad\text{so}\quad 4x + 140 = 360 \quad\text{so}\quad x = 55
+$$
+
+The angles are $55^\circ$, $110^\circ$, $105^\circ$, and $90^\circ$.
+
+:::{.you-try-m title="Solve for $x$"}
+A quadrilateral has angles $x^\circ$, $(x + 20)^\circ$, $(2x)^\circ$, and $(x + 40)^\circ$. Find $x$ and each angle.
+:::
+
+:::{.answer title="Answer"}
+$5x + 60 = 360$, so $x = 60$. The angles are $60^\circ$, $80^\circ$, $120^\circ$, and $100^\circ$.
+:::
+
+{{< practice >}}
+
+**The triangle angle sum.**
+
+1. A triangle has angles of $35^\circ$ and $80^\circ$. Find the third angle.
+
+2. A triangle has angles of $112^\circ$ and $28^\circ$. Find the third angle.
+
+3. A right triangle has an acute angle of $54^\circ$. Find the other acute angle.
+
+4. The angles of a triangle are $(2x + 4)^\circ$, $(3x - 9)^\circ$, and $(x + 5)^\circ$. Find $x$ and each angle.
+
+5. The angles of a triangle are $x^\circ$, $(2x)^\circ$, and $(3x)^\circ$. Find each angle. Then classify the triangle by its angles.
+
+***
+
+**Classify triangles.**
+
+6. Sides $6$, $6$, and $9$. Classify by sides.
+
+7. Sides $5$, $8$, and $10$. Classify by sides.
+
+8. Angles $20^\circ$, $40^\circ$, and $120^\circ$. Classify by angles.
+
+9. Angles $50^\circ$, $60^\circ$, and $70^\circ$. Classify by angles.
+
+10. An isosceles triangle has a top angle of $80^\circ$. Find the base angles.
+
+11. An isosceles triangle has a base angle of $35^\circ$. Find the top angle.
+
+12. An isosceles triangle has equal sides $(4x - 3)$ and $(2x + 11)$. The third side is $14$. Find $x$ and the perimeter.
+
+***
+
+**Exterior angles.**
+
+13. The remote angles are $40^\circ$ and $75^\circ$. Find the exterior angle.
+
+14. An exterior angle is $140^\circ$. One remote angle is $90^\circ$. Find the other remote angle.
+
+15. An exterior angle is $(7x - 10)^\circ$. The remote angles are $(3x + 2)^\circ$ and $(2x + 12)^\circ$. Find $x$ and the three angles.
+
+16. A triangle has angles $50^\circ$, $60^\circ$, and $70^\circ$. Kofi says the exterior angle at the $70^\circ$ corner is $50 + 60 + 70 = 180^\circ$. What did he do wrong? Find the correct exterior angle.
+
+***
+
+**Polygons.**
+
+17. Name a polygon with 6 sides. Name a polygon with 9 sides.
+
+18. Find the angle sum of a heptagon.
+
+19. Find the angle sum of a decagon.
+
+20. Find the angle sum of a regular nonagon. Then find one angle.
+
+21. A quadrilateral has angles $85^\circ$, $95^\circ$, $110^\circ$, and $x^\circ$. Find $x$.
+
+22. Each angle of a regular polygon is $156^\circ$. Find the number of sides.
+
+23. Each exterior angle of a regular polygon is $40^\circ$. Find the number of sides.
+
+***
+
+**Real problems.**
+
+24. A stop sign is a regular octagon. Find each interior angle and each exterior angle.
+
+25. Esperanza wants to cover a floor with regular pentagon tiles. The corners must meet at a point with no gap. Will it work? (Hint: the angles around a point add to $360^\circ$.)
+
+***
+
+**What does the figure show?**
+
+26. In a drawing, triangle $ABC$ looks like $AB = AC$. It has no tick marks and no angles are given. Can you say $m\angle B = m\angle C$? Explain.
+
+***
+
+**Test practice**
+
+27. The angles of a triangle are $(x + 10)^\circ$, $(2x)^\circ$, and $(3x - 10)^\circ$. What is the measure of the largest angle?
+
+    A. $40^\circ$\
+    B. $60^\circ$\
+    C. $80^\circ$\
+    D. $120^\circ$
+
+28. Each exterior angle of a regular polygon is $36^\circ$. How many sides does the polygon have?
+
+    A. 5\
+    B. 8\
+    C. 10\
+    D. 12
+
+***
+
+**Challenge**
+
+29. Each interior angle of a regular polygon is 5 times its exterior angle. Find the number of sides.
+
+30. Use the interior angle sum to explain why the exterior angles of a polygon add to $360^\circ$. (Hint: at each corner, interior plus exterior is $180^\circ$.)
