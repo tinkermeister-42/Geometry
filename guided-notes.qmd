@@ -84,3 +84,14 @@ letter-size paper.
   - [7.5 - The Equation of a Circle](/guided_notes/Unit_7/7.5_The_Equation_of_a_Circle.html){target="_blank"}
   - [Unit 7 Summary](/guided_notes/Unit_7/Unit_7_Summary.html){target="_blank"}
   - [Unit 7 Review](/guided_notes/Unit_7/Unit_7_Review.html){target="_blank"}
+
+## Unit 8 - Area, Surface Area, and Volume
+
+  - [8.1 - Area of Polygons and Composite Figures](/guided_notes/Unit_8/8.1_Area_of_Polygons_and_Composite_Figures.html){target="_blank"}
+  - [8.2 - Cross Sections and Solids of Revolution](/guided_notes/Unit_8/8.2_Cross_Sections_and_Solids_of_Revolution.html){target="_blank"}
+  - [8.3 - Surface Area and Nets](/guided_notes/Unit_8/8.3_Surface_Area_and_Nets.html){target="_blank"}
+  - [8.4 - Volume of Prisms and Cylinders](/guided_notes/Unit_8/8.4_Volume_of_Prisms_and_Cylinders.html){target="_blank"}
+  - [8.5 - Volume of Pyramids, Cones, and Spheres](/guided_notes/Unit_8/8.5_Volume_of_Pyramids_Cones_and_Spheres.html){target="_blank"}
+  - [8.6 - Density and Modeling](/guided_notes/Unit_8/8.6_Density_and_Modeling.html){target="_blank"}
+  - [Unit 8 Summary](/guided_notes/Unit_8/Unit_8_Summary.html){target="_blank"}
+  - [Unit 8 Review](/guided_notes/Unit_8/Unit_8_Review.html){target="_blank"}

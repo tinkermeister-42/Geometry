@@ -14,7 +14,7 @@ The answer is a **volume**. In this lesson you find the volume of prisms and cyl
 :::{.vocab}
 {{< glink volume >}},
 {{< glink "cubic unit" >}},
-{{< glink "Cavalieri's principle" >}},
+{{< glink slug="cavalieris-principle" text="Cavalieri's principle" >}},
 {{< glink oblique >}}
 :::
 

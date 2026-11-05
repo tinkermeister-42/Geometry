@@ -90,9 +90,11 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_7/Summary.qmd) | Unit 7 summary |
 | [Review](chapters/Unit_7/Review.qmd) | Unit 7 review |
 | **Unit 8: Area, Surface Area, and Volume** | |
-| 8.1 | Area of polygons and composite figures |
-| 8.2 | Cross sections and solids of revolution |
-| 8.3 | Surface area and nets |
-| 8.4 | Volume of prisms and cylinders |
-| 8.5 | Volume of pyramids, cones, and spheres |
-| 8.6 | Density and modeling |
+| [8.1](chapters/Unit_8/8.1_Area_of_Polygons_and_Composite_Figures.qmd) | Area of polygons and composite figures |
+| [8.2](chapters/Unit_8/8.2_Cross_Sections_and_Solids_of_Revolution.qmd) | Cross sections and solids of revolution |
+| [8.3](chapters/Unit_8/8.3_Surface_Area_and_Nets.qmd) | Surface area and nets |
+| [8.4](chapters/Unit_8/8.4_Volume_of_Prisms_and_Cylinders.qmd) | Volume of prisms and cylinders |
+| [8.5](chapters/Unit_8/8.5_Volume_of_Pyramids_Cones_and_Spheres.qmd) | Volume of pyramids, cones, and spheres |
+| [8.6](chapters/Unit_8/8.6_Density_and_Modeling.qmd) | Density and modeling |
+| [Summary](chapters/Unit_8/Summary.qmd) | Unit 8 summary |
+| [Review](chapters/Unit_8/Review.qmd) | Unit 8 review |

@@ -144,6 +144,16 @@ The ring-shaped region between two circles with the same center. Its area is $\p
 
 ***
 
+### apothem {#glossary-apothem}
+
+The distance from the center of a regular polygon to the middle of a side. It is perpendicular to that side.
+
+> **Example:** A regular hexagon with side 6 has an apothem of $3\sqrt{3}$.
+
+**See Also:** {{< glink "regular polygon" >}}, {{< glink area >}}
+
+***
+
 ### arc {#glossary-arc}
 
 Part of a circle between two points on the circle. Two points split a circle into a minor arc and a major arc (or two semicircles).
@@ -192,6 +202,14 @@ Angle, side, angle. If two angles and the included side of one triangle are cong
 
 ***
 
+### axis of revolution {#glossary-axis-of-revolution}
+
+The line that a flat shape spins around to make a solid of revolution.
+
+**See Also:** {{< glink "solid of revolution" >}}
+
+***
+
 ### base angles {#glossary-base-angles}
 
 The two angles of an isosceles triangle that touch the base. Base angles are congruent.
@@ -199,6 +217,14 @@ The two angles of an isosceles triangle that touch the base. Base angles are con
 > **Example:**
 >
 > If the vertex angle is $40^\circ$, each base angle is $70^\circ$.
+
+***
+
+### base of a polygon {#glossary-base-of-a-polygon}
+
+The side of a parallelogram, triangle, or trapezoid that you measure the height to. You can choose any side as the base.
+
+**See Also:** {{< glink "height of a polygon" >}}
 
 ***
 
@@ -217,6 +243,16 @@ The side of an isosceles triangle that is not one of the two congruent sides.
 The smallest rectangle with sides on grid lines that has a figure inside it. It is used to find area by subtracting the corner pieces.
 
 **See Also:** {{< glink "area" >}}
+
+***
+
+### Cavalieri's principle {#glossary-cavalieris-principle}
+
+If two solids have the same height and the same cross-section area at every level, they have the same volume.
+
+> **Example:** A slanted stack of coins has the same volume as a straight stack of the same coins.
+
+**See Also:** {{< glink volume >}}, {{< glink "cross section" >}}
 
 ***
 
@@ -327,6 +363,26 @@ A way to rewrite $x^2 + bx$ as a perfect square by adding $\left(\dfrac{b}{2}\ri
 > **Example:** $x^2 - 6x + 9 = (x - 3)^2$.
 
 **See Also:** {{< glink "perfect square" >}}
+
+***
+
+### composite figure {#glossary-composite-figure}
+
+A figure made of two or more simple shapes. Find its area by adding the areas of the parts, or by subtracting a part from a larger shape.
+
+> **Example:** An L-shaped room is a large rectangle with a small rectangle removed.
+
+**See Also:** {{< glink "shaded region" >}}, {{< glink area >}}
+
+***
+
+### cone {#glossary-cone}
+
+A solid with one circle as its base and a curved surface that comes to a point, the apex.
+
+> **Example:** A party hat is a cone.
+
+**See Also:** {{< glink pyramid >}}, {{< glink cylinder >}}
 
 ***
 
@@ -456,9 +512,47 @@ In the proportion $\dfrac{a}{b} = \dfrac{c}{d}$, the products $a \cdot d$ and $b
 
 ***
 
+### cross section {#glossary-cross-section}
+
+The flat shape you see when a plane slices through a solid.
+
+> **Example:** A horizontal slice of a cylinder is a circle.
+
+**See Also:** {{< glink solid >}}, {{< glink plane >}}
+
+***
+
+### cubic unit {#glossary-cubic-unit}
+
+A cube with edges of length $1$ unit. Volume counts how many cubic units fill a solid. Examples are cubic inches, cubic feet, and cubic yards.
+
+**See Also:** {{< glink volume >}}
+
+***
+
+### cylinder {#glossary-cylinder}
+
+A solid with two parallel circles as bases and one curved surface between them.
+
+> **Example:** A soup can is a cylinder.
+
+**See Also:** {{< glink prism >}}, {{< glink cone >}}
+
+***
+
 ### degree {#glossary-degree}
 
 The unit for measuring angles, written $^\circ$. A full turn is $360^\circ$. A right angle is $90^\circ$.
+
+***
+
+### density {#glossary-density}
+
+How much mass is packed into each unit of volume: $\text{density} = \dfrac{\text{mass}}{\text{volume}}$. Weight is found by multiplying density by volume.
+
+> **Example:** Water has a density of about $62.4$ pounds per cubic foot. An object floats in water if its density is less than that.
+
+**See Also:** {{< glink volume >}}
 
 ***
 
@@ -499,6 +593,14 @@ The distance between $(x_1, y_1)$ and $(x_2, y_2)$ is $d = \sqrt{(x_2 - x_1)^2 +
 > **Example:** From $(0, 0)$ to $(3, 4)$: $d = \sqrt{9 + 16} = 5$.
 
 **See Also:** {{< glink "Pythagorean theorem" >}}
+
+***
+
+### edge {#glossary-edge}
+
+A segment where two faces of a polyhedron meet. A cube has 12 edges.
+
+**See Also:** {{< glink face >}}, {{< glink "vertex of a solid" >}}
 
 ***
 
@@ -544,6 +646,16 @@ A triangle with all three sides the same length. Each angle measures $60^\circ$.
 
 ***
 
+### Euler's formula {#glossary-eulers-formula}
+
+For a polyhedron with no holes, $F + V - E = 2$. $F$ is the number of faces, $V$ the number of vertices, and $E$ the number of edges.
+
+> **Example:** A cube has $6 + 8 - 12 = 2$.
+
+**See Also:** {{< glink face >}}, {{< glink edge >}}
+
+***
+
 ### exterior angle {#glossary-exterior-angle}
 
 An angle outside a polygon, made by one side and the extension of the next side. An exterior angle of a triangle equals the sum of the two remote interior angles.
@@ -553,6 +665,44 @@ An angle outside a polygon, made by one side and the extension of the next side.
 > If two angles of a triangle are $50^\circ$ and $65^\circ$, the exterior angle at the third vertex is $115^\circ$.
 
 **See Also:** {{< glink "linear pair" >}}
+
+***
+
+### face {#glossary-face}
+
+A flat surface of a polyhedron. A cube has 6 faces.
+
+**See Also:** {{< glink edge >}}, {{< glink polyhedron >}}
+
+***
+
+### frustum {#glossary-frustum}
+
+A cone or pyramid with the top cut off by a plane parallel to the base. Find its volume by subtracting the small cone (or pyramid) from the large one.
+
+> **Example:** A flower pot and a funnel are frustums.
+
+**See Also:** {{< glink cone >}}, {{< glink pyramid >}}, {{< glink "cross section" >}}
+
+***
+
+### height of a polygon {#glossary-height-of-a-polygon}
+
+The distance from the base to the opposite side (or opposite vertex), measured at a right angle to the base. It is not the length of a slanted side.
+
+> **Example:** A parallelogram with base 14 ft and a slanted side of 10 ft can have a height of 9 ft.
+
+**See Also:** {{< glink "base of a polygon" >}}, {{< glink area >}}
+
+***
+
+### hemisphere {#glossary-hemisphere}
+
+Half of a sphere. Its volume is $\frac{2}{3}\pi r^3$.
+
+> **Example:** A round bowl is close to a hemisphere.
+
+**See Also:** {{< glink sphere >}}
 
 ***
 
@@ -706,6 +856,16 @@ A quadrilateral with two pairs of congruent sides that are next to each other. T
 
 ***
 
+### lateral area {#glossary-lateral-area}
+
+The area of the sides of a solid, without the base or bases.
+
+> **Example:** The lateral area of a cylinder is $2\pi r h$.
+
+**See Also:** {{< glink "surface area" >}}
+
+***
+
 ### leg {#glossary-leg}
 
 One of the two sides of a right triangle that form the right angle.
@@ -845,6 +1005,24 @@ An arc that is less than half of a circle. Its measure is less than $180^\circ$.
 > **Example:** $\overset{\frown}{AB}$ with $m\overset{\frown}{AB} = 70^\circ$.
 
 **See Also:** {{< glink "major arc" >}}, {{< glink "semicircle" >}}
+
+***
+
+### net {#glossary-net}
+
+A flat pattern that folds up into a solid. A net shows every face of the solid.
+
+> **Example:** A cube has a net made of $6$ squares.
+
+**See Also:** {{< glink "surface area" >}}
+
+***
+
+### oblique {#glossary-oblique}
+
+Slanted. In an oblique prism or cylinder, the sides lean over and are not at a right angle to the bases. The height is still measured straight up, at a right angle to the bases.
+
+**See Also:** {{< glink prism >}}, {{< glink cylinder >}}
 
 ***
 
@@ -1022,6 +1200,24 @@ A closed figure made of three or more segments, called sides, that meet only at 
 
 ***
 
+### polyhedron {#glossary-polyhedron}
+
+A solid whose faces are all flat polygons. Prisms and pyramids are polyhedrons. Cylinders, cones, and spheres are not.
+
+**See Also:** {{< glink face >}}, {{< glink edge >}}, {{< glink "vertex of a solid" >}}
+
+***
+
+### population density {#glossary-population-density}
+
+The number of people living in each unit of area, such as people per square mile: $\dfrac{\text{population}}{\text{area}}$.
+
+> **Example:** A town of $9{,}000$ people on $6$ square miles has $1{,}500$ people per square mile.
+
+**See Also:** {{< glink density >}}, {{< glink area >}}
+
+***
+
 ### preimage {#glossary-preimage}
 
 The original figure, before a transformation.
@@ -1031,6 +1227,16 @@ The original figure, before a transformation.
 > If $\triangle ABC$ is slid to $\triangle A'B'C'$, then $\triangle ABC$ is the preimage.
 
 **See Also:** {{< glink image >}}
+
+***
+
+### prism {#glossary-prism}
+
+A polyhedron with two parallel, congruent faces called bases. The other faces are parallelograms. A prism is named by its base, such as a triangular prism.
+
+> **Example:** A cereal box is a rectangular prism.
+
+**See Also:** {{< glink pyramid >}}, {{< glink cylinder >}}
 
 ***
 
@@ -1057,6 +1263,16 @@ Two lists of numbers are proportional when the ratios of matching numbers are al
 ### protractor {#glossary-protractor}
 
 A tool that measures angles in degrees. It has an outer scale and an inner scale. Read the scale that starts at $0$ on one side of the angle.
+
+***
+
+### pyramid {#glossary-pyramid}
+
+A polyhedron with one polygon base. The other faces are triangles that meet at one vertex, the apex.
+
+> **Example:** A square pyramid has 5 faces.
+
+**See Also:** {{< glink prism >}}, {{< glink cone >}}
 
 ***
 
@@ -1410,6 +1626,16 @@ Skew lines are not in the same plane. They do not meet and they are not parallel
 
 ***
 
+### slant height {#glossary-slant-height}
+
+For a pyramid, the height of a triangle face, measured along the face from the base edge to the apex. For a cone, the distance along the surface from the edge of the base to the apex. It is written $\ell$.
+
+> **Example:** A cone with radius $3$ and height $4$ has slant height $5$.
+
+**See Also:** {{< glink pyramid >}}, {{< glink cone >}}, {{< glink "Pythagorean theorem" >}}
+
+***
+
 ### slope {#glossary-slope}
 
 A number that tells how steep a line is: the change in $y$ divided by the change in $x$, or rise over run.
@@ -1420,11 +1646,39 @@ A number that tells how steep a line is: the change in $y$ divided by the change
 
 ***
 
+### solid {#glossary-solid}
+
+A three-dimensional shape. It takes up space.
+
+> **Example:** A box, a can, a ball, and a tent are solids.
+
+**See Also:** {{< glink polyhedron >}}
+
+***
+
+### solid of revolution {#glossary-solid-of-revolution}
+
+A solid made by spinning a flat shape around a line.
+
+> **Example:** Spinning a rectangle around one of its sides makes a cylinder.
+
+**See Also:** {{< glink "axis of revolution" >}}
+
+***
+
 ### special right triangle {#glossary-special-right-triangle}
 
 A right triangle whose sides follow a pattern you can use without a calculator. The two special right triangles are the $45^\circ$-$45^\circ$-$90^\circ$ triangle and the $30^\circ$-$60^\circ$-$90^\circ$ triangle.
 
 **See Also:** {{< glink "45-45-90 triangle" >}}, {{< glink "30-60-90 triangle" >}}
+
+***
+
+### sphere {#glossary-sphere}
+
+The set of all points in space that are the same distance (the radius) from one point, the center. A ball is a sphere.
+
+**See Also:** {{< glink radius >}}, {{< glink circle >}}
 
 ***
 
@@ -1485,6 +1739,16 @@ Two angles whose measures add to $180^\circ$. Each angle is the supplement of th
 > $110^\circ$ and $70^\circ$ are supplementary because $110 + 70 = 180$.
 
 **See Also:** {{< glink complementary >}}, {{< glink "linear pair" >}}
+
+***
+
+### surface area {#glossary-surface-area}
+
+The total area of all the faces (or the whole outside surface) of a solid. It is measured in square units.
+
+> **Example:** A box $8$ in by $3$ in by $5$ in has surface area $158$ square inches.
+
+**See Also:** {{< glink "lateral area" >}}, {{< glink net >}}, {{< glink area >}}
 
 ***
 
@@ -1588,6 +1852,14 @@ The angle of an isosceles triangle between the two congruent sides.
 
 ***
 
+### vertex of a solid {#glossary-vertex-of-a-solid}
+
+A point where three or more edges of a polyhedron meet. A cube has 8 vertices. The plural is vertices.
+
+**See Also:** {{< glink edge >}}, {{< glink vertex >}}
+
+***
+
 ### vertical angles {#glossary-vertical-angles}
 
 The two angles across from each other when two lines cross. Vertical angles are equal.
@@ -1597,3 +1869,13 @@ The two angles across from each other when two lines cross. Vertical angles are 
 > If two lines cross and one angle is $60^\circ$, the angle across from it is also $60^\circ$.
 
 **See Also:** {{< glink "linear pair" >}}
+
+***
+
+### volume {#glossary-volume}
+
+The amount of space inside a solid. It is measured in cubic units.
+
+> **Example:** A box $6$ ft by $4$ ft by $3$ ft has volume $72$ cubic feet.
+
+**See Also:** {{< glink "cubic unit" >}}, {{< glink "surface area" >}}
