@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.38cm,y=0.38cm]
+\cgrid{-7}{7}{-7}{7}{1}
+\coordinate (A) at (-4,2);
+\coordinate (B) at (-2,5);
+\coordinate (C) at (-6,6);
+\coordinate (D) at (2,-4);
+\coordinate (E) at (5,-6);
+\coordinate (F) at (6,-2);
+\draw[fig,fill=gray!25] (A) -- (B) -- (C) -- cycle;
+\fill (A) circle[radius=\ptr];
+\node at (-4,1.158) {$A$};
+\fill (B) circle[radius=\ptr];
+\node at (-1.201,5.266) {$B$};
+\fill (C) circle[radius=\ptr];
+\node at (-6.647,6.539) {$C$};
+\draw[fig,fill=gray!25] (D) -- (E) -- (F) -- cycle;
+\fill (D) circle[radius=\ptr];
+\node at (1.158,-4) {$D$};
+\fill (E) circle[radius=\ptr];
+\node at (5.266,-6.799) {$E$};
+\fill (F) circle[radius=\ptr];
+\node at (6.539,-1.353) {$F$};
+\end{tikzpicture}
+\end{document}

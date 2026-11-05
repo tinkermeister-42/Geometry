@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.34cm,y=0.34cm]
+\cgrid{-8}{8}{-8}{8}{1}
+\coordinate (G) at (2,2);
+\coordinate (H) at (6,2);
+\coordinate (I) at (2,5);
+\coordinate (J) at (-7,-3);
+\coordinate (K) at (-3,-3);
+\coordinate (L) at (-7,-7);
+\draw[fig,fill=gray!25] (G) -- (H) -- (I) -- cycle;
+\fill (G) circle[radius=\ptr];
+\node at (1.247,1.435) {$G$};
+\fill (H) circle[radius=\ptr];
+\node at (6.881,1.67) {$H$};
+\fill (I) circle[radius=\ptr];
+\node at (1.478,5.783) {$I$};
+\draw[fig,fill=gray!25] (J) -- (K) -- (L) -- cycle;
+\fill (J) circle[radius=\ptr];
+\node at (-7.666,-2.334) {$J$};
+\fill (K) circle[radius=\ptr];
+\node at (-2.158,-2.579) {$K$};
+\fill (L) circle[radius=\ptr];
+\node at (-7.421,-7.842) {$L$};
+\end{tikzpicture}
+\end{document}
