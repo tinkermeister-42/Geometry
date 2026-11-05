@@ -1,0 +1,34 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}[shift={(0,0)}]
+    \draw[thick] (-2.4,1.3) -- (2.4,1.3); \draw[thick] (-3.612,-1.3) -- (1.188,-1.3);
+    \draw[thick] (0.465,2.297) -- (-1.677,-2.297);
+    \draw[very thick,blue!60!black] (0.000,1.300) +(65:0.55) arc (65:180:0.55);
+    \draw[very thick,blue!60!black] (-1.212,-1.300) +(65:0.55) arc (65:180:0.55);
+    \node[font=\normalsize] at (-0.606,-3.1) {corresponding};
+  \end{scope}
+  \begin{scope}[shift={(6.4,0)}]
+    \draw[thick] (-2.4,1.3) -- (2.4,1.3); \draw[thick] (-3.612,-1.3) -- (1.188,-1.3);
+    \draw[thick] (0.465,2.297) -- (-1.677,-2.297);
+    \draw[very thick,blue!60!black] (0.000,1.300) +(180:0.55) arc (180:245:0.55);
+    \draw[very thick,blue!60!black] (-1.212,-1.300) +(0:0.55) arc (0:65:0.55);
+    \node[font=\normalsize] at (-0.606,-3.1) {alternate interior};
+  \end{scope}
+  \begin{scope}[shift={(0,-6.2)}]
+    \draw[thick] (-2.4,1.3) -- (2.4,1.3); \draw[thick] (-3.612,-1.3) -- (1.188,-1.3);
+    \draw[thick] (0.465,2.297) -- (-1.677,-2.297);
+    \draw[very thick,blue!60!black] (0.000,1.300) +(65:0.55) arc (65:180:0.55);
+    \draw[very thick,blue!60!black] (-1.212,-1.300) +(245:0.55) arc (245:360:0.55);
+    \node[font=\normalsize] at (-0.606,-3.1) {alternate exterior};
+  \end{scope}
+  \begin{scope}[shift={(6.4,-6.2)}]
+    \draw[thick] (-2.4,1.3) -- (2.4,1.3); \draw[thick] (-3.612,-1.3) -- (1.188,-1.3);
+    \draw[thick] (0.465,2.297) -- (-1.677,-2.297);
+    \draw[very thick,blue!60!black] (0.000,1.300) +(180:0.55) arc (180:245:0.55);
+    \draw[very thick,blue!60!black] (-1.212,-1.300) +(65:0.55) arc (65:180:0.55);
+    \node[font=\normalsize] at (-0.606,-3.1) {same-side interior};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

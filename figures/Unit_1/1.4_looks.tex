@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,scale=1.0]
+  \draw[<->,thick] (-3.400,1.300) -- (3.400,1.300);
+  \draw[<->,thick] (-4.342,-1.122) -- (2.449,-1.478);
+  \draw[<->,thick] (0.410,2.428) -- (-1.357,-2.428);
+  \fill (0,1.300) circle[radius=\ptr]; \fill (-0.946,-1.300) circle[radius=\ptr];
+  \node[right] at (3.450,1.300) {$\ell$}; \node[right] at (2.504,-1.300) {$m$};
+  \node[above right] at (0.410,2.428) {$t$};
+\end{tikzpicture}
+\end{document}

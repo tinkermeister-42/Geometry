@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,scale=1.0]
+  \draw[<->,thick] (-3.400,1.300) -- (3.400,1.300);
+  \draw[<->,thick] (-6.728,-1.300) -- (0.072,-1.300);
+  \draw[<->,thick] (0.946,2.039) -- (-4.273,-2.039);
+  \fill (0,1.300) circle[radius=\ptr]; \fill (-3.328,-1.300) circle[radius=\ptr];
+  \node[right] at (3.450,1.300) {$\mathrm{Oak\ St}$}; \node[right] at (0.122,-1.300) {$\mathrm{Elm\ St}$};
+  \node[above right] at (0.946,2.039) {$t$};
+  \node[fill=white,inner sep=1pt,font=\small] at (0.851,1.593) {$38^\circ$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-3.523,-0.733) {$a$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-3.895,-1.495) {$b$};
+\end{tikzpicture}
+\end{document}

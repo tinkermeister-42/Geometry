@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,scale=1.0]
+  \draw[<->,thick] (-3.400,1.300) -- (3.400,1.300);
+  \draw[<->,thick] (-3.218,-1.300) -- (3.582,-1.300);
+  \draw[<->,thick] (-0.084,2.497) -- (0.266,-2.497);
+  \path[par1] (1.900,1.300) -- (2.500,1.300);
+  \path[par1] (2.082,-1.300) -- (2.682,-1.300);
+  \fill (0,1.300) circle[radius=\ptr]; \fill (0.182,-1.300) circle[radius=\ptr];
+  \node[right] at (3.450,1.300) {$\ell$}; \node[right] at (3.632,-1.300) {$m$};
+  \node[above right] at (-0.084,2.497) {$t$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.852,0.386) {$(3x-5)^\circ$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.769,-0.413) {$(2x+20)^\circ$};
+\end{tikzpicture}
+\end{document}

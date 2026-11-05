@@ -1,0 +1,22 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,scale=1.0]
+  \draw[<->,thick] (-3.400,1.300) -- (3.400,1.300);
+  \draw[<->,thick] (-4.612,-1.300) -- (2.188,-1.300);
+  \draw[<->,thick] (0.507,2.388) -- (-1.720,-2.388);
+  \path[par1] (1.900,1.300) -- (2.500,1.300);
+  \path[par1] (0.688,-1.300) -- (1.288,-1.300);
+  \fill (0,1.300) circle[radius=\ptr]; \fill (-1.212,-1.300) circle[radius=\ptr];
+  \node[right] at (3.450,1.300) {$\ell$}; \node[right] at (2.238,-1.300) {$m$};
+  \node[above right] at (0.507,2.388) {$t$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.333,1.823) {$1$};
+  \node[fill=white,inner sep=1pt,font=\small] at (0.523,1.633) {$2$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.523,0.967) {$3$};
+  \node[fill=white,inner sep=1pt,font=\small] at (0.333,0.777) {$4$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-1.546,-0.777) {$5$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.689,-0.967) {$6$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-1.735,-1.633) {$7$};
+  \node[fill=white,inner sep=1pt,font=\small] at (-0.879,-1.823) {$8$};
+\end{tikzpicture}
+\end{document}
