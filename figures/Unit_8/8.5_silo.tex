@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.15cm,y=0.15cm]
+  \draw[hid] (6,0) arc[start angle=0,end angle=180,x radius=6,y radius=1.8];
+  \draw[fig] (-6,0) arc[start angle=180,end angle=360,x radius=6,y radius=1.8];
+  \draw[fig] (-6,0)--(-6,20) (6,0)--(6,20);
+  \draw[fig] (-6,20) arc[start angle=180,end angle=0,radius=6];
+  \draw[hid] (0,20) ellipse[x radius=6,y radius=1.8];
+  \node[right] at (6.4,10) {20 ft}; \draw[dashed,thick] (0,20)--(6,20) node[midway,fill=white,inner sep=1pt,font=\small] {6 ft};
+\end{tikzpicture}
+\end{document}

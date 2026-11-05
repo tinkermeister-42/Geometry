@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}
+    \cyl{1.1}{2.2}
+    \fill[gray!35,opacity=.8] (-1.1,0) arc[start angle=180,end angle=360,x radius=1.1,y radius=0.33]--(0,2.2)--cycle;
+    \cone{1.1}{2.2}
+    \node[below] at (0,-0.55) {3 cones fill 1 cylinder};
+  \end{scope}
+  \begin{scope}[shift={(5.5,0)},ob]
+    \cuboid{2}{2.2}{2}
+    \fill[gray!35,opacity=.8] (0,0,0)--(2,0,0)--(1,2.2,1)--cycle;
+    \fill[gray!35,opacity=.8] (2,0,0)--(2,0,2)--(1,2.2,1)--cycle;
+    \sqpyr{2}{2}{2.2}
+    \node[below] at (1,-0.15,0) {3 pyramids fill 1 prism};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

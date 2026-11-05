@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.28cm,y=0.28cm]
+  \draw[fig] (-3,10)--(0,0)--(3,10);
+  \draw[hid] (3,10) arc[start angle=0,end angle=180,x radius=3,y radius=0.9];
+  \draw[fig] (-3,10) arc[start angle=180,end angle=360,x radius=3,y radius=0.9];
+  \draw[fig] (-3,10) arc[start angle=180,end angle=0,radius=3];
+  \draw[dashed,thick] (0,10)--(3,10) node[midway,fill=white,inner sep=1pt,font=\small] {3 cm}; \draw[dashed,thick] (0,0)--(0,10) node[midway,fill=white,inner sep=1pt,font=\small] {10 cm};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.35cm,y=0.35cm]
+  \draw[fig] (-5,0) arc[start angle=180,end angle=360,radius=5];
+  \draw[fig] (0,0) ellipse[x radius=5,y radius=1.5];
+  \draw[dashed,thick] (0,0)--(0,-5) node[midway,fill=white,inner sep=1pt,font=\small] {5 in}; \draw[dashed,thick] (0,0)--(5,0);
+\end{tikzpicture}
+\end{document}
