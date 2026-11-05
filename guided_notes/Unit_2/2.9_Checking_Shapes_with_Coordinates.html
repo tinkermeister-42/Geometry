@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided Notes 2.9 - Checking Shapes with Coordinates</title>
+<link rel="stylesheet" href="../assets/guided-notes.css">
+</head>
+<body>
+<section class="sheet">
+
+  <div class="masthead">
+    <a class="backlink" href="../../chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.html">&larr; back to the lesson</a>
+    <h1>2.9 &nbsp;Checking Shapes with Coordinates</h1>
+    <div class="sub">Guided Notes - Unit 2: The Pythagorean Theorem and the Coordinate Plane - DHS Geometry</div>
+    <div class="idline"><span>Name</span><span class="small">Date</span><span class="small">Period</span></div>
+  </div>
+
+<div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Show that a triangle is a right triangle in two ways</li>
+      <li>Decide if a triangle is isosceles or equilateral from its side lengths</li>
+      <li>Decide if a quadrilateral is a parallelogram, rectangle, rhombus, or square</li>
+      <li>Tell what a figure only looks like from what it is, and find the fourth vertex of a parallelogram</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="work">
+      <p>1. Find the slope of the line through (&minus;1, 2) and (3, 5).</p>
+      <div class="h05"></div>
+      <p>2. Find the distance from (&minus;2, 1) to (1, 5).</p>
+      <div class="h05"></div>
+      <p>3. Solve 2<var>x</var> &minus; 3 = <var>x</var> + 5.</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+
+  <h2><span class="num">2.9.1</span>Is It a Right Triangle?</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Way 1: two sides have slopes with a product of <span class="b s"></span>.</li>
+      <li>Way 2: the squares of the sides satisfy <span class="b l"></span>.</li>
+      <li>Always end with: "Because ..., the triangle is a ...".</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> Show that triangle <var>ABC</var> with <var>A</var>(2, 1), <var>B</var>(8, 3), and <var>C</var>(1, 4) is a right triangle. Use both ways.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_triangle.svg" alt="triangle ABC with A(2,1), B(8,3), C(1,4)" style="width:2.2in">
+
+      <p>Way 1. Slope of <span class="seg"><var>AB</var></span>: <span class="f"><b>3 &minus; 1</b><b>8 &minus; 2</b></span> = <span class="b m"></span>. Slope of <span class="seg"><var>AC</var></span>: <span class="f"><b>4 &minus; 1</b><b>1 &minus; 2</b></span> = <span class="b s"></span>.</p>
+      <p>The product is <span class="f"><b>1</b><b>3</b></span> &middot; (&minus;3) = <span class="b s"></span>.</p>
+      <p>Way 2. <var>AB</var><sup>2</sup> = 6<sup>2</sup> + 2<sup>2</sup> = <span class="b s"></span>. <var>AC</var><sup>2</sup> = (&minus;1)<sup>2</sup> + 3<sup>2</sup> = <span class="b s"></span>. <var>BC</var><sup>2</sup> = (&minus;7)<sup>2</sup> + 1<sup>2</sup> = <span class="b s"></span>.</p>
+      <p><var>AB</var><sup>2</sup> + <var>AC</var><sup>2</sup> = 40 + 10 = 50 = <var>BC</var><sup>2</sup>.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> Is triangle <var>PQR</var> with <var>P</var>(0, 0), <var>Q</var>(6, 2), and <var>R</var>(4, 6) a right triangle?</div>
+    <div class="work">
+      <p>Slopes: <span class="seg"><var>PQ</var></span>: <span class="f"><b>2</b><b>6</b></span> = <span class="f"><b>1</b><b>3</b></span>. <span class="seg"><var>PR</var></span>: <span class="f"><b>6</b><b>4</b></span> = <span class="f"><b>3</b><b>2</b></span>. <span class="seg"><var>QR</var></span>: <span class="f"><b>6 &minus; 2</b><b>4 &minus; 6</b></span> = &minus;2.</p>
+      <p>Products: <span class="f"><b>1</b><b>3</b></span> &middot; <span class="f"><b>3</b><b>2</b></span> = <span class="f"><b>1</b><b>2</b></span>, <span class="f"><b>1</b><b>3</b></span> &middot; (&minus;2) = &minus;<span class="f"><b>2</b><b>3</b></span>, <span class="f"><b>3</b><b>2</b></span> &middot; (&minus;2) = &minus;3. None is &minus;1.</p>
+      <p>Check by distance: <var>PQ</var><sup>2</sup> = 40, <var>PR</var><sup>2</sup> = 52, <var>QR</var><sup>2</sup> = 20. 40 + 20 = 60, which is not 52.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> Show that the triangle with vertices <var>D</var>(0, 0), <var>E</var>(4, 2), and <var>F</var>(&minus;1, 2) is a right triangle. Use slopes. Write the "Because" sentence.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08"></div>
+    </div>
+  </div>
+
+
+  <h2><span class="num">2.9.2</span>Isosceles or Equilateral?</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Isosceles: at least <span class="b s"></span> equal sides.</li>
+      <li>Equilateral: <span class="b m"></span> equal sides.</li>
+      <li>Compare the lengths. If you can, compare the <span class="b m"></span> of the lengths (no radicals to deal with).</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Is triangle <var>ABC</var> with <var>A</var>(1, 1), <var>B</var>(7, 1), and <var>C</var>(4, 5) isosceles? Is it equilateral?</div>
+    <div class="work">
+      <p><var>AB</var> = |7 &minus; 1| = <span class="b s"></span>.</p>
+      <p><var>AC</var> = <span class="sqrt">3<sup>2</sup> + 4<sup>2</sup></span> = <span class="b s"></span>. <var>BC</var> = <span class="sqrt">(&minus;3)<sup>2</sup> + 4<sup>2</sup></span> = <span class="b s"></span>.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Show that the triangle with <var>A</var>(1, 1), <var>B</var>(5, 1), and <var>C</var>(3, 1 + 2<span class="sqrt">3</span>) is equilateral.</div>
+    <div class="work">
+      <p><var>AB</var> = 4.</p>
+      <p><var>AC</var> = <span class="sqrt">2<sup>2</sup> + (2<span class="sqrt">3</span>)<sup>2</sup></span> = <span class="sqrt">4 + 12</span> = <span class="b s"></span>. <var>BC</var> = <span class="sqrt">(&minus;2)<sup>2</sup> + (2<span class="sqrt">3</span>)<sup>2</sup></span> = <span class="sqrt">16</span> = 4.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> Is the triangle with vertices <var>P</var>(1, 1), <var>Q</var>(5, 1), and <var>R</var>(3, 5) isosceles? Write the "Because" sentence.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08"></div>
+    </div>
+  </div>
+
+
+  <h2><span class="num">2.9.3</span>Four-Sided Shapes</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>parallelogram</b> has <span class="b m"></span> of opposite sides parallel.</li>
+      <li>A <b>rectangle</b> is a parallelogram with a <span class="b m"></span>.</li>
+      <li>A <b>rhombus</b> has <span class="b s"></span> equal sides.</li>
+      <li>A <b>square</b> is both a <span class="b m"></span> and a <span class="b m"></span>.</li>
+    </ul>
+  </div>
+
+  <table class="steps"><tr><th style="width:1.2in">Shape</th><th>What to check with coordinates</th></tr>
+    <tr><td>Parallelogram</td><td></td></tr>
+    <tr><td>Rectangle</td><td></td></tr>
+    <tr><td>Rhombus</td><td></td></tr>
+    <tr><td>Square</td><td></td></tr></table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Is <var>ABCD</var> with <var>A</var>(1, 1), <var>B</var>(5, 2), <var>C</var>(6, 5), <var>D</var>(2, 4) a parallelogram? A rectangle? A rhombus?</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_para.svg" alt="quadrilateral ABCD with A(1,1), B(5,2), C(6,5), D(2,4)" style="width:2.0in">
+
+      <p>Slopes: <span class="seg"><var>AB</var></span>: <span class="f"><b>2 &minus; 1</b><b>5 &minus; 1</b></span> = <span class="f"><b>1</b><b>4</b></span>. <span class="seg"><var>DC</var></span>: <span class="f"><b>5 &minus; 4</b><b>6 &minus; 2</b></span> = <span class="b m"></span>. <span class="seg"><var>AD</var></span>: <span class="f"><b>4 &minus; 1</b><b>2 &minus; 1</b></span> = 3. <span class="seg"><var>BC</var></span>: <span class="f"><b>5 &minus; 2</b><b>6 &minus; 5</b></span> = <span class="b s"></span>.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+      <p>Rectangle? <span class="f"><b>1</b><b>4</b></span> &middot; 3 = <span class="f"><b>3</b><b>4</b></span>, not &minus;1. The corner at <var>A</var> is not a right angle. It is not a rectangle.</p>
+      <p>Rhombus? <var>AB</var> = <span class="sqrt">17</span> and <var>AD</var> = <span class="sqrt">10</span>. They are not equal. It is not a rhombus.</p>
+      <p><b>So</b> <var>ABCD</var> is a parallelogram and nothing more specific.</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> Is <var>ABCD</var> with <var>A</var>(2, 1), <var>B</var>(6, 3), <var>C</var>(5, 5), <var>D</var>(1, 3) a rectangle? A square?</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_rect.svg" alt="quadrilateral ABCD with A(2,1), B(6,3), C(5,5), D(1,3)" style="width:2.0in">
+
+      <p>Slopes: <span class="seg"><var>AB</var></span> and <span class="seg"><var>DC</var></span> are both <span class="f"><b>1</b><b>2</b></span>. <span class="seg"><var>AD</var></span> and <span class="seg"><var>BC</var></span> are both <span class="b s"></span>. It is a parallelogram.</p>
+      <p>At <var>A</var>: <span class="f"><b>1</b><b>2</b></span> &middot; (&minus;2) = <span class="b s"></span>. There is a right angle.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+      <p>Square? <var>AB</var> = <span class="sqrt">20</span> and <var>AD</var> = <span class="sqrt">5</span>. Not equal. <b>So</b> it is a rectangle but not a square.</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Is <var>ABCD</var> with <var>A</var>(1, 1), <var>B</var>(6, 1), <var>C</var>(9, 5), <var>D</var>(4, 5) a rhombus? A square?</div>
+    <div class="work">
+      <p><var>AB</var> = 5. <var>BC</var> = <span class="sqrt">3<sup>2</sup> + 4<sup>2</sup></span> = <span class="b s"></span>. <var>CD</var> = 5. <var>DA</var> = <span class="sqrt">(&minus;3)<sup>2</sup> + (&minus;4)<sup>2</sup></span> = 5.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+      <p>Square? <span class="seg"><var>AB</var></span> is horizontal (slope 0). <span class="seg"><var>AD</var></span> has slope <span class="f"><b>4</b><b>3</b></span>. They are not perpendicular. <b>So</b> it is a rhombus but not a square.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 10.</b> The vertices are <var>A</var>(&minus;2, &minus;1), <var>B</var>(2, &minus;1), <var>C</var>(2, 3), and <var>D</var>(&minus;2, 3). What is the most specific name? Write the "Because" sentence.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08"></div>
+    </div>
+  </div>
+
+
+  <h2><span class="num">2.9.4</span>Looks Like, or Is?</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A shape that looks like a square can be a <span class="b m"></span>.</li>
+      <li>A shape that looks like a rectangle can be a <span class="b m"></span> with a corner not quite 90<sup>&deg;</sup>.</li>
+      <li>Slopes <span class="f"><b>1</b><b>7</b></span> and 7 are not perpendicular. Their product is 1, not <span class="b s"></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 11.</b> The shape <var>ABCD</var> with <var>A</var>(1, 1), <var>B</var>(8, 2), <var>C</var>(9, 9), <var>D</var>(2, 8) looks like a tilted square. Is it a square?</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_looks.svg" alt="rhombus ABCD with A(1,1), B(8,2), C(9,9), D(2,8)" style="width:2.0in">
+
+      <p><var>AB</var> = <span class="sqrt">7<sup>2</sup> + 1<sup>2</sup></span> = <span class="sqrt">50</span>. <var>BC</var> = <span class="sqrt">1<sup>2</sup> + 7<sup>2</sup></span> = <span class="sqrt">50</span>. <var>CD</var> = <span class="sqrt">50</span>. <var>DA</var> = <span class="sqrt">50</span>. All four sides are equal, so it is a rhombus.</p>
+      <p>Slope of <span class="seg"><var>AB</var></span>: <span class="f"><b>1</b><b>7</b></span>. Slope of <span class="seg"><var>AD</var></span>: <span class="f"><b>7</b><b>1</b></span> = 7. The product is <span class="f"><b>1</b><b>7</b></span> &middot; 7 = <span class="b s"></span>, not &minus;1.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> The shape <var>ABCD</var> with <var>A</var>(2, 1), <var>B</var>(12, 2), <var>C</var>(11, 11), <var>D</var>(1, 10) looks like a rectangle. Is it?</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_nearrect.svg" alt="parallelogram ABCD with A(2,1), B(12,2), C(11,11), D(1,10)" style="width:2.2in">
+
+      <p>Slopes: <span class="seg"><var>AB</var></span> and <span class="seg"><var>DC</var></span> are both <span class="f"><b>1</b><b>10</b></span>. <span class="seg"><var>AD</var></span> and <span class="seg"><var>BC</var></span> are both <span class="f"><b>9</b><b>&minus;1</b></span> = &minus;9. It is a parallelogram.</p>
+      <p>At <var>A</var>: <span class="f"><b>1</b><b>10</b></span> &middot; (&minus;9) = <span class="b m"></span>. This is close to &minus;1, but it is not &minus;1.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="box warn">
+    <div class="lbl">Counterexample: four equal sides</div>
+    <p>Does "four equal sides" make a square? No. The rhombus in the example has four equal sides and is not a square. One example that breaks a rule is a <b>counterexample</b>. It is enough to show the rule is false.</p>
+  </div>
+
+  <div class="box warn">
+    <div class="lbl">Error analysis: Hnin's mistake</div>
+    <p>Hnin says: "<var>ABCD</var> with <var>A</var>(1, 1), <var>B</var>(5, 2), <var>C</var>(6, 5), <var>D</var>(2, 4) is a rectangle because its opposite sides are equal."</p>
+    <p>The opposite sides are equal, but that is also true for a parallelogram that is not a rectangle. The missing check is a <b>right angle</b>. Here <span class="f"><b>1</b><b>4</b></span> &middot; 3 = <span class="f"><b>3</b><b>4</b></span>, so there is no right angle. It is not a rectangle.</p>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> A quadrilateral has four equal sides. Maria says it is a square. Give a counterexample with coordinates.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08"></div>
+    </div>
+  </div>
+
+
+  <h2><span class="num">2.9.5</span>Finding the Fourth Vertex</h2>
+
+  <div class="keys">
+    <ul>
+      <li>For parallelogram <var>ABCD</var>: the step <var>A</var> &rarr; <var>D</var> equals the step <span class="b s"></span>.</li>
+      <li><var>D</var> = <var>A</var> + <var>C</var> &minus; <var>B</var>. The diagonals <span class="seg"><var>AC</var></span> and <span class="seg"><var>BD</var></span> have the same <span class="b m"></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 14.</b> Three vertices of parallelogram <var>ABCD</var> are <var>A</var>(1, 1), <var>B</var>(6, 2), and <var>C</var>(8, 6). Find <var>D</var>. Check your answer.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_2/2.9_fourth.svg" alt="three points A(1,1), B(6,2), C(8,6) on a grid" style="width:2.4in">
+
+      <p>Step from <var>B</var> to <var>C</var>: (8 &minus; 6, 6 &minus; 2) = (<span class="b s"></span>, <span class="b s"></span>).</p>
+      <p><var>D</var> = (1 + 2, 1 + 4) = (<span class="b s"></span>, <span class="b s"></span>).</p>
+      <p>Check with slopes: <span class="seg"><var>AB</var></span>: <span class="f"><b>1</b><b>5</b></span> and <span class="seg"><var>DC</var></span>: <span class="f"><b>6 &minus; 5</b><b>8 &minus; 3</b></span> = <span class="f"><b>1</b><b>5</b></span>. <span class="seg"><var>AD</var></span>: <span class="f"><b>4</b><b>2</b></span> = 2 and <span class="seg"><var>BC</var></span>: <span class="f"><b>4</b><b>2</b></span> = 2.</p>
+      <p><b>Because</b> <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 15.</b> Three vertices of parallelogram <var>PQRS</var> are <var>P</var>(0, 0), <var>Q</var>(5, 1), and <var>R</var>(7, 5). Find <var>S</var>.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08"></div>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>slopes</span><span>distances</span><span>perpendicular</span><span>rhombus</span><span>rectangle</span><span>Because</span></div>
+    <p>1. To show a right angle, show that two sides are <span class="b m"></span>: the product of their <span class="b m"></span> is &minus;1.</p>
+    <p>2. To show a triangle is isosceles, compare side lengths found with <span class="b m"></span>.</p>
+    <p>3. A parallelogram with a right angle is a <span class="b m"></span>. A shape with four equal sides is a <span class="b m"></span>.</p>
+    <p>4. A proof ends with a sentence that starts with "<span class="b m"></span> ...".</p>
+  </div>
+
+<div class="pagebreak"></div>
+  <div class="parthead"><b>2.9 Checking Shapes with Coordinates - Practice</b><span class="nm">Name</span></div>
+
+  <h2>Practice</h2>
+  <h3>Right triangle? Use slopes or distances. Write the "Because" sentence.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>1. <var>A</var>(0, 0), <var>B</var>(4, 2), <var>C</var>(&minus;1, 2)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>2. <var>P</var>(&minus;2, 1), <var>Q</var>(2, 3), <var>R</var>(4, &minus;1)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>3. <var>X</var>(0, 0), <var>Y</var>(5, 1), <var>Z</var>(2, 4)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <h3>Isosceles, equilateral, or neither? Find all three side lengths.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2"><div><p>4. (&minus;4, 0), (2, 0), (&minus;1, 5)</p>
+<div class="h08"></div>
+</div><div><p>5. (0, 0), (4, 0), (1, 3)</p>
+<div class="h1"></div>
+</div></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>6. (0, 0), (6, 0), (3, 3<span class="sqrt">3</span>)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <h3>Name each quadrilateral as specifically as you can: parallelogram, rectangle, rhombus, square, or none of these. Show your checks.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>7. <var>A</var>(0, 0), <var>B</var>(6, 0), <var>C</var>(8, 3), <var>D</var>(2, 3)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>8. <var>A</var>(0, 0), <var>B</var>(3, 4), <var>C</var>(8, 4), <var>D</var>(5, 0)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>9. <var>A</var>(1, 2), <var>B</var>(5, 0), <var>C</var>(7, 4), <var>D</var>(3, 6)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>10. <var>A</var>(0, 0), <var>B</var>(4, 0), <var>C</var>(5, 3), <var>D</var>(0, 3)</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <h3>Looks like, or is?</h3>
+  <div class="ex">
+    <div class="work">
+      <p>11. The shape looks like a rectangle. Is it? Use slopes. (<var>P</var>(0, 0), <var>Q</var>(8, 1), <var>R</var>(7, 8), <var>S</var>(&minus;1, 7))</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>12. Kofi says every quadrilateral with four equal sides is a square. Give a counterexample with coordinates.</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>13. Moses says <var>A</var>(0, 0), <var>B</var>(5, 1), <var>C</var>(6, 6), <var>D</var>(1, 5) is a square because all sides are <span class="sqrt">26</span>. Find his mistake.</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <h3>Find the fourth vertex.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>14. Parallelogram <var>ABCD</var> has <var>A</var>(0, 0), <var>B</var>(7, 1), <var>C</var>(9, 5). Find <var>D</var>.</p>
+<div class="h08"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>15. Rectangle <var>ABCD</var> has <var>A</var>(&minus;3, 1), <var>B</var>(1, &minus;1), <var>C</var>(3, 3). Show that the corner at <var>B</var> is a right angle. Find <var>D</var>.</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <h3>Test practice</h3>
+  <div class="ex">
+    <div class="work">
+      <p>16. Triangle <var>ABC</var> has vertices <var>A</var>(&minus;1, 2), <var>B</var>(5, 2), and <var>C</var>(2, 6). Which statement about the triangle is true?</p>
+<p>A. It is an equilateral triangle.</p>
+<p>B. It is an isosceles triangle that is not equilateral. </p>
+<p>C. It is a right triangle.</p>
+<p>D. It is a scalene triangle.</p>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>17. Quadrilateral <var>PQRS</var> has vertices <var>P</var>(0, 0), <var>Q</var>(4, 2), <var>R</var>(2, 6), and <var>S</var>(&minus;2, 4). What is the most specific name for <var>PQRS</var>?</p>
+<p>A. parallelogram</p>
+<p>B. rectangle</p>
+<p>C. rhombus</p>
+<p>D. square </p>
+
+    </div>
+  </div>
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="work">
+      <p>18. Rectangle <var>ABCD</var> has <var>A</var>(0, 0), <var>B</var>(4, 3), and <var>D</var>(&minus;3, 4). Find <var>C</var>. Then show that the diagonals <span class="seg"><var>AC</var></span> and <span class="seg"><var>BD</var></span> have the same length.</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>19. Three vertices of a parallelogram are (0, 0), (4, 1), and (1, 3). There are three different points that can be the fourth vertex. Find all three.</p>
+<div class="h1"></div>
+
+    </div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.42cm,y=0.42cm]
+
+\cgrid{0}{13}{0}{12}{1}
+
+\draw[fig] (2,1) -- (12,2) -- (11,11) -- (1,10) -- cycle;
+\pt{A}{(2,1)}{below}\pt{B}{(12,2)}{right}\pt{C}{(11,11)}{above right}\pt{D}{(1,10)}{above}
+
+\end{tikzpicture}
+\end{document}
