@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.38cm,y=0.38cm]
+\cgrid{-7}{7}{-4}{7}{1}
+\draw[fig,fill=gray!25] (-6,6) -- (6,6) -- (0,-3) -- cycle;
+\fill (-6,6) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (-6,6) {$P$};
+\fill (6,6) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (6,6) {$Q$};
+\fill (0,-3) circle[radius=\ptr];
+\node[below,inner sep=2.5pt] at (0,-3) {$R$};
+\fill (0,0) circle[radius=\ptr]; \node[below left,inner sep=2.5pt] at (0,0) {$O$};
+\ifkey
+\draw[answer,fill=key!12] (-2.0,2.0) -- (2.0,2.0) -- (0.0,-1.0) -- cycle;
+\fill[key] (-2.0,2.0) circle[radius=\ptr];
+\node[above left,key,inner sep=2.5pt] at (-2.0,2.0) {\ans{$P'$}};
+\fill[key] (2.0,2.0) circle[radius=\ptr];
+\node[above right,key,inner sep=2.5pt] at (2.0,2.0) {\ans{$Q'$}};
+\fill[key] (0.0,-1.0) circle[radius=\ptr];
+\node[right,key,inner sep=2.5pt] at (0.0,-1.0) {\ans{$R'$}};
+\draw[key,dashed,thin] (0,0) -- (-2,2);
+\draw[key,dashed,thin] (0,0) -- (2,2);
+\draw[key,dashed,thin] (0,0) -- (0,-1);
+\fi
+\end{tikzpicture}
+\end{document}

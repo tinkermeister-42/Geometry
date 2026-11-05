@@ -1,0 +1,30 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+\cgrid{0}{10}{0}{7}{1}
+\draw[fig,fill=gray!25] (2,2) -- (2,4) -- (6,4) -- (6,2) -- cycle;
+\fill (2,2) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (2,2) {$W$};
+\fill (2,4) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (2,4) {$X$};
+\fill (6,4) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (6,4) {$Y$};
+\fill (6,2) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (6,2) {$Z$};
+\draw[fig,dashed,fill=gray!10] (3.0,3.0) -- (3.0,6.0) -- (9.0,6.0) -- (9.0,3.0) -- cycle;
+\fill (3.0,3.0) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (3.0,3.0) {$W'$};
+\fill (3.0,6.0) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (3.0,6.0) {$X'$};
+\fill (9.0,6.0) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (9.0,6.0) {$Y'$};
+\fill (9.0,3.0) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (9.0,3.0) {$Z'$};
+\draw[gray!70!black,dashed,thin] (0,0) -- (3,3);
+\draw[gray!70!black,dashed,thin] (0,0) -- (3,6);
+\draw[gray!70!black,dashed,thin] (0,0) -- (9,6);
+\draw[gray!70!black,dashed,thin] (0,0) -- (9,3);
+\fill (0,0) circle[radius=\ptr]; \node[below left,inner sep=2.5pt] at (0,0) {$O$};
+\end{tikzpicture}
+\end{document}

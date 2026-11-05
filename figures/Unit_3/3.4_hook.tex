@@ -1,0 +1,25 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.5cm,y=0.5cm]
+\cgrid{0}{9}{0}{7}{1}
+\draw[fig,fill=gray!25] (2,1) -- (4,1) -- (2,3) -- cycle;
+\fill (2,1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (2,1) {$A$};
+\fill (4,1) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (4,1) {$B$};
+\fill (2,3) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (2,3) {$C$};
+\draw[fig,dashed,fill=gray!10] (4,2) -- (8,2) -- (4,6) -- cycle;
+\fill (4,2) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (4,2) {$A'$};
+\fill (8,2) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (8,2) {$B'$};
+\fill (4,6) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (4,6) {$C'$};
+\draw[gray!70!black,dashed,thin] (0,0) -- (4,2);
+\draw[gray!70!black,dashed,thin] (0,0) -- (8,2);
+\draw[gray!70!black,dashed,thin] (0,0) -- (4,6);
+\fill (0,0) circle[radius=\ptr]; \node[below left,inner sep=2.5pt] at (0,0) {$O$};
+\end{tikzpicture}
+\end{document}
