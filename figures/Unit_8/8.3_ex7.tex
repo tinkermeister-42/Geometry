@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.5cm,y=0.5cm]
+  \cone{4}{3}
+  \draw[dashed,thick] (0,0)--(0,3) (0,0)--(4,0);
+  \node[below,font=\small] at (2,-0.2) {4 in}; \node[left,font=\small] at (0,1.5) {3 in}; \node[above right,font=\small] at (2.2,1.5) {$\ell$};
+  \ifkey \node[above right,font=\small] at (2.2,1.5) {\ans{5 in}}; \fi
+\end{tikzpicture}
+\end{document}

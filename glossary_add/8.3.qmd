@@ -1,0 +1,39 @@
+### net {#glossary-net}
+
+A flat pattern that folds up into a solid. A net shows every face of the solid.
+
+> **Example:** A cube has a net made of $6$ squares.
+
+**See Also:** {{< glink "surface area" >}}
+
+***
+
+### surface area {#glossary-surface-area}
+
+The total area of all the faces (or the whole outside surface) of a solid. It is measured in square units.
+
+> **Example:** A box $8$ in by $3$ in by $5$ in has surface area $158$ square inches.
+
+**See Also:** {{< glink "lateral area" >}}, {{< glink net >}}, {{< glink area >}}
+
+***
+
+### lateral area {#glossary-lateral-area}
+
+The area of the sides of a solid, without the base or bases.
+
+> **Example:** The lateral area of a cylinder is $2\pi r h$.
+
+**See Also:** {{< glink "surface area" >}}
+
+***
+
+### slant height {#glossary-slant-height}
+
+For a pyramid, the height of a triangle face, measured along the face from the base edge to the apex. For a cone, the distance along the surface from the edge of the base to the apex. It is written $\ell$.
+
+> **Example:** A cone with radius $3$ and height $4$ has slant height $5$.
+
+**See Also:** {{< glink pyramid >}}, {{< glink cone >}}, {{< glink "Pythagorean theorem" >}}
+
+***

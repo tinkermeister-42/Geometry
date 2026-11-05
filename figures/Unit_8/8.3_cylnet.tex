@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}\cyl{0.8}{2}\node[below] at (0,-0.5) {cylinder};\end{scope}
+  \draw[->,very thick] (1.6,1)--(2.7,1);
+  \begin{scope}[shift={(3.2,0)}]
+    \draw[fig,shade] (0,0) rectangle (5.03,2);
+    \draw[fig,shade] (1.3,2.8) circle[radius=0.8]; \draw[fig,shade] (3.7,-0.8) circle[radius=0.8];
+    \node[below] at (2.5,-0.15) {$2\pi r$}; \node[right] at (5.1,1) {$h$};
+    \draw[thick] (1.3,2.8)--(2.1,2.8); \node[above,font=\small] at (1.75,2.8) {$r$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

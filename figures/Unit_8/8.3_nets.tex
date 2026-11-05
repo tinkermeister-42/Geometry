@@ -1,0 +1,39 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \tikzset{n/.style={thick,fill=gray!12}}
+  % cube
+  \begin{scope}
+    \foreach \i in {0,...,3} {\draw[n] (0.8*\i,0) rectangle +(0.8,0.8);}
+    \draw[n] (0.8,0.8) rectangle +(0.8,0.8); \draw[n] (0.8,-0.8) rectangle +(0.8,0.8);
+    \node at (1.6,-1.3) {cube};
+  \end{scope}
+  % rectangular prism w=2 d=1.2 h=0.8
+  \begin{scope}[shift={(5,0)}]
+    \draw[n] (0,0) rectangle (2,0.8); \draw[n] (2,0) rectangle (3.2,0.8);
+    \draw[n] (3.2,0) rectangle (5.2,0.8); \draw[n] (5.2,0) rectangle (6.4,0.8);
+    \draw[n] (0,0.8) rectangle (2,2); \draw[n] (0,-1.2) rectangle (2,0);
+    \node at (3.2,-1.7) {rectangular prism};
+  \end{scope}
+  % triangular prism: legs 1.2 and 1.6, hyp 2
+  \begin{scope}[shift={(13,0.4)}]
+    \draw[n] (0,0) rectangle (1.2,1.8); \draw[n] (1.2,0) rectangle (2.8,1.8); \draw[n] (2.8,0) rectangle (4.8,1.8);
+    \draw[n] (1.2,1.8)--(2.8,1.8)--(1.2,3)--cycle; \draw[n] (1.2,0)--(2.8,0)--(1.2,-1.2)--cycle;
+    \node at (2.4,-1.7) {triangular prism};
+  \end{scope}
+  % square pyramid: base 1.4, slant 1.4
+  \begin{scope}[shift={(0.6,-5)}]
+    \draw[n] (0,0) rectangle (1.4,1.4);
+    \draw[n] (0,1.4)--(1.4,1.4)--(0.7,2.8)--cycle; \draw[n] (0,0)--(1.4,0)--(0.7,-1.4)--cycle;
+    \draw[n] (0,0)--(0,1.4)--(-1.4,0.7)--cycle; \draw[n] (1.4,0)--(1.4,1.4)--(2.8,0.7)--cycle;
+    \node at (0.7,-1.9) {square pyramid};
+  \end{scope}
+  % cylinder: r=0.5, length pi
+  \begin{scope}[shift={(6.5,-4.6)}]
+    \draw[n] (0,0) rectangle (3.14,1.4);
+    \draw[n] (0.8,1.9) circle[radius=0.5]; \draw[n] (2.3,-0.5) circle[radius=0.5];
+    \node at (1.6,-1.5) {cylinder};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

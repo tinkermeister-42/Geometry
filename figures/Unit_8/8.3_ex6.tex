@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob,scale=0.5]
+  \sqpyr{6}{6}{4}
+  \draw[dashed,thick] (3,4,3)--(3,0,0); \rtmark{(6,0,0)}{(3,0,0)}{(3,4,3)}
+  \node[below] at (3,-0.1,0) {6 ft}; \node[left,font=\small] at (3,2.2,1.5) {};
+  \node[right,font=\small] at (3.05,2,1.2) {5 ft};
+\end{tikzpicture}
+\end{document}
