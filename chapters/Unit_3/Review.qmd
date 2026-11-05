@@ -1,0 +1,150 @@
+# Unit 3 Review {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 3 Review](/guided_notes/Unit_3/Unit_3_Review.html){target="_blank"} (fill-in review to print and write on)
+:::
+
+{{< learn >}}
+
+### 3.1 - Translations
+
+**Example 1:** Translate $P(-3, 4)$ by $(x + 5, y - 6)$. Then find the rule that moves $A(2, -1)$ to $A'(-4, 3)$.
+
+$P' = (2, -2)$. Change in $x$: $-4 - 2 = -6$. Change in $y$: $3 - (-1) = 4$. Rule: $(x - 6, y + 4)$.
+
+### 3.2 - Reflections
+
+**Example 2:** Reflect $(-4, 3)$ over the $y$-axis and over $y = x$. Find the line of reflection that maps $A(0, 2)$ to $A'(6, 2)$.
+
+$y$-axis: $(4, 3)$. $y = x$: $(3, -4)$. The midpoint of $\overline{AA'}$ is $(3, 2)$ and $\overline{AA'}$ is horizontal, so the line is $x = 3$.
+
+### 3.3 - Rotations
+
+**Example 3:** Rotate $(3, -2)$ by $90^\circ$ and by $180^\circ$ counterclockwise about the origin. Find the rotation that maps $(-1, -5)$ to $(-5, 1)$.
+
+$90^\circ$: $(-y, x) = (2, 3)$. $180^\circ$: $(-3, 2)$. For $(-1, -5) \rightarrow (-5, 1)$ the rule $(y, -x)$ works, so it is $270^\circ$ counterclockwise ($90^\circ$ clockwise).
+
+### 3.4 - Dilations
+
+**Example 4:** Dilate $(6, -9)$ with $k = \dfrac{1}{3}$ about the origin. A side of 8 becomes 20. Find $k$. Dilate $B(5, 3)$ with $k = 2$ about $(1, 1)$.
+
+$(2, -3)$. $k = \dfrac{20}{8} = \dfrac{5}{2}$. $B$: $(4, 2) \rightarrow (8, 4) \rightarrow (9, 5)$.
+
+### 3.5 - Sequences of Transformations and Symmetry
+
+**Example 5:** Do "translate by $(x + 2, y)$, then reflect over the $y$-axis" on $P(1, 3)$. Do the moves in the other order. Then give the order of rotational symmetry and the smallest angle for a regular octagon.
+
+First order: $(3, 3) \rightarrow (-3, 3)$. Other order: $(-1, 3) \rightarrow (1, 3)$. Different. A regular octagon has order 8 and smallest angle $\dfrac{360^\circ}{8} = 45^\circ$.
+
+{{< practice >}}
+
+**3.1 - I can translate a figure, write a translation rule, and check it with distance and slope.**
+
+1. Apply $(x - 6, y + 3)$ to $(4, -5)$.
+
+2. $A(-3, 2)$ moves to $A'(1, -4)$. Write the rule and say it in words.
+
+3. Triangle $RST$ has $R(0, 0)$, $S(4, 0)$, $T(0, 3)$. Translate it by $(x + 2, y + 5)$. Give the image coordinates.
+
+4. Show that $ST = S'T'$ and that the slopes are equal for the triangle in problem 3.
+
+5. The image of $(3a, a + 2)$ under $(x - 5, y + 1)$ is $(4, 6)$. Find $a$.
+
+**3.2 - I can reflect a figure over a line and find the line of reflection.**
+
+6. Reflect $(-5, 2)$ over the $x$-axis.
+
+7. Reflect $(3, -6)$ over the line $y = -x$.
+
+8. Reflect $(1, 4)$ over the line $x = -2$.
+
+9. $A(-2, 3)$ is reflected to $A'(4, 3)$. Find the line of reflection.
+
+10. Triangle $ABC$ has $A(1, 1)$, $B(5, 2)$, $C(2, 4)$. Reflect it over the $x$-axis. Does the orientation stay the same?
+
+**3.3 - I can rotate a figure about the origin and find a rotation.**
+
+11. Rotate $(-4, 1)$ by $90^\circ$ counterclockwise about the origin.
+
+12. Rotate $(2, -7)$ by $180^\circ$ about the origin.
+
+13. Rotate $(5, 3)$ by $90^\circ$ clockwise about the origin.
+
+14. $(4, -2) \rightarrow (2, 4)$ about the origin. Find the rotation.
+
+15. $A(3, 4)$ rotates $90^\circ$ counterclockwise to $A'(-4, 3)$. Show $OA = OA'$ and $\overline{OA} \perp \overline{OA'}$.
+
+**3.4 - I can dilate a figure and find a scale factor.**
+
+16. Dilate $(-4, 6)$ with $k = \dfrac{1}{2}$ about the origin.
+
+17. Dilate $(3, -2)$ with $k = 4$ about the origin.
+
+18. $A(2, 6) \rightarrow A'(5, 15)$ about the origin. Find $k$.
+
+19. Dilate $(4, 4)$ with $k = 3$ about the center $(2, 3)$.
+
+20. A triangle with sides 6, 8, 10 is dilated with $k = 1.5$. Find the new sides. What happens to the angles?
+
+**3.5 - I can do a sequence of transformations and find symmetry.**
+
+21. Translate $(2, 3)$ by $(x + 3, y - 2)$. Then reflect over the $x$-axis.
+
+22. Reflect over the $y$-axis, then translate by $(x + 4, y + 1)$. Write one rule.
+
+23. Use $P(1, 2)$. Show that "rotate $90^\circ$ counterclockwise, then translate by $(x + 3, y)$" is not the same as "translate first, then rotate".
+
+24. Find the lines of symmetry, the order of rotational symmetry, and the smallest angle for a regular hexagon.
+
+25. Find the lines of symmetry and the order of rotational symmetry of the letter S.
+
+**Test practice**
+
+26. Point $Q(-2, 5)$ is translated by $(x + 4, y - 7)$. What are the coordinates of $Q'$?
+
+    A. $(2, -2)$\
+    B. $(-6, 12)$\
+    C. $(2, 12)$\
+    D. $(-6, -2)$
+
+27. What are the coordinates of the image of $(6, -1)$ after a reflection over the line $y = x$?
+
+    A. $(-1, 6)$\
+    B. $(1, -6)$\
+    C. $(6, 1)$\
+    D. $(-6, -1)$
+
+28. What are the coordinates of the image of $(-3, -2)$ after a rotation of $270^\circ$ counterclockwise about the origin?
+
+    A. $(-2, 3)$\
+    B. $(2, -3)$\
+    C. $(3, 2)$\
+    D. $(2, 3)$
+
+29. A dilation about the origin has scale factor $\dfrac{2}{3}$. What is the image of $(9, -6)$?
+
+    A. $(6, -4)$\
+    B. $(13.5, -9)$\
+    C. $(6, 4)$\
+    D. $(-6, 4)$
+
+30. A transformation keeps all lengths and angles but reverses the orientation of a figure. Which transformation is it?
+
+    A. a reflection\
+    B. a translation\
+    C. a rotation\
+    D. a dilation
+
+31. A regular pentagon has rotational symmetry. What is the smallest angle of rotation that maps it onto itself?
+
+    A. $72^\circ$\
+    B. $60^\circ$\
+    C. $90^\circ$\
+    D. $108^\circ$
+
+32. Which of these is NOT a rigid motion?
+
+    A. a dilation with scale factor 3\
+    B. a rotation of $90^\circ$\
+    C. a reflection over the $x$-axis\
+    D. a translation by $(x + 2, y)$
