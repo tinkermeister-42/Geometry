@@ -1,0 +1,59 @@
+### transformation {#glossary-transformation}
+
+A rule that moves or changes every point of a figure. Translations, reflections, rotations, and dilations are transformations.
+
+> **Example:**
+>
+> The rule $(x, y) \rightarrow (x + 3, y - 2)$ is a transformation.
+
+**See Also:** {{< glink preimage >}}, {{< glink image >}}
+
+***
+
+### preimage {#glossary-preimage}
+
+The original figure, before a transformation.
+
+> **Example:**
+>
+> If $\triangle ABC$ is slid to $\triangle A'B'C'$, then $\triangle ABC$ is the preimage.
+
+**See Also:** {{< glink image >}}
+
+***
+
+### image {#glossary-image}
+
+The new figure after a transformation. The image of point $A$ is named $A'$ and is read "A prime".
+
+> **Example:**
+>
+> If $A(1, 2)$ is slid 3 right, then $A'$ is $(4, 2)$.
+
+**See Also:** {{< glink preimage >}}
+
+***
+
+### translation {#glossary-translation}
+
+A transformation that slides every point of a figure the same distance in the same direction. It does not turn or flip the figure.
+
+> **Example:**
+>
+> $(x, y) \rightarrow (x + 5, y - 1)$ moves a figure 5 units right and 1 unit down.
+
+**See Also:** {{< glink "rigid motion" >}}
+
+***
+
+### rigid motion {#glossary-rigid-motion}
+
+A transformation that keeps all lengths and all angle measures the same. Translations, reflections, and rotations are rigid motions.
+
+> **Example:**
+>
+> A dilation with scale factor 2 is not a rigid motion, because it doubles the lengths.
+
+**See Also:** {{< glink translation >}}
+
+***

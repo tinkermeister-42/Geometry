@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.38cm,y=0.38cm]
+\cgrid{-8}{8}{-6}{6}{1}
+\draw[fig,fill=gray!25] (2,-1) -- (6,-1) -- (7,2) -- (3,3) -- cycle;
+\fill (2,-1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (2,-1) {$W$};
+\fill (6,-1) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (6,-1) {$X$};
+\fill (7,2) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (7,2) {$Y$};
+\fill (3,3) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (3,3) {$Z$};
+\ifkey
+\draw[answer,fill=key!12] (-3,2) -- (1,2) -- (2,5) -- (-2,6) -- cycle;
+\fill[key] (-3,2) circle[radius=\ptr];
+\node[below left,key,inner sep=2.5pt] at (-3,2) {\ans{$W'$}};
+\fill[key] (1,2) circle[radius=\ptr];
+\node[below right,key,inner sep=2.5pt] at (1,2) {\ans{$X'$}};
+\fill[key] (2,5) circle[radius=\ptr];
+\node[above right,key,inner sep=2.5pt] at (2,5) {\ans{$Y'$}};
+\fill[key] (-2,6) circle[radius=\ptr];
+\node[above left,key,inner sep=2.5pt] at (-2,6) {\ans{$Z'$}};
+\fi
+\end{tikzpicture}
+\end{document}
