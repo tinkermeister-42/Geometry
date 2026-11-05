@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1.50cm,y=1.50cm]
+
+
+\draw[<->,thick] (5.7,0) -- (9.3,0);
+\foreach \x in {6,7,8,9}{\draw[thick] (\x,-.12) -- (\x,.12); \node[below] at (\x,-.15) {$\x$};}
+\draw[thick] (7.5,-.1) -- (7.5,.1); \node[below,font=\scriptsize] at (7.5,-.15) {$7.5$};
+\fill (7.07,0) circle[radius=2.5pt]; \node[above right] at (7.07,.05) {$\sqrt{50}$};
+\node[above,font=\scriptsize] at (7,.7) {$7^2=49$}; \node[above,font=\scriptsize] at (8,.7) {$8^2=64$};
+\draw[gray] (7,.65) -- (7,.15); \draw[gray] (8,.65) -- (8,.15);
+
+\end{tikzpicture}
+\end{document}

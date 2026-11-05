@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1.10cm,y=1.10cm]
+
+
+\draw[gray!55,thin] (0,0) grid (2,2);
+\draw[dashed] (0,0) rectangle (2,2);
+\draw[fig,fill=gray!15] (1,0) -- (2,1) -- (1,2) -- (0,1) -- cycle;
+\node at (1,1) {$2$};
+\node[right] at (2.05,0.35) {$\sqrt{2}$}; \draw[->,gray] (2.05,0.35) -- (1.55,0.5);
+
+\end{tikzpicture}
+\end{document}

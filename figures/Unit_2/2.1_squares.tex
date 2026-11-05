@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+
+\foreach \s/\x in {2/0,3/3.5,4/8}{
+  \draw[gray!55,thin] (\x,0) grid (\x+\s,\s);
+  \draw[fig,fill=gray!8,fill opacity=.5] (\x,0) rectangle (\x+\s,\s);
+  \node[below] at (\x+\s/2,0) {$\s$};
+}
+\node[font=\scriptsize] at (1,1) {area 4}; \node at (5.25,1.5) {area 9}; \node at (10,2) {area 16};
+
+\end{tikzpicture}
+\end{document}
