@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (P) at (0,0); \coordinate (E) at (0,0.8); \coordinate (M) at (1,0); \coordinate (R) at (6,0); \coordinate (T) at (6,4);
+  \draw[fig] (-0.6,0) -- (6.8,0);
+  \draw[very thick] (P) -- (E); \draw[very thick] (R) -- (T);
+  \draw[ultra thick,gray] (0.8,0) -- (1.2,0);
+  \draw[thick,dashed] (T) -- (M) -- (E);
+  \pic[ang,angle radius=7mm] {angle = E--M--P}; \pic[ang,angle radius=7mm] {angle = R--M--T};
+  \pic[rt] {right angle = M--P--E}; \pic[rt] {right angle = M--R--T};
+  \node[left=3pt] at (0,0.4) {$1.6$ m}; \node[below=3pt] at (0.4,0) {$2$ m};
+  \node[below=3pt] at (3.6,0) {$30$ m}; \node[right=3pt] at (6,2) {$h$};
+  \node[below=1pt,font=\footnotesize] at (1,-0.45) {mirror};
+  \node[font=\footnotesize] at (3.4,-1.2) {not drawn to scale};
+\end{tikzpicture}
+\end{document}
