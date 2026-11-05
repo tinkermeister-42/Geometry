@@ -1,0 +1,28 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.34cm,y=0.34cm]
+\cgrid{-7}{7}{-7}{7}{1}
+\draw[fig,fill=gray!25] (1,-2) -- (4,-3) -- (5,0) -- (2,1) -- cycle;
+\fill (1,-2) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (1,-2) {$K$};
+\fill (4,-3) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (4,-3) {$L$};
+\fill (5,0) circle[radius=\ptr];
+\node[above right,inner sep=2.5pt] at (5,0) {$M$};
+\fill (2,1) circle[radius=\ptr];
+\node[above left,inner sep=2.5pt] at (2,1) {$N$};
+\draw[thick,<->,gray!60!black] (-6.5,-6.5) -- (6.5,6.5) node[above right,font=\small] {$y = x$};
+\ifkey
+\draw[answer,fill=key!12] (-2,1) -- (-3,4) -- (0,5) -- (1,2) -- cycle;
+\fill[key] (-2,1) circle[radius=\ptr];
+\node[below left,key,inner sep=2.5pt] at (-2,1) {\ans{$K'$}};
+\fill[key] (-3,4) circle[radius=\ptr];
+\node[above left,key,inner sep=2.5pt] at (-3,4) {\ans{$L'$}};
+\fill[key] (0,5) circle[radius=\ptr];
+\node[above right,key,inner sep=2.5pt] at (0,5) {\ans{$M'$}};
+\fill[key] (1,2) circle[radius=\ptr];
+\node[below right,key,inner sep=2.5pt] at (1,2) {\ans{$N'$}};
+\fi
+\end{tikzpicture}
+\end{document}

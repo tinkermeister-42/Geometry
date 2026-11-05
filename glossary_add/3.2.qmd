@@ -1,0 +1,47 @@
+### reflection {#glossary-reflection}
+
+A transformation that flips a figure over a line. Each point and its image are the same distance from the line, on opposite sides.
+
+> **Example:**
+>
+> Reflecting $(3, 4)$ over the $x$-axis gives $(3, -4)$.
+
+**See Also:** {{< glink "line of reflection" >}}, {{< glink orientation >}}
+
+***
+
+### line of reflection {#glossary-line-of-reflection}
+
+The line a figure is flipped over in a reflection. It is the perpendicular bisector of the segment from each point to its image.
+
+> **Example:**
+>
+> The $y$-axis is the line of reflection when $(2, 5)$ goes to $(-2, 5)$.
+
+**See Also:** {{< glink "perpendicular bisector" >}}
+
+***
+
+### orientation {#glossary-orientation}
+
+The order, clockwise or counterclockwise, in which the labeled points of a figure go around. A reflection reverses orientation.
+
+> **Example:**
+>
+> If $A \rightarrow B \rightarrow C$ goes counterclockwise, then $A' \rightarrow B' \rightarrow C'$ goes clockwise after a reflection.
+
+**See Also:** {{< glink reflection >}}
+
+***
+
+### perpendicular bisector {#glossary-perpendicular-bisector}
+
+A line that goes through the midpoint of a segment and is perpendicular to it.
+
+> **Example:**
+>
+> The line $x = 3$ is the perpendicular bisector of the segment from $(1, 4)$ to $(5, 4)$.
+
+**See Also:** {{< glink midpoint >}}, {{< glink perpendicular >}}
+
+***

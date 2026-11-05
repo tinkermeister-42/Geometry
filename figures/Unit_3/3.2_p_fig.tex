@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.4cm,y=0.4cm]
+\cgrid{-6}{6}{-1}{5}{1}
+\draw[fig,fill=gray!25] (2,1) -- (5,2) -- (3,4) -- cycle;
+\fill (2,1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (2,1) {$D$};
+\fill (5,2) circle[radius=\ptr];
+\node[right,inner sep=2.5pt] at (5,2) {$E$};
+\fill (3,4) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (3,4) {$F$};
+\draw[fig,dashed,fill=gray!10] (-2,1) -- (-5,2) -- (-3,4) -- cycle;
+\fill (-2,1) circle[radius=\ptr];
+\node[below right,inner sep=2.5pt] at (-2,1) {$D'$};
+\fill (-5,2) circle[radius=\ptr];
+\node[left,inner sep=2.5pt] at (-5,2) {$E'$};
+\fill (-3,4) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (-3,4) {$F'$};
+\end{tikzpicture}
+\end{document}

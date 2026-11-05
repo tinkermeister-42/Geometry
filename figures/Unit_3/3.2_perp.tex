@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.5cm,y=0.5cm]
+\cgrid{-1}{8}{0}{8}{1}
+\draw[fig] (1,2) -- cycle;
+\fill (1,2) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (1,2) {$A$};
+\draw[fig] (5,6) -- cycle;
+\fill (5,6) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (5,6) {$A'$};
+\draw[thick,dashed] (1,2) -- (5,6);
+\ifkey
+\draw[answer] (0,7) -- (7,0) node[right] {\ans{$\ell$}};
+\fill[key] (3,4) circle[radius=3pt]; \node[above right,key] at (3,4) {\ans{$M(3, 4)$}};
+\draw[key] (3.35,3.65) -- (3.65,3.95) -- (3.95,3.65);
+\fi
+\end{tikzpicture}
+\end{document}
