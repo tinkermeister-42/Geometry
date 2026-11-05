@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+\cgrid{0}{8}{0}{7}{1}
+
+\draw[fig] (1,1) -- (7,3) -- (3,6) -- cycle;
+\pt{A}{(1,1)}{below left}\pt{B}{(7,3)}{right}\pt{C}{(3,6)}{above}
+\ifkey \draw[answer,dashed] (1,1) rectangle (7,6); \node[key,font=\small] at (5.6,1.9) {\ans{6}}; \node[key,font=\small] at (5.9,5.2) {\ans{6}}; \node[key,font=\small] at (1.6,5) {\ans{5}}; \node[key,font=\small] at (4,3.2) {\ans{13}}; \fi
+
+\end{tikzpicture}
+\end{document}
