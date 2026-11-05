@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \foreach \y/\n in {0/Pine St,1.2/Oak St,3.0/Elm St} {\draw[fig,par1] (-0.9,\y) -- (8.4,\y); \node[right] at (8.5,\y) {\n};}
+  \draw[fig] (-0.12,-0.3) -- (1.45,3.625);
+  \draw[fig] (4.5,0) -- (7.65,3.5);
+  \node[above] at (1.45,3.625) {1st Ave}; \node[above] at (7.65,3.5) {2nd Ave};
+  \node[left=3pt] at (0.24,0.6) {$60$ ft}; \node[left=3pt] at (0.84,2.1) {$90$ ft};
+  \node[right=3pt] at (5.04,0.6) {$80$ ft}; \node[right=3pt] at (6.39,2.1) {$x$};
+\end{tikzpicture}
+\end{document}

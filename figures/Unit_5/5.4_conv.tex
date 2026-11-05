@@ -1,0 +1,26 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \begin{scope}
+  \coordinate (A) at (0,0); \coordinate (B) at (-115:3.3); \coordinate (C) at (-60:4.4);
+  \coordinate (D) at ($(A)!0.4!(B)$); \coordinate (E) at ($(A)!0.4!(C)$);
+  \draw[fig] (A) -- (B) -- (C) -- cycle; \draw[fig] (D) -- (E);
+  \node[above] at (A) {$A$}; \node[below left] at (B) {$B$}; \node[below right] at (C) {$C$};
+  \node[left=2pt] at (D) {$D$}; \node[right=2pt] at (E) {$E$};
+  \node[left=4pt] at ($(A)!0.2!(B)$) {$6$}; \node[left=4pt] at ($(D)!0.5!(B)$) {$9$};
+  \node[right=4pt] at ($(A)!0.2!(C)$) {$8$}; \node[right=4pt] at ($(E)!0.5!(C)$) {$12$};
+  \node at (1.1,-4.5) {\textbf{(a)}};
+  \end{scope}
+  \begin{scope}[shift={(6.5,0)}]
+  \coordinate (A) at (0,0); \coordinate (B) at (-115:2.64); \coordinate (C) at (-60:4.4);
+  \coordinate (D) at ($(A)!0.3333!(B)$); \coordinate (E) at ($(A)!0.25!(C)$);
+  \draw[fig] (A) -- (B) -- (C) -- cycle; \draw[fig] (D) -- (E);
+  \node[above] at (A) {$A$}; \node[below left] at (B) {$B$}; \node[below right] at (C) {$C$};
+  \node[left=2pt] at (D) {$D$}; \node[right=7pt] at (E) {$E$};
+  \node[left=4pt] at ($(A)!0.15!(B)$) {$4$}; \node[left=4pt] at ($(D)!0.5!(B)$) {$8$};
+  \node[right=4pt] at ($(A)!0.1!(C)$) {$5$}; \node[right=4pt] at ($(E)!0.5!(C)$) {$15$};
+  \node at (1.1,-4.5) {\textbf{(b)}};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

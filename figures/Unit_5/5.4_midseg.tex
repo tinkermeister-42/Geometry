@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (1.2,2.6); \coordinate (B) at (0,0); \coordinate (C) at (4,0);
+  \coordinate (D) at ($(A)!0.5!(B)$); \coordinate (E) at ($(A)!0.5!(C)$);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \draw[fig,par1] (D) -- (E); \draw[par1,thick] (B) -- (C);
+  \draw[tick1] (A) -- (D); \draw[tick1] (D) -- (B); \draw[tick2] (A) -- (E); \draw[tick2] (E) -- (C);
+  \node[above] at (A) {$A$}; \node[below left] at (B) {$B$}; \node[below right] at (C) {$C$};
+  \node[left=3pt] at (D) {$D$}; \node[right=3pt] at (E) {$E$};
+\end{tikzpicture}
+\end{document}

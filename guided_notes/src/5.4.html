@@ -1,0 +1,264 @@
+<!--
+lesson: 5.4
+title: Triangle Proportionality
+unit: 5
+unit_title: Similarity
+slug: Triangle_Proportionality
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Use a parallel line in a triangle to find lengths</li>
+      <li>Decide if a segment in a triangle is parallel to a side</li>
+      <li>Use the midsegment of a triangle</li>
+      <li>Use three parallel lines to find lengths on two transversals</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="work">
+      <p>1. Solve {{f <var>x</var>/12}} = {{f 5/8}}.</p>
+      <div class="h05">{{a}}<p>8<var>x</var> = 60, so <var>x</var> = 7.5</p>{{/a}}</div>
+      <p>2. Find the midpoint of (2, 5) and (8, &minus;1).</p>
+      <div class="h08">{{a}}<p>({{f 2 + 8/2}}, {{f 5 + (&minus;1)/2}}) = (5, 2)</p>{{/a}}</div>
+      <p>3. &#9651; <var>ADE</var> &sim; &#9651; <var>ABC</var>, <var>AD</var> = 3, <var>AB</var> = 9, and <var>DE</var> = 5. Find <var>BC</var>.</p>
+      <div class="h08">{{a}}<p>{{f 3/9}} = {{f 5/<var>BC</var>}}, so 3 &middot; <var>BC</var> = 45 and <var>BC</var> = 15</p>{{/a}}</div>
+    </div>
+  </div>
+  <h2><span class="num">5.4.1</span>A Line Parallel to a Side</h2>
+  <div class="keys">
+    <ul>
+      <li>If {{seg DE}} &#8741; {{seg BC}}, then &#9651; <var>ADE</var> &sim; <span class="b m">{{a}}&#9651; <var>ABC</var>{{/a}}</span> (see 5.3).</li>
+      <li>The parts of the sides are proportional: {{f <var>AD</var>/<var>DB</var>}} =  <span class="b m">{{a}}{{f <var>AE</var>/<var>EC</var>}}{{/a}}</span>.</li>
+      <li>Be careful: the ratio compares a <span class="b s">{{a}}part{{/a}}</span> to a part, so use <var>DB</var> and <var>EC</var>, not <var>AB</var> and <var>AC</var>.</li>
+    </ul>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> <b>Find a missing part.</b> {{seg DE}} &#8741; {{seg BC}}. <var>AD</var> = 6, <var>DB</var> = 4, and <var>AE</var> = 9. Find <var>EC</var>.</div>
+    <div class="work h13">
+      <div style="text-align:center">{{fig 5.4_split|triangle ABC with DE parallel to BC; AD is 6, DB is 4, AE is 9 and EC is x|2.6in}}</div>
+ {{a}}<p>{{f <var>AD</var>/<var>DB</var>}} = {{f <var>AE</var>/<var>EC</var>}}, so {{f 6/4}} = {{f 9/<var>x</var>}}.</p><p>6<var>x</var> = 36, so <var>x</var> = 6.</p><p><var>EC</var> = 6.</p>{{/a}}
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 2.</b> <var>AD</var> = 10, <var>DB</var> = 4, and <var>EC</var> = 6. Find <var>AE</var>.<span class="yt">your turn</span></div>
+    <div class="work h05">
+      
+{{a}}<p>{{f 10/4}} = {{f <var>x</var>/6}}, so 4<var>x</var> = 60 and <var>AE</var> = 15.</p>{{/a}}
+    </div>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 3.</b> <b>Expressions.</b> {{seg DE}} &#8741; {{seg BC}}. <var>AD</var> = <var>x</var>, <var>DB</var> = 6, <var>AE</var> = <var>x</var> + 2, and <var>EC</var> = 9. Find <var>x</var>.</div>
+    <div class="work h13">
+      <div style="text-align:center">{{fig 5.4_split2|triangle ABC with DE parallel to BC; AD is x, DB is 6, AE is x plus 2 and EC is 9|2.6in}}</div>
+ {{a}}<p>{{f <var>x</var>/6}} = {{f <var>x</var> + 2/9}}</p><p>9<var>x</var> = 6(<var>x</var> + 2)</p><p>9<var>x</var> = 6<var>x</var> + 12, so 3<var>x</var> = 12 and <var>x</var> = 4.</p><p>Check: {{f 4/6}} = {{f 6/9}}.</p>{{/a}}
+    </div>
+  </div>
+  <h2><span class="num">5.4.2</span>The Converse</h2>
+  <div class="keys">
+    <ul>
+      <li><b>Converse</b>: if {{f <var>AD</var>/<var>DB</var>}} = {{f <var>AE</var>/<var>EC</var>}}, then {{seg DE}} &#8741; <span class="b m">{{a}}{{seg BC}}{{/a}}</span>.</li>
+      <li>To test, compare the two <span class="b m">{{a}}ratios{{/a}}</span>. If they are equal, the segment is parallel.</li>
+      <li>If the ratios are not equal, the segment is <span class="b s">{{a}}not{{/a}}</span> parallel to the side.</li>
+    </ul>
+  </div>
+  <div style="text-align:center">{{fig 5.4_conv|two triangles with a segment DE inside. In (a), AD is 6, DB is 9, AE is 8 and EC is 12. In (b), AD is 4, DB is 8, AE is 5 and EC is 15.|4.6in}}</div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> <b>Is it parallel?.</b> Use the figure above.<br>
+a. In triangle (a), is {{seg DE}} &#8741; {{seg BC}}?<br>
+b. In triangle (b), is {{seg DE}} &#8741; {{seg BC}}?</div>
+    <div class="work h16">
+      
+ {{a}}<p>a. {{f <var>AD</var>/<var>DB</var>}} = {{f 6/9}} = {{f 2/3}} and {{f <var>AE</var>/<var>EC</var>}} = {{f 8/12}} = {{f 2/3}}. The ratios are equal. <b>Yes</b>, {{seg DE}} &#8741; {{seg BC}}.</p><p>b. {{f <var>AD</var>/<var>DB</var>}} = {{f 4/8}} = {{f 1/2}} and {{f <var>AE</var>/<var>EC</var>}} = {{f 5/15}} = {{f 1/3}}. The ratios are not equal. <b>No.</b></p>{{/a}}
+    </div>
+  </div>
+  <div class="box warn"><b>Shows or suggests?.</b> A segment that looks parallel may not be. Only numbers (equal ratios) or parallel marks tell you for sure.</div>
+  <h2><span class="num">5.4.3</span>The Midsegment of a Triangle</h2>
+  <div class="keys">
+    <ul>
+      <li>A <b>midsegment</b> joins the <span class="b m">{{a}}midpoints{{/a}}</span> of two sides of a triangle.</li>
+      <li>The midsegment is <span class="b m">{{a}}parallel{{/a}}</span> to the third side.</li>
+      <li>The midsegment is <span class="b s">{{a}}half{{/a}}</span> as long as the third side.</li>
+    </ul>
+  </div>
+  <div style="text-align:center">{{fig 5.4_midseg|triangle ABC with D the midpoint of AB and E the midpoint of AC; DE is parallel to BC|2.6in}}</div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> <b>Use the midsegment.</b> <var>D</var> and <var>E</var> are the midpoints of {{seg AB}} and {{seg AC}}.<br>
+a. <var>BC</var> = 18. Find <var>DE</var>.<br>
+b. <var>DE</var> = 3<var>x</var> + 1 and <var>BC</var> = 5<var>x</var> + 12. Find <var>x</var> and <var>BC</var>.</div>
+    <div class="work h16">
+      
+ {{a}}<p>a. <var>DE</var> = {{f 1/2}}(18) = 9.</p><p>b. <var>BC</var> = 2 &middot; <var>DE</var>, so 5<var>x</var> + 12 = 2(3<var>x</var> + 1).</p><p>5<var>x</var> + 12 = 6<var>x</var> + 2, so <var>x</var> = 10.</p><p><var>BC</var> = 5(10) + 12 = 62. (Check: <var>DE</var> = 31.)</p>{{/a}}
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> a. <var>DE</var> = 7.5. Find <var>BC</var>.<br>
+b. <var>DE</var> = 2<var>x</var> + 4 and <var>BC</var> = 6<var>x</var> &minus; 4. Find <var>x</var>.<span class="yt">your turn</span></div>
+    <div class="work h13">
+      
+{{a}}<p>a. <var>BC</var> = 2(7.5) = 15.</p><p>b. 6<var>x</var> &minus; 4 = 2(2<var>x</var> + 4), so 6<var>x</var> &minus; 4 = 4<var>x</var> + 8, 2<var>x</var> = 12, and <var>x</var> = 6.</p>{{/a}}
+    </div>
+  </div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> <b>Check with coordinates.</b> <var>A</var>(2, 8), <var>B</var>(0, 0), <var>C</var>(10, 2). <var>D</var> is the midpoint of {{seg AB}}. <var>E</var> is the midpoint of {{seg AC}}. Show that {{seg DE}} &#8741; {{seg BC}} and <var>DE</var> = {{f 1/2}} <var>BC</var>.</div>
+    <div class="work h25">
+      <div style="text-align:center">{{fig 5.4_mid|triangle ABC with A(2,8), B(0,0), C(10,2); D is the midpoint of AB and E is the midpoint of AC, joined by a segment|2.9in}}</div>
+ {{a}}<p>Midpoints: <var>D</var> = ({{f 2 + 0/2}}, {{f 8 + 0/2}}) = (1, 4) and <var>E</var> = ({{f 2 + 10/2}}, {{f 8 + 2/2}}) = (6, 5).</p><p>Slope of {{seg DE}}: {{f 5 &minus; 4/6 &minus; 1}} = {{f 1/5}}. Slope of {{seg BC}}: {{f 2 &minus; 0/10 &minus; 0}} = {{f 1/5}}. Equal slopes, so parallel.</p><p><var>DE</var> = &radic;<span style="text-decoration:overline">5<sup>2</sup> + 1<sup>2</sup></span> = &radic;<span style="text-decoration:overline">26</span> and <var>BC</var> = &radic;<span style="text-decoration:overline">10<sup>2</sup> + 2<sup>2</sup></span> = &radic;<span style="text-decoration:overline">104</span> = 2&radic;<span style="text-decoration:overline">26</span>.</p><p>So <var>DE</var> = {{f 1/2}} <var>BC</var>.</p>{{/a}}
+    </div>
+  </div>
+  <h2><span class="num">5.4.4</span>Parallel Lines and Transversals</h2>
+  <div class="keys">
+    <ul>
+      <li>Three parallel lines cut two <span class="b m">{{a}}transversals{{/a}}</span> into proportional parts.</li>
+      <li>If the parts on one transversal are <var>a</var> and <var>b</var>, and on the other are <var>c</var> and <var>d</var>, then {{f <var>a</var>/<var>b</var>}} =  <span class="b m">{{a}}{{f <var>c</var>/<var>d</var>}}{{/a}}</span>.</li>
+    </ul>
+  </div>
+  <div style="text-align:center">{{fig 5.4_par|three parallel streets crossing two avenues; on 1st Ave the lots are 60 feet and 90 feet, on 2nd Ave they are 80 feet and x|4.6in}}</div>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> <b>Lots on a street.</b> Use the street map above. Pine St, Oak St, and Elm St are parallel. Find <var>x</var>.</div>
+    <div class="work h13">
+      
+ {{a}}<p>{{f 60/90}} = {{f 80/<var>x</var>}}</p><p>60<var>x</var> = 7200, so <var>x</var> = 120.</p><p>The second lot on 2nd Ave is 120 ft long.</p>{{/a}}
+    </div>
+  </div>
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 9.</b> Three parallel streets cross two avenues. On one avenue, the lots are 45 ft and 75 ft. On the other, the first lot is 60 ft. How long is the second lot?<span class="yt">your turn</span></div>
+    <div class="work h1">
+      
+{{a}}<p>{{f 45/75}} = {{f 60/<var>x</var>}}, so 45<var>x</var> = 4500 and <var>x</var> = 100 ft.</p>{{/a}}
+    </div>
+  </div>
+  <div class="box tint">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>half</span><span>midpoint</span><span>midsegment</span><span>parallel</span><span>proportion</span><span>transversals</span></div>
+    <p>1. If {{seg DE}} &#8741; {{seg BC}} in &#9651; <var>ABC</var>, then {{f <var>AD</var>/<var>DB</var>}} = {{f <var>AE</var>/<var>EC</var>}}. The sides are cut in <span class="b m">{{a}}proportion{{/a}}</span>.</p>
+    <p>2. If the two ratios are equal, then {{seg DE}} is <span class="b m">{{a}}parallel{{/a}}</span> to {{seg BC}}. This is the converse.</p>
+    <p>3. A <span class="b m">{{a}}midsegment{{/a}}</span> joins the midpoints of two sides. It is parallel to the third side and <span class="b s">{{a}}half{{/a}}</span> as long.</p>
+    <p>4. Three parallel lines cut two <span class="b m">{{a}}transversals{{/a}}</span> into proportional parts.</p>
+    <p>5. On a grid, use the <span class="b m">{{a}}midpoint{{/a}}</span> formula and slopes to check a midsegment.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Use the figure. {{seg DE}} &#8741; {{seg BC}}. Find the missing length</h3>
+  <div class="ex">
+    <div class="work">
+      <div style="text-align:center">{{fig 5.3_p_nested|triangle ABC with a segment DE parallel to BC, D on AB and E on AC|2.1in}}</div>
+      <p>1. <var>AD</var> = 4, <var>DB</var> = 6, <var>AE</var> = 5. Find <var>EC</var>.</p>
+      <div class="h05">{{a}}<p>{{f 4/6}} = {{f 5/<var>x</var>}}, so 4<var>x</var> = 30 and <var>EC</var> = 7.5</p>{{/a}}</div>
+      <p>2. <var>AD</var> = 9, <var>DB</var> = 3, <var>EC</var> = 2. Find <var>AE</var>.</p>
+      <div class="h05">{{a}}<p>{{f 9/3}} = {{f <var>x</var>/2}}, so <var>AE</var> = 6</p>{{/a}}</div>
+      <p>3. <var>AD</var> = 6, <var>AB</var> = 10, <var>AE</var> = 9. Find <var>EC</var>.</p>
+      <div class="h05">{{a}}<p><var>DB</var> = 4. {{f 6/4}} = {{f 9/<var>x</var>}}, so 6<var>x</var> = 36 and <var>EC</var> = 6</p>{{/a}}</div>
+      <p>4. <var>AB</var> = 20, <var>AD</var> = 12, <var>AE</var> = 9. Find <var>AC</var>.</p>
+      <div class="h05">{{a}}<p>{{f 12/20}} = {{f 9/<var>AC</var>}}, so 12 &middot; <var>AC</var> = 180 and <var>AC</var> = 15</p>{{/a}}</div>
+      <p>5. <var>AD</var> = <var>x</var>, <var>DB</var> = 8, <var>AE</var> = <var>x</var> + 3, <var>EC</var> = 12. Find <var>x</var>.</p>
+      <div class="h05">{{a}}<p>{{f <var>x</var>/8}} = {{f <var>x</var> + 3/12}}, so 12<var>x</var> = 8<var>x</var> + 24 and <var>x</var> = 6</p>{{/a}}</div>
+      <p>6. <var>AD</var> = 2<var>x</var>, <var>DB</var> = 9, <var>AE</var> = 8, <var>EC</var> = 6. Find <var>x</var> and <var>AD</var>.</p>
+      <div class="h05">{{a}}<p>{{f 2<var>x</var>/9}} = {{f 8/6}}, so 12<var>x</var> = 72 and <var>x</var> = 6. <var>AD</var> = 12.</p>{{/a}}</div>
+    </div>
+  </div>
+  <h3>Is {{seg DE}} &#8741; {{seg BC}}? Show the ratios</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+<div>
+      <p>7. <var>AD</var> = 6, <var>DB</var> = 8, <var>AE</var> = 9, <var>EC</var> = 12</p>
+      <div class="h05">{{a}}<p>{{f 6/8}} = {{f 3/4}} and {{f 9/12}} = {{f 3/4}}. Yes.</p>{{/a}}</div>
+</div>
+<div>
+      <p>8. <var>AD</var> = 5, <var>DB</var> = 7, <var>AE</var> = 10, <var>EC</var> = 15</p>
+      <div class="h05">{{a}}<p>{{f 5/7}} &asymp; 0.71 and {{f 10/15}} &asymp; 0.67. No.</p>{{/a}}</div>
+</div>
+<div>
+      <p>9. <var>AD</var> = 3, <var>AB</var> = 9, <var>AE</var> = 4, <var>AC</var> = 12</p>
+      <div class="h05">{{a}}<p><var>DB</var> = 6 and <var>EC</var> = 8. {{f 3/6}} = {{f 4/8}}. Yes.</p>{{/a}}</div>
+</div>
+<div>
+      <p>10. A triangle drawing has no marks and no numbers, but {{seg DE}} looks parallel to {{seg BC}}. Can you say it is parallel?</p>
+      <div class="h05">{{a}}<p>No. A figure only suggests it. We need marks or numbers.</p>{{/a}}</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <h3><var>D</var> and <var>E</var> are midpoints of {{seg AB}} and {{seg AC}}</h3>
+  <div class="ex">
+    <div class="work">
+      <div style="text-align:center">{{fig 5.4_midseg|triangle ABC with D the midpoint of AB and E the midpoint of AC|1.7in}}</div>
+      <p>11. <var>BC</var> = 26. Find <var>DE</var>.</p>
+      <div class="h05">{{a}}<p><var>DE</var> = 13</p>{{/a}}</div>
+      <p>12. <var>DE</var> = 8.5. Find <var>BC</var>.</p>
+      <div class="h05">{{a}}<p><var>BC</var> = 17</p>{{/a}}</div>
+      <p>13. <var>DE</var> = 3<var>x</var> &minus; 2 and <var>BC</var> = 4<var>x</var> + 8. Find <var>x</var> and <var>DE</var>.</p>
+      <div class="h05">{{a}}<p>4<var>x</var> + 8 = 2(3<var>x</var> &minus; 2), so 4<var>x</var> + 8 = 6<var>x</var> &minus; 4 and <var>x</var> = 6. <var>DE</var> = 16.</p>{{/a}}</div>
+      <p>14. <var>D</var>, <var>E</var>, and <var>F</var> are the midpoints of the three sides of a triangle with sides 14, 20, and 18. Find the perimeter of &#9651; <var>DEF</var>.</p>
+      <div class="h05">{{a}}<p>Each side of &#9651; <var>DEF</var> is half a side of the big triangle: 7 + 10 + 9 = 26.</p>{{/a}}</div>
+    </div>
+  </div>
+  <h3>Use coordinates</h3>
+  <div class="ex">
+    <div class="work">
+      <p>15. <var>A</var>(2, 1), <var>B</var>(6, 9), <var>C</var>(12, 3). <var>M</var> is the midpoint of {{seg AB}} and <var>N</var> is the midpoint of {{seg BC}}. Show that {{seg MN}} &#8741; {{seg AC}} and <var>MN</var> = {{f 1/2}} <var>AC</var>.</p>
+      <div class="h16">{{a}}<p><var>M</var> = (4, 5) and <var>N</var> = (9, 6). Slope of {{seg MN}} is {{f 1/5}}. Slope of {{seg AC}} is {{f 2/10}} = {{f 1/5}}. Parallel. <var>MN</var> = &radic;<span style="text-decoration:overline">26</span> and <var>AC</var> = &radic;<span style="text-decoration:overline">104</span> = 2&radic;<span style="text-decoration:overline">26</span>, so <var>MN</var> = {{f 1/2}} <var>AC</var>.</p>{{/a}}</div>
+    </div>
+  </div>
+  <h3>Parallel lines and transversals</h3>
+  <div class="ex">
+    <div class="work">
+      <p>16. Three parallel streets cross two avenues. On one avenue the lots are 50 ft and 70 ft. On the other avenue the first lot is 75 ft. Find the second lot.</p>
+      <div class="h05">{{a}}<p>{{f 50/70}} = {{f 75/<var>x</var>}}, so 50<var>x</var> = 5250 and <var>x</var> = 105 ft</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>17. Three parallel shelf boards are fixed to two slanted posts. On the left post the gaps are 12 in and 18 in. On the right post the first gap is 14 in. Find the second gap.</p>
+      <div class="h05">{{a}}<p>{{f 12/18}} = {{f 14/<var>x</var>}}, so 12<var>x</var> = 252 and <var>x</var> = 21 in</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>18. Four parallel lines cut two transversals. On the first, the parts are 2, 3, and 5. On the second, the first part is 6. Find the other two parts.</p>
+      <div class="h08">{{a}}<p>{{f 2/6}} = {{f 3/<var>y</var>}}, so <var>y</var> = 9. {{f 2/6}} = {{f 5/<var>z</var>}}, so <var>z</var> = 15.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>19. Three parallel lines cut two transversals. On one, the parts are 6 and 4. On the other, the parts are <var>x</var> + 1 and <var>x</var> &minus; 1. Find <var>x</var>.</p>
+      <div class="h08">{{a}}<p>{{f 6/4}} = {{f <var>x</var> + 1/<var>x</var> &minus; 1}}, so 6<var>x</var> &minus; 6 = 4<var>x</var> + 4, 2<var>x</var> = 10, and <var>x</var> = 5.</p>{{/a}}</div>
+    </div>
+  </div>
+  <h3>Find the mistake</h3>
+  <div class="ex">
+    <div class="work">
+      <p>20. In a triangle, {{seg DE}} &#8741; {{seg BC}}, <var>AD</var> = 4, <var>DB</var> = 2, and <var>DE</var> = 6. Hnin writes {{f <var>AD</var>/<var>DB</var>}} = {{f <var>DE</var>/<var>BC</var>}} and gets <var>BC</var> = 3. Find her mistake. Then find <var>BC</var>.</p>
+      <div class="h13">{{a}}<p>The ratio {{f <var>AD</var>/<var>DB</var>}} compares two parts of a side. It is not equal to {{f <var>DE</var>/<var>BC</var>}}. Her answer <var>BC</var> = 3 is shorter than <var>DE</var>, which cannot be. Correct: {{f <var>AD</var>/<var>AB</var>}} = {{f <var>DE</var>/<var>BC</var>}}, so {{f 4/6}} = {{f 6/<var>BC</var>}} and <var>BC</var> = 9.</p>{{/a}}</div>
+    </div>
+  </div>
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="work">
+      <p>21. In &#9651; <var>ABC</var>, {{seg DE}} &#8741; {{seg BC}}, with <var>D</var> on {{seg AB}} and <var>E</var> on {{seg AC}}. <var>AD</var> = 4, <var>DB</var> = 6, and <var>AE</var> = 6. What is the length of {{seg AC}}?</p>
+      <p>A. 9</p>
+      <p>B. 10</p>
+      <p>C. 15 {{a}}&larr; correct{{/a}}</p>
+      <p>D. 22.5</p>
+<hr style="border:0;border-top:1px dotted #bbb">      <p>22. A midsegment of a triangle has length 2<var>x</var> + 3. The side it is parallel to has length 5<var>x</var> &minus; 6. What is <var>x</var>?</p>
+      <p>A. 4</p>
+      <p>B. 9</p>
+      <p>C. 12 {{a}}&larr; correct{{/a}}</p>
+      <p>D. 15</p>
+<hr style="border:0;border-top:1px dotted #bbb">    </div>
+  </div>
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="work">
+      <p>23. &#9651; <var>ABC</var> has area 80 square inches. <var>D</var>, <var>E</var>, and <var>F</var> are the midpoints of its sides. The midsegments make four small triangles that are all congruent. What is the area of &#9651; <var>DEF</var>? Check with <var>k</var>: &#9651; <var>ADE</var> &sim; &#9651; <var>ABC</var> with <var>k</var> = {{f 1/2}}.</p>
+      <div class="h13">{{a}}<p>&#9651; <var>ADE</var> has area ({{f 1/2}})<sup>2</sup> &middot; 80 = 20 square in. The four small triangles are congruent, so &#9651; <var>DEF</var> also has area 20 square in.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
