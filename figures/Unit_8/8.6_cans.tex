@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.25cm,y=0.25cm]
+  \begin{scope}\cyl{4}{9.95}
+    \node[below,align=center] at (0,-1.4) {\textbf{A}\\$r = 4$ cm};
+  \end{scope}
+  \begin{scope}[shift={(13,0)}]\cyl{5}{6.37}
+    \node[below,align=center] at (0,-1.8) {\textbf{B}\\$r = 5$ cm};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

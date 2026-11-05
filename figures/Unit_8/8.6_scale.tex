@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob,scale=0.5]
+  \cuboid{2}{2}{2}
+  \node[below] at (1,-0.1,0) {2 in};
+  \begin{scope}[shift={(4.5,0)}]
+    \cuboid{6}{6}{6}
+    \node[below] at (3,-0.1,0) {6 in};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
