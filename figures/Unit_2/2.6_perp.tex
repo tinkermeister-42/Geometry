@@ -9,7 +9,7 @@
 \coordinate (O) at (0,0); \fill (0,0) circle[radius=\ptr]; \pt{P}{(3,2)}{above right}
 \node[above,font=\scriptsize] at (1.8,0) {run 3}; \node[right,font=\scriptsize] at (3,1) {rise 2};
 \ifkey \coordinate (Q) at (-2,3); \draw[answer] (0,0) -- (-2,3); \draw[answer,dashed] (0,0) -- (-2,0) -- (-2,3); \fill[key] (-2,3) circle[radius=\ptr] node[above left,key] {\ans{Q}};
-\node[above,key,font=\scriptsize] at (-1.1,0) {\ans{run $-2$}}; \node[left,key,font=\scriptsize] at (-2,1.5) {\ans{rise 3}};
+\node[anchor=north east,key,font=\scriptsize] at (-0.15,-0.1) {\ans{run $-2$}}; \node[left,key,font=\scriptsize] at (-2,1.5) {\ans{rise 3}};
 \pic[rt,key]{right angle = P--O--Q}; \fi
 
 \end{tikzpicture}

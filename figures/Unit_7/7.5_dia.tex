@@ -3,7 +3,8 @@
 \begin{document}
 \begin{tikzpicture}
   \begin{scope}[x=0.4cm,y=0.4cm]
-    \cgrid{-5}{7}{-1}{9}{2}
+    \renewcommand{\cgskipx}{2}\renewcommand{\cgskipy}{8}
+\cgrid{-5}{7}{-1}{9}{2}
     \draw[fig] (1,4) circle[radius=4.4721];
     \draw[fig] (-3,2)--(5,6);
     \fill (-3,2) circle[radius=\ptr]; \fill (5,6) circle[radius=\ptr]; \fill (1,4) circle[radius=\ptr];

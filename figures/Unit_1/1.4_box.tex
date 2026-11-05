@@ -7,6 +7,6 @@
   \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
   \draw[thick] (D) -- (H) -- (G) -- (C); \draw[thick] (B) -- (F) -- (G);
   \draw[thick,dashed] (A) -- (E) -- (F); \draw[thick,dashed] (E) -- (H);
-  \foreach \p/\d in {A/below left,B/below right,C/right,D/left,E/below,F/right,G/above right,H/above left} {\fill (\p) circle[radius=\ptr] node[\d=1pt] {$\p$};}
+  \foreach \p/\d in {A/below left,B/below right,C/below right,D/left,E/below,F/right,G/above right,H/above left} {\fill (\p) circle[radius=\ptr] node[\d=1pt] {$\p$};}
 \end{tikzpicture}
 \end{document}

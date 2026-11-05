@@ -6,10 +6,10 @@
   \draw[ray] (B) -- (0:4.6); \draw[ray] (B) -- (34:4.6); \draw[ray] (B) -- (68:4.6);
   \fill (B) circle[radius=\ptr] node[below left] {$B$};
   \fill (0:4.0) circle[radius=\ptr] node[below] {$A$};
-  \fill (34:4.0) circle[radius=\ptr] node[right] {$D$};
-  \fill (68:4.0) circle[radius=\ptr] node[above] {$C$};
+  \fill (34:4.0) circle[radius=\ptr] node[below right] {$D$};
+  \fill (68:4.0) circle[radius=\ptr] node[left] {$C$};
   \draw[thick] (0:1.0) arc (0:34:1.0); \draw[thick] (34:1.0) arc (34:68:1.0);
   \node[fill=white,inner sep=1.5pt] at (17.0:2.6) {$(4x+2)^\circ$};
-  \node[fill=white,inner sep=1.5pt] at (51.0:2.6) {$(6x-14)^\circ$};
+  \node[fill=white,inner sep=1.5pt,anchor=west] at (1.5,2.7) {$(6x-14)^\circ$};
 \end{tikzpicture}
 \end{document}

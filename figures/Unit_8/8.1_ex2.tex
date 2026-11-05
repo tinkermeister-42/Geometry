@@ -2,7 +2,8 @@
 \input{../preamble}\input{../c8}
 \begin{document}
 \begin{tikzpicture}[x=0.7cm,y=0.7cm]
-  \cgrid{-3}{7}{0}{8}{1}
+  \renewcommand{\cgskipx}{}\renewcommand{\cgskipy}{4}
+\cgrid{-3}{7}{0}{8}{1}
   \coordinate (A) at (-2,1); \coordinate (B) at (6,1); \coordinate (C) at (2,7);
   \draw[fig] (A)--(B)--(C)--cycle;
   \foreach \p/\l/\pos in {A/A/below left, B/B/below right, C/C/above} {\fill (\p) circle[radius=\ptr] node[\pos] {$\l$};}

@@ -7,9 +7,9 @@
   \draw[thick] (3.3,0) arc (0:180:3.3);
   \foreach \t in {0,10,...,180} {
     \draw (\t:3.1) -- (\t:2.95);
-    \node[font=\tiny,fill=white,inner sep=0.6pt] at (\t:2.75) {\t};
+    \node[font=\tiny,fill=white,inner sep=0.6pt,yshift={((\t==0)+(\t==180))*5pt}] at (\t:2.75) {\t};
     \pgfmathtruncatemacro{\u}{180-\t}
-    \node[font=\tiny,fill=white,inner sep=0.6pt,text=black!60] at (\t:2.3) {\u};}
+    \node[font=\tiny,fill=white,inner sep=0.6pt,text=black!60,yshift={((\t==0)+(\t==180))*5pt}] at (\t:2.3) {\u};}
   \draw[ray] (0,0) -- (#1:4.1); \draw[ray] (0,0) -- (#2:4.1);
   \fill (0,0) circle[radius=\ptr] node[below=3pt] {$O$};
   \node at (#1:4.45) {$A$}; \node at (#2:4.45) {$B$};}

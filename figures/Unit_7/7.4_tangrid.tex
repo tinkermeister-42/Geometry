@@ -3,7 +3,8 @@
 \begin{document}
 \begin{tikzpicture}
   \begin{scope}[x=0.46cm,y=0.46cm]
-    \cgrid{-6}{6}{-6}{6}{2}
+    \renewcommand{\cgskipx}{}\renewcommand{\cgskipy}{6}
+\cgrid{-6}{6}{-6}{6}{2}
     \draw[fig] (0,0) circle[radius=5];
     \coordinate (O) at (0,0); \coordinate (T) at (-3,4);
     \draw[fig] (O)--(T);

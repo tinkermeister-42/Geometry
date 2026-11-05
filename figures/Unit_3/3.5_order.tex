@@ -2,14 +2,15 @@
 \input{../preamble}
 \begin{document}
 \begin{tikzpicture}[x=0.38cm,y=0.38cm]
+\renewcommand{\cgskipx}{6}\renewcommand{\cgskipy}{}
 \cgrid{-2}{9}{-8}{5}{1}
 \draw[fig,fill=gray!25] (1,2) -- (3,2) -- (1,4) -- cycle;
 \fill (1,2) circle[radius=\ptr];
-\node[below left,inner sep=2.5pt] at (1,2) {$A$};
+\node[below right,inner sep=2.5pt] at (1,2) {$A$};
 \fill (3,2) circle[radius=\ptr];
 \node[below right,inner sep=2.5pt] at (3,2) {$B$};
 \fill (1,4) circle[radius=\ptr];
-\node[above left,inner sep=2.5pt] at (1,4) {$C$};
+\node[above right,inner sep=2.5pt] at (1,4) {$C$};
 \ifkey
 \draw[answer,fill=key!12] (5,-5) -- (7,-5) -- (5,-7) -- cycle;
 \fill[key] (5,-5) circle[radius=\ptr];
@@ -20,7 +21,7 @@
 \node[below left,key,inner sep=2.5pt] at (5,-7) {\ans{$C_1$}};
 \draw[answer,fill=key!12] (5,1) -- (7,1) -- (5,-1) -- cycle;
 \fill[key] (5,1) circle[radius=\ptr];
-\node[above left,key,inner sep=2.5pt] at (5,1) {\ans{$A_2$}};
+\node[above,key,inner sep=2.5pt] at (5,1) {\ans{$A_2$}};
 \fill[key] (7,1) circle[radius=\ptr];
 \node[above right,key,inner sep=2.5pt] at (7,1) {\ans{$B_2$}};
 \fill[key] (5,-1) circle[radius=\ptr];

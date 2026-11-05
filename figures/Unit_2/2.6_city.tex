@@ -3,11 +3,12 @@
 \begin{document}
 \begin{tikzpicture}[x=0.38cm,y=0.38cm]
 
+\renewcommand{\cgskipx}{10}\renewcommand{\cgskipy}{2}
 \cgrid{-2}{10}{-7}{7}{2}
 
 \draw[fig] (-2,1) -- (10,7); \node[above left] at (7.5,5.75) {Main St};
-\pt{P}{(4,-3)}{below left}
-\ifkey \draw[answer] (-2,-6) -- (10,0) node[right,key]{\ans{parallel}}; \draw[answer] (0.5,4) -- (6.5,-8) [draw=none]; \draw[answer] (0,5) -- (5,-5) node[below right,key]{\ans{perpendicular}}; \fi
+\coordinate (P) at (4,-3); \fill (P) circle[radius=\ptr]; \node[anchor=south west] at (4.2,-2.3) {$P$};
+\ifkey \draw[answer] (-2,-6) -- (10,0) node[pos=0.7,below right,key]{\ans{parallel}}; \draw[answer] (0.5,4) -- (6.5,-8) [draw=none]; \draw[answer] (0,5) -- (5,-5) node[below right,key]{\ans{perpendicular}}; \fi
 
 \end{tikzpicture}
 \end{document}
