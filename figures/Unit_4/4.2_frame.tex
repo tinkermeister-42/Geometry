@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[fig] (0,0) rectangle (1.8,1.8);
+\draw[thick,dashed] (0,0) -- (1.8,0) -- (2.7,1.55) -- (0.9,1.55) -- cycle;
+\foreach \p in {(0,0),(1.8,0),(1.8,1.8),(0,1.8)} {\fill \p circle[radius=2.5pt];}
+\draw[->,thick] (1.9,1.9) -- (2.5,1.9);
+\node at (1.2,-0.5) {Four sticks: it tilts};
+\draw[fig] (5.2,0) -- (7.2,0) -- (6.2,1.75) -- cycle;
+\foreach \p in {(5.2,0),(7.2,0),(6.2,1.75)} {\fill \p circle[radius=2.5pt];}
+\node at (6.2,-0.5) {Three sticks: it holds};
+\path (-0.3,-0.9) rectangle (8,2.2);
+\end{tikzpicture}
+\end{document}

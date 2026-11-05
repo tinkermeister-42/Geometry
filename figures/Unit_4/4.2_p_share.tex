@@ -1,0 +1,72 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (0,0);
+\coordinate (B) at (3,0);
+\coordinate (C) at (4.2,1.9);
+\coordinate (D) at (1.2,1.9);
+\draw[fig] (A) -- (B) -- (C) -- (D) -- cycle;
+\draw[tick1] (A) -- (B);
+\draw[tick1] (D) -- (C);
+\draw[tick2] (A) -- (D);
+\draw[tick2] (B) -- (C);
+\fill (A) circle[radius=\ptr];
+\node at (-0.292,-0.132) {$A$};
+\fill (B) circle[radius=\ptr];
+\node at (3.22,-0.232) {$B$};
+\fill (C) circle[radius=\ptr];
+\node at (4.492,2.032) {$C$};
+\fill (D) circle[radius=\ptr];
+\node at (0.98,2.132) {$D$};
+\draw[thick,dashed] (A) -- (C);
+\node at (0,2.9) {\textbf{14}};
+\coordinate (M) at (7.4,0.95);
+\coordinate (W) at (5.5,1.85);
+\coordinate (Y) at (9.3,0.05);
+\coordinate (X) at (8.9,2.15);
+\coordinate (Z) at (5.9,-0.25);
+\draw[fig] (W) -- (Y);
+\draw[fig] (X) -- (Z);
+\draw[fig] (W) -- (X);
+\draw[fig] (Y) -- (Z);
+\draw[fig,tick1] (M) -- (W);
+\draw[fig,tick1] (M) -- (Y);
+\draw[fig,tick2] (M) -- (X);
+\draw[fig,tick2] (M) -- (Z);
+\fill (M) circle[radius=\ptr];
+\node at (7.432,1.268) {$M$};
+\fill (W) circle[radius=\ptr];
+\node at (5.203,1.969) {$W$};
+\fill (Y) circle[radius=\ptr];
+\node at (9.597,-0.069) {$Y$};
+\fill (X) circle[radius=\ptr];
+\node at (9.092,2.406) {$X$};
+\fill (Z) circle[radius=\ptr];
+\node at (5.708,-0.506) {$Z$};
+\node at (5.5,2.9) {\textbf{15}};
+\coordinate (P) at (11.2,2);
+\coordinate (Q) at (14.2,2);
+\coordinate (R) at (13.6,0);
+\coordinate (S) at (10.6,0);
+\draw[fig,tick1] (P) -- (Q);
+\draw[fig,tick1] (S) -- (R);
+\draw[fig] (P) -- (S);
+\draw[fig] (Q) -- (R);
+\draw[thick] (P) -- (R);
+\draw[thick] (Q) -- (S);
+\draw[par1] (11.2,2.0) -- (14.2,2.0); \draw[par1] (10.6,0) -- (13.6,0);
+\coordinate (E) at (12.4,1);
+\fill (P) circle[radius=\ptr];
+\node at (10.974,2.226) {$P$};
+\fill (Q) circle[radius=\ptr];
+\node at (14.426,2.226) {$Q$};
+\fill (R) circle[radius=\ptr];
+\node at (13.826,-0.226) {$R$};
+\fill (S) circle[radius=\ptr];
+\node at (10.374,-0.226) {$S$};
+\fill (E) circle[radius=\ptr];
+\node at (12.4,1.32) {$E$};
+\node at (10,2.9) {\textbf{16}};
+\end{tikzpicture}
+\end{document}

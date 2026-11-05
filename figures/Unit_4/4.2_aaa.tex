@@ -1,0 +1,34 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (0,0);
+\coordinate (B) at (1.9,0);
+\coordinate (C) at (1.28,1.074);
+\coordinate (D) at (3.3,0);
+\coordinate (E) at (7.1,0);
+\coordinate (F) at (5.86,2.148);
+\draw[fig] (A) -- (B) -- (C) -- cycle;
+\pic[draw,thick,angle radius=4.0mm] {angle = B--A--C};
+\fill (A) circle[radius=\ptr];
+\node at (-0.303,-0.102) {$A$};
+\pic[draw,thick,angle radius=4.0mm,double,double distance=1.2pt] {angle = C--B--A};
+\fill (B) circle[radius=\ptr];
+\node at (2.194,-0.125) {$B$};
+\pic[draw,thick,angle radius=2.5mm] {angle = A--C--B};
+\pic[draw,thick,angle radius=5.5mm] {angle = A--C--B};
+\fill (C) circle[radius=\ptr];
+\node at (1.374,1.38) {$C$};
+\draw[fig] (D) -- (E) -- (F) -- cycle;
+\pic[draw,thick,angle radius=5.0mm] {angle = E--D--F};
+\fill (D) circle[radius=\ptr];
+\node at (2.997,-0.102) {$D$};
+\pic[draw,thick,angle radius=5.0mm,double,double distance=1.2pt] {angle = F--E--D};
+\fill (E) circle[radius=\ptr];
+\node at (7.394,-0.125) {$E$};
+\pic[draw,thick,angle radius=3.5mm] {angle = D--F--E};
+\pic[draw,thick,angle radius=6.5mm] {angle = D--F--E};
+\fill (F) circle[radius=\ptr];
+\node at (5.954,2.454) {$F$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,32 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (G) at (0,0);
+\coordinate (J) at (9,0.3);
+\coordinate (H) at (3.2,0);
+\coordinate (K) at (5.8,0.3);
+\coordinate (I) at (1.9,2.1);
+\coordinate (L) at (7.1,2.4);
+\draw[fig] (G) -- (H) -- (I) -- cycle;
+\draw[tick1] (H) -- (I);
+\pic[draw,thick,angle radius=4.5mm] {angle = H--G--I};
+\fill (G) circle[radius=\ptr];
+\node at (-0.296,-0.122) {$G$};
+\pic[draw,thick,angle radius=4.5mm,double,double distance=1.2pt] {angle = I--H--G};
+\fill (H) circle[radius=\ptr];
+\node at (3.49,-0.135) {$H$};
+\fill (I) circle[radius=\ptr];
+\node at (1.945,2.417) {$I$};
+\draw[fig] (J) -- (K) -- (L) -- cycle;
+\draw[tick1] (K) -- (L);
+\pic[draw,thick,angle radius=4.5mm] {angle = L--J--K};
+\fill (J) circle[radius=\ptr];
+\node at (9.296,0.178) {$J$};
+\pic[draw,thick,angle radius=4.5mm,double,double distance=1.2pt] {angle = J--K--L};
+\fill (K) circle[radius=\ptr];
+\node at (5.51,0.165) {$K$};
+\fill (L) circle[radius=\ptr];
+\node at (7.055,2.717) {$L$};
+\end{tikzpicture}
+\end{document}
