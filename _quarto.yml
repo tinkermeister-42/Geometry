@@ -60,5 +60,20 @@ book:
         - file: chapters/Unit_1/index.qmd
         - file: chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.qmd
 
+    - part: "Unit 2: The Pythagorean Theorem and the Coordinate Plane"
+      chapters:
+        - file: chapters/Unit_2/index.qmd
+        - file: chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.qmd
+        - file: chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.qmd
+        - file: chapters/Unit_2/2.3_The_Pythagorean_Theorem_in_the_Real_World.qmd
+        - file: chapters/Unit_2/2.4_Distance_on_the_Coordinate_Plane.qmd
+        - file: chapters/Unit_2/2.5_Midpoint.qmd
+        - file: chapters/Unit_2/2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.qmd
+        - file: chapters/Unit_2/2.7_Dividing_a_Segment_in_a_Ratio.qmd
+        - file: chapters/Unit_2/2.8_Perimeter_and_Area_on_the_Coordinate_Plane.qmd
+        - file: chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.qmd
+        - file: chapters/Unit_2/Summary.qmd
+        - file: chapters/Unit_2/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd

@@ -34,15 +34,17 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | 1.4 | Parallel lines and transversals |
 | 1.5 | Angles in triangles and polygons |
 | **Unit 2: The Pythagorean Theorem and the Coordinate Plane** | |
-| 2.1 | Square roots and simplifying radicals |
-| 2.2 | The Pythagorean theorem and its converse |
-| 2.3 | The Pythagorean theorem in the real world |
-| 2.4 | Distance on the coordinate plane |
-| 2.5 | Midpoint |
-| 2.6 | Slope, parallel lines, and perpendicular lines |
-| 2.7 | Dividing a segment in a ratio |
-| 2.8 | Perimeter and area on the coordinate plane |
-| 2.9 | Checking shapes with coordinates |
+| [2.1](chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.qmd) | Square roots and simplifying radicals |
+| [2.2](chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.qmd) | The Pythagorean theorem and its converse |
+| [2.3](chapters/Unit_2/2.3_The_Pythagorean_Theorem_in_the_Real_World.qmd) | The Pythagorean theorem in the real world |
+| [2.4](chapters/Unit_2/2.4_Distance_on_the_Coordinate_Plane.qmd) | Distance on the coordinate plane |
+| [2.5](chapters/Unit_2/2.5_Midpoint.qmd) | Midpoint |
+| [2.6](chapters/Unit_2/2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.qmd) | Slope, parallel lines, and perpendicular lines |
+| [2.7](chapters/Unit_2/2.7_Dividing_a_Segment_in_a_Ratio.qmd) | Dividing a segment in a ratio |
+| [2.8](chapters/Unit_2/2.8_Perimeter_and_Area_on_the_Coordinate_Plane.qmd) | Perimeter and area on the coordinate plane |
+| [2.9](chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.qmd) | Checking shapes with coordinates |
+| [Summary](chapters/Unit_2/Summary.qmd) | Unit 2 summary |
+| [Review](chapters/Unit_2/Review.qmd) | Unit 2 review |
 | **Unit 3: Transformations** | |
 | 3.1 | Translations |
 | 3.2 | Reflections |
@@ -82,5 +84,3 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | 8.4 | Volume of prisms and cylinders |
 | 8.5 | Volume of pyramids, cones, and spheres |
 | 8.6 | Density and modeling |
-
-Every unit ends with a **Summary** and a **Review**.

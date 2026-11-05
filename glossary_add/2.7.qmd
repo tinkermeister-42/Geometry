@@ -1,5 +1,0 @@
-### partition {#glossary-partition}
-
-To divide a segment into parts. A point partitions a segment in the ratio $a:b$ when the two parts have lengths in the ratio $a$ to $b$.
-
-> **Example:** $(4, 4)$ partitions the segment from $(1, 2)$ to $(13, 10)$ in the ratio $1:3$.
