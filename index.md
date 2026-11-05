@@ -56,11 +56,13 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_3/Summary.qmd) | Unit 3 summary |
 | [Review](chapters/Unit_3/Review.qmd) | Unit 3 review |
 | **Unit 4: Congruence** | |
-| 4.1 | Congruent figures and rigid motions |
-| 4.2 | Triangle congruence: SSS, SAS, ASA, AAS, and HL |
-| 4.3 | Isosceles and equilateral triangles |
-| 4.4 | Quadrilaterals and their properties |
-| 4.5 | Constructions |
+| [4.1](chapters/Unit_4/4.1_Congruent_Figures_and_Rigid_Motions.qmd) | Congruent figures and rigid motions |
+| [4.2](chapters/Unit_4/4.2_Triangle_Congruence.qmd) | Triangle congruence: SSS, SAS, ASA, AAS, and HL |
+| [4.3](chapters/Unit_4/4.3_Isosceles_and_Equilateral_Triangles.qmd) | Isosceles and equilateral triangles |
+| [4.4](chapters/Unit_4/4.4_Quadrilaterals_and_Their_Properties.qmd) | Quadrilaterals and their properties |
+| [4.5](chapters/Unit_4/4.5_Constructions.qmd) | Constructions |
+| [Summary](chapters/Unit_4/Summary.qmd) | Unit 4 summary |
+| [Review](chapters/Unit_4/Review.qmd) | Unit 4 review |
 | **Unit 5: Similarity** | |
 | 5.1 | Ratios and proportions |
 | 5.2 | Similar figures and scale factor |

@@ -1,5 +1,11 @@
 # Glossary {.unnumbered}
 
+### AAS {#glossary-aas}
+
+Angle, angle, side. If two angles and a side that is not between them in one triangle are congruent to the matching parts of another triangle, the triangles are congruent.
+
+***
+
 ### acute angle {#glossary-acute-angle}
 
 An angle that measures more than $0^\circ$ and less than $90^\circ$.
@@ -78,6 +84,34 @@ The number of square units inside a figure.
 
 ***
 
+### ASA {#glossary-asa}
+
+Angle, side, angle. If two angles and the included side of one triangle are congruent to two angles and the included side of another triangle, the triangles are congruent.
+
+**See Also:** {{< glink "included side" >}}
+
+***
+
+### base angles {#glossary-base-angles}
+
+The two angles of an isosceles triangle that touch the base. Base angles are congruent.
+
+> **Example:**
+>
+> If the vertex angle is $40^\circ$, each base angle is $70^\circ$.
+
+***
+
+### base of an isosceles triangle {#glossary-base-of-an-isosceles-triangle}
+
+The side of an isosceles triangle that is not one of the two congruent sides.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the base is $\overline{BC}$.
+
+***
+
 ### bounding box {#glossary-bounding-box}
 
 The smallest rectangle with sides on grid lines that has a figure inside it. It is used to find area by subtracting the corner pieces.
@@ -118,6 +152,12 @@ Points that lie on the same line.
 
 ***
 
+### compass {#glossary-compass}
+
+A tool that draws arcs and circles. The width of the compass stays the same while you draw, so every point on the arc is the same distance from the center.
+
+***
+
 ### complementary {#glossary-complementary}
 
 Two angles whose measures add to $90^\circ$. Each angle is the complement of the other.
@@ -130,6 +170,14 @@ Two angles whose measures add to $90^\circ$. Each angle is the complement of the
 
 ***
 
+### congruence statement {#glossary-congruence-statement}
+
+A statement such as $\triangle ABC \cong \triangle FDE$. The order of the letters shows which parts correspond: $A$ matches $F$, $B$ matches $D$, and $C$ matches $E$.
+
+**See Also:** {{< glink congruent >}}, {{< glink "corresponding parts" >}}
+
+***
+
 ### congruent {#glossary-congruent}
 
 Having the same size and shape. Congruent segments have the same length. Congruent angles have the same measure. The symbol is $\cong$.
@@ -137,6 +185,24 @@ Having the same size and shape. Congruent segments have the same length. Congrue
 > **Example:**
 >
 > If $AB = 5$ and $CD = 5$, then $\overline{AB} \cong \overline{CD}$.
+
+***
+
+### consecutive angles {#glossary-consecutive-angles}
+
+Two angles of a polygon that share a side. In a parallelogram, consecutive angles are supplementary.
+
+> **Example:**
+>
+> In parallelogram $ABCD$, $\angle A$ and $\angle B$ are consecutive angles.
+
+***
+
+### construction {#glossary-construction}
+
+A drawing made with only a compass and a straightedge. A construction uses no ruler and no protractor.
+
+**See Also:** {{< glink compass >}}, {{< glink straightedge >}}
 
 ***
 
@@ -185,6 +251,28 @@ Points or lines that lie in the same plane.
 Two angles in the same position at the two places where a transversal crosses two lines. If the two lines are parallel, corresponding angles are equal.
 
 **See Also:** {{< glink transversal >}}, {{< glink "alternate interior angles" >}}
+
+***
+
+### corresponding parts {#glossary-corresponding-parts}
+
+The sides and angles that match when one figure is moved onto a congruent figure. Corresponding parts of congruent figures are congruent.
+
+> **Example:**
+>
+> If $\triangle ABC \cong \triangle FDE$, then $\overline{AB}$ and $\overline{FD}$ are corresponding sides, and $\angle A$ and $\angle F$ are corresponding angles.
+
+**See Also:** {{< glink "congruence statement" >}}
+
+***
+
+### counterexample {#glossary-counterexample}
+
+One example that shows a statement is not always true.
+
+> **Example:**
+>
+> Two triangles can have two sides and a non-included angle congruent without being congruent. This is a counterexample for SSA.
 
 ***
 
@@ -268,6 +356,14 @@ An angle outside a polygon, made by one side and the extension of the next side.
 
 ***
 
+### HL {#glossary-hl}
+
+Hypotenuse, leg. If the hypotenuse and a leg of one right triangle are congruent to the hypotenuse and a leg of another right triangle, the triangles are congruent. HL works for right triangles only.
+
+**See Also:** {{< glink hypotenuse >}}, {{< glink leg >}}
+
+***
+
 ### hypotenuse {#glossary-hypotenuse}
 
 The side of a right triangle across from the right angle. It is the longest side.
@@ -288,9 +384,35 @@ The new figure after a transformation. The image of point $A$ is named $A'$ and 
 
 ***
 
+### included angle {#glossary-included-angle}
+
+The angle between two sides of a triangle. It is formed by those two sides.
+
+> **Example:**
+>
+> In $\triangle ABC$, $\angle B$ is the included angle of $\overline{AB}$ and $\overline{BC}$.
+
+***
+
+### included side {#glossary-included-side}
+
+The side between two angles of a triangle. It connects the vertices of those two angles.
+
+> **Example:**
+>
+> In $\triangle ABC$, $\overline{AB}$ is the included side of $\angle A$ and $\angle B$.
+
+***
+
 ### intersect {#glossary-intersect}
 
 To cross or meet. Two lines intersect at a point. Two planes intersect in a line.
+
+***
+
+### isosceles trapezoid {#glossary-isosceles-trapezoid}
+
+A trapezoid whose legs are congruent. Each pair of base angles is congruent, and the diagonals are congruent.
 
 ***
 
@@ -306,11 +428,31 @@ A triangle with at least two sides the same length. The angles across from the e
 
 ***
 
+### kite {#glossary-kite}
+
+A quadrilateral with two pairs of congruent sides that are next to each other. The diagonals are perpendicular.
+
+**See Also:** {{< glink rhombus >}}
+
+***
+
 ### leg {#glossary-leg}
 
 One of the two sides of a right triangle that form the right angle.
 
 **See Also:** {{< glink "hypotenuse" >}}
+
+***
+
+### legs of an isosceles triangle {#glossary-legs-of-an-isosceles-triangle}
+
+The two congruent sides of an isosceles triangle.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the legs are $\overline{AB}$ and $\overline{AC}$.
+
+**See Also:** {{< glink "base of an isosceles triangle" >}}
 
 ***
 
@@ -393,6 +535,16 @@ The point exactly halfway between the endpoints of a segment. It cuts the segmen
 > If $M$ is the midpoint of $\overline{AB}$ and $AM = 6$, then $MB = 6$ and $AB = 12$.
 
 **See Also:** {{< glink "segment bisector" >}}
+
+***
+
+### midsegment of a trapezoid {#glossary-midsegment-of-a-trapezoid}
+
+The segment that connects the midpoints of the two legs of a trapezoid. It is parallel to the bases. Its length is the average of the base lengths.
+
+> **Example:**
+>
+> If the bases are 12 and 28, the midsegment is $\dfrac{12 + 28}{2} = 20$.
 
 ***
 
@@ -578,6 +730,14 @@ Three whole numbers $a$, $b$, $c$ with $a^2 + b^2 = c^2$.
 
 ***
 
+### quadrilateral {#glossary-quadrilateral}
+
+A polygon with four sides. The four angles add to $360^\circ$.
+
+**See Also:** {{< glink parallelogram >}}, {{< glink trapezoid >}}, {{< glink kite >}}
+
+***
+
 ### radical {#glossary-radical}
 
 An expression with a root sign, such as $\sqrt{50}$ or $3\sqrt{2}$. The number under the sign is the radicand.
@@ -714,6 +874,14 @@ Two angles between the two lines, on the same side of the transversal. If the tw
 
 ***
 
+### SAS {#glossary-sas}
+
+Side, angle, side. If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, the triangles are congruent.
+
+**See Also:** {{< glink "included angle" >}}
+
+***
+
 ### scale factor {#glossary-scale-factor}
 
 The number $k$ that a dilation multiplies every length by. It equals $\dfrac{\text{image length}}{\text{original length}}$.
@@ -800,9 +968,23 @@ A number that gives the original number when you multiply it by itself. In geome
 
 ***
 
+### SSS {#glossary-sss}
+
+Side, side, side. If three sides of one triangle are congruent to three sides of another triangle, the triangles are congruent.
+
+**See Also:** {{< glink SAS >}}
+
+***
+
 ### straight angle {#glossary-straight-angle}
 
 An angle that measures exactly $180^\circ$. Its sides are opposite rays, so it looks like a line.
+
+***
+
+### straightedge {#glossary-straightedge}
+
+A tool for drawing straight lines. A straightedge has no number marks.
 
 ***
 
@@ -850,6 +1032,14 @@ A line that crosses two or more other lines at different points.
 
 ***
 
+### trapezoid {#glossary-trapezoid}
+
+A quadrilateral with exactly one pair of parallel sides. The parallel sides are the bases. The other two sides are the legs.
+
+**See Also:** {{< glink "isosceles trapezoid" >}}, {{< glink "midsegment of a trapezoid" >}}
+
+***
+
 ### triangle {#glossary-triangle}
 
 A polygon with three sides and three angles. The angles of a triangle add to $180^\circ$. Write $\triangle ABC$.
@@ -867,6 +1057,18 @@ The two shorter sides of a triangle always add to more than the longest side.
 ### vertex {#glossary-vertex}
 
 The point where the two sides of an angle meet. The plural is *vertices*.
+
+***
+
+### vertex angle {#glossary-vertex-angle}
+
+The angle of an isosceles triangle between the two congruent sides.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the vertex angle is $\angle A$.
+
+**See Also:** {{< glink "base angles" >}}
 
 ***
 

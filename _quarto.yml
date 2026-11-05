@@ -92,5 +92,16 @@ book:
         - file: chapters/Unit_3/Summary.qmd
         - file: chapters/Unit_3/Review.qmd
 
+    - part: "Unit 4: Congruence"
+      chapters:
+        - file: chapters/Unit_4/index.qmd
+        - file: chapters/Unit_4/4.1_Congruent_Figures_and_Rigid_Motions.qmd
+        - file: chapters/Unit_4/4.2_Triangle_Congruence.qmd
+        - file: chapters/Unit_4/4.3_Isosceles_and_Equilateral_Triangles.qmd
+        - file: chapters/Unit_4/4.4_Quadrilaterals_and_Their_Properties.qmd
+        - file: chapters/Unit_4/4.5_Constructions.qmd
+        - file: chapters/Unit_4/Summary.qmd
+        - file: chapters/Unit_4/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd

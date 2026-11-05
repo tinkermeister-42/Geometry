@@ -42,3 +42,13 @@ letter-size paper.
   - [3.5 - Sequences of Transformations and Symmetry](/guided_notes/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.html){target="_blank"}
   - [Unit 3 Summary](/guided_notes/Unit_3/Unit_3_Summary.html){target="_blank"}
   - [Unit 3 Review](/guided_notes/Unit_3/Unit_3_Review.html){target="_blank"}
+
+## Unit 4 - Congruence
+
+  - [4.1 - Congruent Figures and Rigid Motions](/guided_notes/Unit_4/4.1_Congruent_Figures_and_Rigid_Motions.html){target="_blank"}
+  - [4.2 - Triangle Congruence](/guided_notes/Unit_4/4.2_Triangle_Congruence.html){target="_blank"}
+  - [4.3 - Isosceles and Equilateral Triangles](/guided_notes/Unit_4/4.3_Isosceles_and_Equilateral_Triangles.html){target="_blank"}
+  - [4.4 - Quadrilaterals and Their Properties](/guided_notes/Unit_4/4.4_Quadrilaterals_and_Their_Properties.html){target="_blank"}
+  - [4.5 - Constructions](/guided_notes/Unit_4/4.5_Constructions.html){target="_blank"}
+  - [Unit 4 Summary](/guided_notes/Unit_4/Unit_4_Summary.html){target="_blank"}
+  - [Unit 4 Review](/guided_notes/Unit_4/Unit_4_Review.html){target="_blank"}
