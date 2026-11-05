@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.55cm,y=0.55cm]
+  \cgrid{0}{10}{0}{8}{1}
+  \draw[fig,fill=yellow!30] (1,1) -- (3,1) -- (1,4) -- cycle;
+  \draw[fig,fill=cyan!20] (5,1) -- (9,1) -- (5,7) -- cycle;
+  \node[below left=1pt] at (1,1) {$A$}; \node[below right=1pt] at (3,1) {$B$}; \node[above left=1pt] at (1,4) {$C$};
+  \node[below left=1pt] at (5,1) {$D$}; \node[below right=1pt] at (9,1) {$E$}; \node[above left=1pt] at (5,7) {$F$};
+\end{tikzpicture}
+\end{document}

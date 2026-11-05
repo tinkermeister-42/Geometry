@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1.15cm,y=1.15cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (-0.625,-3.545); \coordinate (C) at (1.735,-2.068);
+  \coordinate (D) at (-0.417,-2.363); \coordinate (E) at (1.157,-1.379);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \draw[fig,par1] (D) -- (E); \draw[par1,thick] (B) -- (C);
+  \node[above] at (A) {$A$}; \node[below left] at (B) {$B$}; \node[below right] at (C) {$C$};
+  \node[left=2pt] at (D) {$D$}; \node[right=2pt] at (E) {$E$};
+  \node[left=3pt] at (-0.208,-1.18) {$x$}; \node[left=3pt] at (-0.521,-2.954) {$4$};
+  \node[right=3pt] at (0.578,-0.69) {$6$}; \node[right=3pt] at (1.446,-1.724) {$3$};
+\end{tikzpicture}
+\end{document}

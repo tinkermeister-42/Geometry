@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (2.2,0); \coordinate (C) at (1.303,1.553);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \pic[ang] {angle = B--A--C}; \pic[ang2] {angle = C--B--A};
+  \node[below left] at (A) {$A$}; \node[below right] at (B) {$B$}; \node[above] at (C) {$C$};
+  \coordinate (D) at (4.4,0); \coordinate (E) at (7.92,0); \coordinate (F) at (6.485,2.485);
+  \draw[fig] (D) -- (E) -- (F) -- cycle;
+  \pic[ang] {angle = E--D--F}; \pic[ang2] {angle = F--E--D};
+  \node[below left] at (D) {$D$}; \node[below right] at (E) {$E$}; \node[above] at (F) {$F$};
+\end{tikzpicture}
+\end{document}

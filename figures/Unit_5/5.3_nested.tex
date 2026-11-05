@@ -1,0 +1,24 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,2.7); \coordinate (B) at (0,0); \coordinate (C) at (3.6,0);
+  \coordinate (D) at (0,0.9); \coordinate (E) at (2.4,0.9);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \draw[fig,par1] (D) -- (E); \draw[par1,thick] (B) -- (C);
+  \pic[rt] {right angle = A--B--C};
+  \node[above] at (A) {$A$}; \node[below left] at (B) {$B$}; \node[below right] at (C) {$C$};
+  \node[left=2pt] at (D) {$D$}; \node[above right=1pt] at (E) {$E$};
+  \node[left=3pt] at (0,1.8) {$6$}; \node[left=3pt] at (0,0.45) {$3$};
+  \node[above=2pt] at (1.2,0.9) {$8$}; \node[below=2pt] at (1.8,0) {$x$};
+  % separated triangles
+  \coordinate (A2) at (5.5,1.8); \coordinate (D2) at (5.5,0); \coordinate (E2) at (7.9,0);
+  \draw[fig] (A2) -- (D2) -- (E2) -- cycle; \pic[rt] {right angle = A2--D2--E2};
+  \node[above] at (A2) {$A$}; \node[below left] at (D2) {$D$}; \node[below right] at (E2) {$E$};
+  \node[left=3pt] at (5.5,0.9) {$6$}; \node[below=2pt] at (6.7,0) {$8$};
+  \coordinate (A3) at (9.5,2.7); \coordinate (B3) at (9.5,0); \coordinate (C3) at (13.1,0);
+  \draw[fig] (A3) -- (B3) -- (C3) -- cycle; \pic[rt] {right angle = A3--B3--C3};
+  \node[above] at (A3) {$A$}; \node[below left] at (B3) {$B$}; \node[below right] at (C3) {$C$};
+  \node[left=3pt] at (9.5,1.35) {$9$}; \node[below=2pt] at (11.3,0) {$x$};
+\end{tikzpicture}
+\end{document}
