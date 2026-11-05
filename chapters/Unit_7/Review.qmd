@@ -1,0 +1,177 @@
+# Unit 7 Review {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 7 Review](/guided_notes/Unit_7/Unit_7_Review.html){target="_blank"} (fill-in review to print and write on)
+:::
+
+{{< learn >}}
+
+### 7.1 - Circumference and Arc Length
+
+**Example 1:** A circle has radius $15$ feet. Find the length of an arc with central angle $80^\circ$. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+$\dfrac{80}{360} \cdot 2\pi(15) = \dfrac{2}{9} \cdot 30\pi = \dfrac{20\pi}{3} \approx 20.94$ ft.
+
+### 7.2 - Area of Circles and Sectors
+
+**Example 2:** A sector has radius $18$ inches and central angle $50^\circ$. Find its area. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+$\dfrac{50}{360} \cdot \pi(18)^2 = \dfrac{5}{36} \cdot 324\pi = 45\pi \approx 141.37$ square inches.
+
+### 7.3 - Radians
+
+**Example 3:** Change $330^\circ$ to radians. Then find the arc length for $r = 20$ and $\theta = \dfrac{2\pi}{5}$.
+
+$330 \cdot \dfrac{\pi}{180} = \dfrac{11\pi}{6}$. Then $s = r\theta = 20 \cdot \dfrac{2\pi}{5} = 8\pi \approx 25.13$.
+
+### 7.4 - Inscribed Angles and Tangents
+
+**Example 4:** An inscribed quadrilateral has $m\angle B = (3x + 9)^\circ$ and $m\angle D = (7x - 29)^\circ$. Find $x$ and both angles.
+
+Opposite angles add to $180^\circ$: $(3x + 9) + (7x - 29) = 180$, so $10x - 20 = 180$ and $x = 20$. The angles are $69^\circ$ and $111^\circ$.
+
+### 7.5 - The Equation of a Circle
+
+**Example 5:** Write $x^2 + y^2 - 10x + 4y + 13 = 0$ in standard form. Find the center and radius.
+
+$(x^2 - 10x + 25) + (y^2 + 4y + 4) = -13 + 25 + 4$, so $(x - 5)^2 + (y + 2)^2 = 16$. The center is $(5, -2)$ and the radius is $4$.
+
+{{< practice >}}
+
+**7.1 - I can find circumference and arc length, and solve for arcs and radii.**
+
+1. A circle has radius $7.5$ inches. Find its circumference. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+2. A circle has a circumference of $62.8$ centimeters. Find its radius. Round to the nearest tenth.
+
+3. Find the length of an arc with central angle $100^\circ$ on a circle with radius $18$ meters. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+4. A circle is cut into three arcs measuring $3x^\circ$, $(5x - 20)^\circ$, and $(2x + 40)^\circ$. Find $x$ and each arc.
+
+5. A wheel has a diameter of $28$ inches. How far does it roll in $10$ turns? Round to the nearest tenth.
+
+6. An arc of $120^\circ$ is $8\pi$ centimeters long. Find the radius.
+
+***
+
+**7.2 - I can find the area of a circle, a sector, and a shaded region.**
+
+7. Find the area of a circle with diameter $18$ feet. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+8. A sector has radius $9$ meters and central angle $280^\circ$. Find its area. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+9. A $40^\circ$ sector has an area of $10\pi$ square inches. Find the radius. Round to the nearest hundredth.
+
+10. A ring has an outer radius of $12$ and an inner radius of $7$. Find its area. Give the exact answer and a decimal rounded to the nearest hundredth.
+
+11. A circle with a diameter of $14$ feet is cut out of a square with sides of $14$ feet. Find the shaded area. Round to the nearest hundredth.
+
+12. A 9-inch pizza costs $\$7$. A 13-inch pizza costs $\$13$. Which is the better deal? Round to the nearest hundredth.
+
+***
+
+**7.3 - I can change between degrees and radians and use $s = r\theta$ and $A = \frac{1}{2}r^2\theta$.**
+
+13. Change $72^\circ$ to radians. Give the exact answer.
+
+14. Change $\dfrac{11\pi}{12}$ radians to degrees.
+
+15. Change $4$ radians to degrees. Round to the nearest hundredth.
+
+16. $r = 9$ and $\theta = \dfrac{5\pi}{6}$. Find the arc length and the sector area. Give exact answers and decimals rounded to the nearest hundredth.
+
+17. A sector has radius $10$ and area $25\pi$. Find $\theta$ in radians and in degrees.
+
+***
+
+**7.4 - I can use inscribed angles, inscribed quadrilaterals, and tangent lines.**
+
+18. An inscribed angle measures $57^\circ$. Find its intercepted arc.
+
+19. An inscribed angle measures $(5x - 8)^\circ$ and its intercepted arc measures $(12x - 36)^\circ$. Find $x$ and both measures.
+
+20. $\overline{AC}$ is a diameter and $B$ is on the circle. $m\angle A = (6x)^\circ$ and $m\angle C = (3x)^\circ$. Find $x$ and both angles.
+
+21. An inscribed quadrilateral has $m\angle A = (7x + 8)^\circ$ and $m\angle C = (5x + 16)^\circ$. Find $x$ and both angles.
+
+22. $\overline{PT}$ is tangent to a circle at $T$. The radius is $12$ and $PT = 16$. Find $OP$.
+
+23. Two tangent segments from one point measure $(6x - 5)$ and $(2x + 19)$. Find $x$ and the length.
+
+24. A circle has center $(0, 0)$ and radius $10$. A tangent line touches it at $T(-6, 8)$. Find the slope of the radius and the slope of the tangent.
+
+***
+
+**7.5 - I can write, read, and use the equation of a circle.**
+
+25. Find the center and radius of $(x - 7)^2 + (y + 3)^2 = 40$. Give the radius as a square root and as a decimal rounded to the nearest hundredth.
+
+26. Write the equation of the circle with center $(-5, 2)$ and radius $6$.
+
+27. Write the equation of the circle with center $(4, 4)$ that passes through $(10, 12)$.
+
+28. A diameter has endpoints $(-4, -2)$ and $(8, 6)$. Write the equation of the circle.
+
+29. Write $x^2 + y^2 + 10x - 6y - 2 = 0$ in standard form. Find the center and radius.
+
+30. Is $(5, 9)$ on, inside, or outside the circle $(x - 1)^2 + (y - 4)^2 = 40$? Show your work.
+
+***
+
+**Test practice**
+
+31. A circle has a diameter of $18$ centimeters. What is its circumference?
+
+    A. $9\pi$ cm\
+    B. $18\pi$ cm\
+    C. $36\pi$ cm\
+    D. $81\pi$ cm
+
+32. A circle has a radius of $6$ inches. What is its area?
+
+    A. $12\pi$ square inches\
+    B. $36\pi$ square inches\
+    C. $6\pi$ square inches\
+    D. $72\pi$ square inches
+
+33. A sector has radius $10$ and central angle $72^\circ$. What is its area?
+
+    A. $4\pi$\
+    B. $10\pi$\
+    C. $20\pi$\
+    D. $100\pi$
+
+34. What is $\dfrac{3\pi}{4}$ radians in degrees?
+
+    A. $45^\circ$\
+    B. $90^\circ$\
+    C. $135^\circ$\
+    D. $270^\circ$
+
+35. A circle has radius $5$. A central angle is $2.4$ radians. What is the arc length?
+
+    A. $6$\
+    B. $12$\
+    C. $24$\
+    D. $12\pi$
+
+36. An inscribed angle measures $38^\circ$. What is its intercepted arc?
+
+    A. $19^\circ$\
+    B. $38^\circ$\
+    C. $76^\circ$\
+    D. $142^\circ$
+
+37. $\overline{PT}$ is tangent to a circle at $T$. The radius is $5$ and $PT = 12$. What is $OP$?
+
+    A. $7$\
+    B. $11$\
+    C. $13$\
+    D. $17$
+
+38. What are the center and radius of $(x + 3)^2 + (y - 8)^2 = 49$?
+
+    A. center $(3, -8)$, radius $49$\
+    B. center $(-3, 8)$, radius $7$\
+    C. center $(-3, 8)$, radius $49$\
+    D. center $(3, -8)$, radius $7$
