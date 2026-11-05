@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}
+  \begin{scope}[x=0.4cm,y=0.4cm]
+    \cgrid{-5}{9}{-5}{7}{2}
+    \draw[fig] (2,1) circle[radius=6];
+    \fill (2,1) circle[radius=\ptr]; \node[above right] at (2,1) {tower $(2,1)$};
+    \fill (7,3) circle[radius=\ptr]; \node[above right] at (7,3) {school $(7,3)$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

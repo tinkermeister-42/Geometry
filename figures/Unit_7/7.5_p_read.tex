@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}
+  \begin{scope}[x=0.4cm,y=0.4cm]
+    \cgrid{-8}{5}{-3}{8}{2}
+    \draw[fig] (-2,3) circle[radius=4];
+    \fill (-2,3) circle[radius=\ptr];
+    \foreach \p in {(2,3),(-6,3),(-2,7),(-2,-1)} \fill \p circle[radius=\ptr];
+  \end{scope}
+\end{tikzpicture}
+\end{document}

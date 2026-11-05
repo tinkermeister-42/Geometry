@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{2.0}
+  \draw[fig] (0,0) circle[radius=\R];
+  \coordinate (C) at (0,0); \coordinate (P) at (40:\R); \coordinate (Q) at (\R*cos 40,0);
+  \draw[fig] (C)--(P); \draw[dashed] (C)--(Q)--(P);
+  \fill (C) circle[radius=\ptr]; \fill (P) circle[radius=\ptr];
+  \node[below left] at (C) {$(h,k)$}; \node[above right] at (P) {$(x,y)$};
+  \node[below] at ($(C)!0.5!(Q)$) {$x-h$}; \node[right] at ($(Q)!0.5!(P)$) {$y-k$};
+  \node[above left] at ($(C)!0.5!(P)$) {$r$};
+  \pic[rt] {right angle = C--Q--P};
+\end{tikzpicture}
+\end{document}

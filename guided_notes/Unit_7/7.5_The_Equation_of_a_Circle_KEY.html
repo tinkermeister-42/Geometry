@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided Notes 7.5 - The Equation of a Circle (Teacher Key)</title>
+<link rel="stylesheet" href="../assets/guided-notes.css">
+</head>
+<body>
+<section class="sheet">
+
+  <div class="masthead">
+    <a class="backlink" href="../../chapters/Unit_7/7.5_The_Equation_of_a_Circle.html">&larr; back to the lesson</a>
+    <h1>7.5 &nbsp;The Equation of a Circle</h1>
+    <div class="sub">Guided Notes - Unit 7: Circles - DHS Geometry</div>
+    <div class="keybadge">Teacher Key: answers in red</div>
+  </div>
+
+<div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Write the equation of a circle from its center and radius, from its center and a point, and from the ends of a diameter</li>
+      <li>Read the center and radius from an equation and graph the circle</li>
+      <li>Change an equation to standard form by completing the square</li>
+      <li>Tell if a point is on, inside, or outside a circle</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. Find the distance between (1, 2) and (4, 6). &nbsp; 2. Find the midpoint of the segment with endpoints (&minus;2, 4) and (6, &minus;2). &nbsp; 3. Write <var>x</var><sup>2</sup> + 8<var>x</var> + 16 as the square of a sum.</div>
+    <div class="work">
+      <p>1. <span class="b s"><span class="ans-key">&radic;(9 + 16) = 5</span></span></p>
+      <p>2. <span class="b s"><span class="ans-key">(2, 1)</span></span></p>
+      <p>3. <span class="b s"><span class="ans-key">(<var>x</var> + 4)<sup>2</sup></span></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.5.1</span>Where the Equation Comes From</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.6in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li>Every point (<var>x</var>, <var>y</var>) on a circle is the same distance <span class="b s"><span class="ans-key"><var>r</var></span></span> from the center (<var>h</var>, <var>k</var>).</li>
+        <li>Distance formula: &radic;<span class="b l"><span class="ans-key">(<var>x</var> &minus; <var>h</var>)<sup>2</sup> + (<var>y</var> &minus; <var>k</var>)<sup>2</sup></span></span> = <var>r</var></li>
+        <li>Square both sides.</li>
+      </ul>
+    </div>
+    <img class="fig" src="../../images/Unit_7/7.5_derive.svg" alt="a circle with center (h,k), a point (x,y) on it, and a right triangle with legs x minus h and y minus k" style="width:2.6in">
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Equation of a circle</div>
+    (<span class="b s"><span class="ans-key"><var>x</var> &minus; <var>h</var></span></span>)<sup>2</sup> + (<span class="b s"><span class="ans-key"><var>y</var> &minus; <var>k</var></span></span>)<sup>2</sup> = <span class="b s"><span class="ans-key"><var>r</var><sup>2</sup></span></span>.
+    The center is <span class="b s"><span class="ans-key">(<var>h</var>, <var>k</var>)</span></span>. The radius is <span class="b s"><span class="ans-key"><var>r</var></span></span>. At the origin: <span class="b m"><span class="ans-key"><var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> = <var>r</var><sup>2</sup></span></span>.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> A circle has center (2, 1) and radius 6. Write its equation. Check the point (2, 7).</div>
+    <div class="work">
+      <p>Equation: <span class="b l"><span class="ans-key">(<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> &minus; 1)<sup>2</sup> = 36</span></span></p>
+      <p>Check: (2 &minus; 2)<sup>2</sup> + (7 &minus; 1)<sup>2</sup> = <span class="b m"><span class="ans-key">0 + 36 = 36</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> A circle has center (&minus;1, 3) and radius 4. Write its equation.<span class="yt">your turn</span></div>
+    <div class="work h05"><div class="ans-key"><p>(<var>x</var> + 1)<sup>2</sup> + (<var>y</var> &minus; 3)<sup>2</sup> = 16</p></div></div>
+  </div>
+
+  <h2><span class="num">7.5.2</span>Read and Graph</h2>
+
+  <div class="keys">
+    <ul>
+      <li>The equation has <var>x</var> &minus; <var>h</var>. A plus sign inside means the center coordinate is <span class="b m"><span class="ans-key">negative</span></span>.</li>
+      <li>The number on the right is <span class="b s"><span class="ans-key"><var>r</var><sup>2</sup></span></span>. Take the <span class="b m"><span class="ans-key">square root</span></span> to get <var>r</var>.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th>Equation</th><th>Center</th><th>Radius</th></tr>
+    <tr><td>(<var>x</var> &minus; 4)<sup>2</sup> + (<var>y</var> &minus; 3)<sup>2</sup> = 25</td><td><span class="ans-key">(4, 3)</span></td><td><span class="ans-key">5</span></td></tr>
+    <tr><td>(<var>x</var> + 4)<sup>2</sup> + (<var>y</var> + 3)<sup>2</sup> = 25</td><td><span class="ans-key">(&minus;4, &minus;3)</span></td><td><span class="ans-key">5</span></td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Find the center and radius.</div>
+    <div class="work">
+      <p>a. (<var>x</var> &minus; 4)<sup>2</sup> + (<var>y</var> + 2)<sup>2</sup> = 25 &nbsp; <span class="b l"><span class="ans-key">center (4, &minus;2), <var>r</var> = 5</span></span></p>
+      <p>b. (<var>x</var> + 6)<sup>2</sup> + (<var>y</var> &minus; 1)<sup>2</sup> = 18</p>
+      <div class="h05"><div class="ans-key"><p>center (&minus;6, 1), <var>r</var> = &radic;18 = 3&radic;2 &asymp; 4.24</p></div></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Graph (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> + 1)<sup>2</sup> = 9.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">
+        <div><img class="grid" src="../assets/grid.svg" alt="coordinate grid"></div>
+        <div>
+          <p>Center: <span class="b m"><span class="ans-key">(2, &minus;1)</span></span></p>
+          <p>Radius: <span class="b m"><span class="ans-key">3</span></span></p>
+          <p>Plot 4 points 3 units from the center: <span class="b l"><span class="ans-key">(5, &minus;1), (&minus;1, &minus;1), (2, 2), (2, &minus;4)</span></span></p>
+          <p>Draw the circle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> Find the center and radius.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. (<var>x</var> + 3)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = 16 <span class="b l"><span class="ans-key">center (&minus;3, 2), <var>r</var> = 4</span></span></p>
+      <p>b. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> = 36 <span class="b l"><span class="ans-key">center (0, 0), <var>r</var> = 6</span></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.5.3</span>Write the Equation</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Center (&minus;2, 5), radius 3.</div>
+    <div class="work h05"><div class="ans-key"><p>(<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 9</p></div></div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> A circle has center (1, &minus;2) and passes through (4, 2). Write its equation.</div>
+    <div class="work">
+      <p>Find <var>r</var><sup>2</sup> with the distance formula (no square root needed):</p>
+      <div class="h08"><div class="ans-key"><p><var>r</var><sup>2</sup> = (4 &minus; 1)<sup>2</sup> + (2 &minus; (&minus;2))<sup>2</sup> = 9 + 16 = 25</p></div></div>
+      <p>Equation: <span class="b l"><span class="ans-key">(<var>x</var> &minus; 1)<sup>2</sup> + (<var>y</var> + 2)<sup>2</sup> = 25</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> A diameter has endpoints (&minus;3, 2) and (5, 6). Write the equation of the circle.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_7/7.5_dia.svg" alt="a circle with a diameter from (-3,2) to (5,6) and center (1,4)" style="width:2.5in">
+        <div>
+          <p>Center = midpoint:</p>
+          <div class="h05"><div class="ans-key"><p>(<span class="f"><b>&minus;3 + 5</b><b>2</b></span>, <span class="f"><b>2 + 6</b><b>2</b></span>) = (1, 4)</p></div></div>
+          <p><var>r</var><sup>2</sup> = distance from the center to (5, 6), squared:</p>
+          <div class="h05"><div class="ans-key"><p>(5 &minus; 1)<sup>2</sup> + (6 &minus; 4)<sup>2</sup> = 16 + 4 = 20</p></div></div>
+          <p>Equation: <span class="b l"><span class="ans-key">(<var>x</var> &minus; 1)<sup>2</sup> + (<var>y</var> &minus; 4)<sup>2</sup> = 20</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 10.</b> Write the equation.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Center (4, &minus;1) and radius 7.</p>
+      <div class="h05"><div class="ans-key"><p>(<var>x</var> &minus; 4)<sup>2</sup> + (<var>y</var> + 1)<sup>2</sup> = 49</p></div></div>
+      <p>b. Center (&minus;3, 0), passing through (1, 6).</p>
+      <div class="h08"><div class="ans-key"><p><var>r</var><sup>2</sup> = 4<sup>2</sup> + 6<sup>2</sup> = 52. &nbsp; (<var>x</var> + 3)<sup>2</sup> + <var>y</var><sup>2</sup> = 52</p></div></div>
+      <p>c. A diameter with endpoints (&minus;2, &minus;1) and (6, 5).</p>
+      <div class="h1"><div class="ans-key"><p>Center (2, 2). <var>r</var><sup>2</sup> = 4<sup>2</sup> + 3<sup>2</sup> = 25. &nbsp; (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = 25</p></div></div>
+    </div>
+  </div>
+
+  <h2><span class="num">7.5.4</span>Completing the Square</h2>
+
+  <div class="keys">
+    <ul>
+      <li>To complete <var>x</var><sup>2</sup> + <var>b</var><var>x</var>, add <span class="f"><b><span class="b s"><span class="ans-key"><var>b</var></span></span></b><b><span class="b s"><span class="ans-key">2</span></span></b></span> squared.</li>
+      <li>Add the same numbers to <span class="b m"><span class="ans-key">both sides</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 11.</b> Write <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> &minus; 6<var>x</var> + 4<var>y</var> &minus; 12 = 0 in standard form. Find the center and radius.</div>
+    <div class="work">
+      <p>1. Group, and move the number: (<var>x</var><sup>2</sup> &minus; 6<var>x</var>) + (<var>y</var><sup>2</sup> + 4<var>y</var>) = <span class="b s"><span class="ans-key">12</span></span></p>
+      <p>2. Half of &minus;6 is <span class="b s"><span class="ans-key">&minus;3</span></span>, squared is <span class="b s"><span class="ans-key">9</span></span>. Half of 4 is <span class="b s"><span class="ans-key">2</span></span>, squared is <span class="b s"><span class="ans-key">4</span></span>.</p>
+      <div class="h05"><div class="ans-key"><p>(<var>x</var><sup>2</sup> &minus; 6<var>x</var> + 9) + (<var>y</var><sup>2</sup> + 4<var>y</var> + 4) = 12 + 9 + 4</p></div></div>
+      <p>3. Factor: <span class="b l"><span class="ans-key">(<var>x</var> &minus; 3)<sup>2</sup> + (<var>y</var> + 2)<sup>2</sup> = 25</span></span></p>
+      <p>Center: <span class="b m"><span class="ans-key">(3, &minus;2)</span></span> &nbsp; Radius: <span class="b s"><span class="ans-key">5</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> Write <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 8<var>x</var> &minus; 10<var>y</var> + 5 = 0 in standard form.</div>
+    <div class="work h13"><div class="ans-key"><p>(<var>x</var><sup>2</sup> + 8<var>x</var> + 16) + (<var>y</var><sup>2</sup> &minus; 10<var>y</var> + 25) = &minus;5 + 16 + 25</p><p>(<var>x</var> + 4)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 36. Center (&minus;4, 5), radius 6.</p></div></div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> Write in standard form. Find the center and radius.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 4<var>x</var> &minus; 2<var>y</var> &minus; 4 = 0</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 1)<sup>2</sup> = 4 + 4 + 1 = 9. Center (&minus;2, 1), radius 3.</p></div></div>
+      <p>b. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 6<var>x</var> + 10<var>y</var> + 18 = 0</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> + 3)<sup>2</sup> + (<var>y</var> + 5)<sup>2</sup> = &minus;18 + 9 + 25 = 16. Center (&minus;3, &minus;5), radius 4.</p></div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 14.</b> Is <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 4<var>x</var> &minus; 6<var>y</var> + 20 = 0 a circle? Explain.<span class="yt">your turn</span></div>
+    <div class="work h1"><div class="ans-key"><p>(<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 3)<sup>2</sup> = &minus;20 + 4 + 9 = &minus;7. A square cannot add to a negative number, so it is not a circle.</p></div></div>
+  </div>
+
+  <h2><span class="num">7.5.5</span>On, Inside, or Outside?</h2>
+
+  <div class="keys">
+    Compute (<var>x</var> &minus; <var>h</var>)<sup>2</sup> + (<var>y</var> &minus; <var>k</var>)<sup>2</sup> for the point and compare with <var>r</var><sup>2</sup>.
+    <ul>
+      <li>Equal to <var>r</var><sup>2</sup>: the point is <span class="b m"><span class="ans-key">on</span></span> the circle.</li>
+      <li>Less than <var>r</var><sup>2</sup>: the point is <span class="b m"><span class="ans-key">inside</span></span>.</li>
+      <li>Greater than <var>r</var><sup>2</sup>: the point is <span class="b m"><span class="ans-key">outside</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 15.</b> A tower at (2, 1) reaches 6 miles: (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> &minus; 1)<sup>2</sup> = 36. Does the signal reach the school at (7, 3)?</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_7/7.5_tower.svg" alt="a town grid with a cell tower at (2,1), a circle of radius 6 around it, and a school at (7,3)" style="width:3.2in">
+      <div class="h05"><div class="ans-key"><p>(7 &minus; 2)<sup>2</sup> + (3 &minus; 1)<sup>2</sup> = 25 + 4 = 29</p></div></div>
+      <p>29 is <span class="b m"><span class="ans-key">less than</span></span> 36, so the school is <span class="b m"><span class="ans-key">inside</span></span>. Does it reach? <span class="b s"><span class="ans-key">Yes</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 16.</b> The circle is (<var>x</var> &minus; 3)<sup>2</sup> + (<var>y</var> + 1)<sup>2</sup> = 25. Is each point on, inside, or outside?</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_7/7.5_pts.svg" alt="a circle with center (3,-1) and radius 5 and three points A, B and C" style="width:2.5in">
+        <div>
+          <p>A(7, 2): <span class="b l"><span class="ans-key">4<sup>2</sup> + 3<sup>2</sup> = 25, on</span></span></p>
+          <p>B(4, 0): <span class="b l"><span class="ans-key">1<sup>2</sup> + 1<sup>2</sup> = 2, inside</span></span></p>
+          <p>C(&minus;2, 5): <span class="b l"><span class="ans-key">(&minus;5)<sup>2</sup> + 6<sup>2</sup> = 61, outside</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 17.</b> An earthquake is felt up to 10 miles from the epicenter at (&minus;4, 3). Write the equation. Which towns feel it: (4, 6), (2, &minus;5), (6, &minus;9)?</div>
+    <div class="work">
+      <p>Equation: <span class="b l"><span class="ans-key">(<var>x</var> + 4)<sup>2</sup> + (<var>y</var> &minus; 3)<sup>2</sup> = 100</span></span></p>
+      <div class="h13"><div class="ans-key"><p>(4, 6): 64 + 9 = 73 &lt; 100, inside, feels it. (2, &minus;5): 36 + 64 = 100, on the edge. (6, &minus;9): 100 + 144 = 244 &gt; 100, outside, does not feel it.</p></div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 18.</b> The circle is (<var>x</var> + 1)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = 25. Test (2, 6), (&minus;3, 5), and (4, &minus;2).<span class="yt">your turn</span></div>
+    <div class="work h13"><div class="ans-key"><p>(2, 6): 9 + 16 = 25, on. (&minus;3, 5): 4 + 9 = 13 &lt; 25, inside. (4, &minus;2): 25 + 16 = 41 &gt; 25, outside.</p></div></div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>(<var>h</var>, <var>k</var>)</span><span><var>r</var><sup>2</sup></span><span>distance</span><span>midpoint</span><span>outside</span><span>both sides</span></div>
+    <p>1. The equation of a circle comes from the <span class="b m"><span class="ans-key">distance</span></span> formula. The center is <span class="b m"><span class="ans-key">(<var>h</var>, <var>k</var>)</span></span>.</p>
+    <p>2. The number on the right is <span class="b m"><span class="ans-key"><var>r</var><sup>2</sup></span></span>.</p>
+    <p>3. The center of a diameter is its <span class="b m"><span class="ans-key">midpoint</span></span>.</p>
+    <p>4. When completing the square, add to <span class="b m"><span class="ans-key">both sides</span></span>.</p>
+    <p>5. If (<var>x</var> &minus; <var>h</var>)<sup>2</sup> + (<var>y</var> &minus; <var>k</var>)<sup>2</sup> is greater than <var>r</var><sup>2</sup>, the point is <span class="b m"><span class="ans-key">outside</span></span>.</p>
+  </div>
+
+<div class="pagebreak"></div>
+  <div class="parthead"><b>7.5 The Equation of a Circle - Practice</b></div>
+
+  <h2>Practice</h2>
+  <h3>Read the Center and Radius</h3>
+  <div class="ex">
+    <div class="work">
+      <p>1. (<var>x</var> &minus; 5)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = 49 <span class="b l"><span class="ans-key">(5, 2), <var>r</var> = 7</span></span></p>
+      <p>2. (<var>x</var> + 4)<sup>2</sup> + (<var>y</var> + 1)<sup>2</sup> = 36 <span class="b l"><span class="ans-key">(&minus;4, &minus;1), <var>r</var> = 6</span></span></p>
+      <p>3. <var>x</var><sup>2</sup> + (<var>y</var> &minus; 7)<sup>2</sup> = 25 <span class="b l"><span class="ans-key">(0, 7), <var>r</var> = 5</span></span></p>
+      <p>4. (<var>x</var> &minus; 3)<sup>2</sup> + <var>y</var><sup>2</sup> = 81 <span class="b l"><span class="ans-key">(3, 0), <var>r</var> = 9</span></span></p>
+      <p>5. (<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 6)<sup>2</sup> = 20. Give the radius as a square root and as a decimal to the nearest hundredth. <span class="b l"><span class="ans-key">(&minus;2, 6), <var>r</var> = &radic;20 &asymp; 4.47</span></span></p>
+    </div>
+  </div>
+
+  <h3>Write the Equation</h3>
+  <div class="ex">
+    <div class="work">
+      <p>6. Center (2, &minus;3), radius 5.</p>
+      <div class="h05"><div class="ans-key"><p>(<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> + 3)<sup>2</sup> = 25</p></div></div>
+      <p>7. Center (0, 0), radius 9.</p>
+      <div class="h05"><div class="ans-key"><p><var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> = 81</p></div></div>
+      <p>8. Center (&minus;6, 4), radius 2.5.</p>
+      <div class="h05"><div class="ans-key"><p>(<var>x</var> + 6)<sup>2</sup> + (<var>y</var> &minus; 4)<sup>2</sup> = 6.25</p></div></div>
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_7/7.5_p_read.svg" alt="a circle on a grid with its center and four points on the circle at grid points" style="width:2.5in">
+        <div>
+          <p>9. Use the graph. The center and the four marked points are on grid points.</p>
+          <div class="h1"><div class="ans-key"><p>Center (&minus;2, 3), radius 4. &nbsp; (<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 3)<sup>2</sup> = 16</p></div></div>
+        </div>
+      </div>
+      <p>10. Center (3, &minus;4), passing through (9, 4).</p>
+      <div class="h08"><div class="ans-key"><p><var>r</var><sup>2</sup> = 6<sup>2</sup> + 8<sup>2</sup> = 100. &nbsp; (<var>x</var> &minus; 3)<sup>2</sup> + (<var>y</var> + 4)<sup>2</sup> = 100</p></div></div>
+      <p>11. Center (&minus;1, &minus;2), passing through (2, 3).</p>
+      <div class="h08"><div class="ans-key"><p><var>r</var><sup>2</sup> = 3<sup>2</sup> + 5<sup>2</sup> = 34. &nbsp; (<var>x</var> + 1)<sup>2</sup> + (<var>y</var> + 2)<sup>2</sup> = 34</p></div></div>
+      <p>12. A diameter has endpoints (2, 3) and (8, 11).</p>
+      <div class="h1"><div class="ans-key"><p>Center (5, 7). <var>r</var><sup>2</sup> = 3<sup>2</sup> + 4<sup>2</sup> = 25. &nbsp; (<var>x</var> &minus; 5)<sup>2</sup> + (<var>y</var> &minus; 7)<sup>2</sup> = 25</p></div></div>
+      <p>13. A diameter has endpoints (&minus;7, 2) and (3, 8).</p>
+      <div class="h1"><div class="ans-key"><p>Center (&minus;2, 5). <var>r</var><sup>2</sup> = 5<sup>2</sup> + 3<sup>2</sup> = 34. &nbsp; (<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 34</p></div></div>
+    </div>
+  </div>
+
+  <h3>Complete the Square</h3>
+  <div class="ex">
+    <div class="work">
+      <p>14. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> &minus; 8<var>x</var> + 6<var>y</var> + 9 = 0</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> &minus; 4)<sup>2</sup> + (<var>y</var> + 3)<sup>2</sup> = &minus;9 + 16 + 9 = 16. Center (4, &minus;3), radius 4.</p></div></div>
+      <p>15. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 12<var>x</var> &minus; 4<var>y</var> + 31 = 0</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> + 6)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = &minus;31 + 36 + 4 = 9. Center (&minus;6, 2), radius 3.</p></div></div>
+      <p>16. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> &minus; 2<var>x</var> + 14<var>y</var> + 14 = 0</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> &minus; 1)<sup>2</sup> + (<var>y</var> + 7)<sup>2</sup> = &minus;14 + 1 + 49 = 36. Center (1, &minus;7), radius 6.</p></div></div>
+      <p>17. <var>x</var><sup>2</sup> + <var>y</var><sup>2</sup> + 6<var>x</var> &minus; 8<var>y</var> + 30 = 0. Is this a circle? Explain.</p>
+      <div class="h1"><div class="ans-key"><p>(<var>x</var> + 3)<sup>2</sup> + (<var>y</var> &minus; 4)<sup>2</sup> = &minus;30 + 9 + 16 = &minus;5. Not a circle, because the right side is negative.</p></div></div>
+    </div>
+  </div>
+
+  <h3>On, Inside, or Outside?</h3>
+  <div class="ex">
+    <div class="work">
+      <p>18. The circle is (<var>x</var> &minus; 1)<sup>2</sup> + (<var>y</var> + 3)<sup>2</sup> = 49. Test each point.</p>
+      <p>a. (8, &minus;3) <span class="b l"><span class="ans-key">49 + 0 = 49, on</span></span></p>
+      <p>b. (4, 1) <span class="b l"><span class="ans-key">9 + 16 = 25, inside</span></span></p>
+      <p>c. (&minus;5, &minus;9) <span class="b l"><span class="ans-key">36 + 36 = 72, outside</span></span></p>
+    </div>
+  </div>
+
+  <h3>Real Problems</h3>
+  <div class="ex">
+    <div class="work">
+      <p>19. A cell tower is at (4, &minus;2) and reaches 8 miles. Write the equation of the edge of the signal. Does it reach the school at (10, 4)? Does it reach the hospital at (8, 2)?</p>
+      <div class="h13"><div class="ans-key"><p>(<var>x</var> &minus; 4)<sup>2</sup> + (<var>y</var> + 2)<sup>2</sup> = 64. School: 36 + 36 = 72 &gt; 64, no. Hospital: 16 + 16 = 32 &lt; 64, yes.</p></div></div>
+      <p>20. A sprinkler at (6, 5) on a yard plan waters a circle with radius 7 feet. Write the equation. Is the flower bed at (10, 10) watered?</p>
+      <div class="h13"><div class="ans-key"><p>(<var>x</var> &minus; 6)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 49. (10, 10): 16 + 25 = 41 &lt; 49, yes.</p></div></div>
+      <p>21. An earthquake is felt up to 15 miles from the epicenter at (&minus;3, &minus;4). Write the equation. Is a city at (9, 5) inside, on, or outside the circle?</p>
+      <div class="h13"><div class="ans-key"><p>(<var>x</var> + 3)<sup>2</sup> + (<var>y</var> + 4)<sup>2</sup> = 225. (9, 5): 144 + 81 = 225, on the circle.</p></div></div>
+    </div>
+  </div>
+
+  <h3>Find the Mistake</h3>
+  <div class="ex">
+    <div class="work">
+      <p>22. Jamal says: "The circle (<var>x</var> &minus; 3)<sup>2</sup> + (<var>y</var> + 5)<sup>2</sup> = 16 has center (&minus;3, 5) and radius 16." Find his two mistakes.</p>
+      <div class="h13"><div class="ans-key"><p>The signs are reversed: the center is (3, &minus;5). The 16 is <var>r</var><sup>2</sup>, so the radius is 4.</p></div></div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">23. Which is the equation of a circle with center (&minus;2, 5) and radius 3?</div>
+    <div class="work">
+      <p>A. (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> + 5)<sup>2</sup> = 9</p>
+      <p>B. (<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 9 <span class="ans-key">&larr; correct</span></p>
+      <p>C. (<var>x</var> + 2)<sup>2</sup> + (<var>y</var> &minus; 5)<sup>2</sup> = 3</p>
+      <p>D. (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> + 5)<sup>2</sup> = 3</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">24. Which point is on the circle (<var>x</var> &minus; 1)<sup>2</sup> + (<var>y</var> &minus; 2)<sup>2</sup> = 25?</div>
+    <div class="work">
+      <p>A. (5, 5) <span class="ans-key">&larr; correct</span></p>
+      <p>B. (6, 7)</p>
+      <p>C. (3, &minus;1)</p>
+      <p>D. (2, 7)</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">25. A circle has center (3, 4) and touches the <var>x</var>-axis at one point. Write its equation. Hint: the radius is the distance from the center to the <var>x</var>-axis.</div>
+    <div class="work h08"><div class="ans-key"><p><var>r</var> = 4. &nbsp; (<var>x</var> &minus; 3)<sup>2</sup> + (<var>y</var> &minus; 4)<sup>2</sup> = 16</p></div></div>
+  </div>
+
+  <div class="ex">
+    <div class="q">26. Find where the circle (<var>x</var> &minus; 2)<sup>2</sup> + (<var>y</var> &minus; 1)<sup>2</sup> = 25 crosses the <var>x</var>-axis. Hint: put <var>y</var> = 0 and solve for <var>x</var>. Round to the nearest hundredth.</div>
+    <div class="work h16"><div class="ans-key"><p>(<var>x</var> &minus; 2)<sup>2</sup> + 1 = 25, so (<var>x</var> &minus; 2)<sup>2</sup> = 24 and <var>x</var> = 2 &plusmn; &radic;24. The points are about (&minus;2.90, 0) and (6.90, 0).</p></div></div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
+
+</section>
+</body>
+</html>

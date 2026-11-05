@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}
+  \begin{scope}[x=0.4cm,y=0.4cm]
+    \cgrid{-5}{7}{-1}{9}{2}
+    \draw[fig] (1,4) circle[radius=4.4721];
+    \draw[fig] (-3,2)--(5,6);
+    \fill (-3,2) circle[radius=\ptr]; \fill (5,6) circle[radius=\ptr]; \fill (1,4) circle[radius=\ptr];
+    \node[below left] at (-3,2) {$(-3,2)$}; \node[above right] at (5,6) {$(5,6)$};
+    \node[below right] at (1,4) {$(1,4)$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
