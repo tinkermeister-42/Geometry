@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PG) at (0.000,0.000);
+\coordinate (PE) at (0.000,0.300);
+\coordinate (PF) at (2.800,0.300);
+\coordinate (PC) at (2.800,0.000);
+\coordinate (PB) at (2.800,5.566);
+\draw[ultra thick] (-0.600,0.000) -- (3.500,0.000);
+\draw[thick] (0.000,0.000) -- (0.000,0.300); \fill (0.000,0.300) circle[radius=1.6pt];
+\draw[ultra thick] (2.800,0) -- (2.800,5.766);
+\draw[dashed] (0,0.300) -- (2.800,0.300);
+\node[anchor=center] at (-0.600,0.620) {$5.5$ ft};
+\draw[fig] (0.000,0.300) -- (2.800,5.566);
+\node[anchor=center] at (1.457,1.176) {$62^\circ$};
+\pic[ang,angle radius=1.00cm] {angle = PF--PE--PB};
+\node[anchor=center] at (1.400,-0.290) {$80$ ft};
+\node[anchor=center] at (2.575,2.933) {$x$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PA) at (0.000,0.000);
+\coordinate (PB) at (4.200,2.400);
+\coordinate (PA2) at (5.200,0.000);
+\coordinate (PB2) at (-1.000,2.400);
+\coordinate (PR1) at (1.800,0.000);
+\coordinate (PR2) at (2.200,2.400);
+\coordinate (PL2) at (-1.000,2.400);
+\coordinate (PRR) at (5.200,2.400);
+\coordinate (PLB) at (3.200,2.400);
+\draw[dashed] (-1.2,0) -- (5.2,0); \draw[dashed] (-1.2,2.4) -- (5.4,2.4);
+\draw[fig] (0.000,0.000) -- (4.200,2.400);
+\node[anchor=center] at (1.160,0.308) {$\theta$};
+\pic[ang,angle radius=0.80cm] {angle = PR1--PA--PB};
+\node[anchor=center] at (3.040,2.092) {$\theta$};
+\pic[ang,angle radius=0.80cm] {angle = PLB--PB--PA};
+\node[anchor=center] at (-0.120,-0.300) {$A$};
+\node[anchor=center] at (4.400,2.750) {$B$};
+\end{tikzpicture}
+\end{document}

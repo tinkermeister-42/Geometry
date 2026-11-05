@@ -1,0 +1,20 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PP) at (0.000,1.000);
+\coordinate (PR) at (5.400,0.000);
+\coordinate (PQ) at (0.000,0.000);
+\coordinate (PPL) at (5.400,1.000);
+\draw[ultra thick] (-0.5,0) -- (5.800,0);
+\draw[dashed] (0,1.000) -- (5.400,1.000);
+\draw[dashed] (0,0) -- (0,1.000);
+\draw[fig] (0.000,1.000) -- (5.400,0.000);
+\fill (0,1.000) circle[radius=1.8pt];
+\node[anchor=center] at (0.000,1.380) {plane};
+\node[anchor=center] at (5.400,-0.350) {runway};
+\node[anchor=center] at (2.970,1.450) {not to scale};
+\node at (1.600,0.360) {$3^\circ$};
+\node[anchor=center] at (2.700,-0.640) {$d$};
+\end{tikzpicture}
+\end{document}

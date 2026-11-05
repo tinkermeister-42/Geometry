@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PE) at (0.000,0.000);
+\coordinate (PT) at (2.066,3.885);
+\coordinate (PH) at (2.066,0.000);
+\coordinate (PV) at (0.000,4.185);
+\coordinate (PU) at (0.000,1.800);
+\draw[dashed] (0,0) -- (2.866,0);
+\draw[dashed] (0,0) -- (0,4.185);
+\draw[fig] (0.000,0.000) -- (2.066,3.885);
+\fill (0,0) circle[radius=\ptr];
+\node[anchor=center] at (1.886,1.133) {$62^\circ$};
+\pic[ang,angle radius=1.40cm] {angle = PH--PE--PT};
+\node[anchor=center] at (0.550,2.100) {$28^\circ$};
+\pic[ang,angle radius=1.6cm] {angle = PT--PE--PV};
+\end{tikzpicture}
+\end{document}

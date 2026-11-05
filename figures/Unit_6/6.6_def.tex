@@ -1,0 +1,27 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PE) at (0.000,0.000);
+\coordinate (PT) at (3.600,1.700);
+\coordinate (PH) at (3.600,0.000);
+\coordinate (PX) at (1.600,0.000);
+\coordinate (PE2) at (7.000,1.700);
+\coordinate (PH2) at (10.600,1.700);
+\coordinate (PT2) at (10.600,0.000);
+\draw[dashed] (0,0) -- (3.6,0);
+\draw[fig] (0.000,0.000) -- (3.600,1.700);
+\fill (0,0) circle[radius=\ptr]; \fill (3.6,1.7) circle[radius=\ptr]; \node[above right] at (3.6,1.7) {object};
+\node[anchor=center] at (1.268,0.284) {$\theta$};
+\pic[ang,angle radius=0.90cm] {angle = PH--PE--PT};
+\node[font=\bfseries] at (1.8,-0.55) {Elevation (looking up)};
+\node[right] at (0.05,0.25) {};
+\node[left] at (0,0) {eye};
+\draw[dashed] (7.000,1.7) -- (10.600,1.7);
+\draw[fig] (7.000,1.7) -- (10.600,0);
+\fill (7.000,1.7) circle[radius=\ptr]; \fill (10.600,0) circle[radius=\ptr]; \node[right] at (10.600,0) {object}; \node[left] at (7.000,1.7) {eye};
+\node[anchor=center] at (8.268,1.416) {$\theta$};
+\pic[ang,angle radius=0.90cm] {angle = PT2--PE2--PH2};
+\node[font=\bfseries] at (8.800,-0.55) {Depression (looking down)};
+\end{tikzpicture}
+\end{document}
