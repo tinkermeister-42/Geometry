@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.7}
+  \draw[fig] (0,0) circle[radius=\R];
+  \draw[thin] (-\R,0) -- (\R,0); \draw[thin] (0,-\R) -- (0,\R);
+  \fill (0,0) circle[radius=\ptr];
+  \node[right] at (\R+0.05,0.0) {$0$ or $2\pi$ ($360^\circ$)};
+  \node[above] at (0,\R+0.05) {$\dfrac{\pi}{2}$ ($90^\circ$)};
+  \node[left] at (-\R-0.05,0) {$\pi$ ($180^\circ$)};
+  \node[below] at (0,-\R-0.05) {$\dfrac{3\pi}{2}$ ($270^\circ$)};
+  \foreach \a in {0,90,180,270} \fill (\a:\R) circle[radius=\ptr];
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\Ro{2.4}\def\Ri{0.8}
+  \fill[gray!35] (35:\Ri) -- (35:\Ro) arc[start angle=35,end angle=145,radius=\Ro] -- (145:\Ri) arc[start angle=145,end angle=35,radius=\Ri] -- cycle;
+  \draw[fig] (35:\Ri) -- (35:\Ro) arc[start angle=35,end angle=145,radius=\Ro] -- (145:\Ri) arc[start angle=145,end angle=35,radius=\Ri] -- cycle;
+  \draw[thin] (0,0) -- (35:\Ri); \draw[thin] (0,0) -- (145:\Ri);
+  \coordinate (O) at (0,0); \coordinate (P) at (35:1); \coordinate (Q) at (145:1);
+  \pic[ang,angle radius=4mm] {angle = P--O--Q};
+  \fill (0,0) circle[radius=\ptr]; \node[below] at (0,-0.05) {pivot};
+  \node at (90:1.6) {$110^\circ$};
+  \node[left] at (145:\Ri) {8 in}; \node[left] at (145:\Ro) {24 in};
+\end{tikzpicture}
+\end{document}

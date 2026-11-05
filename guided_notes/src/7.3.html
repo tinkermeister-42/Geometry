@@ -1,0 +1,328 @@
+<!--
+lesson: 7.3
+title: Radians
+unit: 7
+unit_title: Circles
+slug: Radians
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Explain what a radian is</li>
+      <li>Change degrees to radians and radians to degrees</li>
+      <li>Use <var>s</var> = <var>r</var>&theta; and <var>A</var> = {{f 1/2}}<var>r</var><sup>2</sup>&theta; with an angle in radians</li>
+      <li>Tell when an angle must be in radians</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. A circle has radius 5. Find its circumference. Give the exact answer. &nbsp; 2. Simplify {{f 120/180}}. &nbsp; 3. Solve {{f <var>x</var>/180}} = {{f 2/3}}.</div>
+    <div class="work">
+      <p>1. <span class="b s">{{a}}10 &pi;{{/a}}</span></p>
+      <p>2. <span class="b s">{{a}}{{f 2/3}}{{/a}}</span></p>
+      <p>3. <var>x</var> = <span class="b s">{{a}}120{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.3.1</span>What Is a Radian?</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.4in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li>Lay the <span class="b m">{{a}}radius{{/a}}</span> along the edge of a circle. The angle at the center is <b>1 radian</b>.</li>
+        <li>Radian measure: &theta; = {{f <span class="b s">{{a}}<var>s</var>{{/a}}</span>/<span class="b s">{{a}}<var>r</var>{{/a}}</span>}}, where <var>s</var> is the arc length.</li>
+        <li>The circumference is 2 &pi;<var>r</var>, so a full turn is <span class="b m">{{a}}2 &pi;{{/a}}</span> radians &asymp; <span class="b s">{{a}}6.28{{/a}}</span>.</li>
+      </ul>
+    </div>
+    {{fig 7.3_laid|a circle with points marked every one radian along the edge, numbered 0 to 6|2.4in}}
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> An arc is 12 centimeters long on a circle with radius 4 centimeters. Find the central angle in radians.</div>
+    <div class="work">
+      <p>&theta; = {{f <var>s</var>/<var>r</var>}} = {{f 12/4}} = <span class="b m">{{a}}3 radians{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> Find the central angle in radians.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. <var>s</var> = 10 inches, <var>r</var> = 2.5 inches <span class="b m">{{a}}{{f 10/2.5}} = 4 radians{{/a}}</span></p>
+      <p>b. <var>s</var> = 9 feet, <var>r</var> = 6 feet <span class="b m">{{a}}{{f 9/6}} = 1.5 radians{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">7.3.2</span>Degrees and Radians</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.9in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li>180&deg; = <span class="b m">{{a}}&pi; radians{{/a}}</span></li>
+        <li>Degrees to radians: multiply by {{f <span class="b s">{{a}}&pi;{{/a}}</span>/<span class="b s">{{a}}180{{/a}}</span>}}.</li>
+        <li>Radians to degrees: multiply by {{f <span class="b s">{{a}}180{{/a}}</span>/<span class="b s">{{a}}&pi;{{/a}}</span>}}.</li>
+      </ul>
+    </div>
+    {{fig 7.3_turns|a circle with the quarter turns marked 0, pi over 2, pi, and 3 pi over 2 radians|2.9in}}
+  </div>
+
+  <table class="steps">
+    <tr><th>Degrees</th><td>30&deg;</td><td>45&deg;</td><td>60&deg;</td><td>90&deg;</td><td>180&deg;</td><td>360&deg;</td></tr>
+    <tr><th>Radians</th><td>{{a}}{{f &pi;/6}}{{/a}}</td><td>{{a}}{{f &pi;/4}}{{/a}}</td><td>{{a}}{{f &pi;/3}}{{/a}}</td><td>{{a}}{{f &pi;/2}}{{/a}}</td><td>{{a}}&pi;{{/a}}</td><td>{{a}}2 &pi;{{/a}}</td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Change 45&deg; to radians. Then change 150&deg; to radians.</div>
+    <div class="work">
+      <p>45 &middot; {{f &pi;/180}} = {{f 45 &pi;/180}} = <span class="b m">{{a}}{{f &pi;/4}}{{/a}}</span></p>
+      <p>150 &middot; {{f &pi;/180}} = {{f 150 &pi;/180}} = <span class="b m">{{a}}{{f 5 &pi;/6}}{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Change {{f 5 &pi;/3}} radians to degrees.</div>
+    <div class="work h08">{{a}}<p>{{f 5 &pi;/3}} &middot; {{f 180/&pi;}} = {{f 5 &middot; 180/3}} = 300&deg;. The &pi; cancels.</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> Change 2 radians to degrees. Round to the nearest hundredth.</div>
+    <div class="work h05">{{a}}<p>2 &middot; {{f 180/&pi;}} &asymp; 114.59&deg;</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Change 70&deg; to radians. Give the exact answer and a decimal rounded to the nearest hundredth.</div>
+    <div class="work h05">{{a}}<p>70 &middot; {{f &pi;/180}} = {{f 7 &pi;/18}} &asymp; 1.22 radians</p>{{/a}}</div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> Change the angle. Use exact answers unless told to round.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="cols2">
+        <div>
+          <p>a. 36&deg; to radians</p>
+          <div class="h05">{{a}}<p>{{f &pi;/5}}</p>{{/a}}</div>
+          <p>b. 225&deg; to radians</p>
+          <div class="h05">{{a}}<p>{{f 5 &pi;/4}}</p>{{/a}}</div>
+        </div>
+        <div>
+          <p>c. {{f 7 &pi;/6}} radians to degrees</p>
+          <div class="h05">{{a}}<p>210&deg;</p>{{/a}}</div>
+          <p>d. 1.5 radians to degrees (nearest hundredth)</p>
+          <div class="h05">{{a}}<p>1.5 &middot; {{f 180/&pi;}} &asymp; 85.94&deg;</p>{{/a}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="num">7.3.3</span>Arc Length and Sector Area in Radians</h2>
+
+  <div class="keys">
+    <ul>
+      <li>From &theta; = {{f <var>s</var>/<var>r</var>}}: &nbsp; <var>s</var> = <span class="b m">{{a}}<var>r</var>&theta;{{/a}}</span></li>
+      <li>A sector is {{f &theta;/2 &pi;}} of the circle: &nbsp; <var>A</var> = {{f &theta;/2 &pi;}} &middot; &pi;<var>r</var><sup>2</sup> = <span class="b m">{{a}}{{f 1/2}}<var>r</var><sup>2</sup>&theta;{{/a}}</span></li>
+      <li>These formulas need &theta; in <span class="b m">{{a}}radians{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th style="width:1.2in"></th><th>Degrees (<var>n</var>&deg;)</th><th>Radians (&theta;)</th></tr>
+    <tr><td>arc length</td><td>{{f <var>n</var>/360}} &middot; 2 &pi;<var>r</var></td><td>{{a}}<var>r</var>&theta;{{/a}}</td></tr>
+    <tr><td>sector area</td><td>{{f <var>n</var>/360}} &middot; &pi;<var>r</var><sup>2</sup></td><td>{{a}}{{f 1/2}}<var>r</var><sup>2</sup>&theta;{{/a}}</td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> The radius is 8 centimeters and &theta; = {{f 3 &pi;/4}}. Find the arc length and the sector area. Exact answers and decimals to the nearest hundredth.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.2in 1fr;align-items:center">
+        {{fig 7.3_ex8|a circle with radius 8 centimeters and a central angle of 3 pi over 4 radians; the arc is marked s|2.1in}}
+        <div>
+          <p><var>s</var> = <var>r</var>&theta;</p>
+          <div class="h05">{{a}}<p>8 &middot; {{f 3 &pi;/4}} = 6 &pi; &asymp; 18.85 cm</p>{{/a}}</div>
+          <p><var>A</var> = {{f 1/2}}<var>r</var><sup>2</sup>&theta;</p>
+          <div class="h08">{{a}}<p>{{f 1/2}}(8)<sup>2</sup> &middot; {{f 3 &pi;/4}} = 24 &pi; &asymp; 75.40 cm<sup>2</sup></p>{{/a}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> A sector has radius 6 inches and &theta; = 2.5 radians. Find <var>s</var> and <var>A</var>.</div>
+    <div class="work h08">{{a}}<p><var>s</var> = 6(2.5) = 15 in. &nbsp; <var>A</var> = {{f 1/2}}(6)<sup>2</sup>(2.5) = 45 in<sup>2</sup></p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 11.</b> An arc is 14 feet long on a circle with radius 8 feet. Find &theta; in radians. Then change it to degrees (nearest hundredth).</div>
+    <div class="work h08">{{a}}<p>&theta; = {{f 14/8}} = 1.75 radians. &nbsp; 1.75 &middot; {{f 180/&pi;}} &asymp; 100.27&deg;</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> A sector with &theta; = {{f &pi;/2}} has an area of 36 &pi; square meters. Find <var>r</var>.</div>
+    <div class="work h1">{{a}}<p>{{f 1/2}}<var>r</var><sup>2</sup> &middot; {{f &pi;/2}} = 36 &pi;, so {{f &pi;<var>r</var><sup>2</sup>/4}} = 36 &pi;, <var>r</var><sup>2</sup> = 144, <var>r</var> = 12 m</p>{{/a}}</div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> <var>r</var> = 10 inches and &theta; = {{f 2 &pi;/5}}. Find the arc length and the sector area. Exact answers and decimals to the nearest hundredth.<span class="yt">your turn</span></div>
+    <div class="work h1">{{a}}<p><var>s</var> = 10 &middot; {{f 2 &pi;/5}} = 4 &pi; &asymp; 12.57 in. &nbsp; <var>A</var> = {{f 1/2}}(10)<sup>2</sup> &middot; {{f 2 &pi;/5}} = 20 &pi; &asymp; 62.83 in<sup>2</sup></p>{{/a}}</div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 14.</b> Hnin has a circle with <var>r</var> = 5 and a central angle of 60&deg;. She writes <var>s</var> = <var>r</var>&theta; = 5 &middot; 60 = 300. What is wrong? Find the correct <var>s</var>.<span class="yt">your turn</span></div>
+    <div class="work h1">{{a}}<p><var>s</var> = <var>r</var>&theta; needs &theta; in radians. 60&deg; = {{f &pi;/3}}. So <var>s</var> = 5 &middot; {{f &pi;/3}} = {{f 5 &pi;/3}} &asymp; 5.24.</p>{{/a}}</div>
+  </div>
+
+  <h2><span class="num">7.3.4</span>Using Radians</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 15.</b> A wheel has a radius of 13 inches. A point on the rim turns through 3 radians. How far does the point travel?</div>
+    <div class="work h05">{{a}}<p><var>s</var> = <var>r</var>&theta; = 13 &middot; 3 = 39 inches</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 16.</b> A wiper blade covers the part of the arm from 8 inches to 24 inches from the pivot. The wiper swings through 110&deg;. How much glass does the blade clean? Round to the nearest tenth.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.2in 1fr;align-items:center">
+        {{fig 7.3_wiper|a windshield wiper blade sweeping through 110 degrees, covering the part of the arm from 8 to 24 inches from the pivot|2.1in}}
+        <div>
+          <p>110&deg; = 110 &middot; {{f &pi;/180}} = <span class="b m">{{a}}{{f 11 &pi;/18}}{{/a}}</span> radians</p>
+          <div class="h13">{{a}}<p><var>A</var> = {{f 1/2}}(24)<sup>2</sup>&theta; &minus; {{f 1/2}}(8)<sup>2</sup>&theta; = {{f 1/2}}(512)&theta; = 256 &middot; {{f 11 &pi;/18}} &asymp; 491.5 in<sup>2</sup></p>{{/a}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 17.</b> A point on the rim of a wheel with radius 15 inches turns through {{f 4 &pi;/3}} radians. How far does it travel? Exact answer and a decimal to the nearest tenth.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p><var>s</var> = 15 &middot; {{f 4 &pi;/3}} = 20 &pi; &asymp; 62.8 in</p>{{/a}}</div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>180</span><span>&pi;</span><span>radians</span><span>radius</span><span>2 &pi;</span></div>
+    <p>1. One radian is the central angle whose arc is as long as the <span class="b m">{{a}}radius{{/a}}</span>.</p>
+    <p>2. A full turn is <span class="b m">{{a}}2 &pi;{{/a}}</span> radians. Half a turn is <span class="b m">{{a}}&pi;{{/a}}</span> radians.</p>
+    <p>3. Degrees to radians: multiply by {{f &pi;/<span class="b s">{{a}}180{{/a}}</span>}}.</p>
+    <p>4. <var>s</var> = <var>r</var>&theta; and <var>A</var> = {{f 1/2}}<var>r</var><sup>2</sup>&theta; need &theta; in <span class="b m">{{a}}radians{{/a}}</span>.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Find the Central Angle in Radians</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols3">
+        <p>1. <var>s</var> = 15 in, <var>r</var> = 5 in <span class="b s">{{a}}3{{/a}}</span></p>
+        <p>2. <var>s</var> = 7 ft, <var>r</var> = 2 ft <span class="b s">{{a}}3.5{{/a}}</span></p>
+        <p>3. <var>s</var> = 3 m, <var>r</var> = 1.2 m <span class="b s">{{a}}2.5{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Change to Radians (Exact Answer in Terms of &pi;)</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols3">
+        <p>4. 30&deg; <span class="b s">{{a}}{{f &pi;/6}}{{/a}}</span></p>
+        <p>5. 120&deg; <span class="b s">{{a}}{{f 2 &pi;/3}}{{/a}}</span></p>
+        <p>6. 135&deg; <span class="b s">{{a}}{{f 3 &pi;/4}}{{/a}}</span></p>
+        <p>7. 300&deg; <span class="b s">{{a}}{{f 5 &pi;/3}}{{/a}}</span></p>
+        <p>8. 18&deg; <span class="b s">{{a}}{{f &pi;/10}}{{/a}}</span></p>
+        <p>9. 80&deg; <span class="b s">{{a}}{{f 4 &pi;/9}}{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Change to Degrees</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols4">
+        <p>10. {{f &pi;/3}} <span class="b s">{{a}}60&deg;{{/a}}</span></p>
+        <p>11. {{f 7 &pi;/4}} <span class="b s">{{a}}315&deg;{{/a}}</span></p>
+        <p>12. {{f 3 &pi;/10}} <span class="b s">{{a}}54&deg;{{/a}}</span></p>
+        <p>13. {{f 4 &pi;/3}} <span class="b s">{{a}}240&deg;{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Decimals (nearest hundredth)</h3>
+  <div class="ex">
+    <div class="work">
+      <p>14. Change 3 radians to degrees. <span class="b m">{{a}}171.89&deg;{{/a}}</span></p>
+      <p>15. Change 0.8 radians to degrees. <span class="b m">{{a}}45.84&deg;{{/a}}</span></p>
+      <p>16. Change 200&deg; to radians. <span class="b m">{{a}}{{f 10 &pi;/9}} &asymp; 3.49{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h3>Arc Length and Sector Area (Exact Answers and Decimals to the Nearest Hundredth)</h3>
+  <div class="ex">
+    <div class="work">
+      <p>17. <var>r</var> = 9 inches, &theta; = {{f &pi;/3}}</p>
+      <div class="h08">{{a}}<p><var>s</var> = 3 &pi; &asymp; 9.42 in. &nbsp; <var>A</var> = {{f 1/2}}(81){{f &pi;/3}} = 13.5 &pi; &asymp; 42.41 in<sup>2</sup></p>{{/a}}</div>
+      <p>18. <var>r</var> = 4 feet, &theta; = 2.5</p>
+      <div class="h08">{{a}}<p><var>s</var> = 10 ft. &nbsp; <var>A</var> = {{f 1/2}}(16)(2.5) = 20 ft<sup>2</sup></p>{{/a}}</div>
+      <p>19. <var>r</var> = 10 meters, &theta; = {{f 7 &pi;/6}}</p>
+      <div class="h08">{{a}}<p><var>s</var> = {{f 35 &pi;/3}} &asymp; 36.65 m. &nbsp; <var>A</var> = {{f 1/2}}(100){{f 7 &pi;/6}} = {{f 175 &pi;/3}} &asymp; 183.26 m<sup>2</sup></p>{{/a}}</div>
+      <p>20. An arc is 18 centimeters long on a circle with radius 6 centimeters. Find &theta; and the sector area.</p>
+      <div class="h08">{{a}}<p>&theta; = {{f 18/6}} = 3 radians. &nbsp; <var>A</var> = {{f 1/2}}(36)(3) = 54 cm<sup>2</sup></p>{{/a}}</div>
+      <p>21. A sector with radius 6 inches has an area of 12 &pi; square inches. Find &theta; in radians and in degrees.</p>
+      <div class="h08">{{a}}<p>{{f 1/2}}(36)&theta; = 12 &pi;, so &theta; = {{f 2 &pi;/3}} radians = 120&deg;</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Real Problems</h3>
+  <div class="ex">
+    <div class="work">
+      <p>22. A Ferris wheel has a radius of 30 feet. A seat turns through {{f 4 &pi;/3}} radians. How far does the seat travel? Round to the nearest hundredth.</p>
+      <div class="h08">{{a}}<p><var>s</var> = 30 &middot; {{f 4 &pi;/3}} = 40 &pi; &asymp; 125.66 ft</p>{{/a}}</div>
+      <p>23. A wiper blade covers the part of the arm from 6 inches to 22 inches from the pivot. The wiper swings through 120&deg;. How much glass does it clean? Round to the nearest hundredth.</p>
+      <div class="h13">{{a}}<p>120&deg; = {{f 2 &pi;/3}}. &nbsp; <var>A</var> = {{f 1/2}}(484 &minus; 36){{f 2 &pi;/3}} = 224 &middot; {{f 2 &pi;/3}} = {{f 448 &pi;/3}} &asymp; 469.14 in<sup>2</sup></p>{{/a}}</div>
+      <p>24. A pendulum 50 centimeters long swings through an angle of 0.4 radians. How far does the tip travel?</p>
+      <div class="h05">{{a}}<p><var>s</var> = 50(0.4) = 20 cm</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Find the Mistake</h3>
+  <div class="ex">
+    <div class="work">
+      <p>25. Daniel says that an arc on a circle with <var>r</var> = 12 and a central angle of 30&deg; has length 12 &middot; 30 = 360. Find his mistake. What is the correct arc length? Round to the nearest hundredth.</p>
+      <div class="h13">{{a}}<p>He used degrees in <var>s</var> = <var>r</var>&theta;. 30&deg; = {{f &pi;/6}} radians, so <var>s</var> = 12 &middot; {{f &pi;/6}} = 2 &pi; &asymp; 6.28.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">26. What is {{f 11 &pi;/6}} radians in degrees?</div>
+    <div class="work">
+      <p>A. 165&deg;</p>
+      <p>B. 210&deg;</p>
+      <p>C. 330&deg; {{a}}&larr; correct{{/a}}</p>
+      <p>D. 660&deg;</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">27. A circle has radius 12 centimeters. An arc on it is 18 centimeters long. What is the central angle in radians?</div>
+    <div class="work">
+      <p>A. 0.67</p>
+      <p>B. 1.5 {{a}}&larr; correct{{/a}}</p>
+      <p>C. 6</p>
+      <p>D. 216</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">28. Put &theta; = 2 &pi; into <var>s</var> = <var>r</var>&theta; and into <var>A</var> = {{f 1/2}}<var>r</var><sup>2</sup>&theta;. What do you get? Explain.</div>
+    <div class="work h1">{{a}}<p><var>s</var> = 2 &pi;<var>r</var> and <var>A</var> = &pi;<var>r</var><sup>2</sup>. A full turn is the whole circle, so you get the circumference and the area.</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. The minute hand of a clock is 6 inches long. How many radians does it turn in 1 minute? How far does the tip travel in 1 minute? Round to the nearest hundredth.</div>
+    <div class="work h13">{{a}}<p>One turn in 60 minutes: 2 &pi; &divide; 60 = {{f &pi;/30}} &asymp; 0.10 radians. &nbsp; <var>s</var> = 6 &middot; {{f &pi;/30}} = {{f &pi;/5}} &asymp; 0.63 inches.</p>{{/a}}</div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>

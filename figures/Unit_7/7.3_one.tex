@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c7}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\R{1.9}
+  \draw[fig] (0,0) circle[radius=\R];
+  \coordinate (O) at (0,0); \coordinate (A) at (0:\R); \coordinate (B) at (57.3:\R);
+  \draw[fig] (O)--(A); \draw[fig] (O)--(B);
+  \fill (O) circle[radius=\ptr]; \fill (A) circle[radius=\ptr]; \fill (B) circle[radius=\ptr];
+  \draw[very thick] (0:\R) arc[start angle=0,end angle=57.3,radius=\R];
+  \pic[ang,angle radius=5mm] {angle = A--O--B};
+  \node[below] at (1.0,0) {$r$}; \node at (28.6:2.3) {$r$};
+  \node at (28.6:0.95) {$1$}; \node[below] at (0,-2.0) {the angle is 1 radian};
+\end{tikzpicture}
+\end{document}
