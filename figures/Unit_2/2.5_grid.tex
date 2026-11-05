@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+\cgrid{0}{10}{0}{9}{2}
+
+\draw[fig] (1,2) -- (9,8);
+\pt{A}{(1,2)}{below right}\pt{B}{(9,8)}{above left}
+\ifkey \draw[answer,dashed] (1,2) -- (5,2) -- (5,5); \draw[answer,dashed] (5,5) -- (9,5) -- (9,8); \fill[key] (5,5) circle[radius=3pt]; \node[above left,key] at (5,5) {\ans{M(5,5)}}; \fi
+
+\end{tikzpicture}
+\end{document}

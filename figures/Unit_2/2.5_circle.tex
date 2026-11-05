@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+
+\cgrid{-4}{6}{-4}{6}{1}
+
+\draw[fig] (-3,4) -- (5,-2);
+\pt{A}{(-3,4)}{above left}\pt{B}{(5,-2)}{below right}
+\ifkey \draw[answer] (1,1) circle[radius=5]; \fill[key] (1,1) circle[radius=3pt]; \node[above right,key] at (1,1) {\ans{(1,1)}}; \fi
+
+\end{tikzpicture}
+\end{document}

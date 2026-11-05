@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+
+\draw[<->,thick] (-4.6,0) -- (10.6,0);
+\foreach \x in {-4,-2,0,2,4,6,8,10}{\draw[thick] (\x,-.12) -- (\x,.12); \node[below] at (\x,-.15) {$\x$};}
+\fill (-3,0) circle[radius=2.6pt]; \node[above] at (-3,.15) {$-3$};
+\fill (9,0) circle[radius=2.6pt]; \node[above] at (9,.15) {$9$};
+\ifkey \fill[key] (3,0) circle[radius=3pt]; \node[above,key] at (3,.2) {\ans{3}}; \draw[answer,<->] (-3,1.3) -- (3,1.3) node[midway,above]{\ans{6}}; \draw[answer,<->] (3,1.3) -- (9,1.3) node[midway,above]{\ans{6}};\fi
+
+\end{tikzpicture}
+\end{document}
