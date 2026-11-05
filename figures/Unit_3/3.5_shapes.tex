@@ -1,0 +1,30 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}
+\draw[fig,fill=gray!20] (0.000,1.100) -- (-0.953,-0.550) -- (0.953,-0.550) -- cycle;
+\draw[fig,fill=gray!20] (3.878,0.778) -- (2.322,0.778) -- (2.322,-0.778) -- (3.878,-0.778) -- cycle;
+\draw[fig,fill=gray!20] (6.200,1.100) -- (5.154,0.340) -- (5.553,-0.890) -- (6.847,-0.890) -- (7.246,0.340) -- cycle;
+\draw[fig,fill=gray!20] (9.300,1.100) -- (8.347,0.550) -- (8.347,-0.550) -- (9.300,-1.100) -- (10.253,-0.550) -- (10.253,0.550) -- cycle;
+\ifkey
+\draw[answer,dashed] (-0.000,-1.375) -- (0.000,1.375);
+\draw[answer,dashed] (1.191,-0.687) -- (-1.191,0.687);
+\draw[answer,dashed] (1.191,0.688) -- (-1.191,-0.688);
+\draw[answer,dashed] (2.128,-0.972) -- (4.072,0.972);
+\draw[answer,dashed] (3.100,-1.375) -- (3.100,1.375);
+\draw[answer,dashed] (4.072,-0.972) -- (2.128,0.972);
+\draw[answer,dashed] (4.475,-0.000) -- (1.725,0.000);
+\draw[answer,dashed] (6.200,-1.375) -- (6.200,1.375);
+\draw[answer,dashed] (7.008,-1.112) -- (5.392,1.112);
+\draw[answer,dashed] (7.508,-0.425) -- (4.892,0.425);
+\draw[answer,dashed] (7.508,0.425) -- (4.892,-0.425);
+\draw[answer,dashed] (7.008,1.112) -- (5.392,-1.112);
+\draw[answer,dashed] (9.300,-1.375) -- (9.300,1.375);
+\draw[answer,dashed] (9.988,-1.191) -- (8.613,1.191);
+\draw[answer,dashed] (10.491,-0.687) -- (8.109,0.687);
+\draw[answer,dashed] (10.675,-0.000) -- (7.925,0.000);
+\draw[answer,dashed] (10.491,0.688) -- (8.109,-0.688);
+\draw[answer,dashed] (9.988,1.191) -- (8.613,-1.191);
+\fi
+\end{tikzpicture}
+\end{document}

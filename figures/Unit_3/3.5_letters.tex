@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}
+\node[font=\fontsize{40}{44}\selectfont\bfseries] at (0,0) {H};
+\node[font=\fontsize{40}{44}\selectfont\bfseries] at (2.6,0) {S};
+\node[font=\fontsize{40}{44}\selectfont\bfseries] at (5.2,0) {A};
+\ifkey
+\draw[answer,dashed] (0,-0.9) -- (0,0.9); \draw[answer,dashed] (-0.8,0) -- (0.8,0); \draw[answer,dashed] (5.2,-0.9) -- (5.2,0.9);
+\fi
+\end{tikzpicture}
+\end{document}

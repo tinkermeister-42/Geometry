@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}
+\draw[fig,fill=gray!20] (-1.300,-0.700) -- (1.300,-0.700) -- (1.300,0.700) -- (-1.300,0.700) -- cycle;
+\draw[fig,fill=gray!20] (5.100,0.000) -- (4.550,0.953) -- (3.450,0.953) -- (2.900,0.000) -- (3.450,-0.953) -- (4.550,-0.953) -- cycle;
+\draw[fig,fill=gray!20] (7.200,-0.800) -- (9.000,-0.800) -- (8.100,1.000) -- cycle;
+\ifkey
+\draw[answer,dashed] (0,-1.1) -- (0,1.1); \draw[answer,dashed] (-1.7,0) -- (1.7,0);
+\draw[answer,dashed] (2.625,0.000) -- (5.375,0.000);
+\draw[answer,dashed] (2.809,-0.687) -- (5.191,0.687);
+\draw[answer,dashed] (3.312,-1.191) -- (4.688,1.191);
+\draw[answer,dashed] (4.000,-1.375) -- (4.000,1.375);
+\draw[answer,dashed] (4.688,-1.191) -- (3.313,1.191);
+\draw[answer,dashed] (5.191,-0.687) -- (2.809,0.687);
+\draw[answer,dashed] (8.1,-1.1) -- (8.1,1.4);
+\fi
+\end{tikzpicture}
+\end{document}

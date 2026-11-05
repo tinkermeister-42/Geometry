@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.4cm,y=0.4cm]
+\cgrid{-5}{6}{-2}{6}{1}
+\draw[fig,fill=gray!25] (1,1) -- (4,2) -- (2,4) -- cycle;
+\fill (1,1) circle[radius=\ptr];
+\node[below left,inner sep=2.5pt] at (1,1) {$J$};
+\fill (4,2) circle[radius=\ptr];
+\node[right,inner sep=2.5pt] at (4,2) {$K$};
+\fill (2,4) circle[radius=\ptr];
+\node[above,inner sep=2.5pt] at (2,4) {$L$};
+\ifkey
+\draw[answer,fill=key!12] (1,0) -- (0,3) -- (-2,1) -- cycle;
+\fill[key] (1,0) circle[radius=\ptr];
+\node[below right,key,inner sep=2.5pt] at (1,0) {\ans{$J''$}};
+\fill[key] (0,3) circle[radius=\ptr];
+\node[above,key,inner sep=2.5pt] at (0,3) {\ans{$K''$}};
+\fill[key] (-2,1) circle[radius=\ptr];
+\node[left,key,inner sep=2.5pt] at (-2,1) {\ans{$L''$}};
+\fi
+\end{tikzpicture}
+\end{document}
