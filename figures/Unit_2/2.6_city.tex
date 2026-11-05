@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.38cm,y=0.38cm]
+
+\cgrid{-2}{10}{-7}{7}{2}
+
+\draw[fig] (-2,1) -- (10,7); \node[above left] at (7.5,5.75) {Main St};
+\pt{P}{(4,-3)}{below left}
+\ifkey \draw[answer] (-2,-6) -- (10,0) node[right,key]{\ans{parallel}}; \draw[answer] (0.5,4) -- (6.5,-8) [draw=none]; \draw[answer] (0,5) -- (5,-5) node[below right,key]{\ans{perpendicular}}; \fi
+
+\end{tikzpicture}
+\end{document}
