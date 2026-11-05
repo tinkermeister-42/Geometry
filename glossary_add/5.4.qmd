@@ -1,7 +1,0 @@
-### midsegment of a triangle {#glossary-midsegment-of-a-triangle}
-
-A segment that joins the midpoints of two sides of a triangle. It is parallel to the third side and half as long.
-
-> **Example:** If $D$ and $E$ are midpoints of $\overline{AB}$ and $\overline{AC}$ and $BC = 18$, then $DE = 9$.
-
-**See Also:** {{< glink midpoint >}}, {{< glink similar >}}

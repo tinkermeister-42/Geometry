@@ -103,5 +103,16 @@ book:
         - file: chapters/Unit_4/Summary.qmd
         - file: chapters/Unit_4/Review.qmd
 
+    - part: "Unit 5: Similarity"
+      chapters:
+        - file: chapters/Unit_5/index.qmd
+        - file: chapters/Unit_5/5.1_Ratios_and_Proportions.qmd
+        - file: chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.qmd
+        - file: chapters/Unit_5/5.3_Similar_Triangles.qmd
+        - file: chapters/Unit_5/5.4_Triangle_Proportionality.qmd
+        - file: chapters/Unit_5/5.5_Indirect_Measurement.qmd
+        - file: chapters/Unit_5/Summary.qmd
+        - file: chapters/Unit_5/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd

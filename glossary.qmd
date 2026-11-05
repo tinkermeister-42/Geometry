@@ -1,5 +1,15 @@
 # Glossary {.unnumbered}
 
+### AA similarity {#glossary-aa-similarity}
+
+If two angles of one triangle are equal to two angles of another triangle, the triangles are similar.
+
+> **Example:** Two triangles each have angles of $50^\circ$ and $60^\circ$. They are similar by AA.
+
+**See Also:** {{< glink similar >}}
+
+***
+
 ### AAS {#glossary-aas}
 
 Angle, angle, side. If two angles and a side that is not between them in one triangle are congruent to the matching parts of another triangle, the triangles are congruent.
@@ -276,6 +286,16 @@ One example that shows a statement is not always true.
 
 ***
 
+### cross products {#glossary-cross-products}
+
+In the proportion $\dfrac{a}{b} = \dfrac{c}{d}$, the products $a \cdot d$ and $b \cdot c$. They are equal.
+
+> **Example:** In $\dfrac{2}{3} = \dfrac{8}{12}$, the cross products are $2 \cdot 12 = 24$ and $3 \cdot 8 = 24$.
+
+**See Also:** {{< glink proportion >}}
+
+***
+
 ### degree {#glossary-degree}
 
 The unit for measuring angles, written $^\circ$. A full turn is $360^\circ$. A right angle is $90^\circ$.
@@ -401,6 +421,16 @@ The side between two angles of a triangle. It connects the vertices of those two
 > **Example:**
 >
 > In $\triangle ABC$, $\overline{AB}$ is the included side of $\angle A$ and $\angle B$.
+
+***
+
+### indirect measurement {#glossary-indirect-measurement}
+
+Finding a length that is hard to measure by using similar triangles and lengths that are easy to measure.
+
+> **Example:** A 5 ft person has an 8 ft shadow. A tree has a 40 ft shadow. The tree is $\dfrac{5}{8} \cdot 40 = 25$ ft tall.
+
+**See Also:** {{< glink similar >}}, {{< glink proportion >}}
 
 ***
 
@@ -545,6 +575,16 @@ The segment that connects the midpoints of the two legs of a trapezoid. It is pa
 > **Example:**
 >
 > If the bases are 12 and 28, the midsegment is $\dfrac{12 + 28}{2} = 20$.
+
+***
+
+### midsegment of a triangle {#glossary-midsegment-of-a-triangle}
+
+A segment that joins the midpoints of two sides of a triangle. It is parallel to the third side and half as long.
+
+> **Example:** If $D$ and $E$ are midpoints of $\overline{AB}$ and $\overline{AC}$ and $BC = 18$, then $DE = 9$.
+
+**See Also:** {{< glink midpoint >}}, {{< glink similar >}}
 
 ***
 
@@ -704,6 +744,26 @@ The original figure, before a transformation.
 
 ***
 
+### proportion {#glossary-proportion}
+
+An equation that says two ratios are equal.
+
+> **Example:** $\dfrac{2}{3} = \dfrac{8}{12}$ is a proportion.
+
+**See Also:** {{< glink ratio >}}, {{< glink "cross products" >}}
+
+***
+
+### proportional {#glossary-proportional}
+
+Two lists of numbers are proportional when the ratios of matching numbers are all equal.
+
+> **Example:** The sides 4, 6, 8 and 6, 9, 12 are proportional. Each ratio is 1.5.
+
+**See Also:** {{< glink proportion >}}
+
+***
+
 ### protractor {#glossary-protractor}
 
 A tool that measures angles in degrees. It has an outer scale and an inner scale. Read the scale that starts at $0$ on one side of the angle.
@@ -751,6 +811,16 @@ An expression with a root sign, such as $\sqrt{50}$ or $3\sqrt{2}$. The number u
 The number under a radical sign. In $\sqrt{50}$ the radicand is 50.
 
 **See Also:** {{< glink "radical" >}}
+
+***
+
+### ratio {#glossary-ratio}
+
+A comparison of two numbers by division. It can be written $a : b$, $\dfrac{a}{b}$, or "a to b".
+
+> **Example:** 3 red tiles and 5 blue tiles give the ratio $3 : 5$ of red to blue.
+
+**See Also:** {{< glink proportion >}}
 
 ***
 
@@ -882,6 +952,36 @@ Side, angle, side. If two sides and the included angle of one triangle are congr
 
 ***
 
+### SAS similarity {#glossary-sas-similarity}
+
+If two pairs of matching sides are proportional and the included angles are equal, the triangles are similar.
+
+> **Example:** Sides 6 and 9 with a $40^\circ$ angle between them, and sides 10 and 15 with a $40^\circ$ angle between them.
+
+**See Also:** {{< glink "SSS similarity" >}}, {{< glink "included angle" >}}
+
+***
+
+### scale {#glossary-scale}
+
+The ratio that compares a length on a drawing or map to the real length.
+
+> **Example:** A scale of $1 \text{ in} : 20 \text{ ft}$ means 1 inch on the drawing is 20 feet in real life.
+
+**See Also:** {{< glink "scale drawing" >}}, {{< glink "scale factor" >}}
+
+***
+
+### scale drawing {#glossary-scale-drawing}
+
+A drawing that has the same shape as the real object but a different size. Maps and floor plans are scale drawings.
+
+> **Example:** A floor plan drawn with the scale $1 \text{ in} : 4 \text{ ft}$.
+
+**See Also:** {{< glink scale >}}
+
+***
+
 ### scale factor {#glossary-scale-factor}
 
 The number $k$ that a dilation multiplies every length by. It equals $\dfrac{\text{image length}}{\text{original length}}$.
@@ -925,6 +1025,26 @@ Two or more transformations done one after another. The first image is $A'$ and 
 > Translate a figure 3 units right, then reflect it over the $y$-axis.
 
 **See Also:** {{< glink transformation >}}
+
+***
+
+### similar {#glossary-similar}
+
+Figures that have the same shape but not always the same size. Matching angles are equal and matching sides are proportional. The symbol is $\sim$.
+
+> **Example:** A 4 by 6 photo and an 8 by 12 photo are similar.
+
+**See Also:** {{< glink "similarity statement" >}}, {{< glink "scale factor" >}}
+
+***
+
+### similarity statement {#glossary-similarity-statement}
+
+A statement such as $\triangle ABC \sim \triangle DEF$. The order of the letters shows which vertices match.
+
+> **Example:** $\triangle ABC \sim \triangle DEF$ means $\angle A$ matches $\angle D$ and $\overline{BC}$ matches $\overline{EF}$.
+
+**See Also:** {{< glink similar >}}, {{< glink "corresponding parts" >}}
 
 ***
 
@@ -973,6 +1093,16 @@ A number that gives the original number when you multiply it by itself. In geome
 Side, side, side. If three sides of one triangle are congruent to three sides of another triangle, the triangles are congruent.
 
 **See Also:** {{< glink SAS >}}
+
+***
+
+### SSS similarity {#glossary-sss-similarity}
+
+If the three pairs of matching sides of two triangles are proportional, the triangles are similar.
+
+> **Example:** Sides 4, 6, 8 and 10, 15, 20 have equal ratios of 2.5, so the triangles are similar.
+
+**See Also:** {{< glink "AA similarity" >}}, {{< glink "SAS similarity" >}}
 
 ***
 

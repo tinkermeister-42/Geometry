@@ -1,7 +1,0 @@
-### indirect measurement {#glossary-indirect-measurement}
-
-Finding a length that is hard to measure by using similar triangles and lengths that are easy to measure.
-
-> **Example:** A 5 ft person has an 8 ft shadow. A tree has a 40 ft shadow. The tree is $\dfrac{5}{8} \cdot 40 = 25$ ft tall.
-
-**See Also:** {{< glink similar >}}, {{< glink proportion >}}

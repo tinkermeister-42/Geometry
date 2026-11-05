@@ -64,11 +64,13 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_4/Summary.qmd) | Unit 4 summary |
 | [Review](chapters/Unit_4/Review.qmd) | Unit 4 review |
 | **Unit 5: Similarity** | |
-| 5.1 | Ratios and proportions |
-| 5.2 | Similar figures and scale factor |
-| 5.3 | Similar triangles |
-| 5.4 | Triangle proportionality |
-| 5.5 | Indirect measurement |
+| [5.1](chapters/Unit_5/5.1_Ratios_and_Proportions.qmd) | Ratios and proportions |
+| [5.2](chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.qmd) | Similar figures and scale factor |
+| [5.3](chapters/Unit_5/5.3_Similar_Triangles.qmd) | Similar triangles |
+| [5.4](chapters/Unit_5/5.4_Triangle_Proportionality.qmd) | Triangle proportionality |
+| [5.5](chapters/Unit_5/5.5_Indirect_Measurement.qmd) | Indirect measurement |
+| [Summary](chapters/Unit_5/Summary.qmd) | Unit 5 summary |
+| [Review](chapters/Unit_5/Review.qmd) | Unit 5 review |
 | **Unit 6: Right Triangle Trigonometry** | |
 | 6.1 | Special right triangles |
 | 6.2 | The trigonometric ratios |
