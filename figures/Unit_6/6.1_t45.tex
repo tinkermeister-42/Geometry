@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PtxA) at (0.000,0.000);
+\coordinate (PtxB) at (3.000,0.000);
+\coordinate (PtxC) at (3.000,3.000);
+\draw[fig] (0.000,0.000) -- (3.000,0.000) -- (3.000,3.000) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PtxA--PtxB--PtxC};
+\draw[tick1] (0.000,0.000) -- (3.000,0.000);
+\draw[tick1] (3.000,0.000) -- (3.000,3.000);
+\node[anchor=center] at (1.500,-0.290) {$s$};
+\node[anchor=center] at (3.205,1.500) {$s$};
+\node[anchor=center] at (1.124,1.876) {$s\sqrt{2}$};
+\node[anchor=center] at (1.109,0.459) {$45^\circ$};
+\pic[ang,angle radius=0.45cm] {angle = PtxB--PtxA--PtxC};
+\node[anchor=center] at (2.541,1.891) {$45^\circ$};
+\pic[ang,angle radius=0.40cm] {angle = PtxA--PtxC--PtxB};
+\node[anchor=center] at (-0.384,-0.192) {$A$};
+\node[anchor=center] at (3.324,-0.324) {$B$};
+\node[anchor=center] at (3.209,3.418) {$C$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,20 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PH) at (0.000,0.000);
+\coordinate (PF) at (2.332,2.332);
+\coordinate (PS) at (0.000,4.664);
+\coordinate (PT) at (-2.332,2.332);
+\draw[fig] (0.000,0.000) -- (2.332,2.332) -- (0.000,4.664) -- (-2.332,2.332) -- cycle;
+\draw[thick,dashed] (0.000,0.000) -- (0.000,4.664);
+\pic[rt,angle radius=0.25cm] {right angle = PH--PF--PS};
+\node[anchor=center] at (0.000,-0.440) {Home};
+\node[anchor=center] at (2.897,2.332) {1st};
+\node[anchor=center] at (0.000,5.104) {2nd};
+\node[anchor=center] at (-2.897,2.332) {3rd};
+\node[anchor=center] at (1.594,0.738) {$90$ ft};
+\node[anchor=center] at (1.594,3.926) {$90$ ft};
+\node[anchor=center] at (0.205,2.892) {$d$};
+\end{tikzpicture}
+\end{document}

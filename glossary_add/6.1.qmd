@@ -1,0 +1,28 @@
+### special right triangle {#glossary-special-right-triangle}
+
+A right triangle whose sides follow a pattern you can use without a calculator. The two special right triangles are the $45^\circ$-$45^\circ$-$90^\circ$ triangle and the $30^\circ$-$60^\circ$-$90^\circ$ triangle.
+
+**See Also:** {{< glink "45-45-90 triangle" >}}, {{< glink "30-60-90 triangle" >}}
+
+***
+
+### 45-45-90 triangle {#glossary-45-45-90-triangle}
+
+A right triangle with two $45^\circ$ angles. Its legs are equal, and the hypotenuse is the leg times $\sqrt{2}$.
+
+> **Example:** Legs $5$ and $5$ give a hypotenuse of $5\sqrt{2}$.
+
+**See Also:** {{< glink "special right triangle" >}}, {{< glink "hypotenuse" >}}
+
+***
+
+### 30-60-90 triangle {#glossary-30-60-90-triangle}
+
+A right triangle with angles of $30^\circ$, $60^\circ$, and $90^\circ$. If the short leg is $x$, the long leg is $x\sqrt{3}$ and the hypotenuse is $2x$.
+
+> **Example:** Short leg $4$, long leg $4\sqrt{3}$, hypotenuse $8$.
+
+**See Also:** {{< glink "special right triangle" >}}, {{< glink "equilateral triangle" >}}
+
+***
+

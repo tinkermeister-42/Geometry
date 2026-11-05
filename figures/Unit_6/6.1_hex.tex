@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PV0) at (1.500,0.000);
+\coordinate (PV1) at (0.750,1.299);
+\coordinate (PV2) at (-0.750,1.299);
+\coordinate (PV3) at (-1.500,0.000);
+\coordinate (PV4) at (-0.750,-1.299);
+\coordinate (PV5) at (0.750,-1.299);
+\draw[fig] (1.500,0.000) -- (0.750,1.299) -- (-0.750,1.299) -- (-1.500,0.000) -- (-0.750,-1.299) -- (0.750,-1.299) -- cycle;
+\draw[thick,<->,dashed] (-0.750,-1.299) -- (-0.750,1.299);
+\node[anchor=center] at (1.688,0.974) {$10$ mm};
+\node[anchor=center] at (-0.300,0.000) {$d$};
+\end{tikzpicture}
+\end{document}

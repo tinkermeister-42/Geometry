@@ -1,0 +1,26 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PA) at (0.000,0.000);
+\coordinate (PB) at (4.400,0.000);
+\coordinate (PC) at (2.200,3.811);
+\coordinate (PM) at (2.200,0.000);
+\draw[fig] (0.000,0.000) -- (4.400,0.000) -- (2.200,3.811) -- cycle;
+\draw[thick] (2.200,3.811) -- (2.200,0.000);
+\pic[rt,angle radius=0.25cm] {right angle = PA--PM--PC};
+\node[anchor=center] at (-0.378,-0.218) {$A$};
+\node[anchor=center] at (4.778,-0.218) {$B$};
+\node[anchor=center] at (2.200,4.251) {$C$};
+\node[anchor=center] at (2.200,-0.440) {$M$};
+\node[anchor=center] at (0.774,2.094) {$2x$};
+\node[anchor=center] at (3.626,2.094) {$2x$};
+\node[anchor=center] at (1.100,-0.310) {$x$};
+\node[anchor=center] at (3.300,-0.310) {$x$};
+\node[anchor=center] at (1.995,1.905) {$h$};
+\node[anchor=center] at (0.996,0.575) {$60^\circ$};
+\pic[ang,angle radius=0.55cm] {angle = PB--PA--PC};
+\node[anchor=center] at (3.404,0.575) {$60^\circ$};
+\pic[ang,angle radius=0.55cm] {angle = PC--PB--PA};
+\end{tikzpicture}
+\end{document}

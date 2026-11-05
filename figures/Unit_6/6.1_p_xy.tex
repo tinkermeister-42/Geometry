@@ -1,0 +1,30 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PayA) at (0.000,0.000);
+\coordinate (PayB) at (2.944,0.000);
+\coordinate (PayC) at (2.944,1.700);
+\coordinate (PbxA) at (5.200,0.000);
+\coordinate (PbxB) at (8.200,0.000);
+\coordinate (PbxC) at (8.200,3.000);
+\draw[fig] (0.000,0.000) -- (2.944,0.000) -- (2.944,1.700) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PayA--PayB--PayC};
+\node[anchor=center] at (1.472,-0.290) {$y$};
+\node[anchor=center] at (3.149,0.850) {$x$};
+\node[anchor=center] at (1.287,1.170) {$22$};
+\node at (1.47,-0.9) {\textbf{(a)}};
+\node[anchor=center] at (1.304,0.349) {$30^\circ$};
+\pic[ang,angle radius=0.40cm] {angle = PayB--PayA--PayC};
+\node[anchor=center] at (2.569,1.050) {$60^\circ$};
+\pic[ang,angle radius=0.30cm] {angle = PayA--PayC--PayB};
+\draw[fig] (5.200,0.000) -- (8.200,0.000) -- (8.200,3.000) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PbxA--PbxB--PbxC};
+\draw[tick1] (5.200,0.000) -- (8.200,0.000);
+\draw[tick1] (8.200,0.000) -- (8.200,3.000);
+\node[anchor=center] at (6.700,-0.290) {$x$};
+\node[anchor=center] at (8.405,1.500) {};
+\node[anchor=center] at (6.429,1.771) {$18$};
+\node at (6.70,-0.9) {\textbf{(b)}};
+\end{tikzpicture}
+\end{document}

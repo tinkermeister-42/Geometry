@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PtyA) at (0.000,0.000);
+\coordinate (PtyB) at (3.464,0.000);
+\coordinate (PtyC) at (3.464,2.000);
+\draw[fig] (0.000,0.000) -- (3.464,0.000) -- (3.464,2.000) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PtyA--PtyB--PtyC};
+\node[anchor=center] at (1.732,-0.290) {$x\sqrt{3}$};
+\node[anchor=center] at (3.669,1.000) {$x$};
+\node[anchor=center] at (1.547,1.320) {$2x$};
+\node[anchor=center] at (1.352,0.362) {$30^\circ$};
+\pic[ang,angle radius=0.50cm] {angle = PtyB--PtyA--PtyC};
+\node[anchor=center] at (3.054,1.290) {$60^\circ$};
+\pic[ang,angle radius=0.32cm] {angle = PtyA--PtyC--PtyB};
+\node[anchor=center] at (-0.388,-0.112) {$A$};
+\node[anchor=center] at (3.842,-0.218) {$B$};
+\node[anchor=center] at (3.767,2.350) {$C$};
+\end{tikzpicture}
+\end{document}
