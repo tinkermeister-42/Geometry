@@ -56,6 +56,18 @@ A ray that starts at the vertex of an angle and cuts the angle into two congruen
 
 ***
 
+### angle of rotation {#glossary-angle-of-rotation}
+
+The amount a figure turns in a rotation, in degrees. Counterclockwise turns are positive.
+
+> **Example:**
+>
+> A turn of $90^\circ$ clockwise has the same result as an angle of rotation of $270^\circ$ counterclockwise.
+
+**See Also:** {{< glink rotation >}}
+
+***
+
 ### area {#glossary-area}
 
 The number of square units inside a figure.
@@ -71,6 +83,30 @@ The number of square units inside a figure.
 The smallest rectangle with sides on grid lines that has a figure inside it. It is used to find area by subtracting the corner pieces.
 
 **See Also:** {{< glink "area" >}}
+
+***
+
+### center of dilation {#glossary-center-of-dilation}
+
+The fixed point a dilation moves points toward or away from. Each point and its image are on a ray from the center.
+
+> **Example:**
+>
+> A projector is like a center of dilation. The slide is small and the picture on the wall is large.
+
+**See Also:** {{< glink dilation >}}
+
+***
+
+### center of rotation {#glossary-center-of-rotation}
+
+The fixed point a figure turns about in a rotation.
+
+> **Example:**
+>
+> A Ferris wheel turns about its center.
+
+**See Also:** {{< glink rotation >}}
 
 ***
 
@@ -166,6 +202,18 @@ A segment that joins two corners of a polygon that are not next to each other.
 
 ***
 
+### dilation {#glossary-dilation}
+
+A transformation that makes a figure larger or smaller from a fixed point, the center of dilation. It keeps the shape and angles but multiplies every length by the scale factor.
+
+> **Example:**
+>
+> A dilation about the origin with scale factor 3 sends $(2, 1)$ to $(6, 3)$.
+
+**See Also:** {{< glink "scale factor" >}}, {{< glink "center of dilation" >}}
+
+***
+
 ### distance formula {#glossary-distance-formula}
 
 The distance between $(x_1, y_1)$ and $(x_2, y_2)$ is $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
@@ -179,6 +227,18 @@ The distance between $(x_1, y_1)$ and $(x_2, y_2)$ is $d = \sqrt{(x_2 - x_1)^2 +
 ### endpoint {#glossary-endpoint}
 
 A point at the end of a segment or the start of a ray.
+
+***
+
+### enlargement {#glossary-enlargement}
+
+A dilation with a scale factor greater than 1. The image is larger than the original.
+
+> **Example:**
+>
+> A scale factor of 2 makes an enlargement.
+
+**See Also:** {{< glink reduction >}}
 
 ***
 
@@ -213,6 +273,18 @@ An angle outside a polygon, made by one side and the extension of the next side.
 The side of a right triangle across from the right angle. It is the longest side.
 
 **See Also:** {{< glink "leg" >}}
+
+***
+
+### image {#glossary-image}
+
+The new figure after a transformation. The image of point $A$ is named $A'$ and is read "A prime".
+
+> **Example:**
+>
+> If $A(1, 2)$ is slid 3 right, then $A'$ is $(4, 2)$.
+
+**See Also:** {{< glink preimage >}}
 
 ***
 
@@ -255,6 +327,42 @@ Radicals with the same radicand. You can add them: $3\sqrt{2} + 5\sqrt{2} = 8\sq
 A straight path of points that goes on forever in both directions. Write $\overleftrightarrow{AB}$ or name it with one small letter, like line $\ell$.
 
 **See Also:** {{< glink segment >}}, {{< glink ray >}}
+
+***
+
+### line of reflection {#glossary-line-of-reflection}
+
+The line a figure is flipped over in a reflection. It is the perpendicular bisector of the segment from each point to its image.
+
+> **Example:**
+>
+> The $y$-axis is the line of reflection when $(2, 5)$ goes to $(-2, 5)$.
+
+**See Also:** {{< glink "perpendicular bisector" >}}
+
+***
+
+### line of symmetry {#glossary-line-of-symmetry}
+
+A line that divides a figure into two halves that are mirror images of each other.
+
+> **Example:**
+>
+> A square has 4 lines of symmetry.
+
+**See Also:** {{< glink "line symmetry" >}}
+
+***
+
+### line symmetry {#glossary-line-symmetry}
+
+A figure has line symmetry if a reflection over a line maps the figure onto itself.
+
+> **Example:**
+>
+> The letter A has line symmetry. A vertical line cuts it into two matching halves.
+
+**See Also:** {{< glink "line of symmetry" >}}
 
 ***
 
@@ -309,6 +417,30 @@ The number you get by flipping a fraction and changing its sign. Slopes of perpe
 > **Example:** The opposite reciprocal of $\dfrac{2}{3}$ is $-\dfrac{3}{2}$.
 
 **See Also:** {{< glink "slope" >}}
+
+***
+
+### order of rotational symmetry {#glossary-order-of-rotational-symmetry}
+
+The number of times a figure fits onto itself in one full turn. The smallest angle of rotation is $\dfrac{360^\circ}{n}$ when the order is $n$.
+
+> **Example:**
+>
+> A square has order 4, so its smallest angle of rotation is $\dfrac{360^\circ}{4} = 90^\circ$.
+
+**See Also:** {{< glink "rotational symmetry" >}}
+
+***
+
+### orientation {#glossary-orientation}
+
+The order, clockwise or counterclockwise, in which the labeled points of a figure go around. A reflection reverses orientation.
+
+> **Example:**
+>
+> If $A \rightarrow B \rightarrow C$ goes counterclockwise, then $A' \rightarrow B' \rightarrow C'$ goes clockwise after a reflection.
+
+**See Also:** {{< glink reflection >}}
 
 ***
 
@@ -372,6 +504,18 @@ Perpendicular lines cross to make right angles. The symbol is $\perp$.
 
 ***
 
+### perpendicular bisector {#glossary-perpendicular-bisector}
+
+A line that goes through the midpoint of a segment and is perpendicular to it.
+
+> **Example:**
+>
+> The line $x = 3$ is the perpendicular bisector of the segment from $(1, 4)$ to $(5, 4)$.
+
+**See Also:** {{< glink midpoint >}}, {{< glink perpendicular >}}
+
+***
+
 ### plane {#glossary-plane}
 
 A flat surface that goes on forever in every direction. Name it with one capital letter, like plane $P$, or with three points in it that are not on one line.
@@ -393,6 +537,18 @@ A closed figure made of three or more segments, called sides, that meet only at 
 > Triangle (3 sides), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), nonagon (9), decagon (10).
 
 **See Also:** {{< glink "regular polygon" >}}, {{< glink "convex polygon" >}}
+
+***
+
+### preimage {#glossary-preimage}
+
+The original figure, before a transformation.
+
+> **Example:**
+>
+> If $\triangle ABC$ is slid to $\triangle A'B'C'$, then $\triangle ABC$ is the preimage.
+
+**See Also:** {{< glink image >}}
 
 ***
 
@@ -464,6 +620,30 @@ A parallelogram with a right angle.
 
 ***
 
+### reduction {#glossary-reduction}
+
+A dilation with a scale factor between 0 and 1. The image is smaller than the original.
+
+> **Example:**
+>
+> A scale factor of $\dfrac{1}{3}$ makes a reduction.
+
+**See Also:** {{< glink enlargement >}}
+
+***
+
+### reflection {#glossary-reflection}
+
+A transformation that flips a figure over a line. Each point and its image are the same distance from the line, on opposite sides.
+
+> **Example:**
+>
+> Reflecting $(3, 4)$ over the $x$-axis gives $(3, -4)$.
+
+**See Also:** {{< glink "line of reflection" >}}, {{< glink orientation >}}
+
+***
+
 ### regular polygon {#glossary-regular-polygon}
 
 A polygon with all sides the same length and all angles the same measure.
@@ -490,11 +670,59 @@ An angle that measures exactly $90^\circ$. A small square at the vertex marks a 
 
 ***
 
+### rigid motion {#glossary-rigid-motion}
+
+A transformation that keeps all lengths and all angle measures the same. Translations, reflections, and rotations are rigid motions.
+
+> **Example:**
+>
+> A dilation with scale factor 2 is not a rigid motion, because it doubles the lengths.
+
+**See Also:** {{< glink translation >}}
+
+***
+
+### rotation {#glossary-rotation}
+
+A transformation that turns every point of a figure by the same angle about a fixed point, the center of rotation.
+
+> **Example:**
+>
+> Rotating $(2, 1)$ by $90^\circ$ counterclockwise about the origin gives $(-1, 2)$.
+
+**See Also:** {{< glink "center of rotation" >}}, {{< glink "angle of rotation" >}}
+
+***
+
+### rotational symmetry {#glossary-rotational-symmetry}
+
+A figure has rotational symmetry if a rotation of less than $360^\circ$ about its center maps the figure onto itself.
+
+> **Example:**
+>
+> A regular pentagon fits onto itself after a turn of $72^\circ$.
+
+**See Also:** {{< glink "order of rotational symmetry" >}}
+
+***
+
 ### same-side interior angles {#glossary-same-side-interior-angles}
 
 Two angles between the two lines, on the same side of the transversal. If the two lines are parallel, same-side interior angles are supplementary.
 
 **See Also:** {{< glink supplementary >}}, {{< glink "alternate interior angles" >}}
+
+***
+
+### scale factor {#glossary-scale-factor}
+
+The number $k$ that a dilation multiplies every length by. It equals $\dfrac{\text{image length}}{\text{original length}}$.
+
+> **Example:**
+>
+> A side of 4 becomes 10, so the scale factor is $\dfrac{10}{4} = 2.5$.
+
+**See Also:** {{< glink enlargement >}}, {{< glink reduction >}}
 
 ***
 
@@ -517,6 +745,18 @@ Part of a line between two endpoints. Write $\overline{AB}$. Its length is writt
 A point, line, ray, or segment that goes through the midpoint of a segment.
 
 **See Also:** {{< glink midpoint >}}, {{< glink "angle bisector" >}}
+
+***
+
+### sequence of transformations {#glossary-sequence-of-transformations}
+
+Two or more transformations done one after another. The first image is $A'$ and the second image is $A''$.
+
+> **Example:**
+>
+> Translate a figure 3 units right, then reflect it over the $y$-axis.
+
+**See Also:** {{< glink transformation >}}
 
 ***
 
@@ -575,6 +815,30 @@ Two angles whose measures add to $180^\circ$. Each angle is the supplement of th
 > $110^\circ$ and $70^\circ$ are supplementary because $110 + 70 = 180$.
 
 **See Also:** {{< glink complementary >}}, {{< glink "linear pair" >}}
+
+***
+
+### transformation {#glossary-transformation}
+
+A rule that moves or changes every point of a figure. Translations, reflections, rotations, and dilations are transformations.
+
+> **Example:**
+>
+> The rule $(x, y) \rightarrow (x + 3, y - 2)$ is a transformation.
+
+**See Also:** {{< glink preimage >}}, {{< glink image >}}
+
+***
+
+### translation {#glossary-translation}
+
+A transformation that slides every point of a figure the same distance in the same direction. It does not turn or flip the figure.
+
+> **Example:**
+>
+> $(x, y) \rightarrow (x + 5, y - 1)$ moves a figure 5 units right and 1 unit down.
+
+**See Also:** {{< glink "rigid motion" >}}
 
 ***
 

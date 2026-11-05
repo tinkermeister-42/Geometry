@@ -81,5 +81,16 @@ book:
         - file: chapters/Unit_2/Summary.qmd
         - file: chapters/Unit_2/Review.qmd
 
+    - part: "Unit 3: Transformations"
+      chapters:
+        - file: chapters/Unit_3/index.qmd
+        - file: chapters/Unit_3/3.1_Translations.qmd
+        - file: chapters/Unit_3/3.2_Reflections.qmd
+        - file: chapters/Unit_3/3.3_Rotations.qmd
+        - file: chapters/Unit_3/3.4_Dilations.qmd
+        - file: chapters/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.qmd
+        - file: chapters/Unit_3/Summary.qmd
+        - file: chapters/Unit_3/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd

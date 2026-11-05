@@ -48,11 +48,13 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_2/Summary.qmd) | Unit 2 summary |
 | [Review](chapters/Unit_2/Review.qmd) | Unit 2 review |
 | **Unit 3: Transformations** | |
-| 3.1 | Translations |
-| 3.2 | Reflections |
-| 3.3 | Rotations |
-| 3.4 | Dilations |
-| 3.5 | Sequences of transformations and symmetry |
+| [3.1](chapters/Unit_3/3.1_Translations.qmd) | Translations |
+| [3.2](chapters/Unit_3/3.2_Reflections.qmd) | Reflections |
+| [3.3](chapters/Unit_3/3.3_Rotations.qmd) | Rotations |
+| [3.4](chapters/Unit_3/3.4_Dilations.qmd) | Dilations |
+| [3.5](chapters/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.qmd) | Sequences of transformations and symmetry |
+| [Summary](chapters/Unit_3/Summary.qmd) | Unit 3 summary |
+| [Review](chapters/Unit_3/Review.qmd) | Unit 3 review |
 | **Unit 4: Congruence** | |
 | 4.1 | Congruent figures and rigid motions |
 | 4.2 | Triangle congruence: SSS, SAS, ASA, AAS, and HL |

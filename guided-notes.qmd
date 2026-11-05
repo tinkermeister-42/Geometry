@@ -32,3 +32,13 @@ letter-size paper.
   - [2.9 - Checking Shapes with Coordinates](/guided_notes/Unit_2/2.9_Checking_Shapes_with_Coordinates.html){target="_blank"}
   - [Unit 2 Summary](/guided_notes/Unit_2/Unit_2_Summary.html){target="_blank"}
   - [Unit 2 Review](/guided_notes/Unit_2/Unit_2_Review.html){target="_blank"}
+
+## Unit 3 - Transformations
+
+  - [3.1 - Translations](/guided_notes/Unit_3/3.1_Translations.html){target="_blank"}
+  - [3.2 - Reflections](/guided_notes/Unit_3/3.2_Reflections.html){target="_blank"}
+  - [3.3 - Rotations](/guided_notes/Unit_3/3.3_Rotations.html){target="_blank"}
+  - [3.4 - Dilations](/guided_notes/Unit_3/3.4_Dilations.html){target="_blank"}
+  - [3.5 - Sequences of Transformations and Symmetry](/guided_notes/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.html){target="_blank"}
+  - [Unit 3 Summary](/guided_notes/Unit_3/Unit_3_Summary.html){target="_blank"}
+  - [Unit 3 Review](/guided_notes/Unit_3/Unit_3_Review.html){target="_blank"}
