@@ -49,7 +49,9 @@ no PDF reader. Handouts use the Algebra 1 book's guided-notes builder
 writer briefs (`brief-unit.md` is the lean one-writer-per-unit version that
 wrote the book), `preview.sh` (builds a lesson's figures and printables and
 screenshots them for a visual check) and `wire.py` (merges `glossary_add/`
-into the glossary and rewrites the sidebar and course map). All 47 lessons
+into the glossary and rewrites the sidebar and course map). `overflow.py`
+(Playwright) lists any printable whose content runs past the printed page
+width; run it after changing a handout's tables or figure widths. All 47 lessons
 were written in November 2026; later work is revision.
 
 ## Structure
