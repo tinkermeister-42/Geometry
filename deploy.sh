@@ -17,6 +17,11 @@ git rev-parse --show-toplevel >/dev/null 2>&1 || { echo "Not a git repo."; exit 
 ABS_REPO_ROOT="$(git rev-parse --show-toplevel)"
 ABS_BOOK_DIR="$ABS_REPO_ROOT/$BOOK_DIR"
 
+# A clone of a then-empty repo (and some shallow clones) has no fetch refspec,
+# so origin/gh-pages never exists and the lease push below is refused as stale.
+git config --get remote.origin.fetch >/dev/null ||
+  git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+
 if ! git diff --quiet || ! git diff --cached --quiet; then
   echo "You have uncommitted changes. Commit or stash before deploying."
   exit 1
