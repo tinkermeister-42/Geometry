@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.65cm,y=0.65cm]
+  \cgrid{-1}{5}{-1}{7}{1}
+  \draw[fig,shade] (0,0)--(4,0)--(0,6)--cycle;
+  \node[above right,font=\small] at (3.9,0.05) {$(4, 0)$}; \node[left,font=\small] at (0,6.4) {};
+  \node[right,font=\small] at (0.1,6.35) {$(0, 6)$};
+\end{tikzpicture}
+\end{document}

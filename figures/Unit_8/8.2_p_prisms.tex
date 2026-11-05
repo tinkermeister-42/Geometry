@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob]
+  \cuboid{3}{1}{1.6}
+  \fill[gray!55,opacity=.7] (1.2,0,0)--(1.2,1,0)--(1.2,1,1.6)--(1.2,0,1.6)--cycle; \draw[very thick] (1.2,0,0)--(1.2,1,0)--(1.2,1,1.6)--(1.2,0,1.6)--cycle;
+  \node[below] at (1.5,-0.3,0) {\textbf{1}};
+  \begin{scope}[shift={(5.6,0)}]
+  \draw[hid] (0,0,2.4)--(2.4,0,2.4) (0,0,2.4)--(0,1.8,2.4) (0,0,2.4)--(0,0,0);
+  \draw[fig] (0,0,0)--(2.4,0,0)--(0,1.8,0)--cycle;
+  \draw[fig] (2.4,0,0)--(2.4,0,2.4)--(0,1.8,2.4)--(0,1.8,0) (0,1.8,2.4)--(0,1.8,0);
+  \fill[gray!55,opacity=.7] (0,0,1)--(2.4,0,1)--(0,1.8,1)--cycle; \draw[very thick] (0,0,1)--(2.4,0,1)--(0,1.8,1)--cycle; \node[below] at (1.2,-0.3,0) {\textbf{2}};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

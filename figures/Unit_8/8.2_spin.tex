@@ -1,0 +1,29 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \tikzset{axis/.style={dashed,thick}}
+  % rectangle -> cylinder
+  \draw[axis] (0,-0.3)--(0,2.5);
+  \draw[fig,shade] (0,0) rectangle (1.2,2.2);
+  \node[below] at (0.6,-0.3) {rectangle};
+  \draw[->,very thick] (2,1.1)--(3.2,1.1); \node[above,font=\small] at (2.6,1.15) {spin};
+  \begin{scope}[shift={(4.8,0)}]\cyl{1.2}{2.2}\draw[axis] (0,-0.3)--(0,2.5);\node[below] at (0,-0.5) {cylinder};\end{scope}
+  % triangle -> cone
+  \begin{scope}[shift={(8.5,0)}]
+  \draw[axis] (0,-0.3)--(0,2.5);
+  \draw[fig,shade] (0,0)--(1.2,0)--(0,2.2)--cycle;
+  \node[below] at (0.6,-0.3) {right triangle};
+  \draw[->,very thick] (2,1.1)--(3.2,1.1); \node[above,font=\small] at (2.6,1.15) {spin};
+  \begin{scope}[shift={(4.8,0)}]\cone{1.2}{2.2}\draw[axis] (0,-0.3)--(0,2.5);\node[below] at (0,-0.5) {cone};\end{scope}
+  \end{scope}
+  % semicircle -> sphere
+  \begin{scope}[shift={(17,0)}]
+  \draw[axis] (0,-0.3)--(0,2.5);
+  \draw[fig,shade] (0,0) arc[start angle=-90,end angle=90,radius=1.1]--cycle;
+  \node[below] at (0.6,-0.3) {semicircle};
+  \draw[->,very thick] (2,1.1)--(3.2,1.1); \node[above,font=\small] at (2.6,1.15) {spin};
+  \begin{scope}[shift={(4.8,1.1)}]\ball{1.1}\draw[axis] (0,-1.4)--(0,1.4);\node[below] at (0,-1.1) {sphere};\end{scope}
+  \end{scope}
+\end{tikzpicture}
+\end{document}

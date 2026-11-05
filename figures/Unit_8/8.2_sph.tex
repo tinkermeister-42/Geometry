@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=0.5cm,y=0.5cm]
+  \begin{scope}[shift={(0,0)}]
+    \ball{2.5}
+    \fill[gray!55,opacity=.7] (0,1.5) ellipse[x radius=2,y radius=0.6]; \draw[very thick] (0,1.5) ellipse[x radius=2,y radius=0.6];
+  \end{scope}
+  \begin{scope}[shift={(8,0)}]
+    \draw[fig] (0,0) circle[radius=2.5];
+    \draw[very thick] (-2,1.5)--(2,1.5);
+    \coordinate (O) at (0,0); \coordinate (M) at (0,1.5); \coordinate (P) at (2,1.5);
+    \draw[thick] (O)--(M)--(P)--cycle; \rtmark{(O)}{(M)}{(P)}
+    \fill (O) circle[radius=\ptr]; 
+    \node[left,font=\small] at (0,0.75) {3};
+    \node[above,font=\small] at (1,1.8) {$r$};
+    \node[below right,font=\small] at (1.15,0.5) {5};
+    \ifkey \node[above,font=\small] at (1,1.8) {\ans{4}}; \fi
+  \end{scope}
+\end{tikzpicture}
+\end{document}

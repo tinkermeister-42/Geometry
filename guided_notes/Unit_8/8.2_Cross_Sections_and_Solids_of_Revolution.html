@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided Notes 8.2 - Cross Sections and Solids of Revolution</title>
+<link rel="stylesheet" href="../assets/guided-notes.css">
+</head>
+<body>
+<section class="sheet">
+
+  <div class="masthead">
+    <a class="backlink" href="../../chapters/Unit_8/8.2_Cross_Sections_and_Solids_of_Revolution.html">&larr; back to the lesson</a>
+    <h1>8.2 &nbsp;Cross Sections and Solids of Revolution</h1>
+    <div class="sub">Guided Notes - Unit 8: Area, Surface Area, and Volume - DHS Geometry</div>
+    <div class="idline"><span>Name</span><span class="small">Date</span><span class="small">Period</span></div>
+  </div>
+
+<div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Name solids and count their faces, edges, and vertices</li>
+      <li>Describe the cross section made when a plane slices a solid</li>
+      <li>Tell which solid a flat shape makes when it spins</li>
+      <li>Find lengths in a cross section or a solid of revolution</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. Find the area of a circle with radius 5. Give the exact answer. &nbsp; 2. A right triangle has legs 6 and 8. Find the hypotenuse. &nbsp; 3. Solve <var>x</var> + 8 &minus; 12 = 2.</div>
+    <div class="work">
+      <p>1. <span class="b m"></span></p>
+      <p>2. <span class="b m"></span></p>
+      <p>3. <span class="b m"></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">8.2.1</span>Solids</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>solid</b> is a <span class="b m"></span> shape.</li>
+      <li>A <b>polyhedron</b> has only <span class="b m"></span> faces. Prisms and <span class="b m"></span> are polyhedrons.</li>
+      <li>A <b>face</b> is a flat surface. An <b>edge</b> is where two <span class="b m"></span> meet. A <b>vertex</b> is a <span class="b m"></span>.</li>
+      <li>A <b>prism</b> has <span class="b s"></span> parallel bases that are the same shape. A <b>pyramid</b> has <span class="b s"></span> base and triangle faces that meet at a point.</li>
+    </ul>
+  </div>
+
+  <img class="fig" src="../../images/Unit_8/8.2_solids.svg" alt="a prism, a pyramid, a cylinder, a cone and a sphere" style="width:6in">
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> Name the solid. Count its faces, vertices, and edges.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_tprism.svg" alt="a triangular prism" style="width:2.4in">
+        <div>
+          <p>Name: <span class="b l"></span></p>
+          <p>Faces: <span class="b s"></span> (2 triangles, 3 rectangles)</p>
+          <p>Vertices: <span class="b s"></span> &nbsp; Edges: <span class="b s"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> Name this solid. Count its faces, vertices, and edges.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.4in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_spyr.svg" alt="a square pyramid" style="width:2.2in">
+        <div>
+          <p>Name: <span class="b l"></span></p>
+          <p>Faces: <span class="b s"></span> &nbsp; Vertices: <span class="b s"></span> &nbsp; Edges: <span class="b s"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Complete the table. Look at the last column.</div>
+    <div class="work">
+      <table class="fill">
+        <tr><th>Solid</th><th>Faces <var>F</var></th><th>Vertices <var>V</var></th><th>Edges <var>E</var></th><th><var>F</var> + <var>V</var> &minus; <var>E</var></th></tr>
+        <tr><td>cube</td><td></td><td>8</td><td>12</td><td></td></tr>
+        <tr><td>triangular prism</td><td>5</td><td>6</td><td></td><td></td></tr>
+        <tr><td>square pyramid</td><td>5</td><td></td><td>8</td><td></td></tr>
+        <tr><td>pentagonal prism</td><td>7</td><td>10</td><td></td><td></td></tr>
+      </table>
+      <p>Euler's formula (no holes): <span class="b l"></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> A polyhedron has 9 faces and 14 vertices. How many edges does it have?</div>
+    <div class="work h1"></div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> A polyhedron has 8 faces and 12 vertices. How many edges does it have?<span class="yt">your turn</span></div>
+    <div class="work h08"></div>
+  </div>
+
+  <h2><span class="num">8.2.2</span>Cross Sections</h2>
+
+  <div class="keys">
+    A <b>cross section</b> is the <span class="b m"></span> you see when a <span class="b m"></span> slices through a solid. The shape depends on <span class="b l"></span>.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Name the cross section in each cube.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_8/8.2_cube4.svg" alt="four cubes, each cut by a plane: A parallel to the top, B through two opposite edges, C across a corner, D through the middle of six edges" style="width:6in">
+      <p>A: <span class="b m"></span> &nbsp; B: <span class="b m"></span> &nbsp; C: <span class="b m"></span> &nbsp; D: <span class="b m"></span></p>
+      <p>Is every slice of a cube a square? Explain with one slice. <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> Name the cross section in each picture.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_8/8.2_cuts.svg" alt="a cylinder cut parallel to its base, a cylinder cut through its axis, a cone cut parallel to its base, a cone cut through its apex" style="width:6in">
+      <p>1: <span class="b m"></span> &nbsp; 2: <span class="b m"></span> &nbsp; 3: <span class="b m"></span> &nbsp; 4: <span class="b m"></span></p>
+      <p>Every cut of a sphere is a <span class="b m"></span>.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 9.</b> A square pyramid is cut parallel to its base. What is the cross section? What if it is cut straight down through the apex and the middle of two opposite base edges?<span class="yt">your turn</span></div>
+    <div class="work h08"></div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> A sphere has radius 5 in. A plane cuts it 3 in from the center. Find the area of the cross section. Give the exact answer and a decimal rounded to the nearest tenth.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3.4in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_sph.svg" alt="a sphere cut by a plane, and a side view with a right triangle with legs 3 and r and hypotenuse 5" style="width:3.3in">
+        <div>
+          <p><var>r</var><sup>2</sup> + 3<sup>2</sup> = 5<sup>2</sup></p>
+          <p><var>r</var><sup>2</sup> = <span class="b s"></span>, so <var>r</var> = <span class="b s"></span></p>
+        </div>
+      </div>
+      <p><var>A</var> = &pi;<var>r</var><sup>2</sup> = <span class="b xl"></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 11.</b> A sphere has radius 13 cm. A plane cuts it 5 cm from the center. Find the area of the cross section. Give the exact answer and a decimal rounded to the nearest tenth.<span class="yt">your turn</span></div>
+    <div class="work h13"></div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> A deli cuts a round block of cheese (a cylinder) straight across, parallel to its flat ends. What shape is each slice? What shape is a slice cut at a slant?</div>
+    <div class="work">
+      <p>Parallel to the ends: <span class="b m"></span> &nbsp; At a slant: <span class="b l"></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> Samir slices an orange (a sphere) through its center. What shape is the cut face?<span class="yt">your turn</span></div>
+    <div class="work h05"></div>
+  </div>
+
+  <h2><span class="num">8.2.3</span>Solids of Revolution</h2>
+
+  <div class="keys">
+    Spin a flat shape around a line. The line is the <span class="b m"></span>. The solid it makes is a <span class="b l"></span>.
+  </div>
+
+  <img class="fig" src="../../images/Unit_8/8.2_spin.svg" alt="a rectangle spun around a side makes a cylinder, a right triangle spun around a leg makes a cone, a semicircle spun around its diameter makes a sphere" style="width:6.4in">
+
+  <table class="steps">
+    <tr><th>Flat shape</th><th>Spin around</th><th>Solid</th></tr>
+    <tr><td>rectangle</td><td>one side</td><td></td></tr>
+    <tr><td>right triangle</td><td></td><td>cone</td></tr>
+    <tr><td>semicircle</td><td></td><td></td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 14.</b> The rectangle with vertices (0, 0), (3, 0), (3, 5), (0, 5) spins around the <var>y</var>-axis. Describe the solid.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_ex6.svg" alt="a rectangle on a coordinate grid with vertices at (0, 0), (3, 0), (3, 5) and (0, 5)" style="width:2.5in">
+        <div>
+          <p>Solid: <span class="b m"></span></p>
+          <p>Radius <var>r</var> = <span class="b s"></span> &nbsp; Height <var>h</var> = <span class="b s"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 15.</b> The same rectangle spins around the <var>x</var>-axis. Describe the solid.<span class="yt">your turn</span></div>
+    <div class="work h08"></div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 16.</b> The triangle with vertices (0, 0), (4, 0), (0, 6) spins around the <var>y</var>-axis. Describe the solid. Find the slant height, exact and rounded to the nearest tenth.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.6in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_ex7.svg" alt="a right triangle on a coordinate grid with vertices at (0, 0), (4, 0) and (0, 6)" style="width:2.5in">
+        <div>
+          <p>Solid: <span class="b m"></span> &nbsp; <var>r</var> = <span class="b s"></span> &nbsp; <var>h</var> = <span class="b s"></span></p>
+          <p>&#8467;<sup>2</sup> = <span class="b l"></span></p>
+          <p>&#8467; = <span class="b l"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 17.</b> A triangle with vertices (0, 0), (5, 0), (0, 12) spins around the <var>y</var>-axis. Find <var>r</var>, <var>h</var>, and the slant height.<span class="yt">your turn</span></div>
+    <div class="work h08"></div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>axis</span><span>circle</span><span>cross section</span><span>edges</span><span>sphere</span><span>triangle</span></div>
+    <p>1. The flat shape made by slicing a solid is a <span class="b m"></span>.</p>
+    <p>2. Every slice of a sphere is a <span class="b m"></span>. A slice of a cone through its apex is a <span class="b m"></span>.</p>
+    <p>3. Euler: <var>F</var> + <var>V</var> &minus; <var>E</var> = 2, where <var>E</var> counts <span class="b m"></span>.</p>
+    <p>4. A shape spins around an <span class="b m"></span>. A semicircle makes a <span class="b m"></span>.</p>
+  </div>
+
+<div class="pagebreak"></div>
+  <div class="parthead"><b>8.2 Cross Sections and Solids of Revolution - Practice</b><span class="nm">Name</span></div>
+
+  <h2>Practice</h2>
+  <h3>Name Each Solid</h3>
+
+  <div class="ex">
+    <div class="work">
+      <p>1. It has two parallel circular bases and one curved surface. <span class="b m"></span></p>
+      <p>2. It has five faces: one square and four triangles. <span class="b l"></span></p>
+      <p>3. It has one circular base and one point (apex). <span class="b m"></span></p>
+    </div>
+  </div>
+
+  <h3>Faces, Vertices, and Edges</h3>
+
+  <div class="ex">
+    <div class="work">
+      <p>4. A rectangular prism has how many faces, vertices, and edges? <span class="b l"></span></p>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>5. A hexagonal prism has how many faces, vertices, and edges? <span class="b l"></span></p>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>6. A polyhedron has 10 faces and 16 vertices. How many edges does it have?</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>7. A polyhedron has 12 edges and 7 vertices. How many faces does it have?</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>8. A student draws a solid with 5 faces, 6 vertices, and 10 edges. Use <var>F</var> + <var>V</var> &minus; <var>E</var> to show that no polyhedron with no holes has these numbers.</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+
+  <h3>Cross Sections</h3>
+
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3.4in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_8/8.2_p_prisms.svg" alt="a rectangular prism cut parallel to its ends, and a triangular prism cut parallel to its triangle ends" style="width:3.3in">
+        <div>
+          <p>9. Prism 1 is cut parallel to its ends. Cross section? <span class="b m"></span></p>
+          <p>10. Prism 2 is cut parallel to its triangle ends. Cross section? <span class="b m"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <p>11. A cylinder is cut parallel to its bases. <span class="b m"></span></p>
+        <p>12. A cylinder is cut straight through its axis. <span class="b m"></span></p>
+        <p>13. A cone is cut parallel to its base. <span class="b m"></span></p>
+        <p>14. A cone is cut through its apex and the center of its base. <span class="b m"></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>15. Thu says, "Every slice of a cube is a square." Give one slice of a cube that is not a square.</p>
+      <div class="ruled"></div><div class="ruled"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>16. A sphere has radius 10 in. A plane cuts it 6 in from the center. Find the area of the cross section. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+      <div class="h1"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>17. A sphere has radius 25 cm. A plane cuts it 24 cm from the center. Find the area of the cross section. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+      <div class="h1"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>18. A cylinder has radius 4 ft and height 10 ft. It is cut straight through its axis. Find the area of the rectangle that you see.</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+
+  <h3>Solids of Revolution</h3>
+
+  <div class="ex">
+    <div class="work">
+      <p>19. A rectangle with vertices (0, 0), (4, 0), (4, 7), (0, 7) spins around the <var>y</var>-axis. Name the solid. Give its radius and height.</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>20. The same rectangle spins around the <var>x</var>-axis. Name the solid. Give its radius and height.</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>21. A triangle with vertices (0, 0), (3, 0), (0, 4) spins around the <var>y</var>-axis. Name the solid. Give its radius, height, and slant height.</p>
+      <div class="h08"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>22. The same triangle spins around the <var>x</var>-axis. Name the solid. Give its radius, height, and slant height.</p>
+      <div class="h08"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>23. A semicircle with radius 6 cm spins around its diameter. What solid does it make? What is the radius of the solid?</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>24. Which flat shape spins to make each object? (a) a soup can &nbsp; (b) a party hat &nbsp; (c) a basketball</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+
+  <h3>Real Situations</h3>
+
+  <div class="ex">
+    <div class="work">
+      <p>25. Fatima cuts a round loaf of bread (a cylinder lying on its side) straight across, at a right angle to its length. What shape is each slice?</p>
+      <div class="h05"></div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>26. An orange is a sphere with radius 4 cm. Daniel cuts it through its center. Find the area of the cut face. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+      <div class="h08"></div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+
+  <div class="ex">
+    <div class="q">27. A right triangle has legs 5 in and 12 in. The triangle spins around its 12 in leg. Which describes the solid it makes?</div>
+    <div class="work">
+      <p>A. a cone with radius 12 in and height 5 in</p>
+      <p>B. a cone with radius 5 in and height 12 in </p>
+      <p>C. a cylinder with radius 5 in and height 12 in</p>
+      <p>D. a sphere with radius 5 in</p>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="q">28. A plane cuts a cone parallel to its base, between the base and the apex. Which statement describes the cross section?</div>
+    <div class="work">
+      <p>A. It is a triangle.</p>
+      <p>B. It is a rectangle.</p>
+      <p>C. It is a circle smaller than the base. </p>
+      <p>D. It is a circle the same size as the base.</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+
+  <div class="ex">
+    <div class="q">29. A polyhedron has 12 faces. Every face is a pentagon, and every edge is shared by two faces. How many edges does it have? How many vertices?</div>
+    <div class="work h13"></div>
+  </div>
+  <div class="ex">
+    <div class="q">30. A plane cuts a cube so that the cross section is a regular hexagon (like cube D). How many of the cube's faces does the plane cut through?</div>
+    <div class="work h08"></div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
+
+</section>
+</body>
+</html>

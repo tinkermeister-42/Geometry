@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \tikzset{cutf/.style={fill=gray!55,opacity=.7}}
+  \begin{scope}\cyl{1}{2.2}\fill[cutf] (0,1.1) ellipse[x radius=1,y radius=0.3]; \draw[very thick] (0,1.1) ellipse[x radius=1,y radius=0.3];
+    \node[below] at (0,-0.5) {\textbf{1}};\end{scope}
+  \begin{scope}[shift={(3.2,0)}]\cyl{1}{2.2}\fill[cutf] (-1,0)--(1,0)--(1,2.2)--(-1,2.2)--cycle; \draw[very thick] (-1,0)--(1,0)--(1,2.2)--(-1,2.2)--cycle;
+    \node[below] at (0,-0.5) {\textbf{2}};\end{scope}
+  \begin{scope}[shift={(6.4,0)}]\cone{1.1}{2.4}\fill[cutf] (0,1.2) ellipse[x radius=0.55,y radius=0.165]; \draw[very thick] (0,1.2) ellipse[x radius=0.55,y radius=0.165];
+    \node[below] at (0,-0.5) {\textbf{3}};\end{scope}
+  \begin{scope}[shift={(9.6,0)}]\cone{1.1}{2.4}\fill[cutf] (-1.1,0)--(1.1,0)--(0,2.4)--cycle; \draw[very thick] (-1.1,0)--(1.1,0)--(0,2.4)--cycle;
+    \node[below] at (0,-0.5) {\textbf{4}};\end{scope}
+\end{tikzpicture}
+\end{document}

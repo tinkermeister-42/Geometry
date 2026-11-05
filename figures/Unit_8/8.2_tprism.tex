@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob]
+  \draw[hid] (0,0,2.4)--(2.4,0,2.4) (0,0,2.4)--(0,1.8,2.4) (0,0,2.4)--(0,0,0);
+  \draw[fig] (0,0,0)--(2.4,0,0)--(0,1.8,0)--cycle;
+  \draw[fig] (2.4,0,0)--(2.4,0,2.4)--(0,1.8,2.4)--(0,1.8,0) (0,1.8,2.4)--(0,1.8,0);
+\end{tikzpicture}
+\end{document}

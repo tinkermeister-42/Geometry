@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}\input{../c8}
+\begin{document}
+\begin{tikzpicture}[ob]
+  \begin{scope}\cuboid{1.4}{1.1}{1.6}\node[below] at (0.7,-0.1,0) {prism};\end{scope}
+  \begin{scope}[shift={(3.3,0)}]\sqpyr{1.4}{1.4}{1.9}\node[below] at (0.7,-0.1,0) {pyramid};\end{scope}
+  \begin{scope}[shift={(7,0)},x=1cm,y=1cm]\cyl{0.8}{1.6}\node[below] at (0,-0.3) {cylinder};\end{scope}
+  \begin{scope}[shift={(9.7,0)},x=1cm,y=1cm]\cone{0.9}{1.7}\node[below] at (0,-0.3) {cone};\end{scope}
+  \begin{scope}[shift={(12.2,0.8)},x=1cm,y=1cm]\ball{0.8}\node[below] at (0,-0.8) {sphere};\end{scope}
+\end{tikzpicture}
+\end{document}
