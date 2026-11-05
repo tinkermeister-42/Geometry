@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (q) at (5.4,4.6) {Quadrilateral};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (t) at (1.6,3.1) {Trapezoid};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (k) at (5,3.1) {Kite};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (p) at (9.4,3.1) {Parallelogram};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (i) at (1.6,1.55) {Isosceles trapezoid};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (h) at (6.6,1.55) {Rhombus};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (r) at (11,1.55) {Rectangle};
+\node[draw,rounded corners=2pt,thick,inner sep=3.5pt,font=\small] (s) at (8.8,0) {Square};
+\draw[->,thick] (q.south) -- (t.north);
+\draw[->,thick] (q.south) -- (k.north);
+\draw[->,thick] (q.south) -- (p.north);
+\draw[->,thick] (t.south) -- (i.north);
+\draw[->,thick] (k.south) -- (h.north);
+\draw[->,thick] (p.south) -- (h.north);
+\draw[->,thick] (p.south) -- (r.north);
+\draw[->,thick] (h.south) -- (s.north);
+\draw[->,thick] (r.south) -- (s.north);
+\end{tikzpicture}
+\end{document}

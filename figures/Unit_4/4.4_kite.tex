@@ -1,0 +1,28 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (0,2.4);
+\coordinate (B) at (-1.671,0.408);
+\coordinate (C) at (0,-2.486);
+\coordinate (D) at (1.671,0.408);
+\coordinate (E) at (0,0.408);
+\draw[fig] (A) -- (B) -- (C) -- (D) -- cycle;
+\draw[tick1] (A) -- (B);
+\draw[tick1] (A) -- (D);
+\draw[tick2] (C) -- (B);
+\draw[tick2] (C) -- (D);
+\fill (A) circle[radius=\ptr];
+\node at (0,2.72) {$A$};
+\fill (B) circle[radius=\ptr];
+\node at (-1.988,0.451) {$B$};
+\fill (C) circle[radius=\ptr];
+\node at (0,-2.806) {$C$};
+\fill (D) circle[radius=\ptr];
+\node at (1.988,0.451) {$D$};
+\draw[thick,dashed] (A) -- (C);
+\draw[thick,dashed] (B) -- (D);
+\draw[thick] (0.2,0.408) -- (0.2,0.608) -- (0,0.608);
+\node[font=\small] at (0.55,1.2) {$80^\circ$};
+\end{tikzpicture}
+\end{document}

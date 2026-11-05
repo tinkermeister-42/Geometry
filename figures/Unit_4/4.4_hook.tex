@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[fig] (0,0) rectangle (4.8,2.4);
+\draw[thick,dashed] (0,0) -- (4.8,2.4); \draw[thick,dashed] (0,2.4) -- (4.8,0);
+\node at (2.4,-0.45) {\small The two diagonals are the same length.};
+\end{tikzpicture}
+\end{document}

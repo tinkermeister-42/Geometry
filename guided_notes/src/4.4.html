@@ -1,0 +1,449 @@
+<!--
+lesson: 4.4
+title: Quadrilaterals and Their Properties
+unit: 4
+unit_title: Congruence
+slug: Quadrilaterals_and_Their_Properties
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Name the quadrilaterals and place them in the family tree</li>
+      <li>Use the properties of parallelograms to find sides and angles, and check a parallelogram with coordinates</li>
+      <li>Use the properties of rectangles, rhombuses, and squares</li>
+      <li>Use the properties of trapezoids, isosceles trapezoids, and kites</li>
+      <li>Decide if a statement is always, sometimes, or never true, and give a counterexample</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="q">1. Three angles of a quadrilateral are 90&deg;, 80&deg;, and 100&deg;. Find the fourth angle. &nbsp; 2. Find the midpoint of (1, 2) and (7, 6). &nbsp; 3. Solve 2<var>x</var> + 10 = 4<var>x</var> &minus; 6.</div>
+    <div class="work">
+      <div class="cols3">
+        <p>1. <span class="b m">{{a}}90&deg;{{/a}}</span></p>
+        <p>2. <span class="b m">{{a}}(4, 4){{/a}}</span></p>
+        <p>3. <span class="b m">{{a}}<var>x</var> = 8{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="num">4.4.1</span>The Quadrilateral Family</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>quadrilateral</b> has 4 sides. Its 4 angles add to <span class="b s">{{a}}360&deg;{{/a}}</span>.</li>
+      <li><b>Trapezoid</b>: exactly one pair of parallel sides. <b>Kite</b>: two pairs of congruent sides that are next to each other.</li>
+      <li><b>Parallelogram</b>: both pairs of opposite sides are <span class="b m">{{a}}parallel{{/a}}</span>.</li>
+      <li><b>Rectangle</b>: a parallelogram with 4 <span class="b s">{{a}}right{{/a}}</span> angles. <b>Rhombus</b>: a parallelogram with 4 <span class="b m">{{a}}congruent{{/a}}</span> sides.</li>
+      <li><b>Square</b>: a rectangle and a rhombus. It has 4 right angles and 4 congruent sides.</li>
+    </ul>
+  </div>
+
+  <div class="ex"><div class="work">{{fig 4.4_tree|family tree of quadrilaterals|4.6in}}</div></div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> Name the shape</div>
+    <div class="work">
+      <p>Give the most specific name for each quadrilateral.</p>
+      <p>a. Four congruent sides and four right angles: <span class="b s">{{a}}square{{/a}}</span></p>
+      <p>b. Both pairs of opposite sides parallel, four right angles, sides not all equal: <span class="b m">{{a}}rectangle{{/a}}</span></p>
+      <p>c. Exactly one pair of parallel sides: <span class="b m">{{a}}trapezoid{{/a}}</span></p>
+      <p>d. Four congruent sides, angles not right angles: <span class="b m">{{a}}rhombus{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 2.</b> Try it<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. A quadrilateral has two pairs of congruent sides that are next to each other. The opposite sides are not congruent. What is it?</p>
+      <div class="h05">{{a}}<p>A kite.</p>{{/a}}</div>
+      <p>b. Is every square a rectangle? Use the family tree.</p>
+      <div class="h05">{{a}}<p>Yes. A square is below rectangle on the tree. It has 4 right angles.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">4.4.2</span>Parallelograms</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Opposite sides of a parallelogram are <span class="b m">{{a}}congruent{{/a}}</span>.</li>
+      <li>Opposite angles are <span class="b m">{{a}}congruent{{/a}}</span>.</li>
+      <li>Consecutive angles (angles next to each other) are <span class="b m">{{a}}supplementary{{/a}}</span>. They add to 180&deg;.</li>
+      <li>The diagonals <span class="b s">{{a}}bisect{{/a}}</span> each other. They meet at the midpoint of each diagonal.</li>
+      <li>The converse works too: if the diagonals of a quadrilateral bisect each other, it is a parallelogram.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 3.</b> Find <var>x</var> and <var>y</var></div>
+    <div class="work">
+      {{fig 4.4_para|parallelogram ABCD with algebra labels|2.8in}}
+      <p>In parallelogram <var>ABCD</var>, <var>AB</var> = 2<var>x</var> + 3, <var>CD</var> = 4<var>x</var> &minus; 9, <i>m</i>&ang;<var>A</var> = (5<var>y</var> &minus; 10)&deg;, and <i>m</i>&ang;<var>C</var> = 70&deg;. Find <var>x</var>, <var>y</var>, and <i>m</i>&ang;<var>B</var>.</p>
+      <p>Opposite sides are equal: 2<var>x</var> + 3 = 4<var>x</var> &minus; 9. So 12 = 2<var>x</var> and <var>x</var> =  <span class="b s">{{a}}6{{/a}}</span>.</p>
+      <p>Opposite angles are equal: 5<var>y</var> &minus; 10 = 70. So 5<var>y</var> = 80 and <var>y</var> =  <span class="b s">{{a}}16{{/a}}</span>.</p>
+      <p>&ang;<var>B</var> and &ang;<var>A</var> are consecutive: <i>m</i>&ang;<var>B</var> = 180 &minus; 70 =  <span class="b s">{{a}}110&deg;{{/a}}</span>.</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Check the diagonals with coordinates</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.50in 1fr;align-items:center">
+        {{fig 4.4_pgrid|quadrilateral ABCD on a grid with both diagonals|2.3in}}
+        <div>
+      <p><var>A</var>(2, 2), <var>B</var>(7, 3), <var>C</var>(9, 7), <var>D</var>(4, 6). Show that <var>ABCD</var> is a parallelogram.</p>
+      <p>Midpoint of {{seg AC}}: ({{f 2 + 9/2}}, {{f 2 + 7/2}}) =  <span class="b m">{{a}}(5.5, 4.5){{/a}}</span></p>
+      <p>Midpoint of {{seg BD}}: ({{f 7 + 4/2}}, {{f 3 + 6/2}}) =  <span class="b m">{{a}}(5.5, 4.5){{/a}}</span></p>
+      <p>The diagonals have the same midpoint, so they bisect each other. <var>ABCD</var> is a parallelogram.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 5.</b> <var>E</var>(0, 0), <var>F</var>(4, 1), <var>G</var>(7, 5), <var>H</var>(3, 4). Is <var>EFGH</var> a parallelogram? Use the midpoints of the diagonals.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08">{{a}}<p>Midpoint of {{seg EG}}: (3.5, 2.5). Midpoint of {{seg FH}}: (3.5, 2.5). They match, so yes.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">A parallelogram lift</div>
+    A car jack and the arms of a desk lamp are parallelograms. As the arms move, opposite sides stay parallel and the same length. The top stays level.
+  </div>
+
+  <h2><span class="num">4.4.3</span>Rectangles, Rhombuses, and Squares</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A rectangle has all the properties of a parallelogram. Its diagonals are <span class="b m">{{a}}congruent{{/a}}</span>.</li>
+      <li>A rhombus has all the properties of a parallelogram. Its diagonals are <span class="b m">{{a}}perpendicular{{/a}}</span>, and each diagonal <span class="b m">{{a}}bisects{{/a}}</span> a pair of opposite angles.</li>
+      <li>A square has all of these properties. Its diagonals are congruent and perpendicular.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> Rectangle diagonals</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.50in 1fr;align-items:center">
+        {{fig 4.4_rect|rectangle with both diagonals labeled|2.3in}}
+        <div>
+      <p><var>ABCD</var> is a rectangle. <var>AC</var> = 3<var>x</var> + 2 and <var>BD</var> = 5<var>x</var> &minus; 12. Find <var>x</var> and <var>AC</var>.</p>
+      <p>The diagonals of a rectangle are congruent: 3<var>x</var> + 2 = 5<var>x</var> &minus; 12.</p>
+      <p>14 = 2<var>x</var>, so <var>x</var> =  <span class="b s">{{a}}7{{/a}}</span>.</p>
+      <p><var>AC</var> = 3(7) + 2 =  <span class="b s">{{a}}23{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> Rhombus angles</div>
+    <div class="work">
+      {{fig 4.4_rhomb|rhombus ABCD with diagonals meeting at E|2.9in}}
+      <p><var>ABCD</var> is a rhombus. {{mang CAB}} = 28&deg;. Find {{mang DAB}}, {{mang ABC}}, and {{mang AEB}}.</p>
+      <p>Diagonal {{seg AC}} bisects {{ang DAB}}: {{mang DAB}} = 2(28) =  <span class="b s">{{a}}56&deg;{{/a}}</span>.</p>
+      <p>Consecutive angles add to 180&deg;: {{mang ABC}} = 180 &minus; 56 =  <span class="b s">{{a}}124&deg;{{/a}}</span>.</p>
+      <p>The diagonals are perpendicular: {{mang AEB}} =  <span class="b s">{{a}}90&deg;{{/a}}</span>.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> Try it<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Rectangle <var>PQRS</var> has diagonal <var>PR</var> = 18. Find <var>QS</var>.</p>
+      <div class="h05">{{a}}<p><var>QS</var> = 18. The diagonals of a rectangle are congruent.</p>{{/a}}</div>
+      <p>b. The diagonals of a rhombus cross at <var>E</var>. Find {{mang AEB}}.</p>
+      <div class="h05">{{a}}<p>90&deg;. The diagonals of a rhombus are perpendicular.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Is the frame square?</div>
+    A builder measures both diagonals of a frame. If the opposite sides match and the diagonals match, the frame is a rectangle. The corners are square.
+  </div>
+
+  <h2><span class="num">4.4.4</span>Trapezoids and Kites</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A trapezoid has one pair of parallel sides, the <b>bases</b>. The other two sides are the <b>legs</b>.</li>
+      <li>The <b>midsegment</b> of a trapezoid connects the midpoints of the legs. It is <span class="b m">{{a}}parallel{{/a}}</span> to the bases. Its length is the <span class="b m">{{a}}average{{/a}}</span> of the bases: {{f <var>b</var><sub>1</sub> + <var>b</var><sub>2</sub>/2}}.</li>
+      <li><b>Isosceles trapezoid</b>: the legs are congruent. Each pair of base angles is <span class="b m">{{a}}congruent{{/a}}</span>. The diagonals are congruent.</li>
+      <li><b>Kite</b>: the diagonals are <span class="b m">{{a}}perpendicular{{/a}}</span>. One pair of opposite angles is congruent (the angles between the unequal sides).</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Midsegment</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.40in 1fr;align-items:center">
+        {{fig 4.4_trap|trapezoid with a dashed midsegment|2.2in}}
+        <div>
+      <p>The bases of a trapezoid are 12 and 28. The midsegment is (3<var>x</var> + 5). Find <var>x</var>.</p>
+      <p>Midsegment = {{f 12 + 28/2}} =  <span class="b s">{{a}}20{{/a}}</span>.</p>
+      <p>3<var>x</var> + 5 = 20, so 3<var>x</var> = 15 and <var>x</var> =  <span class="b s">{{a}}5{{/a}}</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> Isosceles trapezoid</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.40in 1fr;align-items:center">
+        {{fig 4.4_isotrap|isosceles trapezoid with a 70 degree angle|2.2in}}
+        <div>
+      <p><var>ABCD</var> is an isosceles trapezoid with {{seg AB}} &#8741; {{seg DC}}. <i>m</i>&ang;<var>D</var> = 70&deg;. Find <i>m</i>&ang;<var>C</var>, <i>m</i>&ang;<var>A</var>, and <i>m</i>&ang;<var>B</var>.</p>
+      <p>Base angles are congruent: <i>m</i>&ang;<var>C</var> =  <span class="b s">{{a}}70&deg;{{/a}}</span>.</p>
+      <p>&ang;<var>A</var> and &ang;<var>D</var> are consecutive angles between parallel lines: <i>m</i>&ang;<var>A</var> = 180 &minus; 70 =  <span class="b s">{{a}}110&deg;{{/a}}</span>.</p>
+      <p><i>m</i>&ang;<var>B</var> =  <span class="b s">{{a}}110&deg;{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 11.</b> Kite</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.40in 1fr;align-items:center">
+        {{fig 4.4_kite|kite ABCD with perpendicular diagonals|2.2in}}
+        <div>
+      <p><var>ABCD</var> is a kite. <var>AB</var> = <var>AD</var> and <var>CB</var> = <var>CD</var>. <i>m</i>&ang;<var>A</var> = 80&deg; and <i>m</i>&ang;<var>B</var> = 110&deg;. Find <i>m</i>&ang;<var>D</var> and <i>m</i>&ang;<var>C</var>.</p>
+      <p>The angles between the unequal sides are congruent: <i>m</i>&ang;<var>D</var> =  <span class="b s">{{a}}110&deg;{{/a}}</span>.</p>
+      <p>The four angles add to 360&deg;: <i>m</i>&ang;<var>C</var> = 360 &minus; 80 &minus; 110 &minus; 110 =  <span class="b s">{{a}}60&deg;{{/a}}</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 12.</b> In kite <var>PQRS</var>, <var>PQ</var> = <var>PS</var> and <var>RQ</var> = <var>RS</var>. <i>m</i>&ang;<var>P</var> = 70&deg; and <i>m</i>&ang;<var>Q</var> = 100&deg;. Find <i>m</i>&ang;<var>S</var> and <i>m</i>&ang;<var>R</var>.<span class="yt">your turn</span></div>
+    <div class="work">
+      <div class="h08">{{a}}<p><i>m</i>&ang;<var>S</var> = 100&deg;. <i>m</i>&ang;<var>R</var> = 360 &minus; 70 &minus; 100 &minus; 100 = 90&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">4.4.5</span>Always, Sometimes, or Never?</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A shape is <span class="b m">{{a}}always{{/a}}</span> a member of every group above it on the family tree.</li>
+      <li>To show a statement is not always true, find a <span class="b m">{{a}}counterexample{{/a}}</span>: one example where it fails.</li>
+      <li>Use one of the four ways to justify: a drawing to scale, a coordinate check, a counterexample, or a mark on a figure.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 13.</b> Decide and explain</div>
+    <div class="work">
+      <p>a. A square is a rectangle. <span class="b s">{{a}}Always{{/a}}</span>. A square has 4 right angles and opposite sides parallel.</p>
+      <p>b. A rectangle is a rhombus. <span class="b m">{{a}}Sometimes{{/a}}</span>. A rectangle 2 by 5 is a counterexample: the sides are not all equal. A square is a rectangle that is also a rhombus.</p>
+      <p>c. A trapezoid is a parallelogram. <span class="b s">{{a}}Never{{/a}}</span>. A trapezoid has exactly one pair of parallel sides. A parallelogram has two.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 14.</b> Try it<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. A rhombus is a square. Always, sometimes, or never? Explain.</p>
+      <div class="h05">{{a}}<p>Sometimes. A rhombus with angles 60&deg; and 120&deg; is a counterexample. It has no right angles.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>bisect</span><span>congruent</span><span>diagonals</span><span>parallel</span><span>perpendicular</span><span>supplementary</span></div>
+    <p>1. A parallelogram has <span class="b m">{{a}}parallel{{/a}}</span> opposite sides, congruent opposite angles, <span class="b m">{{a}}supplementary{{/a}}</span> consecutive angles, and diagonals that <span class="b m">{{a}}bisect{{/a}}</span> each other.</p>
+    <p>2. A rectangle has congruent <span class="b m">{{a}}diagonals{{/a}}</span>. A rhombus has <span class="b m">{{a}}perpendicular{{/a}}</span> diagonals.</p>
+    <p>3. A trapezoid midsegment is parallel to the bases. Its length is the average of the bases. In an isosceles trapezoid the diagonals are <span class="b m">{{a}}congruent{{/a}}</span>.</p>
+    <p>4. A counterexample shows a statement is not always true.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+
+  <h3>Give the most specific name.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols1">
+        <p>1. Four sides, exactly one pair of parallel sides. <span class="b m">{{a}}trapezoid{{/a}}</span></p>
+        <p>2. Both pairs of opposite sides parallel, four right angles, sides not all equal. <span class="b m">{{a}}rectangle{{/a}}</span></p>
+        <p>3. Four congruent sides and no right angles. <span class="b m">{{a}}rhombus{{/a}}</span></p>
+        <p>4. Two pairs of congruent adjacent sides, opposite sides not congruent. <span class="b m">{{a}}kite{{/a}}</span></p>
+        <p>5. Four congruent sides and four right angles. <span class="b m">{{a}}square{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Use the figure for problems 6 to 8. <var>PQRS</var> is a parallelogram.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.80in 1fr;align-items:center">
+        {{fig 4.4_p_para|parallelogram PQRS with algebra labels|2.4in}}
+        <div>
+      <p>6. Find <var>x</var> and <var>PQ</var>.</p>
+      <div class="h08">{{a}}<p>4<var>x</var> &minus; 7 = 2<var>x</var> + 9, so <var>x</var> = 8. <var>PQ</var> = 25.</p>{{/a}}</div>
+      <p>7. Find <var>y</var>.</p>
+      <div class="h05">{{a}}<p>Opposite angles are equal: 3<var>y</var> + 15 = 75, so <var>y</var> = 20.</p>{{/a}}</div>
+      <p>8. Find <i>m</i>&ang;<var>Q</var>.</p>
+      <div class="h05">{{a}}<p>180 &minus; 75 = 105&deg;</p>{{/a}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>More parallelograms.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>9. The diagonals of parallelogram <var>ABCD</var> meet at <var>E</var>. <var>AE</var> = 3<var>x</var> + 1 and <var>EC</var> = 5<var>x</var> &minus; 9. Find <var>x</var> and <var>AC</var>.</p>
+      <div class="h08">{{a}}<p>The diagonals bisect each other: 3<var>x</var> + 1 = 5<var>x</var> &minus; 9, so <var>x</var> = 5. <var>AE</var> = 16 and <var>AC</var> = 32.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>10. <var>J</var>(1, 1), <var>K</var>(5, 2), <var>L</var>(8, 6), <var>M</var>(4, 5). Is <var>JKLM</var> a parallelogram? Use the diagonals.</p>
+      <div class="h08">{{a}}<p>Midpoint of {{seg JL}}: (4.5, 3.5). Midpoint of {{seg KM}}: (4.5, 3.5). The same, so yes.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>11. <var>W</var>(0, 0), <var>X</var>(6, 1), <var>Y</var>(8, 5), <var>Z</var>(1, 4). Is <var>WXYZ</var> a parallelogram? Use the diagonals.</p>
+      <div class="h08">{{a}}<p>Midpoint of {{seg WY}}: (4, 2.5). Midpoint of {{seg XZ}}: (3.5, 2.5). Different, so no.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Rectangles, rhombuses, and squares.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>12. <var>ABCD</var> is a rectangle. <var>AC</var> = 4<var>x</var> &minus; 3 and <var>BD</var> = 2<var>x</var> + 15. Find <var>x</var> and <var>AC</var>.</p>
+      <div class="h08">{{a}}<p>4<var>x</var> &minus; 3 = 2<var>x</var> + 15, so <var>x</var> = 9. <var>AC</var> = 33.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>13. <var>ABCD</var> is a rhombus. {{mang ABC}} = 72&deg;. Find {{mang BCD}} and {{mang CBD}}.</p>
+      <div class="h08">{{a}}<p>{{mang BCD}} = 180 &minus; 72 = 108&deg;. Diagonal {{seg BD}} bisects {{ang ABC}}: {{mang CBD}} = 36&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>14. The diagonals of a rhombus are 12 and 16. They cross at right angles and bisect each other. Find the side length.</p>
+      <div class="h08">{{a}}<p>Half-diagonals are 6 and 8. <span class="sqrt">6<sup>2</sup> + 8<sup>2</sup></span> = <span class="sqrt">100</span> = 10.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>15. A frame is 12 feet by 5 feet. Both diagonals measure 13 feet. Is the corner square? Check with the Pythagorean theorem.</p>
+      <div class="h08">{{a}}<p>12<sup>2</sup> + 5<sup>2</sup> = 169 = 13<sup>2</sup>. Yes, the diagonal fits a right angle, and both diagonals match, so the frame is a rectangle.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Trapezoids and kites.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>16. The bases of a trapezoid are 18 and 30. Find the midsegment.</p>
+      <div class="h05">{{a}}<p>{{f 18 + 30/2}} = 24</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>17. The bases of a trapezoid are (<var>x</var> + 10) and (3<var>x</var> &minus; 2). The midsegment is 14. Find <var>x</var> and the bases.</p>
+      <div class="h1">{{a}}<p>{{f (<var>x</var> + 10) + (3<var>x</var> &minus; 2)/2}} = 14, so 4<var>x</var> + 8 = 28 and <var>x</var> = 5. The bases are 15 and 13.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>18. <var>ABCD</var> is an isosceles trapezoid with {{seg AB}} &#8741; {{seg DC}}. <i>m</i>&ang;<var>D</var> = 65&deg;. Find <i>m</i>&ang;<var>C</var>, <i>m</i>&ang;<var>A</var>, and <i>m</i>&ang;<var>B</var>.</p>
+      <div class="h08">{{a}}<p><i>m</i>&ang;<var>C</var> = 65&deg;. <i>m</i>&ang;<var>A</var> = <i>m</i>&ang;<var>B</var> = 115&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>19. Kite <var>ABCD</var> has <var>AB</var> = <var>AD</var> and <var>CB</var> = <var>CD</var>. <i>m</i>&ang;<var>A</var> = 100&deg; and <i>m</i>&ang;<var>B</var> = 70&deg;. Find <i>m</i>&ang;<var>C</var>.</p>
+      <div class="h08">{{a}}<p><i>m</i>&ang;<var>D</var> = 70&deg;. <i>m</i>&ang;<var>C</var> = 360 &minus; 100 &minus; 70 &minus; 70 = 120&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Always, sometimes, or never? Explain.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>20. A rectangle is a parallelogram.</p>
+      <div class="h05">{{a}}<p>Always. A rectangle has both pairs of opposite sides parallel.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>21. A rhombus is a square.</p>
+      <div class="h05">{{a}}<p>Sometimes. A rhombus with no right angles is a counterexample.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>22. A trapezoid is a parallelogram.</p>
+      <div class="h05">{{a}}<p>Never. A trapezoid has exactly one pair of parallel sides.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>23. A kite is a rhombus.</p>
+      <div class="h05">{{a}}<p>Sometimes. A kite with sides 3, 3, 5, 5 is a counterexample.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Find the mistake with a counterexample.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>24. Amira says any quadrilateral with congruent diagonals is a rectangle. Use <var>A</var>(0, 0), <var>B</var>(6, 0), <var>C</var>(5, 3), <var>D</var>(1, 3) to show she is wrong.</p>
+      <div class="h13">{{a}}<p><var>AC</var> = <span class="sqrt">25 + 9</span> = <span class="sqrt">34</span> and <var>BD</var> = <span class="sqrt">25 + 9</span> = <span class="sqrt">34</span>. The diagonals are congruent. But {{seg AB}} is horizontal and {{seg AD}} goes from (0, 0) to (1, 3), so the angle at <var>A</var> is not a right angle. This isosceles trapezoid is not a rectangle.</p>{{/a}}</div>
+    </div>
+  </div>
+  <div class="ex">
+    <div class="work">
+      <p>25. Diego says any quadrilateral with perpendicular diagonals is a rhombus. Use <var>K</var>(0, 3), <var>L</var>(&minus;2, 0), <var>M</var>(0, &minus;1), <var>N</var>(2, 0) to show he is wrong.</p>
+      <div class="h13">{{a}}<p>{{seg KM}} is vertical and {{seg LN}} is horizontal, so the diagonals are perpendicular. But <var>KL</var> = <span class="sqrt">13</span> and <var>LM</var> = <span class="sqrt">5</span>. The sides are not all equal. This kite is not a rhombus.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+
+  <div class="ex">
+    <div class="q">26. Which statement about a rhombus is always true?</div>
+    <div class="work">
+      <p>A. The diagonals are congruent.</p>
+      <p>B. The diagonals are perpendicular. {{a}}&larr; correct{{/a}}</p>
+      <p>C. All four angles are right angles.</p>
+      <p>D. Exactly one pair of sides is parallel.</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">27. A quadrilateral has two pairs of parallel sides and four congruent sides. Which name does NOT always describe it?</div>
+    <div class="work">
+      <div class="cols4">
+      <p>A. parallelogram</p>
+      <p>B. rhombus</p>
+      <p>C. square {{a}}&larr; correct{{/a}}</p>
+      <p>D. quadrilateral</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+
+  <div class="ex">
+    <div class="q">28. <var>A</var>(0, 0), <var>B</var>(6, 0), <var>C</var>(8, 6), <var>D</var>(2, 8). Find the midpoints <var>P</var>, <var>Q</var>, <var>R</var>, <var>S</var> of {{seg AB}}, {{seg BC}}, {{seg CD}}, {{seg DA}}. Show that <var>PQRS</var> is a parallelogram.</div>
+    <div class="work h16">{{a}}<p><var>P</var>(3, 0), <var>Q</var>(7, 3), <var>R</var>(5, 7), <var>S</var>(1, 4). Midpoint of {{seg PR}}: (4, 3.5). Midpoint of {{seg QS}}: (4, 3.5). The diagonals bisect each other, so <var>PQRS</var> is a parallelogram.</p>{{/a}}</div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. A rectangle has a diagonal of 13 and one side of 5. Find the other side and the area.</div>
+    <div class="work h08">{{a}}<p><span class="sqrt">13<sup>2</sup> &minus; 5<sup>2</sup></span> = <span class="sqrt">144</span> = 12. Area = 5 &middot; 12 = 60 square units.</p>{{/a}}</div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
