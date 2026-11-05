@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.55cm,y=0.55cm]
+
+\cgrid{0}{6}{0}{6}{1}
+
+\draw[fig] (1,2) -- (5,5);
+\pt{A}{(1,2)}{below left}\pt{B}{(5,5)}{above}
+\ifkey \draw[answer,dashed] (1,2) -- (5,2) -- (5,5); \node[below,key] at (3,2) {\ans{4}}; \node[right,key] at (5,3.5) {\ans{3}};\coordinate (C) at (5,2); \pic[rt,key]{right angle = A--C--B};\fi
+
+\end{tikzpicture}
+\end{document}

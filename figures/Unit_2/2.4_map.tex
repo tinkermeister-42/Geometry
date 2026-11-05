@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.50cm,y=0.50cm]
+
+\cgrid{0}{10}{0}{10}{2}
+
+\draw[fig,thick] (2,1) -- (8,9) [draw=none];
+\pt{S}{(2,1)}{below right}\pt{L}{(8,9)}{above left}
+\ifkey \draw[answer] (2,1) -- (8,1) -- (8,9); \draw[answer,dashed] (2,1) -- (8,9);
+\node[above,key] at (5,1) {\ans{6}}; \node[right,key] at (8,5) {\ans{8}}; \node[above left,key] at (4.8,5.2) {\ans{10}};\fi
+
+\end{tikzpicture}
+\end{document}

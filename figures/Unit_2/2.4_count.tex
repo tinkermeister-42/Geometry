@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+
+\cgrid{-4}{6}{-5}{4}{1}
+
+\draw[fig] (-3,2) -- (4,2); \draw[fig] (5,-4) -- (5,2);
+\pt{A}{(-3,2)}{above left}\pt{B}{(4,2)}{above}\pt{C}{(5,-4)}{below right}\pt{D}{(5,2)}{above right}
+
+\end{tikzpicture}
+\end{document}
