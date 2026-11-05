@@ -1,0 +1,23 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PO) at (0.000,0.000);
+\coordinate (PS) at (3.811,2.200);
+\coordinate (PN) at (0.000,2.200);
+\coordinate (PE) at (3.811,0.000);
+\coordinate (PU) at (0.000,1.500);
+\coordinate (PT) at (3.811,2.200);
+\draw[dashed] (0,0) -- (0,3.000);
+\draw[dashed] (0,0) -- (3.811,0) -- (3.811,2.200);
+\draw[dashed] (0,2.200) -- (3.811,2.200);
+\draw[fig] (0.000,0.000) -- (3.811,2.200);
+\fill (0,0) circle[radius=\ptr]; \fill (3.811,2.200) circle[radius=\ptr];
+\draw[->,thick] (-0.5,0) -- (-0.5,0.9); \node at (-0.5,1.2) {N};
+\node[anchor=center] at (0.625,1.083) {$60^\circ$};
+\pic[ang,angle radius=1.00cm] {angle = PS--PO--PU};
+\node[anchor=center] at (2.221,0.553) {$40$ n mi};
+\node[anchor=center] at (1.905,-0.300) {east $e$};
+\node[anchor=center] at (4.161,1.100) {$n$};
+\end{tikzpicture}
+\end{document}

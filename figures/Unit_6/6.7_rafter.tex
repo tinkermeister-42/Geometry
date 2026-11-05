@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PL) at (0.000,0.000);
+\coordinate (PR) at (5.040,0.000);
+\coordinate (PP) at (2.520,1.470);
+\coordinate (PM) at (2.520,0.000);
+\coordinate (PLL) at (-0.180,-0.105);
+\draw[fig] (-0.180,-0.105) -- (2.520,1.470) -- (5.220,-0.105) -- (5.220,-0.105);
+\draw[fig] (0,0) -- (0,-1.000) -- (5.040,-1.000) -- (5.040,0);
+\draw[dashed] (0,0) -- (2.520,0); \draw[dashed] (2.520,0) -- (2.520,1.470);
+\node[anchor=center] at (1.260,-0.300) {$14$ ft};
+\node[anchor=center] at (3.070,0.735) {$h$};
+\draw[<->,thick] (-0.180,-0.550) -- (0,-0.550);
+\node[anchor=center] at (-0.820,-0.550) {$1$ ft};
+\node[anchor=center] at (1.360,1.285) {$L$};
+\end{tikzpicture}
+\end{document}

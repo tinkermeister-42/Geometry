@@ -1,0 +1,340 @@
+<!--
+lesson: 6.7
+title: Modeling with Right Triangles
+unit: 6
+unit_title: Right Triangle Trigonometry
+slug: Modeling_with_Right_Triangles
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Choose among the Pythagorean theorem, special triangles, and trigonometry</li>
+      <li>Solve problems about ramps, stairs, and roofs</li>
+      <li>Solve problems about towers, drones, and navigation</li>
+      <li>Check an answer against the situation and write it in a sentence</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. Find <span class="sqrt">30<sup>2</sup> + 360<sup>2</sup></span> (nearest tenth). &nbsp; 2. Find <var>&theta;</var> if tan<var>&theta;</var> = {{f 1/12}} (nearest tenth). &nbsp; 3. A right triangle has a hypotenuse of 40 and a 60&deg; angle. Find the leg opposite the 60&deg; angle.</div>
+    <div class="work">
+<p>1. <span class="b s">{{a}}361.2{{/a}}</span></p><p>2. <span class="b s">{{a}}4.8&deg;{{/a}}</span></p><p>3. 40 sin 60&deg; = 20<span class="sqrt">3</span> &asymp; <span class="b s">{{a}}34.6{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">6.7.1</span>A Plan and a Choice of Tools</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Step 1: <span class="b m">{{a}}Sketch{{/a}}</span>. Step 2: <span class="b m">{{a}}Label{{/a}}</span> every number you know.</li>
+      <li>Step 3: <span class="b m">{{a}}Choose{{/a}}</span> a tool. Step 4: <span class="b m">{{a}}Solve{{/a}}</span>.</li>
+      <li>Step 5: <span class="b m">{{a}}Check{{/a}}</span> that the answer fits the situation. Step 6: <span class="b m">{{a}}Say{{/a}}</span> it in a sentence with units.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th>What you know</th><th>What you want</th><th>Tool</th></tr>
+    <tr><td>two sides</td><td>the third side</td><td><span class="b m">{{a}}Pythagorean theorem{{/a}}</span></td></tr>
+    <tr><td>one side and a 45&deg; or 30&deg;-60&deg; angle</td><td>the other sides</td><td><span class="b m">{{a}}special right triangle{{/a}}</span></td></tr>
+    <tr><td>one angle and one side</td><td>another side</td><td><span class="b m">{{a}}sin, cos, or tan{{/a}}</span></td></tr>
+    <tr><td>two sides</td><td>an angle</td><td><span class="b m">{{a}}sin<sup>&minus;1</sup>, cos<sup>&minus;1</sup>, or tan<sup>&minus;1</sup>{{/a}}</span></td></tr>
+  </table>
+
+  <h2><span class="num">6.7.2</span>Ramps and Stairs</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A ramp rises at most <span class="b s">{{a}}1{{/a}}</span> inch for every <span class="b s">{{a}}12{{/a}}</span> inches of run.</li>
+      <li>The ramp length is the <span class="b m">{{a}}hypotenuse{{/a}}</span>. Use the <span class="b l">{{a}}Pythagorean theorem{{/a}}</span>.</li>
+      <li>Stairs have one fewer <span class="b m">{{a}}tread{{/a}}</span> than <span class="b m">{{a}}risers{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> A porch is 30 inches above the ground. A ramp must rise at most 1 inch for every 12 inches of run. Find the ramp length and the angle (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">{{fig 6.7_ramp|a ramp to a porch that is 30 inches high, drawn to scale with a run of 360 inches and ramp length L|3in}}<div>
+<p>Run = 12 &middot; 30 = <span class="b s">{{a}}360{{/a}}</span> in</p><p><var>L</var> = <span class="sqrt">30<sup>2</sup> + 360<sup>2</sup></span> &asymp; <span class="b s">{{a}}361.2{{/a}}</span> in = <span class="b s">{{a}}30.1{{/a}}</span> ft</p><p><var>&theta;</var> = tan<sup>&minus;1</sup>({{f 30/360}}) &asymp; <span class="b s">{{a}}4.8&deg;{{/a}}</span></p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> A doorway is 18 inches above the ground. Find the run and the ramp length for a 1-to-12 ramp, in feet (nearest tenth).<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h08">{{a}}<p>Run: 12 &middot; 18 = 216 in = 18 ft. Length: <span class="sqrt">18<sup>2</sup> + 216<sup>2</sup></span> &asymp; 18.1 ft.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> A staircase must rise 108 inches. Each riser is at most 7.75 inches. Each tread is 10 inches. Find the number of risers, the riser height, the angle, and the stringer length (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">{{fig 6.7_stairs|a staircase of 14 risers and 13 treads with a total rise of 108 inches and a total run of 130 inches; theta is the angle of the stairs|3in}}<div>
+<p>108 &divide; 7.75 &asymp; 13.9, so at least <span class="b s">{{a}}14{{/a}}</span> risers</p><p>Riser: 108 &divide; 14 &asymp; <span class="b s">{{a}}7.7{{/a}}</span> in &nbsp; Treads: <span class="b s">{{a}}13{{/a}}</span>, run = <span class="b s">{{a}}130{{/a}}</span> in</p><p>Angle: tan<sup>&minus;1</sup>({{f 7.7/10}}) &asymp; <span class="b s">{{a}}37.6&deg;{{/a}}</span></p><p>Stringer: <span class="sqrt">108<sup>2</sup> + 130<sup>2</sup></span> &asymp; <span class="b s">{{a}}169.0{{/a}}</span> in</p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 5.</b> A staircase must rise 96 inches with risers of at most 7.75 inches. Find the least number of risers, the riser height, and the angle if each tread is 10 inches (nearest tenth).<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h10">{{a}}<p>96 &divide; 7.75 &asymp; 12.4, so 13 risers. Riser: 96 &divide; 13 &asymp; 7.4 in. Angle: tan<sup>&minus;1</sup>({{f 7.4/10}}) &asymp; 36.4&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">6.7.3</span>Roofs</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Pitch {{f 7/12}} means a rise of <span class="b s">{{a}}7{{/a}}</span> for every <span class="b s">{{a}}12{{/a}}</span> of run.</li>
+      <li>The run is <span class="b m">{{a}}half{{/a}}</span> the width of the house. An overhang adds to the horizontal distance of the <span class="b m">{{a}}rafter{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 6.</b> A house is 28 feet wide. The roof has a 7/12 pitch and a 1-foot overhang on each edge. Find the roof angle, the peak height <var>h</var>, and the rafter length <var>L</var> (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">{{fig 6.7_rafter|a house 28 feet wide with a gable roof. The run is 14 feet, the rise is h, the rafter is L, and the roof has a 1 foot overhang|3in}}<div>
+<p>Run = <span class="b s">{{a}}14{{/a}}</span> ft. <var>&theta;</var> = tan<sup>&minus;1</sup>({{f 7/12}}) &asymp; <span class="b s">{{a}}30.3&deg;{{/a}}</span></p><p><var>h</var> = 14 &middot; {{f 7/12}} &asymp; <span class="b s">{{a}}8.2{{/a}}</span> ft</p><p><var>L</var> = {{f 15/cos 30.3&deg;}} &asymp; <span class="b s">{{a}}17.4{{/a}}</span> ft</p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 7.</b> A house is 24 feet wide. The roof has a 5/12 pitch and no overhang. Find the rise at the peak, the rafter length, and the roof angle (nearest tenth).<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h10">{{a}}<p>Run = 12 ft. Rise = 5 ft. Rafter = <span class="sqrt">12<sup>2</sup> + 5<sup>2</sup></span> = 13 ft. Angle: tan<sup>&minus;1</sup>({{f 5/12}}) &asymp; 22.6&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">6.7.4</span>Navigation and Maps</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <span class="b m">{{a}}bearing{{/a}}</span> is an angle measured <span class="b m">{{a}}clockwise{{/a}}</span> from <span class="b m">{{a}}north{{/a}}</span>.</li>
+      <li>North distance = distance &middot; <span class="b s">{{a}}cos{{/a}}</span> (bearing). East distance = distance &middot; <span class="b s">{{a}}sin{{/a}}</span> (bearing).</li>
+      <li>On a map, bearing = 90&deg; &minus; the angle from <span class="b m">{{a}}east{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 8.</b> A ship sails 40 nautical miles on a bearing of 060&deg;. How far north and east is it from the port? (nearest tenth)</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:2.8in 1fr;align-items:center">{{fig 6.7_nav|a ship leaves a port and sails 40 nautical miles on a bearing of 60 degrees, measured clockwise from north; e is the distance east and n is the distance north|2.8in}}<div>
+<p>North: 40cos 60&deg; = <span class="b s">{{a}}20{{/a}}</span></p><p>East: 40sin 60&deg; &asymp; <span class="b s">{{a}}34.6{{/a}}</span></p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 9.</b> A hiker walks 8 km on a bearing of 035&deg;. How far north and east is she from the start? (nearest tenth)<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h08">{{a}}<p>North: 8cos 35&deg; &asymp; 6.6 km. East: 8sin 35&deg; &asymp; 4.6 km.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> Airport <var>A</var> is at (2, 1) and town <var>B</var> is at (10, 7). One unit is 1 mile. Find <var>AB</var>, the angle from east, and the bearing (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">{{fig 6.7_map|a map grid with airport A at (2, 1) and town B at (10, 7), the angle theta at A measured from the east direction|3in}}<div>
+<p>Legs: <span class="b s">{{a}}8{{/a}}</span> and <span class="b s">{{a}}6{{/a}}</span>. <var>AB</var> = <span class="sqrt">8<sup>2</sup> + 6<sup>2</sup></span> = <span class="b s">{{a}}10{{/a}}</span> mi</p><p><var>&theta;</var> = tan<sup>&minus;1</sup>({{f 6/8}}) &asymp; <span class="b s">{{a}}36.9&deg;{{/a}}</span></p><p>Bearing = 90&deg; &minus; <var>&theta;</var> = <span class="b s">{{a}}53.1&deg;{{/a}}</span></p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 11.</b> Airport <var>A</var> is at (2, 3) and town <var>B</var> is at (9, 7). One unit is 1 mile. Find <var>AB</var>, the angle from east, and the bearing (nearest tenth).<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h10">{{a}}<p><var>AB</var> = <span class="sqrt">7<sup>2</sup> + 4<sup>2</sup></span> = <span class="sqrt">65</span> &asymp; 8.1 mi. <var>&theta;</var> = tan<sup>&minus;1</sup>({{f 4/7}}) &asymp; 29.7&deg;. Bearing = 60.3&deg;.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h2><span class="num">6.7.5</span>Drones, Ladders, and Checking</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> A drone hovers 60 m above a field. It sees <var>M</var><sub>1</sub> on the left at an angle of depression of 50&deg; and <var>M</var><sub>2</sub> on the right at 30&deg;. How far apart are the markers? (nearest tenth)</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">{{fig 6.7_drone|a drone 60 meters above the ground sees marker M1 on the left at an angle of depression of 50 degrees and marker M2 on the right at 30 degrees|3in}}<div>
+<p>Left: {{f 60/tan 50&deg;}} &asymp; <span class="b s">{{a}}50.34{{/a}}</span> m</p><p>Right: {{f 60/tan 30&deg;}} &asymp; <span class="b s">{{a}}103.92{{/a}}</span> m</p><p>Sum &asymp; <span class="b s">{{a}}154.3{{/a}}</span> m</p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> A drone hovers 80 m above a field. It sees <var>M</var><sub>1</sub> on the left at an angle of depression of 40&deg; and <var>M</var><sub>2</sub> on the right at 25&deg;. How far apart are the markers? (nearest tenth)<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h10">{{a}}<p>{{f 80/tan 40&deg;}} + {{f 80/tan 25&deg;}} &asymp; 95.34 + 171.56 = 266.90 &asymp; 266.9 m.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 14.</b> A safety rule says a ladder's base should be 1 foot from the wall for every 4 feet of height. Ahmad's 20-foot ladder reaches 18 feet up a wall. Does it follow the rule? (nearest tenth)</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:2.2in 1fr;align-items:center">{{fig 6.7_ladder|a 20 foot ladder leaning on a wall and reaching 18 feet up, with its base b feet from the wall|2.2in}}<div>
+<p><var>b</var> = <span class="sqrt">20<sup>2</sup> &minus; 18<sup>2</sup></span> &asymp; <span class="b s">{{a}}8.7{{/a}}</span> ft</p><p>The rule needs 18 &divide; 4 = <span class="b s">{{a}}4.5{{/a}}</span> ft. Does it follow the rule? <span class="b m">{{a}}No, too flat{{/a}}</span></p>
+</div></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 15.</b> Error analysis. Fatima finds the length of a ramp with a rise of 2 ft and a run of 24 ft. She writes 2 + 24 = 26 ft. What is wrong? Find the correct length.</div>
+    <div class="work">
+<div class="h08">{{a}}<p>She added the legs. The ramp is the hypotenuse: <span class="sqrt">2<sup>2</sup> + 24<sup>2</sup></span> &asymp; 24.1 ft.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>bearing</span><span>check</span><span>hypotenuse</span><span>pythagorean</span><span>sketch</span><span>tangent</span></div>
+    <p>1. Start every problem with a <span class="b m">{{a}}sketch{{/a}}</span>. Label the right triangle.</p>
+    <p>2. A ramp is the <span class="b m">{{a}}hypotenuse{{/a}}</span> of a triangle with rise and run as legs.</p>
+    <p>3. A <span class="b m">{{a}}bearing{{/a}}</span> is measured clockwise from north.</p>
+    <p>4. Always <span class="b m">{{a}}check{{/a}}</span> the answer against the situation.</p>
+  </div>
+
+
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Choose the tool. Write one: Pythagorean theorem, special triangle, SOH CAH TOA, or inverse trig. Do not solve.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>1. Two legs are known. Find the hypotenuse. <span class="b l">{{a}}Pythagorean theorem{{/a}}</span></p>
+      <p>2. A 45&deg;-45&deg;-90&deg; triangle has a leg of 12. Find the hypotenuse. <span class="b l">{{a}}special triangle{{/a}}</span></p>
+      <p>3. A right triangle has a 33&deg; angle and a hypotenuse of 40. Find the opposite leg. <span class="b l">{{a}}SOH CAH TOA (sine){{/a}}</span></p>
+      <p>4. The legs of a right triangle are 9 and 14. Find an acute angle. <span class="b l">{{a}}inverse trig (tan<sup>&minus;1</sup>){{/a}}</span></p>
+      <p>5. A 30&deg;-60&deg;-90&deg; triangle has a hypotenuse of 14. Find the long leg. <span class="b l">{{a}}special triangle{{/a}}</span></p>
+      <p>6. The hypotenuse is 26 and one leg is 10. Find the other leg. <span class="b l">{{a}}Pythagorean theorem{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h3>Ramps and stairs. Sketch, label, solve, check, and answer in a sentence. Round to the nearest tenth.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>7. A doorway is 27 inches above the ground. A ramp rises 1 inch for every 12 inches of run. Find the run in feet and the ramp length in feet.</p>
+<div class="h1">{{a}}<p>run 12 &middot; 27 = 324 in = 27 ft; length {{f <span class="sqrt">27<sup>2</sup> + 324<sup>2</sup></span>/12}} &asymp; 27.1 ft</p>{{/a}}</div>
+      <p>8. A skate ramp is 8 feet long and rises 3 feet. Find the angle of the ramp and the horizontal distance it covers.</p>
+<div class="h1">{{a}}<p>angle sin<sup>&minus;1</sup>({{f 3/8}}) &asymp; 22.0&deg;; distance <span class="sqrt">64 &minus; 9</span> &asymp; 7.4 ft</p>{{/a}}</div>
+      <p>9. A staircase must rise 114 inches. Each riser can be at most 7.75 inches. Find the least number of risers and the riser height. Then find the angle if each tread is 10 inches.</p>
+<div class="h1">{{a}}<p>114 &divide; 7.75 &asymp; 14.7, so 15 risers of 7.6 in; angle tan<sup>&minus;1</sup>(0.76) &asymp; 37.2&deg;</p>{{/a}}</div>
+      <p>10. A ramp with a rise of 2 feet must follow the 1-to-12 rule. How long is the run? Is the ramp longer or shorter than 24 feet? Explain.</p>
+<div class="h08">{{a}}<p>run 24 ft. The ramp is the hypotenuse, so it is slightly longer: <span class="sqrt">2<sup>2</sup> + 24<sup>2</sup></span> &asymp; 24.1 ft.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Roofs. Round to the nearest tenth.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>11. A house is 30 feet wide. The roof has an 8/12 pitch and no overhang. Find the roof angle and the rafter length.</p>
+<div class="h1">{{a}}<p>run 15, rise 10; angle 33.7&deg;; rafter <span class="sqrt">15<sup>2</sup> + 10<sup>2</sup></span> &asymp; 18.0 ft</p>{{/a}}</div>
+      <p>12. A house is 26 feet wide. The roof angle is 28&deg; and the overhang is 1.5 feet on each side. Find the rise at the peak and the rafter length from the peak to the end of the overhang.</p>
+<div class="h1">{{a}}<p>rise 13tan 28&deg; &asymp; 6.9 ft; rafter {{f 14.5/cos 28&deg;}} &asymp; 16.4 ft</p>{{/a}}</div>
+      <p>13. A carport roof rises 2.5 feet over a run of 10 feet. Write the pitch as rise per 12 feet of run. Find the roof angle.</p>
+<div class="h08">{{a}}<p>{{f 2.5/10}} &middot; 12 = 3, so 3/12; angle tan<sup>&minus;1</sup>(0.25) &asymp; 14.0&deg;</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Towers and wires.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>14. A radio tower is 120 feet tall. A wire runs from the top to an anchor 50 feet from the base. Find the wire length and the angle the wire makes with the ground (nearest tenth).</p>
+<div class="h1">{{a}}<p>wire <span class="sqrt">120<sup>2</sup> + 50<sup>2</sup></span> = 130 ft; angle tan<sup>&minus;1</sup>({{f 120/50}}) &asymp; 67.4&deg;</p>{{/a}}</div>
+      <p>15. A pole is 60 feet tall. One wire makes a 45&deg; angle with the ground. Another makes a 60&deg; angle. Find both wire lengths. Give exact answers (use special triangles).</p>
+<div class="h1">{{a}}<p>60<span class="sqrt">2</span> ft and {{f 60/sin 60&deg;}} = 40<span class="sqrt">3</span> ft</p>{{/a}}</div>
+      <p>16. From a point 150 feet from a cell tower, the angle of elevation to the top is 55&deg;. The angle of elevation to a light below the top is 40&deg;. How far is the light below the top? Round to the nearest tenth.</p>
+<div class="h1">{{a}}<p>150(tan 55&deg; &minus; tan 40&deg;) &asymp; 88.4 ft</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Navigation and maps. Round to the nearest tenth.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>17. A boat sails 25 km on a bearing of 070&deg;. How far north and how far east of its start is it?</p>
+<div class="h1">{{a}}<p>north 25cos 70&deg; &asymp; 8.6 km; east 25sin 70&deg; &asymp; 23.5 km</p>{{/a}}</div>
+      <p>18. A plane flies 120 miles east and then 50 miles north. How far is it from the start? What is the bearing from the start to the plane?</p>
+<div class="h1">{{a}}<p>distance <span class="sqrt">120<sup>2</sup> + 50<sup>2</sup></span> = 130 mi; bearing 90&deg; &minus; tan<sup>&minus;1</sup>({{f 50/120}}) &asymp; 67.4&deg;</p>{{/a}}</div>
+      <p>19. On a map, camp <var>A</var> is at (1, 1) and camp <var>B</var> is at (10, 8). One unit is 1 kilometer. Find <var>AB</var> and the angle at <var>A</var> above the east direction.</p>
+<div class="h1">{{a}}<p><var>AB</var> = <span class="sqrt">9<sup>2</sup> + 7<sup>2</sup></span> = <span class="sqrt">130</span> &asymp; 11.4 km; angle tan<sup>&minus;1</sup>({{f 7/9}}) &asymp; 37.9&deg;</p>{{/a}}</div>
+      <p>20. A hiker starts at (0, 0) and walks to (6, &minus;8). One unit is 1 kilometer. How far did she walk? What angle does her path make with the <var>x</var>-axis?</p>
+<div class="h1">{{a}}<p><span class="sqrt">36 + 64</span> = 10 km; angle tan<sup>&minus;1</sup>({{f 8/6}}) &asymp; 53.1&deg; below the <var>x</var>-axis</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Drones, boats, and ladders. Round to the nearest tenth.</h3>
+  <div class="ex">
+    <div class="q">Use the figure for problem 24.</div>
+    <div class="work">
+      {{fig 6.7_p_zip|a zip line L feet long that makes a 12 degree angle with a horizontal distance of 180 feet and drops h feet|3in}}
+      <p>21. A drone is 90 meters above the ground. It sees two cars on the same side, in a line. The angles of depression are 40&deg; and 20&deg;. How far apart are the cars?</p>
+<div class="h1">{{a}}<p>{{f 90/tan 20&deg;}} &minus; {{f 90/tan 40&deg;}} &asymp; 247.27 &minus; 107.26 &asymp; 140.0 m</p>{{/a}}</div>
+      <p>22. A boat is 200 feet from the base of a lighthouse. The angle of elevation from the boat to the top is 22&deg;. How tall is the lighthouse? How far is the boat from the top?</p>
+<div class="h1">{{a}}<p>height 200tan 22&deg; &asymp; 80.8 ft; distance {{f 200/cos 22&deg;}} &asymp; 215.7 ft</p>{{/a}}</div>
+      <p>23. A 16-foot ladder has its base 3 feet from a wall. How high does it reach? What angle does it make with the ground?</p>
+<div class="h1">{{a}}<p>height <span class="sqrt">256 &minus; 9</span> &asymp; 15.7 ft; angle cos<sup>&minus;1</sup>({{f 3/16}}) &asymp; 79.2&deg;</p>{{/a}}</div>
+      <p>24. A zip line makes a 12&deg; angle with the ground. It covers 180 feet of horizontal distance. Find the length <var>L</var> of the cable and the drop <var>h</var>.</p>
+<div class="h1">{{a}}<p><var>L</var> = {{f 180/cos 12&deg;}} &asymp; 184.0 ft; <var>h</var> = 180tan 12&deg; &asymp; 38.3 ft</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Find the mistake.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>25. Kofi says a roof with a 6/12 pitch has an angle of {{f 6/12}} = 0.5&deg;. Find his mistake and give the correct angle.</p>
+<div class="h08">{{a}}<p>0.5 is the tangent of the angle, not the angle. tan<sup>&minus;1</sup>(0.5) &asymp; 26.6&deg;.</p>{{/a}}</div>
+      <p>26. Lucía says: "A ladder 20 feet long reaches 18 feet up. So its base is 20 &minus; 18 = 2 feet from the wall." Find her mistake and fix it.</p>
+<div class="h08">{{a}}<p>She subtracted the sides. Use the Pythagorean theorem: <span class="sqrt">20<sup>2</sup> &minus; 18<sup>2</sup></span> &asymp; 8.7 ft.</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Algebra.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>27. A pole and its support wire make a right triangle with legs 3<var>x</var> feet (the pole) and 4<var>x</var> feet (the ground). The wire is 35 feet long. Find <var>x</var> and the angle the wire makes with the ground (nearest tenth).</p>
+<div class="h1">{{a}}<p>(3<var>x</var>)<sup>2</sup> + (4<var>x</var>)<sup>2</sup> = 35<sup>2</sup>, so 25<var>x</var><sup>2</sup> = 1225 and <var>x</var> = 7. Angle tan<sup>&minus;1</sup>({{f 21/28}}) &asymp; 36.9&deg;</p>{{/a}}</div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">28. A wheelchair ramp must rise no more than 1 inch for every 12 inches of horizontal run. A doorway is 30 inches above the ground. What is the shortest horizontal run the ramp can have?</div>
+    <div class="work">
+      <p>A. 2.5 feet</p>
+      <p>B. 30 feet {{a}}&larr; correct{{/a}}</p>
+      <p>C. 36 feet</p>
+      <p>D. 360 feet</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. A ship leaves a port and sails 60 miles on a bearing of 030&deg;, measured clockwise from north. How many miles north of the port is the ship, to the nearest tenth?</div>
+    <div class="work">
+      <p>A. 30.0 mi</p>
+      <p>B. 34.6 mi</p>
+      <p>C. 52.0 mi {{a}}&larr; correct{{/a}}</p>
+      <p>D. 69.3 mi</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">30. A zip line starts on a platform 40 feet above the ground. It ends 300 feet away horizontally, at a point 10 feet above the ground. Find the length of the cable and the angle it makes with the horizontal, to the nearest tenth.</div>
+    <div class="work h16">
+      {{a}}<p>The drop is 40 &minus; 10 = 30 ft. Length = <span class="sqrt">300<sup>2</sup> + 30<sup>2</sup></span> &asymp; 301.5 ft. Angle = tan<sup>&minus;1</sup>({{f 30/300}}) &asymp; 5.7&deg;.</p>{{/a}}
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">31. A house is 32 feet wide. The roof has a 6/12 pitch and a 1-foot overhang on each side. Find the length of one rafter to the nearest tenth. Boards come in lengths of 12, 14, 16, 18, and 20 feet. What is the shortest board that works?</div>
+    <div class="work h16">
+      {{a}}<p>Horizontal distance 16 + 1 = 17 ft. Roof angle tan<sup>&minus;1</sup>(0.5) &asymp; 26.57&deg;. Rafter = {{f 17/cos 26.57&deg;}} &asymp; 19.0 ft. The shortest board that works is 20 ft.</p>{{/a}}
+    </div>
+  </div>
+
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>

@@ -1,0 +1,25 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PD) at (0.000,1.800);
+\coordinate (PP) at (0.000,0.000);
+\coordinate (PM1) at (-1.510,0.000);
+\coordinate (PM2) at (3.118,0.000);
+\coordinate (PHL) at (-1.810,1.800);
+\coordinate (PHR) at (3.418,1.800);
+\draw[ultra thick] (-2.010,0) -- (3.618,0);
+\draw[dashed] (-1.810,1.800) -- (3.418,1.800); \draw[dashed] (0,0) -- (0,1.800);
+\draw[fig] (0.000,1.800) -- (-1.510,0.000);
+\draw[fig] (0.000,1.800) -- (3.118,0.000);
+\fill (0,1.800) circle[radius=2.5pt]; \fill (-1.510,0) circle[radius=\ptr]; \fill (3.118,0) circle[radius=\ptr];
+\node[anchor=center] at (-1.133,1.272) {$50^\circ$};
+\pic[ang,angle radius=0.80cm] {angle = PHL--PD--PM1};
+\node[anchor=center] at (1.835,1.308) {$30^\circ$};
+\pic[ang,angle radius=1.20cm] {angle = PM2--PD--PHR};
+\node[anchor=center] at (0.520,0.900) {$60$ m};
+\node[anchor=center] at (-1.510,-0.350) {$M_1$};
+\node[anchor=center] at (3.118,-0.350) {$M_2$};
+\node[anchor=center] at (0.000,2.100) {drone};
+\end{tikzpicture}
+\end{document}

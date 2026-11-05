@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+\begin{scope}[x=0.5cm,y=0.5cm]\cgrid{-1}{11}{-1}{8}{1}
+\coordinate (A) at (2,1); \coordinate (B) at (10,7); \coordinate (C) at (10,1);
+\draw[fig] (A) -- (B); \draw[dashed] (A) -- (C) -- (B); \fill (A) circle[radius=\ptr]; \fill (B) circle[radius=\ptr];
+\node[below right=-1pt] at (A) {$A(2,1)$}; \node[above] at (B) {$B(10,7)$}; \node at (5.2,1.55) {$\theta$};
+\end{scope}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,20 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PT) at (0.000,1.148);
+\coordinate (PE) at (5.400,0.000);
+\coordinate (PG) at (0.000,0.000);
+\coordinate (PH) at (5.700,1.148);
+\coordinate (PHH) at (5.400,1.148);
+\draw[ultra thick] (-0.5,0) -- (5.900,0);
+\draw[ultra thick] (0,0) -- (0,1.348);
+\draw[dashed] (0,1.148) -- (5.400,1.148);
+\draw[fig] (0.000,1.148) -- (5.400,0.000);
+\node[anchor=center] at (2.586,0.876) {$12^\circ$};
+\pic[ang,angle radius=1.30cm] {angle = PE--PT--PHH};
+\node[anchor=center] at (2.700,-0.290) {$180$ ft};
+\node[anchor=center] at (-0.225,0.574) {$h$};
+\node[anchor=center] at (2.636,0.273) {$L$};
+\end{tikzpicture}
+\end{document}
