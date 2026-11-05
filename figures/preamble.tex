@@ -54,6 +54,9 @@
 % than about 0.55cm: on a small grid a step of 1 becomes 2 (or 5), so the
 % numbers do not run into each other. Labels sit on white so grid lines
 % do not cross them.
+% To leave out tick labels where a curve crosses an axis, before \cgrid:
+%   \renewcommand{\cgskipx}{5,-5}  \renewcommand{\cgskipy}{5}
+\newcommand{\cgskipx}{}\newcommand{\cgskipy}{}
 \makeatletter
 \newcommand{\cgrid}[5]{%
   \pgfpointxy{1}{0}\pgfmathsetmacro{\cgunit}{\pgf@x}%
@@ -66,6 +69,6 @@
   \draw[thick,<->] (0,#3-\cgo) -- (0,#4+\cgo) node[above] {$y$};
   \pgfmathtruncatemacro{\cgxa}{ceil((#1)/\cgs)*\cgs}\pgfmathtruncatemacro{\cgxb}{\cgxa+\cgs}%
   \pgfmathtruncatemacro{\cgya}{ceil((#3)/\cgs)*\cgs}\pgfmathtruncatemacro{\cgyb}{\cgya+\cgs}%
-  \foreach \t in {\cgxa,\cgxb,...,#2} {\ifnum\t=0\else\node[below,font=\scriptsize,fill=white,inner sep=1pt,yshift=-1pt] at (\t,0) {\t};\fi}
-  \foreach \t in {\cgya,\cgyb,...,#4} {\ifnum\t=0\else\node[left,font=\scriptsize,fill=white,inner sep=1pt,xshift=-1pt] at (0,\t) {\t};\fi}}
+  \foreach \t in {\cgxa,\cgxb,...,#2} {\edef\cgt{,\t,}\expandafter\in@\expandafter{\cgt}{,\cgskipx,}\ifin@\else\ifnum\t=0\else\node[below,font=\scriptsize,fill=white,inner sep=1pt,yshift=-1pt] at (\t,0) {\t};\fi\fi}
+  \foreach \t in {\cgya,\cgyb,...,#4} {\edef\cgt{,\t,}\expandafter\in@\expandafter{\cgt}{,\cgskipy,}\ifin@\else\ifnum\t=0\else\node[left,font=\scriptsize,fill=white,inner sep=1pt,xshift=-1pt] at (0,\t) {\t};\fi\fi}}
 \makeatother

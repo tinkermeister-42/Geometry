@@ -7,7 +7,7 @@
 \coordinate (A) at (0,0); \coordinate (B) at (5,0); \coordinate (C) at (5,5);
 \draw[fig] (A) -- (B) -- (C) -- cycle; \pic[rt,angle radius=1.8mm]{right angle = A--B--C};
 \fill (A) circle[radius=\ptr]; \fill (B) circle[radius=\ptr]; \fill (C) circle[radius=\ptr];
-\node[below left=-1pt] at (0,0) {$A(0,0)$}; \node[above right=-1pt] at (5.0,0.0) {$B(5,0)$}; \node[above left=0pt] at (5.0,5.0) {$C(5,5)$};
+\node[anchor=south east,inner sep=1pt] at (-0.05,0.08) {$A(0,0)$}; \node[above right=-1pt] at (5.0,0.0) {$B(5,0)$}; \node[above left=0pt] at (5.0,5.0) {$C(5,5)$};
 \end{scope}
 \end{tikzpicture}
 \end{document}

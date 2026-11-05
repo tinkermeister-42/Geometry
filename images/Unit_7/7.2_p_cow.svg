@@ -41,11 +41,11 @@
 <path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 73.550781 57.386719 C 73.550781 56.289062 72.660156 55.394531 71.558594 55.394531 C 70.457031 55.394531 69.566406 56.289062 69.566406 57.386719 C 69.566406 58.488281 70.457031 59.378906 71.558594 59.378906 C 72.660156 59.378906 73.550781 58.488281 73.550781 57.386719 Z M 73.550781 57.386719 "/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0.000574266 0.00126756 L 25.513727 44.186297 " transform="matrix(0.999791, 0, 0, -0.999791, 71.55802, 57.387986)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-4" x="86.41291" y="34.119857"/>
-<use xlink:href="#glyph-0-5" x="91.950956" y="34.119857"/>
+<use xlink:href="#glyph-0-4" x="88.959377" y="41.466319"/>
+<use xlink:href="#glyph-0-5" x="94.497423" y="41.466319"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-6" x="100.258025" y="34.119857"/>
-<use xlink:href="#glyph-0-7" x="103.027048" y="34.119857"/>
+<use xlink:href="#glyph-0-6" x="102.804492" y="41.466319"/>
+<use xlink:href="#glyph-0-7" x="105.573515" y="41.466319"/>
 </g>
 </svg>

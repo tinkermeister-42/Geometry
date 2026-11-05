@@ -168,11 +168,11 @@
 <path fill="none" stroke-width="0.79701" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 586.779151 31.182037 C 586.779151 26.014329 600.739442 21.826635 617.958578 21.826635 C 635.18165 21.826635 649.141941 26.014329 649.141941 31.182037 " transform="matrix(0.992491, 0, 0, -0.992491, 14.837688, 78.350247)"/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="2.98883 2.98883" stroke-miterlimit="10" d="M 617.958578 -8.502659 L 617.958578 70.866733 " transform="matrix(0.992491, 0, 0, -0.992491, 14.837688, 78.350247)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-13" x="613.037055" y="88.88852"/>
-<use xlink:href="#glyph-0-15" x="617.980952" y="88.88852"/>
-<use xlink:href="#glyph-0-11" x="623.478566" y="88.88852"/>
-<use xlink:href="#glyph-0-1" x="628.97618" y="88.88852"/>
-<use xlink:href="#glyph-0-0" x="634.473794" y="88.88852"/>
-<use xlink:href="#glyph-0-1" x="637.766429" y="88.88852"/>
+<use xlink:href="#glyph-0-13" x="613.037055" y="102.955101"/>
+<use xlink:href="#glyph-0-15" x="617.980952" y="102.955101"/>
+<use xlink:href="#glyph-0-11" x="623.478566" y="102.955101"/>
+<use xlink:href="#glyph-0-1" x="628.97618" y="102.955101"/>
+<use xlink:href="#glyph-0-0" x="634.473794" y="102.955101"/>
+<use xlink:href="#glyph-0-1" x="637.766429" y="102.955101"/>
 </g>
 </svg>

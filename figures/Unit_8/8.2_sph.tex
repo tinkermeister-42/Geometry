@@ -13,9 +13,9 @@
     \draw[thick] (O)--(M)--(P)--cycle; \rtmark{(O)}{(M)}{(P)}
     \fill (O) circle[radius=\ptr]; 
     \node[left,font=\small] at (0,0.75) {3};
-    \node[above,font=\small] at (1,1.8) {$r$};
+    \ifkey\else \node[anchor=south,font=\small] at (0.9,1.5) {$r$}; \fi
     \node[below right,font=\small] at (1.15,0.5) {5};
-    \ifkey \node[above,font=\small] at (1,1.8) {\ans{4}}; \fi
+    \ifkey \node[anchor=south,font=\small] at (0.9,1.5) {\ans{4}}; \fi
   \end{scope}
 \end{tikzpicture}
 \end{document}

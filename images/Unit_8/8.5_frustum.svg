@@ -49,12 +49,11 @@
 <use xlink:href="#glyph-0-2" x="86.353139" y="110.869893"/>
 </g>
 <path fill="none" stroke-width="0.79701" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="2.98883 2.98883" stroke-miterlimit="10" d="M 0.000101022 51.026351 L 25.513671 51.026351 " transform="matrix(0.993191, 0, 0, -0.993191, 57.300681, 107.686717)"/>
-<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 62.792969 61.363281 L 77.148438 61.363281 L 77.148438 52.652344 L 62.792969 52.652344 Z M 62.792969 61.363281 "/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-3" x="63.781251" y="60.193324"/>
+<use xlink:href="#glyph-0-3" x="88.312072" y="52.144505"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="71.20831" y="60.193324"/>
-<use xlink:href="#glyph-0-2" x="73.683996" y="60.193324"/>
+<use xlink:href="#glyph-0-1" x="95.739131" y="52.144505"/>
+<use xlink:href="#glyph-0-2" x="98.214817" y="52.144505"/>
 </g>
 </svg>

@@ -40,12 +40,13 @@
 <use xlink:href="#glyph-0-2" x="51.799539" y="131.706619"/>
 <use xlink:href="#glyph-0-3" x="54.00485" y="131.706619"/>
 </g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 55.441406 83.457031 L 76.8125 83.457031 L 76.8125 75.101562 L 55.441406 75.101562 Z M 55.441406 83.457031 "/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-0" x="70.483422" y="60.419045"/>
-<use xlink:href="#glyph-1-1" x="75.454346" y="60.419045"/>
+<use xlink:href="#glyph-1-0" x="56.434105" y="82.466204"/>
+<use xlink:href="#glyph-1-1" x="61.405029" y="82.466204"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-2" x="82.910733" y="60.419045"/>
-<use xlink:href="#glyph-1-3" x="84.895526" y="60.419045"/>
+<use xlink:href="#glyph-1-2" x="68.861415" y="82.466204"/>
+<use xlink:href="#glyph-1-3" x="70.846209" y="82.466204"/>
 </g>
 </svg>
