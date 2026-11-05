@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.45cm,y=0.45cm]
+
+
+\draw[gray!50,thin] (0,-4) grid (4,0); \draw[gray!50,thin] (-3,0) grid (0,3);
+\draw[fig,fill=blue!6] (0,0) -- (4,0) -- (0,3) -- cycle;
+\draw[fig,fill=gray!6,fill opacity=.5] (0,0) rectangle (4,-4);
+\draw[fig,fill=gray!6,fill opacity=.5] (0,0) rectangle (-3,3);
+\draw[fig,fill=gray!6,fill opacity=.5] (4,0) -- (0,3) -- (3,7) -- (7,4) -- cycle;
+\coordinate (O) at (0,0); \coordinate (X) at (4,0); \coordinate (Y) at (0,3);
+\pic[rt]{right angle = X--O--Y};
+\node at (2,-2) {$4^2=16$}; \node at (-1.5,1.5) {$3^2=9$}; \node at (3.5,3.5) {$5^2=25$};
+
+\end{tikzpicture}
+\end{document}

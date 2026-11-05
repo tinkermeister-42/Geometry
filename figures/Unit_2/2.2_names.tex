@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.70cm,y=0.70cm]
+
+
+\coordinate (P) at (0,0); \coordinate (Q) at (0.8,1.6); \coordinate (R) at (4,0);
+\draw[fig] (P) -- (Q) -- (R) -- cycle; \pic[rt]{right angle = R--Q--P};
+\node[left] at (P) {$P$}; \node[above] at (Q) {$Q$}; \node[right] at (R) {$R$};
+
+\end{tikzpicture}
+\end{document}

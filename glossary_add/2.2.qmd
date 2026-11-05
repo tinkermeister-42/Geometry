@@ -1,0 +1,51 @@
+### leg {#glossary-leg}
+
+One of the two sides of a right triangle that form the right angle.
+
+**See Also:** {{< glink "hypotenuse" >}}
+
+***
+
+### hypotenuse {#glossary-hypotenuse}
+
+The side of a right triangle across from the right angle. It is the longest side.
+
+**See Also:** {{< glink "leg" >}}
+
+***
+
+### Pythagorean theorem {#glossary-pythagorean-theorem}
+
+In a right triangle, the sum of the squares of the legs equals the square of the hypotenuse: $a^2 + b^2 = c^2$.
+
+> **Example:** Legs 3 and 4 give $9 + 16 = 25$, so $c = 5$.
+
+**See Also:** {{< glink "hypotenuse" >}}, {{< glink "Pythagorean triple" >}}
+
+***
+
+### Pythagorean triple {#glossary-pythagorean-triple}
+
+Three whole numbers $a$, $b$, $c$ with $a^2 + b^2 = c^2$.
+
+> **Example:** 3, 4, 5 and 5, 12, 13.
+
+**See Also:** {{< glink "Pythagorean theorem" >}}
+
+***
+
+### converse {#glossary-converse}
+
+The statement you get by turning an "if, then" rule around.
+
+> **Example:** The converse of the Pythagorean theorem: if $a^2 + b^2 = c^2$, the triangle is a right triangle.
+
+**See Also:** {{< glink "Pythagorean theorem" >}}
+
+***
+
+### triangle inequality {#glossary-triangle-inequality}
+
+The two shorter sides of a triangle always add to more than the longest side.
+
+> **Example:** 3, 4, 9 cannot make a triangle because $3 + 4 < 9$.

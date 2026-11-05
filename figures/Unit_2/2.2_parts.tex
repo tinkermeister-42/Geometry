@@ -1,0 +1,13 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.70cm,y=0.70cm]
+
+
+\coordinate (O) at (0,0); \coordinate (X) at (4,0); \coordinate (Y) at (0,3);
+\draw[fig] (O) -- (X) -- (Y) -- cycle; \pic[rt]{right angle = X--O--Y};
+\node[below] at (2,0) {leg $b$}; \node[left] at (0,1.5) {leg $a$};
+\node[above right] at (2.1,1.6) {hypotenuse $c$};
+
+\end{tikzpicture}
+\end{document}

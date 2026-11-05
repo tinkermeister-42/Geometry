@@ -1,0 +1,25 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.40cm,y=0.40cm]
+
+
+\begin{scope}
+ \draw[fig] (0,0) rectangle (7,7);
+ \draw[fig,fill=blue!10] (3,0) -- (7,3) -- (4,7) -- (0,4) -- cycle;
+ \node at (3.5,3.5) {$c^2$};
+ \node[below] at (1.5,0) {$a$}; \node[below] at (5,0) {$b$};
+ \node[below] at (3.5,-0.7) {first square};
+\end{scope}
+\begin{scope}[shift={(9,0)}]
+ \draw[fig] (0,0) rectangle (7,7);
+ \draw[fig,fill=blue!10] (0,0) rectangle (3,3); \draw[fig,fill=blue!10] (3,3) rectangle (7,7);
+ \draw[fig] (0,3) rectangle (3,7); \draw[fig] (3,0) rectangle (7,3);
+ \draw[fig] (0,7) -- (3,3); \draw[fig] (3,0) -- (7,3);
+ \node at (1.5,1.5) {$a^2$}; \node at (5,5) {$b^2$};
+ \node[below] at (1.5,0) {$a$}; \node[below] at (5,0) {$b$};
+ \node[below] at (3.5,-0.7) {second square};
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
