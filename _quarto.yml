@@ -127,5 +127,16 @@ book:
         - file: chapters/Unit_6/Summary.qmd
         - file: chapters/Unit_6/Review.qmd
 
+    - part: "Unit 7: Circles"
+      chapters:
+        - file: chapters/Unit_7/index.qmd
+        - file: chapters/Unit_7/7.1_Circumference_and_Arc_Length.qmd
+        - file: chapters/Unit_7/7.2_Area_of_Circles_and_Sectors.qmd
+        - file: chapters/Unit_7/7.3_Radians.qmd
+        - file: chapters/Unit_7/7.4_Inscribed_Angles_and_Tangents.qmd
+        - file: chapters/Unit_7/7.5_The_Equation_of_a_Circle.qmd
+        - file: chapters/Unit_7/Summary.qmd
+        - file: chapters/Unit_7/Review.qmd
+
     - file: guided-notes.qmd
     - file: glossary.qmd

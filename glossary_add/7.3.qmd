@@ -1,9 +1,0 @@
-### radian {#glossary-radian}
-
-A unit for measuring angles. One radian is the central angle whose arc is as long as the radius. A full turn is $2\pi$ radians, so $180^\circ = \pi$ radians. Radian measure $\theta = \dfrac{s}{r}$.
-
-> **Example:** $90^\circ = \dfrac{\pi}{2}$ radians.
-
-**See Also:** {{< glink "degree" >}}, {{< glink "arc length" >}}, {{< glink "central angle" >}}
-
-***

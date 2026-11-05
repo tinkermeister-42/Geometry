@@ -74,3 +74,13 @@ letter-size paper.
   - [6.7 - Modeling with Right Triangles](/guided_notes/Unit_6/6.7_Modeling_with_Right_Triangles.html){target="_blank"}
   - [Unit 6 Summary](/guided_notes/Unit_6/Unit_6_Summary.html){target="_blank"}
   - [Unit 6 Review](/guided_notes/Unit_6/Unit_6_Review.html){target="_blank"}
+
+## Unit 7 - Circles
+
+  - [7.1 - Circumference and Arc Length](/guided_notes/Unit_7/7.1_Circumference_and_Arc_Length.html){target="_blank"}
+  - [7.2 - Area of Circles and Sectors](/guided_notes/Unit_7/7.2_Area_of_Circles_and_Sectors.html){target="_blank"}
+  - [7.3 - Radians](/guided_notes/Unit_7/7.3_Radians.html){target="_blank"}
+  - [7.4 - Inscribed Angles and Tangents](/guided_notes/Unit_7/7.4_Inscribed_Angles_and_Tangents.html){target="_blank"}
+  - [7.5 - The Equation of a Circle](/guided_notes/Unit_7/7.5_The_Equation_of_a_Circle.html){target="_blank"}
+  - [Unit 7 Summary](/guided_notes/Unit_7/Unit_7_Summary.html){target="_blank"}
+  - [Unit 7 Review](/guided_notes/Unit_7/Unit_7_Review.html){target="_blank"}

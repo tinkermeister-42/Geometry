@@ -82,11 +82,13 @@ Many lessons use the **coordinate plane**. The tools you learn in Unit 2 (distan
 | [Summary](chapters/Unit_6/Summary.qmd) | Unit 6 summary |
 | [Review](chapters/Unit_6/Review.qmd) | Unit 6 review |
 | **Unit 7: Circles** | |
-| 7.1 | Circumference and arc length |
-| 7.2 | Area of circles and sectors |
-| 7.3 | Radians |
-| 7.4 | Inscribed angles and tangents |
-| 7.5 | The equation of a circle |
+| [7.1](chapters/Unit_7/7.1_Circumference_and_Arc_Length.qmd) | Circumference and arc length |
+| [7.2](chapters/Unit_7/7.2_Area_of_Circles_and_Sectors.qmd) | Area of circles and sectors |
+| [7.3](chapters/Unit_7/7.3_Radians.qmd) | Radians |
+| [7.4](chapters/Unit_7/7.4_Inscribed_Angles_and_Tangents.qmd) | Inscribed angles and tangents |
+| [7.5](chapters/Unit_7/7.5_The_Equation_of_a_Circle.qmd) | The equation of a circle |
+| [Summary](chapters/Unit_7/Summary.qmd) | Unit 7 summary |
+| [Review](chapters/Unit_7/Review.qmd) | Unit 7 review |
 | **Unit 8: Area, Surface Area, and Volume** | |
 | 8.1 | Area of polygons and composite figures |
 | 8.2 | Cross sections and solids of revolution |

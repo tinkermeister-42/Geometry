@@ -134,6 +134,46 @@ The amount a figure turns in a rotation, in degrees. Counterclockwise turns are 
 
 ***
 
+### annulus {#glossary-annulus}
+
+The ring-shaped region between two circles with the same center. Its area is $\pi R^2 - \pi r^2$, where $R$ is the outer radius and $r$ is the inner radius.
+
+> **Example:** Outer radius $10$ and inner radius $6$: $100\pi - 36\pi = 64\pi$.
+
+**See Also:** {{< glink "area" >}}, {{< glink "shaded region" >}}
+
+***
+
+### arc {#glossary-arc}
+
+Part of a circle between two points on the circle. Two points split a circle into a minor arc and a major arc (or two semicircles).
+
+> **Example:** In circle $P$, the arc from $A$ to $D$ is written $\overset{\frown}{AD}$.
+
+**See Also:** {{< glink "minor arc" >}}, {{< glink "major arc" >}}, {{< glink "semicircle" >}}
+
+***
+
+### arc length {#glossary-arc-length}
+
+The distance along an arc. It is a length, in units such as inches or meters. Arc length $= \dfrac{\text{central angle}}{360^\circ} \cdot 2\pi r$.
+
+> **Example:** A $90^\circ$ arc on a circle with radius $4$ is $\dfrac{90}{360} \cdot 2\pi(4) = 2\pi$ units long.
+
+**See Also:** {{< glink "arc measure" >}}, {{< glink "circumference" >}}
+
+***
+
+### arc measure {#glossary-arc-measure}
+
+The size of an arc in degrees. It equals the measure of its central angle. A semicircle measures $180^\circ$. A circle measures $360^\circ$ all the way around.
+
+> **Example:** A central angle of $70^\circ$ cuts off an arc that measures $70^\circ$.
+
+**See Also:** {{< glink "arc length" >}}, {{< glink "central angle" >}}
+
+***
+
 ### area {#glossary-area}
 
 The number of square units inside a figure.
@@ -180,6 +220,16 @@ The smallest rectangle with sides on grid lines that has a figure inside it. It 
 
 ***
 
+### center of a circle {#glossary-center-of-a-circle}
+
+The point inside a circle that is the same distance from every point on the circle. We name a circle by its center.
+
+> **Example:** In $\odot P$, the center is point $P$.
+
+**See Also:** {{< glink "circle" >}}, {{< glink "radius" >}}
+
+***
+
 ### center of dilation {#glossary-center-of-dilation}
 
 The fixed point a dilation moves points toward or away from. Each point and its image are on a ray from the center.
@@ -201,6 +251,46 @@ The fixed point a figure turns about in a rotation.
 > A Ferris wheel turns about its center.
 
 **See Also:** {{< glink rotation >}}
+
+***
+
+### central angle {#glossary-central-angle}
+
+An angle whose vertex is the center of a circle. Its sides are two radii.
+
+> **Example:** $\angle APD$ in circle $P$ is a central angle.
+
+**See Also:** {{< glink "arc measure" >}}, {{< glink "radius" >}}
+
+***
+
+### chord {#glossary-chord}
+
+A segment with both endpoints on a circle. A diameter is a chord that goes through the center.
+
+> **Example:** In circle $P$, $\overline{EF}$ is a chord.
+
+**See Also:** {{< glink "diameter" >}}, {{< glink "circle" >}}
+
+***
+
+### circle {#glossary-circle}
+
+All the points in a plane that are the same distance from one point, the center. We write circle $P$ as $\odot P$.
+
+> **Example:** A bike wheel is a circle with its center at the hub.
+
+**See Also:** {{< glink "center of a circle" >}}, {{< glink "radius" >}}
+
+***
+
+### circumference {#glossary-circumference}
+
+The distance around a circle. $C = \pi d = 2\pi r$.
+
+> **Example:** A circle with $r = 5$ has $C = 2\pi(5) = 10\pi \approx 31.42$.
+
+**See Also:** {{< glink "pi" >}}, {{< glink "diameter" >}}
 
 ***
 
@@ -227,6 +317,16 @@ Two angles whose measures add to $90^\circ$. Each angle is the complement of the
 > $25^\circ$ and $65^\circ$ are complementary because $25 + 65 = 90$.
 
 **See Also:** {{< glink supplementary >}}
+
+***
+
+### completing the square {#glossary-completing-the-square}
+
+A way to rewrite $x^2 + bx$ as a perfect square by adding $\left(\dfrac{b}{2}\right)^2$. Add the same number to both sides of an equation.
+
+> **Example:** $x^2 - 6x + 9 = (x - 3)^2$.
+
+**See Also:** {{< glink "perfect square" >}}
 
 ***
 
@@ -370,6 +470,16 @@ A segment that joins two corners of a polygon that are not next to each other.
 
 ***
 
+### diameter {#glossary-diameter}
+
+A chord that goes through the center of a circle. Its length is twice the radius: $d = 2r$.
+
+> **Example:** If $r = 7$, then $d = 14$.
+
+**See Also:** {{< glink "radius" >}}, {{< glink "chord" >}}
+
+***
+
 ### dilation {#glossary-dilation}
 
 A transformation that makes a figure larger or smaller from a fixed point, the center of dilation. It keeps the shape and angles but multiplies every length by the scale factor.
@@ -407,6 +517,16 @@ A dilation with a scale factor greater than 1. The image is larger than the orig
 > A scale factor of 2 makes an enlargement.
 
 **See Also:** {{< glink reduction >}}
+
+***
+
+### equation of a circle {#glossary-equation-of-a-circle}
+
+The equation $(x - h)^2 + (y - k)^2 = r^2$ describes a circle with center $(h, k)$ and radius $r$.
+
+> **Example:** $(x - 2)^2 + (y + 1)^2 = 9$ is a circle with center $(2, -1)$ and radius $3$.
+
+**See Also:** {{< glink "distance formula" >}}, {{< glink "radius" >}}
 
 ***
 
@@ -491,6 +611,36 @@ Finding a length that is hard to measure by using similar triangles and lengths 
 > **Example:** A 5 ft person has an 8 ft shadow. A tree has a 40 ft shadow. The tree is $\dfrac{5}{8} \cdot 40 = 25$ ft tall.
 
 **See Also:** {{< glink similar >}}, {{< glink proportion >}}
+
+***
+
+### inscribed angle {#glossary-inscribed-angle}
+
+An angle with its vertex on a circle and both sides chords of the circle. Its measure is half of its intercepted arc.
+
+> **Example:** An inscribed angle that intercepts an $80^\circ$ arc measures $40^\circ$.
+
+**See Also:** {{< glink "intercepted arc" >}}, {{< glink "central angle" >}}
+
+***
+
+### inscribed quadrilateral {#glossary-inscribed-quadrilateral}
+
+A four-sided figure with all four vertices on a circle. Its opposite angles are supplementary.
+
+> **Example:** If $m\angle A = 70^\circ$, then the opposite angle is $m\angle C = 110^\circ$.
+
+**See Also:** {{< glink "inscribed angle" >}}, {{< glink "supplementary" >}}
+
+***
+
+### intercepted arc {#glossary-intercepted-arc}
+
+The arc that lies inside an inscribed or central angle, between its two sides.
+
+> **Example:** $\angle ABC$ intercepts $\overset{\frown}{AC}$.
+
+**See Also:** {{< glink "inscribed angle" >}}, {{< glink "arc measure" >}}
 
 ***
 
@@ -640,6 +790,16 @@ Two adjacent angles whose outside sides are opposite rays. The angles in a linea
 
 ***
 
+### major arc {#glossary-major-arc}
+
+An arc that is more than half of a circle. Its measure is more than $180^\circ$. We name it with three letters.
+
+> **Example:** If a minor arc measures $70^\circ$, the major arc measures $360^\circ - 70^\circ = 290^\circ$.
+
+**See Also:** {{< glink "minor arc" >}}, {{< glink "semicircle" >}}
+
+***
+
 ### measure of an angle {#glossary-measure-of-an-angle}
 
 How far an angle opens, in degrees. Write $m\angle ABC = 40^\circ$. Read it as "the measure of angle $ABC$ is 40 degrees."
@@ -675,6 +835,16 @@ A segment that joins the midpoints of two sides of a triangle. It is parallel to
 > **Example:** If $D$ and $E$ are midpoints of $\overline{AB}$ and $\overline{AC}$ and $BC = 18$, then $DE = 9$.
 
 **See Also:** {{< glink midpoint >}}, {{< glink similar >}}
+
+***
+
+### minor arc {#glossary-minor-arc}
+
+An arc that is less than half of a circle. Its measure is less than $180^\circ$. We name it with its two endpoints.
+
+> **Example:** $\overset{\frown}{AB}$ with $m\overset{\frown}{AB} = 70^\circ$.
+
+**See Also:** {{< glink "major arc" >}}, {{< glink "semicircle" >}}
 
 ***
 
@@ -808,6 +978,16 @@ A line that goes through the midpoint of a segment and is perpendicular to it.
 
 ***
 
+### pi {#glossary-pi}
+
+The number $\pi$ is the circumference of a circle divided by its diameter. It is the same for every circle. $\pi \approx 3.14159$.
+
+> **Example:** A circle with $d = 10$ has $C = 10\pi \approx 31.42$.
+
+**See Also:** {{< glink "circumference" >}}
+
+***
+
 ### plane {#glossary-plane}
 
 A flat surface that goes on forever in every direction. Name it with one capital letter, like plane $P$, or with three points in it that are not on one line.
@@ -817,6 +997,16 @@ A flat surface that goes on forever in every direction. Name it with one capital
 ### point {#glossary-point}
 
 An exact location. A point has no size. Name it with a capital letter, like point $A$.
+
+***
+
+### point of tangency {#glossary-point-of-tangency}
+
+The one point where a tangent line touches a circle.
+
+> **Example:** In the figure, the tangent line touches the circle at $T$, the point of tangency.
+
+**See Also:** {{< glink "tangent to a circle" >}}
 
 ***
 
@@ -898,6 +1088,16 @@ A polygon with four sides. The four angles add to $360^\circ$.
 
 ***
 
+### radian {#glossary-radian}
+
+A unit for measuring angles. One radian is the central angle whose arc is as long as the radius. A full turn is $2\pi$ radians, so $180^\circ = \pi$ radians. Radian measure $\theta = \dfrac{s}{r}$.
+
+> **Example:** $90^\circ = \dfrac{\pi}{2}$ radians.
+
+**See Also:** {{< glink "degree" >}}, {{< glink "arc length" >}}, {{< glink "central angle" >}}
+
+***
+
 ### radical {#glossary-radical}
 
 An expression with a root sign, such as $\sqrt{50}$ or $3\sqrt{2}$. The number under the sign is the radicand.
@@ -911,6 +1111,16 @@ An expression with a root sign, such as $\sqrt{50}$ or $3\sqrt{2}$. The number u
 The number under a radical sign. In $\sqrt{50}$ the radicand is 50.
 
 **See Also:** {{< glink "radical" >}}
+
+***
+
+### radius {#glossary-radius}
+
+A segment from the center of a circle to a point on the circle. It is also the length of that segment. The plural is radii. All radii of a circle are equal.
+
+> **Example:** In circle $P$, $\overline{PA}$ is a radius.
+
+**See Also:** {{< glink "diameter" >}}, {{< glink "center of a circle" >}}
 
 ***
 
@@ -1102,6 +1312,16 @@ A triangle with no two sides the same length.
 
 ***
 
+### sector {#glossary-sector}
+
+The region inside a circle between two radii and the arc they cut off. Area $= \dfrac{\text{central angle}}{360^\circ} \cdot \pi r^2$.
+
+> **Example:** A slice of pizza is a sector.
+
+**See Also:** {{< glink "central angle" >}}, {{< glink "arc length" >}}
+
+***
+
 ### segment {#glossary-segment}
 
 Part of a line between two endpoints. Write $\overline{AB}$. Its length is written $AB$, with no bar.
@@ -1116,6 +1336,16 @@ A point, line, ray, or segment that goes through the midpoint of a segment.
 
 ***
 
+### semicircle {#glossary-semicircle}
+
+Half of a circle. It is an arc that measures $180^\circ$. The endpoints of a semicircle are the ends of a diameter.
+
+> **Example:** $\overset{\frown}{BAC}$, where $\overline{BC}$ is a diameter.
+
+**See Also:** {{< glink "arc" >}}, {{< glink "diameter" >}}
+
+***
+
 ### sequence of transformations {#glossary-sequence-of-transformations}
 
 Two or more transformations done one after another. The first image is $A'$ and the second image is $A''$.
@@ -1125,6 +1355,16 @@ Two or more transformations done one after another. The first image is $A'$ and 
 > Translate a figure 3 units right, then reflect it over the $y$-axis.
 
 **See Also:** {{< glink transformation >}}
+
+***
+
+### shaded region {#glossary-shaded-region}
+
+A part of a figure that is colored in. To find its area, add or subtract the areas of simple shapes.
+
+> **Example:** A square with a circle cut out: area of the square minus area of the circle.
+
+**See Also:** {{< glink "area" >}}, {{< glink "annulus" >}}
 
 ***
 
@@ -1255,6 +1495,16 @@ For an acute angle $A$ in a right triangle, $\tan A = \dfrac{\text{opposite}}{\t
 > **Example:** $\tan A = \dfrac{8}{15}$ when the opposite side is $8$ and the adjacent side is $15$.
 
 **See Also:** {{< glink "sine" >}}, {{< glink "cosine" >}}, {{< glink "slope" >}}
+
+***
+
+### tangent to a circle {#glossary-tangent-to-a-circle}
+
+A line in the plane of a circle that touches the circle at exactly one point. It is perpendicular to the radius at that point. Two tangent segments from one outside point are equal.
+
+> **Example:** A line tangent at $T(-3, 4)$ to the circle $x^2 + y^2 = 25$ has slope $\dfrac{3}{4}$.
+
+**See Also:** {{< glink "point of tangency" >}}, {{< glink "radius" >}}, {{< glink "perpendicular" >}}
 
 ***
 
