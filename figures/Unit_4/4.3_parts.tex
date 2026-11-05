@@ -1,0 +1,25 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (1.8,2.4);
+\coordinate (B) at (0,0);
+\coordinate (C) at (3.6,0);
+\draw[fig] (A) -- (B) -- (C) -- cycle;
+\draw[tick1] (A) -- (B);
+\draw[tick1] (A) -- (C);
+\pic[draw,thick,angle radius=5.0mm] {angle = B--A--C};
+\fill (A) circle[radius=\ptr];
+\node at (1.8,2.72) {$A$};
+\pic[draw,thick,angle radius=5.0mm,double,double distance=1.2pt] {angle = C--B--A};
+\fill (B) circle[radius=\ptr];
+\node at (-0.292,-0.13) {$B$};
+\pic[draw,thick,angle radius=5.0mm,double,double distance=1.2pt] {angle = A--C--B};
+\fill (C) circle[radius=\ptr];
+\node at (3.892,-0.13) {$C$};
+\node[font=\small\bfseries] at (0.5,1.7) {leg};
+\node[font=\small\bfseries] at (3.2,1.7) {leg};
+\node[font=\small\bfseries] at (1.8,-0.75) {base};
+\path (-1.4,-1) rectangle (5,3.3);
+\end{tikzpicture}
+\end{document}

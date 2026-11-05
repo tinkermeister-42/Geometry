@@ -1,0 +1,41 @@
+### legs of an isosceles triangle {#glossary-legs-of-an-isosceles-triangle}
+
+The two congruent sides of an isosceles triangle.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the legs are $\overline{AB}$ and $\overline{AC}$.
+
+**See Also:** {{< glink "base of an isosceles triangle" >}}
+
+***
+
+### base of an isosceles triangle {#glossary-base-of-an-isosceles-triangle}
+
+The side of an isosceles triangle that is not one of the two congruent sides.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the base is $\overline{BC}$.
+
+***
+
+### vertex angle {#glossary-vertex-angle}
+
+The angle of an isosceles triangle between the two congruent sides.
+
+> **Example:**
+>
+> In $\triangle ABC$ with $AB \cong AC$, the vertex angle is $\angle A$.
+
+**See Also:** {{< glink "base angles" >}}
+
+***
+
+### base angles {#glossary-base-angles}
+
+The two angles of an isosceles triangle that touch the base. Base angles are congruent.
+
+> **Example:**
+>
+> If the vertex angle is $40^\circ$, each base angle is $70^\circ$.

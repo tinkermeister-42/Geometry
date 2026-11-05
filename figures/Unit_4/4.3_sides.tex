@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (1.2,2.75);
+\coordinate (B) at (0,0);
+\coordinate (C) at (2.4,0);
+\draw[fig] (A) -- (B) -- (C) -- cycle;
+\node at (0.142,1.575) {$2x+1$};
+\node at (1.342,1.175) {$x+8$};
+\node at (1.2,-0.5) {$12$};
+\fill (A) circle[radius=\ptr];
+\node at (1.2,3.07) {$A$};
+\fill (B) circle[radius=\ptr];
+\node at (-0.254,-0.194) {$B$};
+\fill (C) circle[radius=\ptr];
+\node at (2.654,-0.194) {$C$};
+\end{tikzpicture}
+\end{document}

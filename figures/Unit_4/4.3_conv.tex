@@ -1,0 +1,22 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (A) at (1.7,2.6);
+\coordinate (B) at (0,0);
+\coordinate (C) at (3.4,0);
+\draw[fig] (A) -- (B) -- (C) -- cycle;
+\node at (0.549,1.497) {$9$};
+\node at (2.249,1.103) {$x$};
+\fill (A) circle[radius=\ptr];
+\node at (1.7,2.92) {$A$};
+\pic[draw,thick,angle radius=5.0mm] {angle = C--B--A};
+\fill (B) circle[radius=\ptr];
+\node at (-0.285,-0.145) {$B$};
+\pic[draw,thick,angle radius=5.0mm] {angle = A--C--B};
+\fill (C) circle[radius=\ptr];
+\node at (3.685,-0.145) {$C$};
+\node[font=\small] at (0.95,0.28) {$65^\circ$};
+\node[font=\small] at (2.55,0.28) {$65^\circ$};
+\end{tikzpicture}
+\end{document}
