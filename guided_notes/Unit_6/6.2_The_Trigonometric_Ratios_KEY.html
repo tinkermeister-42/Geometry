@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided Notes 6.2 - The Trigonometric Ratios (Teacher Key)</title>
+<link rel="stylesheet" href="../assets/guided-notes.css">
+</head>
+<body>
+<section class="sheet">
+
+  <div class="masthead">
+    <a class="backlink" href="../../chapters/Unit_6/6.2_The_Trigonometric_Ratios.html">&larr; back to the lesson</a>
+    <h1>6.2 &nbsp;The Trigonometric Ratios</h1>
+    <div class="sub">Guided Notes - Unit 6: Right Triangle Trigonometry - DHS Geometry</div>
+    <div class="keybadge">Teacher Key: answers in red</div>
+  </div>
+
+<div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Name the opposite side, the adjacent side, and the hypotenuse for an acute angle</li>
+      <li>Write the sine, cosine, and tangent of an angle from the side lengths</li>
+      <li>Use a calculator in degree mode to find a trigonometric ratio</li>
+      <li>Explain that the tangent of an angle is the slope of a line</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> 1. Two right triangles each have a 35&deg; angle. Are they similar? Say why. &nbsp; 2. Find the hypotenuse of a right triangle with legs 6 and 7. Exact answer. &nbsp; 3. Write <span class="f"><b>3</b><b>8</b></span> as a decimal, rounded to the nearest thousandth.</div>
+    <div class="work">
+<p>1. <span class="b l"><span class="ans-key">Yes. Both have a right angle and a 35&deg; angle, so they are similar by AA.</span></span></p>
+<p>2. <var>c</var> = <span class="sqrt">6<sup>2</sup> + 7<sup>2</sup></span> = <span class="b m"><span class="ans-key"><span class="sqrt">85</span></span></span></p>
+<p>3. 3 &divide; 8 = <span class="b m"><span class="ans-key">0.375</span></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">6.2.1</span>Naming the Sides</h2>
+
+  <div class="keys">
+    <ul>
+      <li>The <span class="b m"><span class="ans-key">hypotenuse</span></span> is across from the right angle. It is the longest side.</li>
+      <li>The <span class="b m"><span class="ans-key">opposite</span></span> side is across from the angle you choose.</li>
+      <li>The <span class="b m"><span class="ans-key">adjacent</span></span> side is the leg that touches the angle you choose.</li>
+      <li>When you pick the other acute angle, the opposite and adjacent sides <span class="b m"><span class="ans-key">trade places</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="figrow"><img class="fig" src="../../images/Unit_6/6.2_sides_a.svg" alt="a right triangle with angle A marked: the side across from A is opposite, the side next to A is adjacent, the longest side is the hypotenuse" style="width:2.7in"> <img class="fig" src="../../images/Unit_6/6.2_sides_b.svg" alt="the same right triangle with angle B marked: now the other leg is opposite and the first leg is adjacent" style="width:2.7in"></div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 2.</b> Name the sides. a. For angle <var>A</var>, name the sides of length 8, 15, and 17. b. For angle <var>B</var>, which side is opposite? Which is adjacent?</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:2.8in 1fr;align-items:center"><img class="fig" src="../../images/Unit_6/6.2_ex1.svg" alt="right triangle ABC with the right angle at C, AC = 15, BC = 8, AB = 17" style="width:2.7in"><div>
+<p>a. <var>BC</var> = 8 is <span class="b m"><span class="ans-key">opposite</span></span></p><p><var>AC</var> = 15 is <span class="b m"><span class="ans-key">adjacent</span></span></p><p><var>AB</var> = 17 is the <span class="b m"><span class="ans-key">hypotenuse</span></span></p>
+<p>b. Opposite <var>B</var>: <var>AC</var> = <span class="b s"><span class="ans-key">15</span></span></p><p>Adjacent to <var>B</var>: <var>BC</var> = <span class="b s"><span class="ans-key">8</span></span></p></div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 3.</b> Use the triangle in EX 1. a. For angle <var>B</var>, which side is the hypotenuse? b. The side of length 8 is adjacent to which angle?<span class="yt">your turn</span></div>
+    <div class="work">
+<p>a. <span class="b m"><span class="ans-key"><var>AB</var> (length 17)</span></span></p><p>b. <span class="b s"><span class="ans-key">angle <var>B</var></span></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">6.2.2</span>Why the Ratios Work</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Right triangles with the same acute angle are <span class="b m"><span class="ans-key">similar</span></span> (AA). Their matching ratios are <span class="b m"><span class="ans-key">equal</span></span>.</li>
+      <li>So a ratio depends only on the <span class="b m"><span class="ans-key">angle</span></span>, not on the size of the triangle.</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center"><img class="fig" src="../../images/Unit_6/6.2_nested.svg" alt="three nested right triangles that share the 35 degree angle at A" style="width:4in"></div>
+
+  <table class="steps">
+    <tr><th>Triangle</th><th>Adjacent</th><th>Opposite</th><th>Hypotenuse</th><th>opp &divide; hyp</th><th>opp &divide; adj</th><th>adj &divide; hyp</th></tr>
+    <tr><td>&#9651; <var>AB</var><sub>1</sub><var>C</var><sub>1</sub></td><td>4</td><td>2.80</td><td>4.88</td><td><span class="ans-key">0.57</span></td><td><span class="ans-key">0.70</span></td><td><span class="ans-key">0.82</span></td></tr>
+    <tr><td>&#9651; <var>AB</var><sub>2</sub><var>C</var><sub>2</sub></td><td>8</td><td>5.60</td><td>9.77</td><td><span class="ans-key">0.57</span></td><td><span class="ans-key">0.70</span></td><td><span class="ans-key">0.82</span></td></tr>
+    <tr><td>&#9651; <var>AB</var><sub>3</sub><var>C</var><sub>3</sub></td><td>12</td><td>8.40</td><td>14.65</td><td><span class="ans-key">0.57</span></td><td><span class="ans-key">0.70</span></td><td><span class="ans-key">0.82</span></td></tr>
+  </table>
+
+  <h2><span class="num">6.2.3</span>Sine, Cosine, and Tangent</h2>
+
+  <div class="keys">
+    <ul>
+      <li>sin <var>A</var> = <span class="b m"><span class="ans-key"><span class="f"><b>opposite</b><b>hypotenuse</b></span></span></span> &nbsp; (SOH)</li>
+      <li>cos <var>A</var> = <span class="b m"><span class="ans-key"><span class="f"><b>adjacent</b><b>hypotenuse</b></span></span></span> &nbsp; (CAH)</li>
+      <li>tan <var>A</var> = <span class="b m"><span class="ans-key"><span class="f"><b>opposite</b><b>adjacent</b></span></span></span> &nbsp; (TOA)</li>
+      <li>Write each ratio as a <span class="b m"><span class="ans-key">fraction</span></span> first. Round only at the <span class="b s"><span class="ans-key">end</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 4.</b> Use the triangle in EX 1. Find sin <var>A</var>, cos <var>A</var>, and tan <var>A</var> as fractions and as decimals to four places.</div>
+    <div class="work">
+<p>sin <var>A</var> = <span class="b s"><span class="ans-key"><span class="f"><b>8</b><b>17</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.4706</span></span> &nbsp; cos <var>A</var> = <span class="b s"><span class="ans-key"><span class="f"><b>15</b><b>17</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.8824</span></span> &nbsp; tan <var>A</var> = <span class="b s"><span class="ans-key"><span class="f"><b>8</b><b>15</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.5333</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Same triangle. Find sin <var>B</var>, cos <var>B</var>, and tan <var>B</var>. What do you notice about sin <var>B</var> and cos <var>A</var>?</div>
+    <div class="work">
+<p>sin <var>B</var> = <span class="b s"><span class="ans-key"><span class="f"><b>15</b><b>17</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.8824</span></span> &nbsp; cos <var>B</var> = <span class="b s"><span class="ans-key"><span class="f"><b>8</b><b>17</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.4706</span></span> &nbsp; tan <var>B</var> = <span class="b s"><span class="ans-key"><span class="f"><b>15</b><b>8</b></span></span></span> = <span class="b s"><span class="ans-key">1.8750</span></span></p><p>sin <var>B</var> and cos <var>A</var> are <span class="b m"><span class="ans-key">equal</span></span>.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> A right triangle has legs 7 and 24 and hypotenuse 25. Angle <var>A</var> is across from the leg of length 7. a. Write sin <var>A</var>, cos <var>A</var>, tan <var>A</var> as fractions. b. Write each as a decimal to four places.<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h1"><div class="ans-key"><p>a. sin <var>A</var> = <span class="f"><b>7</b><b>25</b></span>, cos <var>A</var> = <span class="f"><b>24</b><b>25</b></span>, tan <var>A</var> = <span class="f"><b>7</b><b>24</b></span></p><p>b. 0.2800, 0.9600, 0.2917</p></div></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> A right triangle has legs 6 and 7. Angle <var>A</var> is across from the leg of length 6. Find sin <var>A</var>, cos <var>A</var>, tan <var>A</var> to four places.</div>
+    <div class="work">
+<p>Hypotenuse: 6<sup>2</sup> + 7<sup>2</sup> = <span class="b s"><span class="ans-key">85</span></span>, so <var>c</var> = <span class="b m"><span class="ans-key"><span class="sqrt">85</span></span></span> &asymp; <span class="b s"><span class="ans-key">9.2195</span></span></p><p>sin <var>A</var> = <span class="b m"><span class="ans-key"><span class="f"><b>6</b><b><span class="sqrt">85</span></b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.6508</span></span> &nbsp; cos <var>A</var> = <span class="b m"><span class="ans-key"><span class="f"><b>7</b><b><span class="sqrt">85</span></b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.7593</span></span> &nbsp; tan <var>A</var> = <span class="b s"><span class="ans-key"><span class="f"><b>6</b><b>7</b></span></span></span> &asymp; <span class="b s"><span class="ans-key">0.8571</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> A right triangle has legs 9 and 12. Angle <var>A</var> is across from the leg of length 9. Find sin <var>A</var>, cos <var>A</var>, tan <var>A</var>.<span class="yt">your turn</span></div>
+    <div class="work">
+<div class="h1"><div class="ans-key"><p>Hypotenuse <span class="sqrt">81 + 144</span> = 15. sin <var>A</var> = <span class="f"><b>9</b><b>15</b></span> = 0.6, cos <var>A</var> = <span class="f"><b>12</b><b>15</b></span> = 0.8, tan <var>A</var> = <span class="f"><b>9</b><b>12</b></span> = 0.75</p></div></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Error analysis. Hnin looks at the triangle in EX 1 and writes sin <var>A</var> = <span class="f"><b>15</b><b>17</b></span>. Find her mistake.</div>
+    <div class="work">
+<div class="h08"><div class="ans-key"><p>For angle <var>A</var>, the side of length 15 is adjacent, not opposite. <span class="f"><b>15</b><b>17</b></span> is cos <var>A</var>. Correct: sin <var>A</var> = <span class="f"><b>8</b><b>17</b></span>.</p></div></div>
+    </div>
+  </div>
+
+  <h2><span class="num">6.2.4</span>Using a Calculator</h2>
+
+  <div class="keys">
+    <ul>
+      <li>Always use <span class="b m"><span class="ans-key">degree</span></span> mode in this book.</li>
+      <li>Check: sin 30&deg; must give <span class="b s"><span class="ans-key">0.5</span></span> and tan 45&deg; must give <span class="b s"><span class="ans-key">1</span></span>.</li>
+      <li>The sine and cosine of an acute angle are always between <span class="b s"><span class="ans-key">0</span></span> and <span class="b s"><span class="ans-key">1</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 10.</b> Find each value to four decimal places. a. sin 35&deg; b. cos 62&deg; c. tan 71&deg;</div>
+    <div class="work">
+<p>a. <span class="b s"><span class="ans-key">0.5736</span></span> &nbsp; b. <span class="b s"><span class="ans-key">0.4695</span></span> &nbsp; c. <span class="b s"><span class="ans-key">2.9042</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 11.</b> Find each value to four decimal places. a. sin 18&deg; b. cos 18&deg; c. tan 64&deg;<span class="yt">your turn</span></div>
+    <div class="work">
+<p>a. <span class="b s"><span class="ans-key">0.3090</span></span> &nbsp; b. <span class="b s"><span class="ans-key">0.9511</span></span> &nbsp; c. <span class="b s"><span class="ans-key">2.0503</span></span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">6.2.5</span>Tangent Is Slope</h2>
+
+  <div class="keys">
+    <ul>
+      <li>tan<var>&theta;</var> = <span class="f"><b>opposite</b><b>adjacent</b></span> = <span class="b m"><span class="ans-key"><span class="f"><b>rise</b><b>run</b></span></span></span> = <span class="b s"><span class="ans-key">slope</span></span></li>
+      <li>A road with a rise of 6 per run of 100 has a grade of <span class="b s"><span class="ans-key">6%</span></span>.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 12.</b> A line through the origin makes a 40&deg; angle with the <var>x</var>-axis. Find its slope. Find the <var>y</var>-coordinate of <var>P</var> where <var>x</var> = 10 (nearest tenth).</div>
+    <div class="work">
+<div class="cols2" style="grid-template-columns:2.7in 1fr;align-items:center"><img class="fig" src="../../images/Unit_6/6.2_slope.svg" alt="a line through the origin that makes a 40 degree angle with the x-axis, with a point P on the line at x = 10" style="width:2.6in"><div>
+<p>slope = tan 40&deg; &asymp; <span class="b s"><span class="ans-key">0.8391</span></span></p><p><var>y</var> = 10 &middot; tan 40&deg; &asymp; <span class="b s"><span class="ans-key">8.4</span></span></p></div></div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 13.</b> A line through the origin makes a 25&deg; angle with the <var>x</var>-axis. Find its slope and the <var>y</var>-coordinate where <var>x</var> = 20 (nearest tenth).<span class="yt">your turn</span></div>
+    <div class="work">
+<p>slope <span class="b s"><span class="ans-key">0.4663</span></span>; <var>y</var> &asymp; <span class="b s"><span class="ans-key">9.3</span></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 14.</b> A road climbs 6 feet for every 100 feet of flat ground. Find tan<var>&theta;</var> and the grade.</div>
+    <div class="work">
+<div style="text-align:center"><img class="fig" src="../../images/Unit_6/6.2_grade.svg" alt="a road drawn to scale: 100 feet along the ground and 6 feet up" style="width:3.6in"></div><p>tan<var>&theta;</var> = <span class="f"><b>6</b><b>100</b></span> = <span class="b s"><span class="ans-key">0.06</span></span>. The grade is <span class="b s"><span class="ans-key">6%</span></span>.</p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 15.</b> A ramp rises 9 inches over a horizontal run of 120 inches. Find tan<var>&theta;</var> and the grade.<span class="yt">your turn</span></div>
+    <div class="work">
+<p>tan<var>&theta;</var> = <span class="f"><b>9</b><b>120</b></span> = <span class="b s"><span class="ans-key">0.075</span></span>. Grade <span class="b s"><span class="ans-key">7.5%</span></span>.</p>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>adjacent</span><span>angle</span><span>fraction</span><span>hypotenuse</span><span>opposite</span><span>slope</span><span>tangent</span></div>
+    <p>1. In a right triangle, the longest side is the <span class="b m"><span class="ans-key">hypotenuse</span></span>.</p>
+    <p>2. Sine is <span class="b m"><span class="ans-key">opposite</span></span> over hypotenuse. Cosine is <span class="b m"><span class="ans-key">adjacent</span></span> over hypotenuse. Tangent is opposite over adjacent.</p>
+    <p>3. A ratio depends only on the <span class="b m"><span class="ans-key">angle</span></span>, because right triangles with the same angle are similar.</p>
+    <p>4. The <span class="b m"><span class="ans-key">tangent</span></span> of an angle is the <span class="b m"><span class="ans-key">slope</span></span> of the line.</p>
+  </div>
+
+
+
+<div class="pagebreak"></div>
+  <div class="parthead"><b>6.2 The Trigonometric Ratios - Practice</b></div>
+
+  <h2>Practice</h2>
+  <h3>Use the figure. Name the sides.</h3>
+  <div class="ex">
+    <div class="q">In triangle <var>DEF</var>, the right angle is at <var>F</var>. Side <var>d</var> is across from <var>D</var>, side <var>e</var> is across from <var>E</var>, and side <var>f</var> is across from <var>F</var>.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.8in 1fr;align-items:center">
+        <img class="fig" src="../../images/Unit_6/6.2_p_name.svg" alt="right triangle DEF with right angle at F, side e across from E, side d across from D, hypotenuse f" style="width:2.8in">
+        <div>
+          <p>1. For angle <var>D</var>, which side is opposite? Write the letter. <span class="b s"><span class="ans-key"><var>d</var></span></span></p>
+          <p>2. For angle <var>D</var>, which side is adjacent? <span class="b s"><span class="ans-key"><var>e</var></span></span></p>
+          <p>3. For angle <var>E</var>, which side is opposite? <span class="b s"><span class="ans-key"><var>e</var></span></span></p>
+          <p>4. Which side is the hypotenuse for both angles? <span class="b s"><span class="ans-key"><var>f</var></span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Write sin <var>A</var>, cos <var>A</var>, and tan <var>A</var> as fractions, then as decimals to four places.</h3>
+  <div class="ex">
+    <div class="q">Use the figure for problems 5 and 6.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_6/6.2_p_ratio.svg" alt="right triangle ABC with the right angle at C, AC = 5, BC = 12, AB = 13" style="width:2.2in">
+      <p>5. Use the triangle: <var>AC</var> = 5, <var>BC</var> = 12, <var>AB</var> = 13.</p>
+<div class="h08"><div class="ans-key"><p>sin <var>A</var> = <span class="f"><b>12</b><b>13</b></span> &asymp; 0.9231; cos <var>A</var> = <span class="f"><b>5</b><b>13</b></span> &asymp; 0.3846; tan <var>A</var> = <span class="f"><b>12</b><b>5</b></span> = 2.4000</p></div></div>
+      <p>6. Same triangle. Write sin <var>B</var>, cos <var>B</var>, and tan <var>B</var>.</p>
+<div class="h08"><div class="ans-key"><p>sin <var>B</var> = <span class="f"><b>5</b><b>13</b></span> &asymp; 0.3846; cos <var>B</var> = <span class="f"><b>12</b><b>13</b></span> &asymp; 0.9231; tan <var>B</var> = <span class="f"><b>5</b><b>12</b></span> &asymp; 0.4167</p></div></div>
+      <p>7. A right triangle has legs 9 and 40 and hypotenuse 41. Angle <var>A</var> is across from the leg of length 9.</p>
+<div class="h08"><div class="ans-key"><p>sin <var>A</var> = <span class="f"><b>9</b><b>41</b></span> &asymp; 0.2195; cos <var>A</var> = <span class="f"><b>40</b><b>41</b></span> &asymp; 0.9756; tan <var>A</var> = <span class="f"><b>9</b><b>40</b></span> = 0.2250</p></div></div>
+      <p>8. A right triangle has legs 12 and 35. Find the hypotenuse. Then find sin <var>A</var> for the angle <var>A</var> across from the leg of length 35.</p>
+<div class="h08"><div class="ans-key"><p>hypotenuse = <span class="sqrt">144 + 1225</span> = 37; sin <var>A</var> = <span class="f"><b>35</b><b>37</b></span> &asymp; 0.9459</p></div></div>
+    </div>
+  </div>
+
+  <h3>Use a calculator in degree mode. Round to four decimal places.</h3>
+  <div class="ex">
+    <div class="work">
+      <div class="cols3">
+        <p>9. sin 20&deg; <span class="b s"><span class="ans-key">0.3420</span></span></p>
+        <p>10. cos 20&deg; <span class="b s"><span class="ans-key">0.9397</span></span></p>
+        <p>11. tan 20&deg; <span class="b s"><span class="ans-key">0.3640</span></span></p>
+        <p>12. sin 55&deg; <span class="b s"><span class="ans-key">0.8192</span></span></p>
+        <p>13. cos 55&deg; <span class="b s"><span class="ans-key">0.5736</span></span></p>
+        <p>14. tan 55&deg; <span class="b s"><span class="ans-key">1.4281</span></span></p>
+        <p>15. sin 80&deg; <span class="b s"><span class="ans-key">0.9848</span></span></p>
+        <p>16. cos 80&deg; <span class="b s"><span class="ans-key">0.1736</span></span></p>
+        <p>17. tan 12&deg; <span class="b s"><span class="ans-key">0.2126</span></span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Think about the ratios.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>18. What is tan 45&deg;? Why does a 45&deg;-45&deg;-90&deg; triangle give this answer?</p>
+<div class="h05"><div class="ans-key"><p>1. The legs are equal, so opposite over adjacent is 1.</p></div></div>
+      <p>19. Which is larger, sin 10&deg; or sin 80&deg;? Check with a calculator.</p>
+<div class="h05"><div class="ans-key"><p>sin 80&deg;. 0.9848 &gt; 0.1736</p></div></div>
+      <p>20. Can sin <var>A</var> ever be greater than 1 for an acute angle <var>A</var> in a right triangle? Explain.</p>
+<div class="h08"><div class="ans-key"><p>No. The opposite side is a leg, and a leg is shorter than the hypotenuse, so the fraction is less than 1.</p></div></div>
+    </div>
+  </div>
+
+  <h3>Tangent is slope.</h3>
+  <div class="ex">
+    <div class="q">Use the figure for problem 21.</div>
+    <div class="work">
+      <img class="fig" src="../../images/Unit_6/6.2_p_grid.svg" alt="a line through the origin and the point (12, 5) with angle theta at the origin" style="width:2.7in">
+      <p>21. Look at the grid figure. The line through the origin and (12, 5) makes angle <var>&theta;</var> with the <var>x</var>-axis. Find tan<var>&theta;</var> as a fraction and a decimal to four places.</p>
+<div class="h08"><div class="ans-key"><p>tan<var>&theta;</var> = <span class="f"><b>5</b><b>12</b></span> &asymp; 0.4167</p></div></div>
+      <p>22. A line through the origin makes a 30&deg; angle with the <var>x</var>-axis. What is its slope, to four places? What is <var>y</var> when <var>x</var> = 12, to the nearest tenth?</p>
+<div class="h08"><div class="ans-key"><p>slope = 0.5774; <var>y</var> = 12 &middot; 0.5774 &asymp; 6.9</p></div></div>
+      <p>23. A road climbs 14 feet over a flat distance of 175 feet. Find tan<var>&theta;</var> and the grade as a percent.</p>
+<div class="h08"><div class="ans-key"><p>tan<var>&theta;</var> = <span class="f"><b>14</b><b>175</b></span> = 0.08; the grade is 8%</p></div></div>
+    </div>
+  </div>
+
+  <h3>Real problems.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>24. A ladder reaches 12 feet up a wall. Its base is 5 feet from the wall. The ladder makes angle <var>&theta;</var> with the ground. Find the length of the ladder. Then find sin<var>&theta;</var> and cos<var>&theta;</var> to four places.</p>
+<div class="h1"><div class="ans-key"><p>length = 13 ft; sin<var>&theta;</var> = <span class="f"><b>12</b><b>13</b></span> &asymp; 0.9231; cos<var>&theta;</var> = <span class="f"><b>5</b><b>13</b></span> &asymp; 0.3846</p></div></div>
+      <p>25. A roof has a 9/12 pitch. That means it rises 9 inches for every 12 inches of run. Find tan<var>&theta;</var>. How many feet does the roof rise over a run of 14 feet?</p>
+<div class="h1"><div class="ans-key"><p>tan<var>&theta;</var> = <span class="f"><b>9</b><b>12</b></span> = 0.75; rise = 0.75 &middot; 14 = 10.5 ft</p></div></div>
+      <p>26. A ramp rises 2 feet over 20 feet of run. The legal limit is tan<var>&theta;</var> = <span class="f"><b>1</b><b>12</b></span> &asymp; 0.0833. Is this ramp steeper than the limit? Show with tan<var>&theta;</var>.</p>
+<div class="h1"><div class="ans-key"><p>tan<var>&theta;</var> = <span class="f"><b>2</b><b>20</b></span> = 0.1. Since 0.1 &gt; 0.0833, the ramp is steeper than the limit.</p></div></div>
+      <p>27. A skateboard ramp makes a 25&deg; angle with the ground. How many feet does it rise for each 10 feet of horizontal run? Round to the nearest tenth.</p>
+<div class="h1"><div class="ans-key"><p>10 &middot; tan 25&deg; &asymp; 4.7 ft</p></div></div>
+    </div>
+  </div>
+
+  <h3>Find the mistake.</h3>
+  <div class="ex">
+    <div class="work">
+      <p>28. Samir says: "cos 40&deg; &asymp; 0.7660, so cos 80&deg; must be double that, 1.5320." Find his mistake. Check with a calculator.</p>
+<div class="h1"><div class="ans-key"><p>Ratios do not double when the angle doubles. cos 80&deg; &asymp; 0.1736. A cosine of an acute angle is never more than 1.</p></div></div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+  <div class="ex">
+    <div class="q">29. In right triangle <var>ABC</var>, the right angle is at <var>C</var>. <var>AC</var> = 21, <var>BC</var> = 20, and <var>AB</var> = 29. Which fraction equals sin <var>B</var>?</div>
+    <div class="work">
+      <p>A. <span class="f"><b>20</b><b>29</b></span></p>
+      <p>B. <span class="f"><b>21</b><b>29</b></span> <span class="ans-key">&larr; correct</span></p>
+      <p>C. <span class="f"><b>20</b><b>21</b></span></p>
+      <p>D. <span class="f"><b>21</b><b>20</b></span></p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">30. A line passes through the origin and makes a 50&deg; angle with the positive <var>x</var>-axis. Which number is closest to the slope of the line?</div>
+    <div class="work">
+      <p>A. 0.6428</p>
+      <p>B. 0.7660</p>
+      <p>C. 1.1918 <span class="ans-key">&larr; correct</span></p>
+      <p>D. 50</p>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+  <div class="ex">
+    <div class="q">31. In a right triangle, sin <var>A</var> = <span class="f"><b>20</b><b>29</b></span>. Draw the triangle and label two sides. Find cos <var>A</var> and tan <var>A</var> as fractions. Hint: use the Pythagorean theorem.</div>
+    <div class="work h16">
+      <div class="ans-key"><p>Opposite 20, hypotenuse 29. Adjacent = <span class="sqrt">841 &minus; 400</span> = 21. cos <var>A</var> = <span class="f"><b>21</b><b>29</b></span>, tan <var>A</var> = <span class="f"><b>20</b><b>21</b></span>.</p></div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">32. A calculator gives tan 85&deg; &asymp; 11.4301. Describe the right triangle. What is true about its opposite and adjacent sides?</div>
+    <div class="work h13">
+      <div class="ans-key"><p>The opposite side is about 11.4 times as long as the adjacent side. The triangle is tall and thin, and a line at 85&deg; is very steep.</p></div>
+    </div>
+  </div>
+
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>
+
+</section>
+</body>
+</html>

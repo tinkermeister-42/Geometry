@@ -1,0 +1,30 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PA) at (0.000,0.000);
+\coordinate (PC0) at (1.680,0.000);
+\coordinate (PB0) at (1.680,1.176);
+\coordinate (PC1) at (3.360,0.000);
+\coordinate (PB1) at (3.360,2.353);
+\coordinate (PC2) at (5.040,0.000);
+\coordinate (PB2) at (5.040,3.529);
+\draw[fig] (1.680,0.000) -- (1.680,1.176);
+\draw[fig] (3.360,0.000) -- (3.360,2.353);
+\draw[fig] (5.040,0.000) -- (5.040,3.529);
+\draw[fig] (0.000,0.000) -- (5.040,0.000);
+\draw[fig] (0.000,0.000) -- (5.040,3.529);
+\pic[rt,angle radius=0.20cm] {right angle = PA--PC0--PB0};
+\pic[rt,angle radius=0.20cm] {right angle = PA--PC1--PB1};
+\pic[rt,angle radius=0.20cm] {right angle = PA--PC2--PB2};
+\node[anchor=center] at (2.098,0.662) {$35^\circ$};
+\pic[ang,angle radius=0.80cm] {angle = PC2--PA--PB2};
+\node[anchor=center] at (-0.389,-0.130) {$A$};
+\node[anchor=center] at (1.680,-0.380) {$C_1$};
+\node[anchor=center] at (1.420,1.476) {$B_1$};
+\node[anchor=center] at (3.360,-0.380) {$C_2$};
+\node[anchor=center] at (3.100,2.653) {$B_2$};
+\node[anchor=center] at (5.040,-0.380) {$C_3$};
+\node[anchor=center] at (4.780,3.829) {$B_3$};
+\end{tikzpicture}
+\end{document}
