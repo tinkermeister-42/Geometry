@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PtA) at (0.000,0.000);
+\coordinate (PtC) at (4.750,0.000);
+\coordinate (PtB) at (4.750,3.000);
+\draw[fig] (0.000,0.000) -- (4.750,0.000) -- (4.750,3.000) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PtA--PtC--PtB};
+\node[anchor=center] at (2.375,-0.290) {$9.5$ ft};
+\node[anchor=center] at (5.270,1.500) {$6$ ft};
+\node[anchor=center] at (1.249,0.361) {$\theta$};
+\pic[ang,angle radius=0.50cm] {angle = PtC--PtA--PtB};
+\end{tikzpicture}
+\end{document}

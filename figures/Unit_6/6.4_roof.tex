@@ -1,0 +1,21 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PL) at (0.000,0.000);
+\coordinate (PR) at (7.200,0.000);
+\coordinate (PRL) at (0.000,-1.500);
+\coordinate (PRR) at (7.200,-1.500);
+\coordinate (PP) at (3.600,1.800);
+\coordinate (PM) at (3.600,0.000);
+\draw[fig] (0.000,0.000) -- (3.600,1.800) -- (7.200,0.000) -- cycle;
+\draw[fig] (0.000,0.000) -- (0.000,-1.500);
+\draw[fig] (7.200,0.000) -- (7.200,-1.500);
+\draw[fig] (0.000,-1.500) -- (7.200,-1.500);
+\draw[dashed] (0.000,0.000) -- (3.600,0.000);
+\draw[dashed] (3.600,0.000) -- (3.600,1.800);
+\node[anchor=center] at (1.800,-0.270) {$12$};
+\node[anchor=center] at (3.395,0.900) {$6$};
+\node[anchor=center] at (1.050,0.240) {$\theta$};
+\end{tikzpicture}
+\end{document}
