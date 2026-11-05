@@ -1,0 +1,84 @@
+# Unit 6 Summary {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 6 Summary](/guided_notes/Unit_6/Unit_6_Summary.html){target="_blank"} (a reference sheet to print and keep)
+:::
+
+## 6.1 - Special Right Triangles
+
+* A **45-45-90 triangle** is half of a square. The legs are equal. If a leg is $s$, the hypotenuse is $s\sqrt{2}$.
+* A **30-60-90 triangle** is half of an equilateral triangle. The short leg $s$ is across from $30^\circ$. The long leg is $s\sqrt{3}$. The hypotenuse is $2s$.
+* To go from the hypotenuse to a leg of a 45-45-90 triangle, divide by $\sqrt{2}$ and rationalize: $\dfrac{10}{\sqrt{2}} = 5\sqrt{2}$.
+* The marks on a figure show which pattern to use. A picture alone does not.
+
+![](/images/Unit_6/6.1_t45.svg){width=240px fig-align="center"}
+
+Example: a 45-45-90 triangle has a hypotenuse of 10. Each leg is $5\sqrt{2} \approx 7.1$. A 30-60-90 triangle has a hypotenuse of 14. The short leg is 7 and the long leg is $7\sqrt{3} \approx 12.1$.
+
+## 6.2 - The Trigonometric Ratios
+
+* Name the sides from the angle you are using: the **opposite** side is across from it, the **adjacent** side is next to it, and the **hypotenuse** is across from the right angle.
+* $\sin A = \dfrac{\text{opposite}}{\text{hypotenuse}}$, $\cos A = \dfrac{\text{adjacent}}{\text{hypotenuse}}$, $\tan A = \dfrac{\text{opposite}}{\text{adjacent}}$. Say **SOH CAH TOA**.
+* The ratios depend only on the angle, not on the size of the triangle. Similar triangles (AA) have the same ratios.
+* $\tan A$ is the slope of a line that makes angle $A$ with the $x$-axis.
+* Set the calculator to **degree** mode.
+
+![](/images/Unit_6/6.2_sides_a.svg){width=300px fig-align="center"}
+
+Example: a right triangle has legs 5 and 12 and hypotenuse 13. For the angle across from 5: $\sin A = \dfrac{5}{13} \approx 0.385$, $\cos A = \dfrac{12}{13} \approx 0.923$, $\tan A = \dfrac{5}{12} \approx 0.417$.
+
+## 6.3 - Solving for a Side
+
+* Pick the ratio that has the side you know and the side you want.
+* If the unknown $x$ is on top, multiply: $\sin 40^\circ = \dfrac{x}{12}$ gives $x = 12 \sin 40^\circ$.
+* If the unknown is on the bottom, divide: $\cos 35^\circ = \dfrac{20}{x}$ gives $x = \dfrac{20}{\cos 35^\circ}$.
+* Do not round until the last step. Check that the hypotenuse is the longest side.
+
+![](/images/Unit_6/6.3_ex2.svg){width=240px fig-align="center"}
+
+Example: $x = 12 \sin 40^\circ \approx 7.7$. And $x = \dfrac{20}{\cos 35^\circ} \approx 24.4$.
+
+## 6.4 - Solving for an Angle
+
+* Use the **inverse** ratio when you know two sides and want the angle: $\sin^{-1}$, $\cos^{-1}$, or $\tan^{-1}$.
+* $\sin A = \dfrac{7}{13}$ means $A = \sin^{-1}\left(\dfrac{7}{13}\right)$. Find the ratio first, then use the inverse key.
+* The two acute angles add to $90^\circ$. Subtract to find the other one.
+* A ramp of $1 : 12$ has an angle of $\tan^{-1}\left(\dfrac{1}{12}\right) \approx 4.8^\circ$.
+
+![](/images/Unit_6/6.4_ex2.svg){width=240px fig-align="center"}
+
+Example: $A = \sin^{-1}\left(\dfrac{7}{13}\right) \approx 32.6^\circ$. The other angle is $90^\circ - 32.6^\circ = 57.4^\circ$.
+
+## 6.5 - Sine and Cosine of Complementary Angles
+
+* Two angles are **complementary** if they add to $90^\circ$. In a right triangle, the two acute angles are complementary.
+* $\sin A = \cos(90^\circ - A)$ and $\cos A = \sin(90^\circ - A)$.
+* $\tan A = \dfrac{\sin A}{\cos A}$ and $\tan A \cdot \tan(90^\circ - A) = 1$.
+* Equal ratios do not mean equal angles. $\sin 40^\circ$ and $\cos 40^\circ$ are different.
+
+![](/images/Unit_6/6.5_tri.svg){width=240px fig-align="center"}
+
+Example: $\sin 25^\circ \approx 0.423$ and $\cos 65^\circ \approx 0.423$. They are equal. $\tan 25^\circ \cdot \tan 65^\circ \approx 1.0$.
+
+## 6.6 - Angles of Elevation and Depression
+
+* Both angles are measured from the **horizontal**. Elevation is up. Depression is down.
+* The angle of elevation from $A$ to $B$ equals the angle of depression from $B$ to $A$ (alternate interior angles).
+* If the observer's eyes are above the ground, add the eye height to the height you find.
+* With two angles, write one equation for each right triangle and solve.
+
+![](/images/Unit_6/6.6_def.svg){width=380px fig-align="center"}
+
+Example: a person stands 80 ft from a tower. Her eyes are 5.5 ft high. The angle of elevation to the top is $62^\circ$. Height: $80 \tan 62^\circ + 5.5 \approx 156.0$ ft.
+
+## 6.7 - Modeling with Right Triangles
+
+* Six steps: **sketch**, **label**, **choose** a tool, **solve**, **check**, **say** the answer in a sentence with units.
+* Two sides and a missing side: Pythagorean theorem. An angle and a side: sine, cosine, or tangent. Two sides and a missing angle: inverse ratio.
+* A ramp rises 1 inch for every 12 inches of run. A roof pitch of $\dfrac{7}{12}$ means $\tan\theta = \dfrac{7}{12}$.
+* A **bearing** is measured clockwise from north. North distance $= d\cos(\text{bearing})$. East distance $= d\sin(\text{bearing})$.
+* On a map grid, the bearing is $90^\circ$ minus the angle from east.
+
+![](/images/Unit_6/6.7_nav.svg){width=300px fig-align="center"}
+
+Example: a ship sails 40 nautical miles on a bearing of $060^\circ$. North: $40\cos 60^\circ = 20$. East: $40 \sin 60^\circ \approx 34.6$.

@@ -1,0 +1,231 @@
+# Unit 6 Review {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 6 Review](/guided_notes/Unit_6/Unit_6_Review.html){target="_blank"} (fill-in review to print and write on)
+:::
+
+{{< learn >}}
+
+### 6.1 - Special Right Triangles
+
+**Example 1:** A 30-60-90 triangle has a long leg of 9. Find the short leg and the hypotenuse. Give exact answers.
+
+Long leg $= s\sqrt{3} = 9$, so $s = \dfrac{9}{\sqrt{3}} = \dfrac{9\sqrt{3}}{3} = 3\sqrt{3}$.
+
+Hypotenuse $= 2s = 6\sqrt{3} \approx 10.4$.
+
+### 6.2 - The Trigonometric Ratios
+
+**Example 2:** A right triangle has legs 8 and 15 and hypotenuse 17. Find $\sin B$, $\cos B$, and $\tan B$ for the angle $B$ across from the leg 15. Round to the nearest thousandth.
+
+Opposite $= 15$, adjacent $= 8$, hypotenuse $= 17$.
+
+$\sin B = \dfrac{15}{17} \approx 0.882$, $\cos B = \dfrac{8}{17} \approx 0.471$, $\tan B = \dfrac{15}{8} = 1.875$.
+
+### 6.3 - Solving for a Side
+
+**Example 3:** A ladder leans on a wall. It makes a $68^\circ$ angle with the ground and its base is 4 feet from the wall. How long is the ladder? Round to the nearest tenth.
+
+The base is adjacent to $68^\circ$. The ladder is the hypotenuse. Use cosine.
+
+$\cos 68^\circ = \dfrac{4}{L}$, so $L = \dfrac{4}{\cos 68^\circ} \approx 10.7$ ft.
+
+### 6.4 - Solving for an Angle
+
+**Example 4:** A ramp rises 22 inches over a run of 240 inches. Find the angle of the ramp. Round to the nearest tenth of a degree.
+
+Rise is opposite and run is adjacent. Use tangent.
+
+$\theta = \tan^{-1}\left(\dfrac{22}{240}\right) \approx 5.2^\circ$.
+
+### 6.5 - Sine and Cosine of Complementary Angles
+
+**Example 5:** Write $\cos 34^\circ$ as the sine of an angle. Then find $x$ if $\sin(x + 4^\circ) = \cos(2x - 1^\circ)$.
+
+$\cos 34^\circ = \sin(90^\circ - 34^\circ) = \sin 56^\circ$.
+
+The angles add to $90^\circ$: $(x + 4) + (2x - 1) = 90$, so $3x = 87$ and $x = 29$.
+
+### 6.6 - Angles of Elevation and Depression
+
+**Example 6:** From the top of a 120-foot lighthouse, the angle of depression to a boat is $14^\circ$. How far is the boat from the base? Round to the nearest foot.
+
+The angle at the boat is also $14^\circ$ (alternate interior angles). The height is opposite and the distance is adjacent.
+
+$\tan 14^\circ = \dfrac{120}{d}$, so $d = \dfrac{120}{\tan 14^\circ} \approx 481$ ft.
+
+### 6.7 - Modeling with Right Triangles
+
+**Example 7:** A house is 32 feet wide. The roof has a $5/12$ pitch and no overhang. Find the roof angle and the rafter length. Round to the nearest tenth.
+
+The run is $16$ ft and the rise is $16 \cdot \dfrac{5}{12} \approx 6.7$ ft.
+
+Angle: $\tan^{-1}\left(\dfrac{5}{12}\right) \approx 22.6^\circ$. Rafter: $\sqrt{16^2 + 6.7^2} \approx 17.3$ ft.
+
+{{< practice >}}
+
+**6.1 - I can use the 45-45-90 and 30-60-90 triangle patterns.**
+
+1. A 45-45-90 triangle has a leg of 9 cm. Find the hypotenuse. Give the exact answer and the answer to the nearest tenth.
+
+2. A 45-45-90 triangle has a hypotenuse of 18 in. Find each leg. Rationalize and round to the nearest tenth.
+
+3. A 30-60-90 triangle has a short leg of 6 m. Find the long leg and the hypotenuse. Round to the nearest tenth.
+
+4. A 30-60-90 triangle has a hypotenuse of 20 ft. Find both legs. Round to the nearest tenth.
+
+5. A square tile has a diagonal of 30 cm. Find its side. Round to the nearest tenth.
+
+6. Ana says that in a 30-60-90 triangle with a long leg of 9, the hypotenuse is 18. Find her mistake and the correct hypotenuse (nearest tenth).
+
+***
+
+**6.2 - I can name the sides and write the sine, cosine, and tangent.**
+
+7. A right triangle has legs 9 and 40 and hypotenuse 41. For the angle $B$ across from the 40, write $\sin B$, $\cos B$, and $\tan B$ as fractions.
+
+8. Use a calculator. Find $\sin 52^\circ$, $\cos 52^\circ$, and $\tan 52^\circ$ to the nearest thousandth.
+
+9. One right triangle has a $30^\circ$ angle, a hypotenuse of 10, and an opposite side of 5. Another has a hypotenuse of 24 and an opposite side of 12. Show that $\sin 30^\circ$ is the same in both.
+
+10. A line through the origin makes a $35^\circ$ angle with the $x$-axis. Find its slope to the nearest thousandth.
+
+11. In a right triangle, $\tan A = \dfrac{3}{4}$. Find the hypotenuse if the legs are 3 and 4, then find $\sin A$ and $\cos A$.
+
+12. Ben says $\sin A = \dfrac{\text{adjacent}}{\text{hypotenuse}}$. Find his mistake.
+
+***
+
+**6.3 - I can find a side of a right triangle with sine, cosine, or tangent.**
+
+13. An angle is $38^\circ$ and the hypotenuse is 25. Find the opposite side. Round to the nearest tenth.
+
+14. An angle is $55^\circ$ and the adjacent side is 14. Find the hypotenuse. Round to the nearest tenth.
+
+15. An angle is $27^\circ$ and the adjacent side is 60. Find the opposite side. Round to the nearest tenth.
+
+16. A kite string is 80 feet long and makes a $62^\circ$ angle with the ground. How high is the kite? Ignore sag. Round to the nearest tenth.
+
+17. A 5-meter ladder makes a $72^\circ$ angle with the ground. How far is its base from the wall? Round to the nearest tenth.
+
+18. Dara solves $\tan 40^\circ = \dfrac{9}{x}$ and writes $x = 9\tan 40^\circ \approx 7.6$. Find her mistake and the correct $x$ (nearest tenth).
+
+***
+
+**6.4 - I can find an angle of a right triangle with an inverse ratio.**
+
+19. Find $A$ if $\sin A = 0.6$. Round to the nearest tenth of a degree.
+
+20. A right triangle has legs 9 and 14. Find the angle across from the 9. Round to the nearest tenth of a degree.
+
+21. The hypotenuse is 30 and the adjacent side is 24. Find both acute angles. Round to the nearest tenth of a degree.
+
+22. A ramp rises 20 inches over a run of 200 inches. Find the angle of the ramp. Round to the nearest tenth of a degree.
+
+23. A stair has a riser of 7 inches and a tread of 11 inches. Find the angle of the stairs. Round to the nearest tenth of a degree.
+
+24. $A(1, 2)$ and $B(9, 7)$ are on a line. Find the angle the line makes with the $x$-axis. Round to the nearest tenth of a degree.
+
+***
+
+**6.5 - I can use sine and cosine of complementary angles.**
+
+25. Write $\cos 20^\circ$ as the sine of an angle.
+
+26. $\sin 28^\circ \approx 0.469$. What is $\cos 62^\circ$ to the nearest thousandth?
+
+27. $\tan 18^\circ \approx 0.325$. Use this to find $\tan 72^\circ$ to the nearest hundredth.
+
+28. Solve $\sin x = \cos(2x + 9^\circ)$.
+
+29. In a right triangle, $\sin A = \dfrac{7}{25}$. What is $\cos B$ for the other acute angle $B$?
+
+30. Lia says $\sin 40^\circ = \cos 40^\circ$. Give a counterexample with numbers.
+
+***
+
+**6.6 - I can solve problems with angles of elevation and depression.**
+
+31. You stand 60 m from a building. Your eyes are 1.6 m above the ground. The angle of elevation to the top is $48^\circ$. How tall is the building? Round to the nearest tenth.
+
+32. From the top of an 85-foot cliff, the angle of depression to a boat is $33^\circ$. How far is the boat from the base of the cliff? Round to the nearest tenth.
+
+33. A plane is 2000 feet above the ground. The angle of depression to the end of the runway is $4^\circ$. Find the ground distance to the nearest foot.
+
+34. You stand 120 feet from a building. The angle of elevation to the bottom of a flagpole on the roof is $25^\circ$. To the top it is $31^\circ$. How tall is the flagpole? Ignore your eye height. Round to the nearest tenth.
+
+35. A student says the angle of depression from a tower to a car is $55^\circ$, so the angle of elevation from the car to the tower is $35^\circ$. Find the mistake.
+
+***
+
+**6.7 - I can solve real problems with right triangles.**
+
+36. A porch is 21 inches high. A ramp follows the 1-to-12 rule. Find the run in feet and the ramp length in feet. Round to the nearest tenth.
+
+37. A house is 36 feet wide. The roof has a $5/12$ pitch and no overhang. Find the roof angle and the rafter length. Round to the nearest tenth.
+
+38. A boat sails 15 km on a bearing of $040^\circ$. How far north and how far east of its start is it? Round to the nearest tenth.
+
+39. A drone hovers 50 m above the ground between two markers. The angles of depression to the markers are $35^\circ$ and $55^\circ$. How far apart are the markers? Round to the nearest tenth.
+
+40. A 12-foot ladder is set so that its base is 1 foot from the wall for every 4 feet of height. How high does it reach? How far is its base from the wall? Round to the nearest tenth.
+
+***
+
+**Test practice**
+
+41. A 45-45-90 triangle has legs of length 6. What is the length of the hypotenuse?
+
+    A. $6$\
+    B. $6\sqrt{2}$\
+    C. $6\sqrt{3}$\
+    D. $12$
+
+42. A 30-60-90 triangle has a hypotenuse of 16. What is the length of the longer leg?
+
+    A. $8$\
+    B. $8\sqrt{2}$\
+    C. $8\sqrt{3}$\
+    D. $16\sqrt{3}$
+
+43. In right triangle $ABC$ the right angle is at $C$. $AC = 12$, $BC = 5$, and $AB = 13$. What is $\sin A$?
+
+    A. $\dfrac{5}{13}$\
+    B. $\dfrac{12}{13}$\
+    C. $\dfrac{5}{12}$\
+    D. $\dfrac{13}{5}$
+
+44. A 30-foot ladder makes a $70^\circ$ angle with the ground. About how high up a wall does it reach?
+
+    A. $10.3$ ft\
+    B. $28.2$ ft\
+    C. $31.9$ ft\
+    D. $82.4$ ft
+
+45. A road rises 40 feet over a horizontal distance of 500 feet. What is the angle of the road with the horizontal, to the nearest tenth of a degree?
+
+    A. $4.6^\circ$\
+    B. $85.4^\circ$\
+    C. $8.0^\circ$\
+    D. $0.1^\circ$
+
+46. If $\sin 35^\circ = \cos x^\circ$, what is $x$?
+
+    A. $35$\
+    B. $45$\
+    C. $55$\
+    D. $65$
+
+47. From the top of a 90-foot lighthouse, the angle of depression to a boat is $22^\circ$. About how far is the boat from the base of the lighthouse?
+
+    A. $36$ ft\
+    B. $83$ ft\
+    C. $223$ ft\
+    D. $240$ ft
+
+48. A plane flies 200 miles on a bearing of $030^\circ$, measured clockwise from north. How many miles east of its start is the plane?
+
+    A. $173.2$ mi\
+    B. $200$ mi\
+    C. $86.6$ mi\
+    D. $100$ mi
