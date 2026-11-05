@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\newcommand{\protr}[3]{% #1 = ray A angle (0 or 180), #2 ray B angle, #3 ray C angle or empty
+  \draw[thick] (3.3,0) -- (-3.3,0);
+  \draw[thick] (3.1,0) arc (0:180:3.1);
+  \draw[thick] (3.3,0) arc (0:180:3.3);
+  \foreach \t in {0,10,...,180} {
+    \draw (\t:3.1) -- (\t:2.95);
+    \node[font=\tiny,fill=white,inner sep=0.6pt] at (\t:2.75) {\t};
+    \pgfmathtruncatemacro{\u}{180-\t}
+    \node[font=\tiny,fill=white,inner sep=0.6pt,text=black!60] at (\t:2.3) {\u};}
+  \draw[ray] (0,0) -- (#1:4.1); \draw[ray] (0,0) -- (#2:4.1);
+  \fill (0,0) circle[radius=\ptr] node[below=3pt] {$O$};
+  \node at (#1:4.45) {$A$}; \node at (#2:4.45) {$B$};}
+\begin{tikzpicture}[x=1cm,y=1cm,scale=0.9]
+  \protr{180}{125}{}
+\end{tikzpicture}
+\end{document}
