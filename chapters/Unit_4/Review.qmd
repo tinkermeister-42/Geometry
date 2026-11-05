@@ -1,0 +1,177 @@
+# Unit 4 Review {.unnumbered}
+
+:::{.guided-notes-link}
+[Printable Unit 4 Review](/guided_notes/Unit_4/Unit_4_Review.html){target="_blank"} (fill-in review to print and write on)
+:::
+
+{{< learn >}}
+
+### 4.1 - Congruent Figures and Rigid Motions
+
+**Example 1:** $\triangle ABC \cong \triangle DEF$. $AB = 3x - 4$ and $DE = 17$. $m\angle C = 2y + 10$ and $m\angle F = 70^\circ$. Find $x$ and $y$. Which side matches $\overline{BC}$?
+
+$3x - 4 = 17$, so $x = 7$. $2y + 10 = 70$, so $y = 30$. $\overline{BC}$ matches $\overline{EF}$.
+
+### 4.2 - Triangle Congruence
+
+**Example 2:** $AB = 7$, $BC = 9$, $m\angle B = 40^\circ$. $DE = 7$, $EF = 9$, $m\angle E = 40^\circ$. Are the triangles congruent? Then try $PQ = 5$, $QR = 8$, $m\angle P = 30^\circ$ and $ST = 5$, $TU = 8$, $m\angle S = 30^\circ$.
+
+The first pair is congruent by SAS. The angle is between the two sides. In the second pair the angle is not between the sides. That is SSA, which is not enough. We cannot tell.
+
+### 4.3 - Isosceles and Equilateral Triangles
+
+**Example 3:** $AB = AC$ in $\triangle ABC$. $m\angle B = (3x + 5)^\circ$ and $m\angle C = (5x - 15)^\circ$. Find $x$ and $m\angle A$.
+
+Base angles are equal: $3x + 5 = 5x - 15$, so $x = 10$. Each base angle is $35^\circ$. $m\angle A = 180 - 35 - 35 = 110^\circ$.
+
+### 4.4 - Quadrilaterals and Their Properties
+
+**Example 4:** In parallelogram $ABCD$, $m\angle A = (2x + 20)^\circ$ and $m\angle B = (3x - 10)^\circ$. Find $x$ and the four angles.
+
+Consecutive angles add to $180^\circ$: $5x + 10 = 180$, so $x = 34$. $m\angle A = 88^\circ$ and $m\angle B = 92^\circ$. Opposite angles are equal, so $m\angle C = 88^\circ$ and $m\angle D = 92^\circ$.
+
+### 4.5 - Constructions
+
+**Example 5:** List the steps to bisect $\angle A$. Say why the construction works. If $m\angle A = 84^\circ$, how large is each new angle?
+
+Draw an arc across both sides, at $P$ and $Q$. Draw equal arcs from $P$ and from $Q$ that cross at $R$. Draw $\overrightarrow{AR}$. It works because $\triangle APR \cong \triangle AQR$ by SSS. Each new angle is $42^\circ$.
+
+{{< practice >}}
+
+**4.1 - I can name matching parts, find missing parts, and use rigid motions.**
+
+1. $\triangle PQR \cong \triangle XYZ$. Name the angle that matches $\angle Q$ and the side that matches $\overline{PR}$.
+
+2. $\triangle LMN \cong \triangle STU$, $LM = 5x + 2$, and $ST = 4x + 9$. Find $x$ and $LM$.
+
+3. $\triangle ABC$ has $A(1, 2)$, $B(4, 2)$, $C(1, 6)$. Translate it by $(x + 5, y - 3)$. Give the image. Show $AC = A'C'$.
+
+4. $\triangle ABC \cong \triangle DEF$, $m\angle A = 4y - 8$, and $m\angle D = 52^\circ$. Find $y$.
+
+5. Maria says $\triangle ABC \cong \triangle DEF$ means $\overline{AB}$ matches $\overline{DF}$. Find the mistake.
+
+***
+
+**4.2 - I can decide which rule shows two triangles are congruent.**
+
+6. Two triangles have sides 4, 6, 8. Which rule shows they are congruent?
+
+7. $m\angle A = 50^\circ$, $m\angle B = 60^\circ$, $AB = 9$ and $m\angle D = 50^\circ$, $m\angle E = 60^\circ$, $DE = 9$. Which rule?
+
+8. Two right triangles each have a hypotenuse of 13 and a leg of 5. Which rule?
+
+9. Two triangles each have angles $40^\circ$ and $70^\circ$ and a side of 8 that is not between them. Which rule?
+
+10. A $3, 4, 5$ triangle and a $6, 8, 10$ triangle both have a right angle and a $37^\circ$ angle. Are they congruent? What does this show?
+
+11. $A(0, 0)$, $B(4, 0)$, $C(0, 3)$ and $D(1, 1)$, $E(5, 1)$, $F(1, 4)$. Show $\triangle ABC \cong \triangle DEF$.
+
+***
+
+**4.3 - I can use isosceles and equilateral triangles.**
+
+12. The vertex angle of an isosceles triangle is $52^\circ$. Find each base angle.
+
+13. A base angle of an isosceles triangle is $25^\circ$. Find the vertex angle.
+
+14. An equilateral triangle has sides $2x + 7$, $3x - 2$, and the third side. Find $x$ and the perimeter.
+
+15. A triangle has angles $70^\circ$, $70^\circ$, and $40^\circ$. Which two sides are congruent?
+
+16. $A(0, 0)$, $B(8, 0)$, $C(4, 6)$. Show the triangle is isosceles.
+
+17. The exterior angle at a base vertex of an isosceles triangle is $130^\circ$. Find the three angles of the triangle.
+
+***
+
+**4.4 - I can use the properties of quadrilaterals.**
+
+18. Opposite sides are parallel, all four sides are congruent, and there are no right angles. Name the quadrilateral.
+
+19. In parallelogram $ABCD$, $m\angle A = 115^\circ$. Find the other three angles.
+
+20. The diagonals of a parallelogram meet at $E$. $AE = 2x + 3$ and $EC = 4x - 7$. Find $x$ and $AC$.
+
+21. $P(0, 0)$, $Q(5, 1)$, $R(7, 5)$, $S(2, 4)$. Is $PQRS$ a parallelogram? Use the diagonals.
+
+22. The bases of a trapezoid are 14 and 26. Find the midsegment.
+
+23. The diagonals of a rectangle are $5x - 4$ and $3x + 10$. Find $x$ and the diagonal.
+
+24. Always, sometimes, or never: a square is a rhombus. A parallelogram is a rectangle.
+
+***
+
+**4.5 - I can make constructions with a compass and a straightedge.**
+
+25. Draw a segment 6 cm long. Construct its perpendicular bisector. Label the midpoint $M$.
+
+26. Draw an angle of about $70^\circ$. Bisect it. Measure each part to check.
+
+27. Draw a line and a point $P$ not on it. Construct the line through $P$ perpendicular to the line.
+
+28. Construct an equilateral triangle with side 5 cm. Measure one angle.
+
+29. $P$ is on the perpendicular bisector of $\overline{AB}$. $PA = 2x + 9$ and $PB = 4x - 1$. Find $x$ and $PA$.
+
+30. A regular hexagon is built in a circle with radius 4 cm. Find the perimeter.
+
+***
+
+**Test practice**
+
+31. $\triangle ABC \cong \triangle DEF$. Which statement must be true?
+
+    A. $\overline{AB} \cong \overline{EF}$\
+    B. $\overline{AC} \cong \overline{DE}$\
+    C. $\overline{AB} \cong \overline{DE}$\
+    D. $\overline{BC} \cong \overline{DF}$
+
+32. Two triangles have two pairs of congruent sides and one pair of congruent angles. The angles are not between the sides. Which statement is true?
+
+    A. They are congruent by SAS.\
+    B. They are congruent by SSS.\
+    C. They are congruent by ASA.\
+    D. They might not be congruent.
+
+33. An isosceles triangle has a vertex angle of $80^\circ$. What is each base angle?
+
+    A. $80^\circ$\
+    B. $50^\circ$\
+    C. $100^\circ$\
+    D. $40^\circ$
+
+34. Which is NOT enough to show two triangles are congruent?
+
+    A. SSS\
+    B. SAS\
+    C. AAA\
+    D. ASA
+
+35. In parallelogram $ABCD$, $m\angle A = 70^\circ$. What is $m\angle B$?
+
+    A. $70^\circ$\
+    B. $110^\circ$\
+    C. $20^\circ$\
+    D. $290^\circ$
+
+36. The bases of a trapezoid are 12 and 20. What is the length of the midsegment?
+
+    A. $8$\
+    B. $32$\
+    C. $16$\
+    D. $15$
+
+37. Point $P$ is on the perpendicular bisector of $\overline{AB}$. Which statement is true?
+
+    A. $P$ is the midpoint of $\overline{AB}$.\
+    B. $PA = PB$\
+    C. $PA = AB$\
+    D. $\angle APB$ is a right angle.
+
+38. Which quadrilateral always has congruent diagonals?
+
+    A. rhombus\
+    B. kite\
+    C. rectangle\
+    D. parallelogram
