@@ -1,0 +1,12 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (A) at (0,0); \coordinate (B) at (5,0); \coordinate (C) at (3.368,2.826);
+  \draw[fig] (A) -- (B) -- (C) -- cycle;
+  \node at (20:1.6) {$2x$};
+  \node at ($(B)+(150:1.15)$) {$3x$};
+  \node at ($(C)+(-95:1.0)$) {$4x$};
+  \node[below left] at (A) {$A$}; \node[below right] at (B) {$B$}; \node[above] at (C) {$C$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,47 @@
+### ratio {#glossary-ratio}
+
+A comparison of two numbers by division. It can be written $a : b$, $\dfrac{a}{b}$, or "a to b".
+
+> **Example:** 3 red tiles and 5 blue tiles give the ratio $3 : 5$ of red to blue.
+
+**See Also:** {{< glink proportion >}}
+
+***
+
+### proportion {#glossary-proportion}
+
+An equation that says two ratios are equal.
+
+> **Example:** $\dfrac{2}{3} = \dfrac{8}{12}$ is a proportion.
+
+**See Also:** {{< glink ratio >}}, {{< glink "cross products" >}}
+
+***
+
+### cross products {#glossary-cross-products}
+
+In the proportion $\dfrac{a}{b} = \dfrac{c}{d}$, the products $a \cdot d$ and $b \cdot c$. They are equal.
+
+> **Example:** In $\dfrac{2}{3} = \dfrac{8}{12}$, the cross products are $2 \cdot 12 = 24$ and $3 \cdot 8 = 24$.
+
+**See Also:** {{< glink proportion >}}
+
+***
+
+### scale {#glossary-scale}
+
+The ratio that compares a length on a drawing or map to the real length.
+
+> **Example:** A scale of $1 \text{ in} : 20 \text{ ft}$ means 1 inch on the drawing is 20 feet in real life.
+
+**See Also:** {{< glink "scale drawing" >}}, {{< glink "scale factor" >}}
+
+***
+
+### scale drawing {#glossary-scale-drawing}
+
+A drawing that has the same shape as the real object but a different size. Maps and floor plans are scale drawings.
+
+> **Example:** A floor plan drawn with the scale $1 \text{ in} : 4 \text{ ft}$.
+
+**See Also:** {{< glink scale >}}

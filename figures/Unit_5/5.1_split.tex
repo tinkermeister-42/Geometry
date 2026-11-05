@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[fig] (0,0) -- (6,0);
+  \foreach \x/\l in {0/A,2.25/P,6/B} {\fill (\x,0) circle[radius=\ptr]; \node[below=3pt] at (\x,0) {$\l$};}
+  \draw[decorate,decoration={brace,amplitude=4pt}] (0,0.25) -- (2.25,0.25) node[midway,above=5pt] {$3x$};
+  \draw[decorate,decoration={brace,amplitude=4pt}] (2.25,0.25) -- (6,0.25) node[midway,above=5pt] {$5x$};
+  \draw[decorate,decoration={brace,amplitude=4pt,mirror}] (0,-0.75) -- (6,-0.75) node[midway,below=5pt] {$40$ in total};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,420 @@
+# 5.1 - Ratios and Proportions {.unnumbered}
+
+Amira is making lemonade for a school party. Her recipe uses 2 cups of lemon juice and 3 cups of water. She needs more, so she doubles the recipe. Now she uses 4 cups of juice and 6 cups of water.
+
+![](/images/Unit_5/5.1_bars.svg){width=400px fig-align="center"}
+
+The amounts changed. The taste did not, because the ratio of juice to water is still the same. Maps, floor plans, and recipes all work this way. In this lesson you learn to write ratios and to solve for a missing number. Later in this unit, these skills help you find missing lengths in figures with the same shape.
+
+:::{.objectives}
+- [ ] I can write a ratio and simplify it.
+- [ ] I can solve a proportion with cross products.
+- [ ] I can use a scale to find a real length or a drawing length.
+- [ ] I can use a ratio to find parts of an angle or a segment.
+:::
+
+:::{.vocab}
+{{< glink ratio >}},
+{{< glink proportion >}},
+{{< glink "cross products" >}},
+{{< glink "scale drawing" >}},
+{{< glink scale >}}
+:::
+
+:::{.guided-notes-link}
+[Printable Guided Notes for this lesson](/guided_notes/Unit_5/5.1_Ratios_and_Proportions.html){target="_blank"} (fill-in notes to print and write on)
+:::
+
+{{< warmup >}}
+
+1. Simplify $\dfrac{18}{24}$.
+
+2. Solve $4x = 30$.
+
+3. Solve $2x + 3 = 3x - 5$.
+
+{{< learn >}}
+
+### 5.1.1 - Ratios
+
+A **ratio** compares two numbers by division. Amira's recipe has 2 cups of juice for every 3 cups of water. The ratio of juice to water is 2 to 3.
+
+You can write the same ratio three ways:
+
+* 2 to 3
+* $2 : 3$
+* $\dfrac{2}{3}$
+
+A ratio can be simplified like a fraction. Divide both numbers by the same number. The ratio $4 : 6$ simplifies to $2 : 3$ because $4 \div 2 = 2$ and $6 \div 2 = 3$.
+
+:::{.gotcha title="Order matters"}
+The ratio of juice to water is $2 : 3$. The ratio of water to juice is $3 : 2$. These are different. The first number goes with the first thing named.
+:::
+
+***
+
+**Example 1:** Write and simplify a ratio
+
+A box has 15 red tiles and 25 blue tiles.
+
+a. Write the ratio of red tiles to blue tiles.
+
+b. Write the ratio of blue tiles to all the tiles.
+
+a. $15 : 25$. Divide both by 5. The ratio is $3 : 5$.
+
+b. There are $15 + 25 = 40$ tiles. The ratio is $25 : 40$. Divide both by 5. The ratio is $5 : 8$.
+
+:::{.you-try-m title="A shop has 18 laptops and 30 tablets."}
+a. Write the ratio of tablets to laptops in lowest terms.
+
+b. Write the ratio of laptops to all the devices in lowest terms.
+:::
+
+:::{.answer title="Answer"}
+a. $30 : 18 = 5 : 3$
+
+b. $18 : 48 = 3 : 8$
+:::
+
+**Use the same units.** To compare 2 feet and 8 inches, change them to the same unit first.
+
+***
+
+**Example 3:** Ratios with units
+
+Ahmad has a board that is 2 feet long. He cuts a piece that is 8 inches long. Write the ratio of the board to the piece in lowest terms.
+
+Change feet to inches: $2 \text{ ft} = 24 \text{ in}$.
+
+The ratio is $24 : 8$. Divide both by 8. The ratio is $3 : 1$.
+
+The board is 3 times as long as the piece.
+
+:::{.you-try-m title="Write the ratio in lowest terms."}
+What is the ratio of 3 yards to 6 feet?
+:::
+
+:::{.answer title="Answer"}
+$3 \text{ yd} = 9 \text{ ft}$. The ratio is $9 : 6 = 3 : 2$.
+:::
+
+### 5.1.2 - Proportions
+
+A **proportion** is an equation that says two ratios are equal. Start with Amira's lemonade. The recipe uses 2 cups of juice for 3 cups of water. How much juice goes with 12 cups of water?
+
+Let $x$ be the cups of juice. Juice is on top and water is on the bottom in both ratios:
+
+$$
+\dfrac{2}{3} = \dfrac{x}{12}
+$$
+
+Multiply both sides by $3$ and by $12$. The left side becomes $2 \cdot 12$. The right side becomes $3 \cdot x$. So $24 = 3x$. Then $x = 8$.
+
+That shortcut always works. It is called **cross products**. Multiply along the two diagonals.
+
+$$
+\dfrac{a}{b} = \dfrac{c}{d} \quad \text{means} \quad ad = bc
+$$
+
+***
+
+**Example 5:** Solve a proportion
+
+Solve $\dfrac{x}{12} = \dfrac{5}{8}$.
+
+Cross products: $8 \cdot x = 12 \cdot 5$.
+
+$8x = 60$
+
+$x = 7.5$
+
+Check: $\dfrac{7.5}{12} = 0.625$ and $\dfrac{5}{8} = 0.625$.
+
+:::{.you-try-m title="Solve."}
+$\dfrac{x}{10} = \dfrac{7}{4}$
+:::
+
+:::{.answer title="Answer"}
+$4x = 70$, so $x = 17.5$.
+:::
+
+***
+
+**Example 7:** A proportion from a word problem
+
+Moses walks 6 miles in 2 hours. He keeps the same speed. How long does it take him to walk 15 miles?
+
+Put miles on top and hours on the bottom in both ratios. Let $t$ be the hours.
+
+$\dfrac{6}{2} = \dfrac{15}{t}$
+
+$6t = 2 \cdot 15 = 30$
+
+$t = 5$
+
+It takes **5 hours**.
+
+:::{.you-try-m title="Write a proportion and solve."}
+A printer prints 45 pages in 6 minutes. How many pages does it print in 20 minutes?
+:::
+
+:::{.answer title="Answer"}
+$\dfrac{45}{6} = \dfrac{p}{20}$, so $6p = 900$ and $p = 150$ pages.
+:::
+
+Sometimes the unknown is part of an expression. Use cross products, then solve the equation.
+
+***
+
+**Example 9:** Expressions in a proportion
+
+Solve $\dfrac{5}{x + 2} = \dfrac{4}{x}$.
+
+Cross products: $5 \cdot x = 4(x + 2)$.
+
+$5x = 4x + 8$
+
+$x = 8$
+
+Check: $\dfrac{5}{10} = 0.5$ and $\dfrac{4}{8} = 0.5$.
+
+:::{.you-try-m title="Solve."}
+$\dfrac{7}{x} = \dfrac{3}{x - 4}$
+:::
+
+:::{.answer title="Answer"}
+$7(x - 4) = 3x$, so $7x - 28 = 3x$ and $4x = 28$. $x = 7$.
+:::
+
+***
+
+**Example 11:** A proportion with two answers
+
+Solve $\dfrac{x - 2}{5} = \dfrac{20}{x - 2}$.
+
+Cross products: $(x - 2)(x - 2) = 5 \cdot 20$.
+
+$(x - 2)^2 = 100$
+
+$x - 2 = 10$ or $x - 2 = -10$
+
+$x = 12$ or $x = -8$
+
+Both work in the equation. In a figure, a length cannot be negative, so you would keep only $x = 12$.
+
+:::{.you-try-m title="Solve. Find both answers."}
+$\dfrac{x + 1}{4} = \dfrac{9}{x + 1}$
+:::
+
+:::{.answer title="Answer"}
+$(x + 1)^2 = 36$, so $x + 1 = 6$ or $x + 1 = -6$. $x = 5$ or $x = -7$.
+:::
+
+### 5.1.3 - Scale Drawings and Maps
+
+A **scale drawing** is a smaller or larger copy of something real. A map and a floor plan are scale drawings. The **scale** tells how a length on the drawing matches the real length.
+
+A scale of $1 \text{ in} : 20 \text{ ft}$ means that 1 inch on the drawing stands for 20 feet in real life. Put the drawing length in one ratio and the real length in the other. Keep the same units in the same place.
+
+***
+
+**Example 13:** Use a scale
+
+![](/images/Unit_5/5.1_plan.svg){width=260px fig-align="center"}
+
+The plan of a lot has the scale $1 \text{ in} : 20 \text{ ft}$. On the plan, the lot is 3.5 in long and 2 in wide.
+
+a. Find the real length of the lot.
+
+b. A shed is 12 ft wide. How wide is the shed on the plan?
+
+a. Let $L$ be the real length in feet.
+
+$\dfrac{1}{20} = \dfrac{3.5}{L}$, so $L = 20 \cdot 3.5 = 70$ ft.
+
+The lot is 70 ft long (and $2 \cdot 20 = 40$ ft wide).
+
+b. Let $d$ be the width on the plan in inches.
+
+$\dfrac{1}{20} = \dfrac{d}{12}$, so $20d = 12$ and $d = 0.6$.
+
+The shed is **0.6 in** wide on the plan.
+
+:::{.you-try-m title="A map has the scale $1 \text{ in} : 8 \text{ mi}$."}
+a. Two towns are 3.5 in apart on the map. Find the real distance.
+
+b. Two lakes are 50 mi apart. How far apart are they on the map?
+:::
+
+:::{.answer title="Answer"}
+a. $3.5 \cdot 8 = 28$ mi.
+
+b. $\dfrac{1}{8} = \dfrac{d}{50}$, so $8d = 50$ and $d = 6.25$ in.
+:::
+
+A scale can also have no units, like $1 : 50$. Then both numbers use the same unit. On a $1 : 50$ plan, 1 cm on the plan stands for 50 cm in real life.
+
+### 5.1.4 - Ratios in a Figure
+
+A ratio can split a total into parts. Write each part as a number times $x$. Add the parts to equal the total. Solve for $x$.
+
+***
+
+**Example 15:** Angles in a ratio
+
+![](/images/Unit_5/5.1_ang.svg){width=230px fig-align="center"}
+
+The angles of a triangle are in the ratio $2 : 3 : 4$. Find each angle.
+
+The angles add to $180^\circ$.
+
+$2x + 3x + 4x = 180$
+
+$9x = 180$, so $x = 20$.
+
+The angles are $2(20) = 40^\circ$, $3(20) = 60^\circ$, and $4(20) = 80^\circ$.
+
+Check: $40 + 60 + 80 = 180$.
+
+:::{.you-try-m title="The angles of a triangle are in the ratio $1 : 2 : 6$."}
+Find each angle. Then say whether the triangle is acute, right, or obtuse.
+:::
+
+:::{.answer title="Answer"}
+$x + 2x + 6x = 180$, so $9x = 180$ and $x = 20$.
+
+The angles are $20^\circ$, $40^\circ$, and $120^\circ$. The triangle is obtuse.
+:::
+
+***
+
+**Example 17:** A segment in a ratio
+
+![](/images/Unit_5/5.1_split.svg){width=260px fig-align="center"}
+
+Point $P$ is on $\overline{AB}$. $AB = 40$ in. The ratio $AP : PB$ is $3 : 5$. Find $AP$ and $PB$.
+
+$AP + PB = AB$
+
+$3x + 5x = 40$
+
+$8x = 40$, so $x = 5$.
+
+$AP = 3(5) = 15$ in and $PB = 5(5) = 25$ in.
+
+:::{.you-try-m title="Concrete is mixed in the ratio $1 : 2 : 3$."}
+A mix is cement : sand : gravel $= 1 : 2 : 3$ by volume. The total is 27 cubic feet. How much of each is there?
+:::
+
+:::{.answer title="Answer"}
+$x + 2x + 3x = 27$, so $6x = 27$ and $x = 4.5$.
+
+Cement: 4.5 cubic ft. Sand: 9 cubic ft. Gravel: 13.5 cubic ft.
+:::
+
+{{< practice >}}
+
+***
+
+**Write each ratio as a fraction in lowest terms.**
+
+1. 14 to 21
+
+2. 36 : 48
+
+3. 45 to 15
+
+***
+
+**Change to the same unit. Then write the ratio in lowest terms.**
+
+4. 3 ft to 18 in
+
+5. 90 cm to 2 m
+
+6. 45 min to 2 h
+
+7. 2 yd to 3 ft
+
+***
+
+**Solve each proportion.**
+
+8. $\dfrac{x}{15} = \dfrac{2}{5}$
+
+9. $\dfrac{7}{x} = \dfrac{21}{12}$
+
+10. $\dfrac{5}{8} = \dfrac{x}{20}$
+
+11. $\dfrac{9}{14} = \dfrac{27}{x}$
+
+12. $\dfrac{x + 1}{6} = \dfrac{8}{3}$
+
+13. $\dfrac{6}{x - 1} = \dfrac{9}{12}$
+
+14. $\dfrac{x}{x + 3} = \dfrac{2}{5}$
+
+15. $\dfrac{x + 2}{9} = \dfrac{4}{x + 2}$ (two answers)
+
+***
+
+**Find the mistake.**
+
+16. Thu solves $\dfrac{3}{x} = \dfrac{5}{20}$. She writes $3 \cdot 5 = 20x$ and gets $x = 0.75$. Find her mistake. Then solve the proportion correctly.
+
+***
+
+**Write a proportion and solve.**
+
+17. A rice recipe for 4 people uses 3 cups of rice. How many cups does the same recipe need for 14 people?
+
+18. Kofi's car uses 5 gallons of gas to drive 140 miles. At the same rate, how far can it go on 12 gallons?
+
+19. A photo is 4 in by 6 in. It is enlarged so the short side is 10 in. The shape stays the same. How long is the long side?
+
+***
+
+**Use the scale.**
+
+20. A drawing has the scale $1 \text{ in} : 25 \text{ ft}$. A deck is 130 ft long in real life. How long is it on the drawing?
+
+21. A map has the scale $1 \text{ cm} : 4 \text{ km}$. Two cities are 7.5 cm apart on the map. How far apart are they in real life?
+
+22. A floor plan has the scale $1 : 50$. A room is 5 m long. How long is the room on the plan? Give your answer in centimeters.
+
+***
+
+**Find the parts.**
+
+23. The angles of a triangle are in the ratio $1 : 2 : 3$. Find each angle.
+
+24. Point $F$ is on $\overline{DE}$. $DE = 63$ cm and $DF : FE = 2 : 7$. Find $DF$ and $FE$.
+
+25. A concrete mix is cement : sand : gravel $= 1 : 2 : 4$. The total is 28 cubic feet. How much gravel is there?
+
+26. The angles of a quadrilateral are in the ratio $2 : 3 : 3 : 4$. Find each angle.
+
+***
+
+**Test practice**
+
+27. The length of a garden to its width is in the ratio 7 to 4. The garden is 28 feet long. Which equation can be used to find the width $w$?
+
+    A. $\dfrac{7}{4} = \dfrac{w}{28}$\
+    B. $\dfrac{7}{4} = \dfrac{28}{w}$\
+    C. $\dfrac{4}{7} = \dfrac{28}{w}$\
+    D. $\dfrac{28}{7} = \dfrac{4}{w}$
+
+28. On a map, 2.5 centimeters stand for 10 kilometers. Two towns are 14 centimeters apart on the map. What is the real distance between the towns?
+
+    A. 35 km\
+    B. 56 km\
+    C. 5.6 km\
+    D. 140 km
+
+***
+
+**Challenge**
+
+29. A map has the scale $1 \text{ in} : 20 \text{ mi}$. A park is a rectangle 2 in by 3 in on the map. Find the real area of the park in square miles. Hint: do not multiply the map area by 20.
