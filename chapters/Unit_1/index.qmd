@@ -24,14 +24,20 @@ By the end of this unit, you will be able to:
 [**Points, Lines, Segments, and Angles**](1.1_Points_Lines_Segments_and_Angles.qmd)\
 Name the basic objects of geometry and write them with the right symbols.
 
-**Segment and Angle Addition**\
+[**Segment and Angle Addition**](1.2_Segment_and_Angle_Addition.qmd)\
 Add the parts to get the whole. Write and solve equations for missing lengths and angles.
 
-**Complementary, Supplementary, and Vertical Angles**\
+[**Complementary, Supplementary, and Vertical Angles**](1.3_Complementary_Supplementary_and_Vertical_Angles.qmd)\
 Use angle pairs that add to $90^\circ$ or $180^\circ$, or that are always equal.
 
-**Parallel Lines and Transversals**\
+[**Parallel Lines and Transversals**](1.4_Parallel_Lines_and_Transversals.qmd)\
 Find every angle when a line crosses two parallel lines.
 
-**Angles in Triangles and Polygons**\
+[**Angles in Triangles and Polygons**](1.5_Angles_in_Triangles_and_Polygons.qmd)\
 The angles in a triangle add to $180^\circ$. Use that to find the angles in any polygon.
+
+[**Unit 1 Summary**](Summary.qmd)\
+Every tool from the unit in one place, to keep beside you.
+
+[**Unit 1 Review**](Review.qmd)\
+Practice every skill from the unit before the quiz.
