@@ -1,0 +1,330 @@
+# 6.3 - Solving for a Side {.unnumbered}
+
+How high does a $24$-foot ladder reach when it leans against a wall at $75^\circ$? You cannot hold a tape measure to the top. You can still find the answer.
+
+![](/images/Unit_6/6.3_ladder.svg){width=260px fig-align="center"}
+
+The ladder is the hypotenuse. The angle is known. The height is the opposite side. One angle and one side are enough. In this lesson you use sine, cosine, and tangent to find a missing side.
+
+:::{.objectives}
+- [ ] I can choose sine, cosine, or tangent from the sides I know and the side I want.
+- [ ] I can find a missing side when the unknown is in the numerator.
+- [ ] I can find a missing side when the unknown is in the denominator.
+- [ ] I can solve real problems with ladders, ramps, and wires.
+:::
+
+:::{.vocab}
+{{< glink "sine" >}},
+{{< glink "cosine" >}},
+{{< glink "tangent" >}},
+{{< glink "opposite side" >}},
+{{< glink "adjacent side" >}},
+{{< glink "hypotenuse" >}}
+:::
+
+:::{.guided-notes-link}
+[Printable Guided Notes for this lesson](/guided_notes/Unit_6/6.3_Solving_for_a_Side.html){target="_blank"} (fill-in notes to print and write on)
+:::
+
+{{< warmup >}}
+
+1. Solve $\dfrac{x}{12} = 0.6428$.
+
+2. Solve $\dfrac{8}{x} = 0.9063$. Round to the nearest tenth.
+
+3. Find $\sin 40^\circ$, $\cos 40^\circ$, and $\tan 40^\circ$ to four decimal places.
+
+{{< learn >}}
+
+### 6.3.1 - Choose the Ratio
+
+To find a missing side, use these steps.
+
+1. Draw the triangle. Mark the angle you know.
+2. Label the sides **opposite**, **adjacent**, and **hypotenuse** for that angle.
+3. Find the side you know and the side you want.
+4. Pick the ratio that uses exactly those two sides.
+5. Write the equation, solve, and round.
+
+| I know | I want | Use |
+|:---:|:---:|:---:|
+| opposite and hypotenuse (either one) | the other one | **sin** |
+| adjacent and hypotenuse (either one) | the other one | **cos** |
+| opposite and adjacent (either one) | the other one | **tan** |
+
+:::{.remember title="SOH CAH TOA"}
+Say the two sides out loud. "Opposite and hypotenuse" is SOH, so use sine. "Adjacent and hypotenuse" is CAH, so use cosine. "Opposite and adjacent" is TOA, so use tangent.
+:::
+
+***
+
+### 6.3.2 - The Unknown Is on Top
+
+When the side you want is on top of the fraction, multiply both sides by the number on the bottom.
+
+**Example 1:** Opposite from the hypotenuse
+
+![](/images/Unit_6/6.3_ex2.svg){width=300px fig-align="center"}
+
+Find $x$. Round to the nearest tenth.
+
+* The known side, $12$, is the hypotenuse. The wanted side, $x$, is opposite the $40^\circ$ angle.
+* Opposite and hypotenuse: use **sine**.
+
+$$
+\sin 40^\circ = \frac{x}{12} \quad\Rightarrow\quad x = 12\sin 40^\circ \approx 7.7
+$$
+
+**Example 2:** Opposite from the adjacent
+
+![](/images/Unit_6/6.3_ex3.svg){width=300px fig-align="center"}
+
+Find $x$ to the nearest tenth. The side of length $15$ is adjacent to the $52^\circ$ angle. The side $x$ is opposite it. Use **tangent**.
+
+$$
+\tan 52^\circ = \frac{x}{15} \quad\Rightarrow\quad x = 15\tan 52^\circ \approx 19.2
+$$
+
+**Example 3:** Adjacent from the hypotenuse
+
+![](/images/Unit_6/6.3_ex4.svg){width=320px fig-align="center"}
+
+Find $x$ to the nearest tenth. The side $x$ is adjacent to the $28^\circ$ angle. The hypotenuse is $20$. Use **cosine**.
+
+$$
+\cos 28^\circ = \frac{x}{20} \quad\Rightarrow\quad x = 20\cos 28^\circ \approx 17.7
+$$
+
+:::{.you-try-m title="Find the missing side. Round to the nearest tenth."}
+a. A right triangle has a $23^\circ$ angle and a hypotenuse of $18$. Find the side opposite the angle.
+
+b. A right triangle has a $61^\circ$ angle. The adjacent side is $9$. Find the opposite side.
+:::
+
+:::{.answer title="Answer"}
+a. $x = 18\sin 23^\circ \approx 7.0$
+
+b. $x = 9\tan 61^\circ \approx 16.2$
+:::
+
+***
+
+### 6.3.3 - The Unknown Is on the Bottom
+
+Sometimes the unknown is the **denominator**. Then you divide.
+
+**Example 4:** The hypotenuse from the adjacent side
+
+![](/images/Unit_6/6.3_ex5.svg){width=320px fig-align="center"}
+
+Find $x$ to the nearest tenth. The side $8$ is adjacent to the $25^\circ$ angle. The side $x$ is the hypotenuse. Use **cosine**.
+
+$$
+\cos 25^\circ = \frac{8}{x}
+$$
+
+Multiply both sides by $x$. Then divide both sides by $\cos 25^\circ$:
+
+$$
+x \cdot \cos 25^\circ = 8 \quad\Rightarrow\quad x = \frac{8}{\cos 25^\circ} \approx 8.8
+$$
+
+:::{.gotcha title="Divide, do not multiply"}
+Do not write $x = 8\cos 25^\circ$. That gives $7.3$, and a leg cannot be longer than the hypotenuse. **Check:** the hypotenuse must be the longest side. If your answer for the hypotenuse is smaller than a leg, you multiplied when you should have divided.
+:::
+
+**Example 5:** The adjacent side from the opposite side
+
+![](/images/Unit_6/6.3_ex6.svg){width=320px fig-align="center"}
+
+Find $x$ to the nearest tenth. The side $9$ is opposite the $34^\circ$ angle. The side $x$ is adjacent. Use **tangent**.
+
+$$
+\tan 34^\circ = \frac{9}{x} \quad\Rightarrow\quad x = \frac{9}{\tan 34^\circ} \approx 13.3
+$$
+
+**Example 6:** The hypotenuse from the opposite side
+
+![](/images/Unit_6/6.3_ex7.svg){width=280px fig-align="center"}
+
+Find $x$ to the nearest tenth. The side $14$ is opposite the $63^\circ$ angle. The side $x$ is the hypotenuse. Use **sine**.
+
+$$
+\sin 63^\circ = \frac{14}{x} \quad\Rightarrow\quad x = \frac{14}{\sin 63^\circ} \approx 15.7
+$$
+
+:::{.you-try-m title="Find the missing side. Round to the nearest tenth."}
+a. A right triangle has a $55^\circ$ angle. The adjacent side is $10$. Find the hypotenuse.
+
+b. A right triangle has a $47^\circ$ angle. The opposite side is $6$. Find the adjacent side.
+
+c. A right triangle has a $41^\circ$ angle. The opposite side is $11$. Find the hypotenuse.
+:::
+
+:::{.answer title="Answer"}
+a. $x = \dfrac{10}{\cos 55^\circ} \approx 17.4$
+
+b. $x = \dfrac{6}{\tan 47^\circ} \approx 5.6$
+
+c. $x = \dfrac{11}{\sin 41^\circ} \approx 16.8$
+:::
+
+***
+
+### 6.3.4 - Find All the Missing Sides
+
+**Example 7:** Both legs
+
+![](/images/Unit_6/6.3_all.svg){width=330px fig-align="center"}
+
+The hypotenuse is $20$ and an acute angle is $35^\circ$. Find $x$ and $y$ to the nearest tenth. Then check with the Pythagorean theorem.
+
+* $x$ is opposite $35^\circ$: $x = 20\sin 35^\circ \approx 11.5$.
+* $y$ is adjacent to $35^\circ$: $y = 20\cos 35^\circ \approx 16.4$.
+* **Check:** $11.5^2 + 16.4^2 \approx 401.2$, and $20^2 = 400$. The small difference comes from rounding.
+
+If you use the exact calculator values instead of the rounded ones, the check is closer. Always use the numbers you were **given** when you can, and do not use rounded answers to find other sides.
+
+***
+
+### 6.3.5 - Real Problems
+
+Draw the right triangle first. Label the angle and the sides you know. Answer in a sentence with units.
+
+**Example 8:** The ladder
+
+![](/images/Unit_6/6.3_ladder.svg){width=260px fig-align="center"}
+
+A $24$-foot ladder leans against a wall. It makes a $75^\circ$ angle with the ground. How high up the wall does it reach? How far is the base from the wall? Round to the nearest tenth of a foot.
+
+* Height $h$ is opposite $75^\circ$: $h = 24\sin 75^\circ \approx 23.2$ feet.
+* Base distance is adjacent: $24\cos 75^\circ \approx 6.2$ feet.
+
+The ladder reaches about $23.2$ feet up the wall. Its base is about $6.2$ feet from the wall.
+
+**Example 9:** The guy wire
+
+![](/images/Unit_6/6.3_guy.svg){width=300px fig-align="center"}
+
+A guy wire holds up a cell tower. It is anchored $30$ feet from the base of the tower. The wire makes a $58^\circ$ angle with the ground. How tall is the tower where the wire is attached? How long is the wire? Round to the nearest tenth.
+
+* The $30$ ft side is adjacent. The height $h$ is opposite. Use tangent: $h = 30\tan 58^\circ \approx 48.0$ feet.
+* The wire $L$ is the hypotenuse. Use cosine: $\cos 58^\circ = \dfrac{30}{L}$, so $L = \dfrac{30}{\cos 58^\circ} \approx 56.6$ feet.
+
+**Example 10:** A kite
+
+![](/images/Unit_6/6.3_kite.svg){width=300px fig-align="center"}
+
+A kite string is $100$ feet long. It makes a $52^\circ$ angle with the ground. Ignore the sag in the string. How high is the kite? Round to the nearest foot.
+
+$h = 100\sin 52^\circ \approx 78.8$. The kite is about $79$ feet high.
+
+:::{.you-try title="A playground slide is 12 feet long and makes a 38-degree angle with the ground. How high is the top? How far along the ground does it reach? Round to the nearest tenth."}
+Height: $12\sin 38^\circ \approx 7.4$ feet. Ground distance: $12\cos 38^\circ \approx 9.5$ feet.
+:::
+
+:::{.think title="Error analysis"}
+Moses solves $\cos 25^\circ = \dfrac{8}{x}$ and writes $x = 8\cos 25^\circ \approx 7.3$. What is wrong?
+
+He multiplied. The unknown is in the denominator, so he must divide: $x = \dfrac{8}{\cos 25^\circ} \approx 8.8$. His answer is also impossible, because the hypotenuse $x$ must be longer than the leg $8$.
+:::
+
+
+{{< practice >}}
+
+**Choose the ratio. Write the equation. Do not solve.**
+
+1. Angle $38^\circ$. You know the hypotenuse, $15$. You want the opposite side $x$.
+
+2. Angle $50^\circ$. You know the adjacent side, $9$. You want the opposite side $x$.
+
+3. Angle $22^\circ$. You know the opposite side, $6$. You want the hypotenuse $x$.
+
+4. Angle $67^\circ$. You know the adjacent side, $11$. You want the hypotenuse $x$.
+
+***
+
+**The unknown is on top. Find $x$ to the nearest tenth.**
+
+5. $\sin 15^\circ = \dfrac{x}{25}$
+
+6. Hypotenuse $18$, angle $48^\circ$, find the adjacent side $x$.
+
+7. Adjacent side $10$, angle $33^\circ$, find the opposite side $x$.
+
+8. Adjacent side $7$, angle $70^\circ$, find the opposite side $x$.
+
+9. The hypotenuse is $20$ and an acute angle is $36^\circ$. The opposite side is $2x - 1$. Find $x$ to the nearest tenth.
+
+***
+
+**The unknown is on the bottom. Find $x$ to the nearest tenth.**
+
+10. $\cos 40^\circ = \dfrac{12}{x}$
+
+11. $\sin 18^\circ = \dfrac{5}{x}$
+
+12. $\tan 25^\circ = \dfrac{8}{x}$
+
+13. Opposite side $13$, angle $57^\circ$, find the hypotenuse $x$.
+
+14. Adjacent side $16$, angle $29^\circ$, find the hypotenuse $x$.
+
+***
+
+**Find all the missing sides. Round to the nearest tenth. Then check with the Pythagorean theorem.**
+
+15. A right triangle has hypotenuse $30$ and an acute angle of $28^\circ$. Find both legs.
+
+16. A right triangle has an acute angle of $64^\circ$ and an opposite side of $18$. Find the adjacent side and the hypotenuse.
+
+***
+
+**Real problems. Draw and label a triangle first. Round to the nearest tenth.**
+
+17. A $20$-foot ladder makes a $70^\circ$ angle with the ground. How high does it reach? How far is its base from the wall?
+
+18. A kite string is $80$ feet long and makes a $40^\circ$ angle with the ground. How high is the kite?
+
+19. A tower is $45$ feet tall. A guy wire runs from its top to the ground and makes a $58^\circ$ angle with the ground. How long is the wire? How far from the tower is it anchored?
+
+20. A roof rafter runs from the peak down to the wall. It makes a $30^\circ$ angle with the horizontal. The horizontal run is $12$ feet. How long is the rafter?
+
+21. A wheelchair ramp is $20$ feet long and makes an angle of $4.8^\circ$ with the ground. How high does it rise? Round to the nearest tenth of a foot.
+
+22. A boat is tied to a dock by a $15$-foot rope. The rope makes a $35^\circ$ angle with the water. How far is the boat from the point of the dock where the rope is tied, measured on the water?
+
+***
+
+**Find the mistake.**
+
+23. Thu wants the hypotenuse. She writes $\sin 32^\circ = \dfrac{9}{x}$ and then $x = 9\sin 32^\circ \approx 4.8$. Find her mistake and give the correct answer.
+
+24. Ahmad wants the side opposite a $42^\circ$ angle with adjacent side $10$. He writes $\sin 42^\circ = \dfrac{x}{10}$. Is the ratio right? Explain.
+
+***
+
+**Test practice**
+
+25. A $30$-foot ladder leans against a building. The ladder makes a $72^\circ$ angle with the ground. Which expression gives the height, in feet, that the ladder reaches on the building?
+
+    A. $30\sin 72^\circ$\
+    B. $30\cos 72^\circ$\
+    C. $\dfrac{30}{\sin 72^\circ}$\
+    D. $30\tan 72^\circ$
+
+26. A guy wire is anchored $40$ feet from the base of a tower. The wire makes a $65^\circ$ angle with the level ground. What is the length of the wire, to the nearest foot?
+
+    A. $17$ ft\
+    B. $44$ ft\
+    C. $86$ ft\
+    D. $95$ ft
+
+***
+
+**Challenge**
+
+27. A right triangle has a hypotenuse of $26$ and an acute angle of $40^\circ$. Find the area of the triangle to the nearest tenth of a square unit.
+
+28. Use $\sin 30^\circ$ to find the short leg of a right triangle with hypotenuse $20$ and a $30^\circ$ angle. Compare with the $30^\circ$-$60^\circ$-$90^\circ$ rule from Lesson 6.1.
+

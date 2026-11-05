@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\coordinate (PA) at (0.000,0.000);
+\coordinate (PC) at (4.532,0.000);
+\coordinate (PB) at (4.532,2.113);
+\draw[fig] (0.000,0.000) -- (4.532,0.000) -- (4.532,2.113) -- cycle;
+\pic[rt,angle radius=0.28cm] {right angle = PA--PC--PB};
+\node[anchor=center] at (2.266,-0.290) {$8$};
+\node[anchor=center] at (2.132,1.343) {$x$};
+\node[anchor=center] at (1.660,0.368) {$25^\circ$};
+\pic[ang,angle radius=0.56cm] {angle = PC--PA--PB};
+\end{tikzpicture}
+\end{document}
