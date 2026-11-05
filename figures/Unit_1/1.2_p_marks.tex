@@ -1,0 +1,16 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[anchor=east,font=\bfseries] at (-0.7,1.2) {Figure 1};
+  \draw[fig,tick1] (0,1.2) -- (3.2,1.2); \draw[fig,tick1] (3.2,1.2) -- (6.4,1.2);
+  \fill (0,1.2) circle[radius=\ptr] node[above=3pt] {$E$};
+  \fill (3.2,1.2) circle[radius=\ptr] node[above=3pt] {$G$};
+  \fill (6.4,1.2) circle[radius=\ptr] node[above=3pt] {$F$};
+  \node[anchor=east,font=\bfseries] at (-0.7,0) {Figure 2};
+  \draw[fig] (0,0) -- (6.4,0);
+  \fill (0,0) circle[radius=\ptr] node[above=3pt] {$H$};
+  \fill (3.4,0) circle[radius=\ptr] node[above=3pt] {$K$};
+  \fill (6.4,0) circle[radius=\ptr] node[above=3pt] {$J$};
+\end{tikzpicture}
+\end{document}

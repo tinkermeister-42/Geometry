@@ -1,0 +1,45 @@
+### congruent {#glossary-congruent}
+
+Having the same size and shape. Congruent segments have the same length. Congruent angles have the same measure. The symbol is $\cong$.
+
+> **Example:**
+>
+> If $AB = 5$ and $CD = 5$, then $\overline{AB} \cong \overline{CD}$.
+
+***
+
+### midpoint {#glossary-midpoint}
+
+The point exactly halfway between the endpoints of a segment. It cuts the segment into two congruent segments.
+
+> **Example:**
+>
+> If $M$ is the midpoint of $\overline{AB}$ and $AM = 6$, then $MB = 6$ and $AB = 12$.
+
+**See Also:** {{< glink "segment bisector" >}}
+
+***
+
+### segment bisector {#glossary-segment-bisector}
+
+A point, line, ray, or segment that goes through the midpoint of a segment.
+
+**See Also:** {{< glink midpoint >}}, {{< glink "angle bisector" >}}
+
+***
+
+### angle bisector {#glossary-angle-bisector}
+
+A ray that starts at the vertex of an angle and cuts the angle into two congruent angles.
+
+> **Example:**
+>
+> If $\overrightarrow{BD}$ bisects $\angle ABC$ and $m\angle ABC = 68^\circ$, then $m\angle ABD = 34^\circ$.
+
+**See Also:** {{< glink congruent >}}
+
+***
+
+### protractor {#glossary-protractor}
+
+A tool that measures angles in degrees. It has an outer scale and an inner scale. Read the scale that starts at $0$ on one side of the angle.

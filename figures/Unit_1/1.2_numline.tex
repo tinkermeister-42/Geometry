@@ -1,0 +1,11 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.6cm,y=1cm]
+  \draw[thick,<->] (-6.6,0) -- (7.6,0);
+  \foreach \t in {-6,...,7} {\draw[thick] (\t,-0.1) -- (\t,0.1); \node[below=2pt,font=\small] at (\t,0) {\t};}
+  \fill (-3,0) circle[radius=\ptr]; \fill (4,0) circle[radius=\ptr];
+  \node[above=4pt] at (-3,0) {$A$}; \node[above=4pt] at (4,0) {$B$};
+  \draw[decorate,decoration={brace,amplitude=4pt}] (-3,0.85) -- (4,0.85) node[midway,above=5pt] {7 units};
+\end{tikzpicture}
+\end{document}

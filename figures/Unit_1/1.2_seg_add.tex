@@ -1,0 +1,10 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.35cm,y=1cm]
+  \draw[fig] (0,0) -- (17,0);
+  \foreach \p/\n/\d in {0/A/above, 13/B/above, 17/C/above} {\fill (\p,0) circle[radius=\ptr] node[\d=3pt] {$\n$};}
+  \node at (6.5,-0.45) {$2x+3$}; \node at (15,-0.45) {$x-1$};
+  \draw[decorate,decoration={brace,amplitude=4pt,mirror}] (0,-0.9) -- (17,-0.9) node[midway,below=5pt] {17};
+\end{tikzpicture}
+\end{document}

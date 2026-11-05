@@ -1,0 +1,9 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.3cm,y=1cm]
+  \draw[fig] (0,0) -- (19,0);
+  \foreach \p/\n in {0/P, 8/Q, 13/R, 19/S} {\fill (\p,0) circle[radius=\ptr] node[above=3pt] {$\n$};}
+  \node at (4,-0.45) {8}; \node at (10.5,-0.45) {5}; \node at (16,-0.45) {6};
+\end{tikzpicture}
+\end{document}
