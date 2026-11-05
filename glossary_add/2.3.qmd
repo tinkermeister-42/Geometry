@@ -1,0 +1,5 @@
+### diagonal {#glossary-diagonal}
+
+A segment that joins two corners of a polygon that are not next to each other.
+
+> **Example:** A rectangle has two diagonals, and they have the same length.

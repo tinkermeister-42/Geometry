@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=0.60cm,y=0.60cm]
+
+
+\coordinate (a) at (0,0); \coordinate (b) at (4,0); \coordinate (c) at (4,2.7); \coordinate (d) at (0,2.7);
+\coordinate (e) at (1.5,1.1); 
+\draw[dashed] (e) -- ($(e)+(4,0)$) (e) -- ($(e)+(0,2.7)$) (e) -- (a);
+\draw[fig] (a) rectangle (c);
+\draw[fig] (d) -- ($(d)+(1.5,1.1)$) -- ($(c)+(1.5,1.1)$) -- (c);
+\draw[fig] (b) -- ($(b)+(1.5,1.1)$) -- ($(c)+(1.5,1.1)$);
+\draw[thick,blue!70!black,dashed] (a) -- ($(b)+(1.5,1.1)$);
+\draw[very thick,red!70!black] (a) -- ($(c)+(1.5,1.1)$);
+\node[below] at (1.2,0) {$12$ in}; \node[left] at (0,1.35) {$8$ in}; \node[right] at (4.95,.35) {$9$ in};
+\node[font=\small,blue!70!black,below right] at (2.4,-0.25) {floor diagonal}; \node[font=\small,red!70!black,right] at (5.6,2.3) {pole};
+
+\end{tikzpicture}
+\end{document}
