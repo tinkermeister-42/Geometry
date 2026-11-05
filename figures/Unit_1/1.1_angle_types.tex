@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \foreach \x/\m/\name/\rule in {0/50/acute/{less than $90^\circ$}, 4/90/right/{exactly $90^\circ$},
+                                  8/130/obtuse/{between $90^\circ$ and $180^\circ$}, 12.6/180/straight/{exactly $180^\circ$}} {
+    \begin{scope}[shift={(\x,0)}]
+      \coordinate (O) at (0,0); \coordinate (P) at (1.8,0); \coordinate (Q) at (\m:1.8);
+      \ifnum\m=180 \coordinate (O) at (0,0); \coordinate (P) at (1.6,0); \coordinate (Q) at (-1.6,0); \fi
+      \draw[fig] (P) -- (O) -- (Q);
+      \fill (O) circle[radius=\ptr];
+      \ifnum\m=90 \pic[rt] {right angle = P--O--Q}; \else \pic[ang,angle radius=4.5mm] {angle = P--O--Q}; \fi
+      \node[font=\bfseries] at (0.3,-0.6) {\name};
+      \node[font=\small] at (0.3,-1.05) {\rule};
+    \end{scope}}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,60 @@
+project:
+  type: book
+  post-render:
+    - bash ./scripts/build-glossary.sh
+
+resources:
+  - glossary.json
+  - scripts/*.js
+  # Printable guided notes and their keys.  The keys are copied into the site
+  # but nothing links to them: they are reachable only by typing the URL.
+  # Built by scripts/build-guided-notes.py.
+  - guided_notes/Unit_*/*.html
+  - guided_notes/assets/*
+  # Figures.  Quarto copies an image it finds in a rendered .qmd; a figure
+  # that only a handout shows (a blank grid, a _KEY twin) is invisible to it,
+  # so all of them are listed here.
+  - images/Unit_*/*.svg
+
+extensions:
+  - glossary
+  - headings
+
+format:
+  html:
+    theme:
+      - flatly
+    css:
+      - styles/custom-callouts.css
+      - styles/custom-general.css
+      - styles/glossary-tooltips.css
+    include-after-body:
+      - scripts/inject-custom.html
+    include-in-header: mathjax-macros.html
+    html-math-method: mathjax
+
+book:
+  title: "DHS Geometry"
+  author: "Andy Ross"
+  favicon: images/logo.png
+  image: images/logo.png
+  search: true
+
+  navbar:
+    search: true
+
+  sidebar:
+    search: true
+    logo: images/logo.png
+    collapse-level: 1
+
+  chapters:
+    - file: index.md
+
+    - part: "Unit 1: Lines, Angles, and Equations"
+      chapters:
+        - file: chapters/Unit_1/index.qmd
+        - file: chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.qmd
+
+    - file: guided-notes.qmd
+    - file: glossary.qmd

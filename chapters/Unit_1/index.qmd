@@ -1,0 +1,37 @@
+# Introduction {.unnumbered}
+
+Welcome to Unit 1! Geometry starts with a few simple objects: points, lines, and angles.
+
+Look at a door frame, a road map, or the hands of a clock. You see lines that cross and angles that open and close. In this unit you learn to name these objects and measure them. Then you write equations about them, the same kind of equations you solved in Algebra.
+
+***
+
+## What You'll Learn
+
+By the end of this unit, you will be able to:
+
+* Name and draw points, lines, segments, rays, and angles with the correct symbols
+* Measure and classify angles
+* Write and solve equations with segment lengths and angle measures
+* Use complementary, supplementary, and vertical angles to find missing angles
+* Find the angles made when a line crosses two parallel lines
+* Find missing angles in triangles and other polygons
+
+***
+
+## Topics in This Unit
+
+[**Points, Lines, Segments, and Angles**](1.1_Points_Lines_Segments_and_Angles.qmd)\
+Name the basic objects of geometry and write them with the right symbols.
+
+**Segment and Angle Addition**\
+Add the parts to get the whole. Write and solve equations for missing lengths and angles.
+
+**Complementary, Supplementary, and Vertical Angles**\
+Use angle pairs that add to $90^\circ$ or $180^\circ$, or that are always equal.
+
+**Parallel Lines and Transversals**\
+Find every angle when a line crosses two parallel lines.
+
+**Angles in Triangles and Polygons**\
+The angles in a triangle add to $180^\circ$. Use that to find the angles in any polygon.

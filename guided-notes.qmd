@@ -1,0 +1,14 @@
+# Printable Guided Notes {.unnumbered}
+
+Every lesson has a **guided notes** handout. It has the objectives, the key ideas
+with blanks to fill in, and every example and practice problem with room to work.
+
+Open one and use your browser's **Print** command. They are laid out for
+letter-size paper.
+
+***
+
+
+## Unit 1 - Lines, Angles, and Equations
+
+  - [1.1 - Points, Lines, Segments, and Angles](/guided_notes/Unit_1/1.1_Points_Lines_Segments_and_Angles.html){target="_blank"}

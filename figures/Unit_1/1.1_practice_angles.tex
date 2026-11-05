@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (K) at (0,0);
+  \draw[ray] (K) -- (170:3.6);
+  \draw[ray] (K) -- (100:3.4);
+  \draw[ray] (K) -- (30:3.6);
+  \fill (K) circle[radius=\ptr] node[below] {$K$};
+  \fill (170:2.8) circle[radius=\ptr] node[below] {$J$};
+  \fill (100:2.6) circle[radius=\ptr] node[right] {$L$};
+  \fill (30:2.8) circle[radius=\ptr] node[below right] {$M$};
+\end{tikzpicture}
+\end{document}

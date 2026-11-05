@@ -1,0 +1,59 @@
+% Shared preamble for figures.  Each figure is a standalone .tex in
+% figures/Unit_X/ that \input's this file; scripts/make-figures.sh turns it
+% into images/Unit_X/<name>.svg.  The lesson page and the guided notes both
+% use that one SVG, so a figure is drawn once.
+%
+% Key figures: a figure whose .tex uses \ifkey ... \fi also gets a
+% <name>_KEY.svg, built with \keytrue.  Draw the answers inside \ifkey, in
+% the key colour (\ans{} for a label, the "answer" style for lines).
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,decorations.markings,decorations.pathreplacing}
+% axis numbers in the text font, not math italic
+\pgfkeys{/pgf/number format/.cd,assume math mode=true,1000 sep={}}
+
+\newif\ifkey
+\ifdefined\iskey\keytrue\fi
+\definecolor{key}{HTML}{C0192B}      % same red as the guided-notes keys
+\newcommand{\ans}[1]{\textcolor{key}{\bfseries #1}}
+
+\tikzset{
+  % points: \fill (A) circle[radius=\ptr];
+  every picture/.append style={line cap=round, line join=round, >={Stealth[length=2.6mm,width=2mm]}},
+  fig/.style={thick},
+  line/.style={thick,<->},            % a line goes on forever both ways
+  ray/.style={thick,->},              % a ray goes on forever one way
+  answer/.style={very thick,key},
+  % congruence ticks at the middle of a segment: \draw[tick1] (A) -- (B);
+  tick1/.style={postaction={decorate},decoration={markings,
+    mark=at position .5 with {\draw[thick] (0,-2.2pt) -- (0,2.2pt);}}},
+  tick2/.style={postaction={decorate},decoration={markings,
+    mark=at position .5 with {\draw[thick] (-1.3pt,-2.2pt) -- (-1.3pt,2.2pt) (1.3pt,-2.2pt) -- (1.3pt,2.2pt);}}},
+  tick3/.style={postaction={decorate},decoration={markings,
+    mark=at position .5 with {\draw[thick] (-2.4pt,-2.2pt) -- (-2.4pt,2.2pt) (0,-2.2pt) -- (0,2.2pt) (2.4pt,-2.2pt) -- (2.4pt,2.2pt);}}},
+  % parallel arrows at the middle of a line: \draw[par1] (A) -- (B);
+  par1/.style={postaction={decorate},decoration={markings,
+    mark=at position .5 with {\draw[thick] (-2.5pt,-2.5pt) -- (0,0) -- (-2.5pt,2.5pt);}}},
+  par2/.style={postaction={decorate},decoration={markings,
+    mark=at position .5 with {\draw[thick] (-4pt,-2.5pt) -- (-1.5pt,0) -- (-4pt,2.5pt) (-1pt,-2.5pt) -- (1.5pt,0) -- (-1pt,2.5pt);}}},
+  % angle arcs: \pic[ang] {angle = A--B--C};  ang2 for a second matching angle
+  ang/.style={draw,thick,angle radius=5mm},
+  ang2/.style={draw,thick,angle radius=5mm,double,double distance=1.2pt},
+  % right-angle box: \pic[rt] {right angle = A--B--C};
+  rt/.style={draw,thick,angle radius=2.6mm},
+}
+\newcommand{\ptr}{2pt}
+% a labelled point: \pt{A}{(x,y)}{above left}
+\newcommand{\pt}[3]{\coordinate (#1) at #2; \fill (#1) circle[radius=\ptr] node[#3] {$#1$};}
+
+% coordinate plane with every unit gridded: \cgrid{xmin}{xmax}{ymin}{ymax}{label step}
+\newcommand{\cgrid}[5]{%
+  \draw[gray!45,thin] (#1,#3) grid (#2,#4);
+  \draw[thick,<->] (#1-0.4,0) -- (#2+0.4,0) node[right] {$x$};
+  \draw[thick,<->] (0,#3-0.4) -- (0,#4+0.4) node[above] {$y$};
+  \pgfmathtruncatemacro{\cgxa}{#1+#5}\pgfmathtruncatemacro{\cgya}{#3+#5}
+  \foreach \t in {#1,\cgxa,...,#2} {\ifnum\t=0\else\node[below,font=\scriptsize] at (\t,0) {\t};\fi}
+  \foreach \t in {#3,\cgya,...,#4} {\ifnum\t=0\else\node[left,font=\scriptsize] at (0,\t) {\t};\fi}}

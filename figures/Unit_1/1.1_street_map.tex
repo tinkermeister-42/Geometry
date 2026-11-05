@@ -1,0 +1,17 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  % three streets; the corners make a 3-4-5 triangle (used again in Unit 2)
+  \foreach \a/\b in {{(-0.6,0)}/{(6.6,0)}, {(2,-2.8)}/{(2,1.6)}, {(0.4,-3)}/{(6.4,1.5)}}
+    \draw[line width=11pt,gray!22] \a -- \b;
+  \foreach \a/\b in {{(-0.6,0)}/{(6.6,0)}, {(2,-2.8)}/{(2,1.6)}, {(0.4,-3)}/{(6.4,1.5)}}
+    \draw[gray!70,dashed] \a -- \b;
+  \node[font=\small\bfseries,anchor=west] at (-0.55,0.32) {Main St};
+  \node[font=\small\bfseries,rotate=90,anchor=west] at (1.62,0.45) {Oak St};
+  \node[font=\small\bfseries,rotate=36.87,anchor=west] at (4.75,0.6) {Park Ave};
+  \pt{A}{(2,0)}{above right}
+  \pt{B}{(4,0)}{below right}
+  \pt{C}{(2,-1.5)}{left}
+\end{tikzpicture}
+\end{document}

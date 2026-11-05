@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  % y = 0.15x and y = 1.6 - 0.15x meet at (5.33, 0.8), off the edge of the drawing
+  \useasboundingbox (-1.1,-0.5) rectangle (6.4,2.1);
+  \draw[line] (-0.5,-0.075) node[left] {$\ell$} -- (3.8,0.57);
+  \draw[line] (-0.5,1.675) node[left] {$m$} -- (3.8,1.03);
+  \ifkey
+    \draw[answer,dashed] (3.8,0.57) -- (5.333,0.8) -- (3.8,1.03);
+    \fill[key] (5.333,0.8) circle (2.5pt) node[below,font=\small\bfseries] {they meet};
+  \fi
+\end{tikzpicture}
+\end{document}

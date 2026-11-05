@@ -1,0 +1,393 @@
+<!--
+lesson: 1.1
+title: Points, Lines, Segments, and Angles
+unit: 1
+unit_title: Lines, Angles, and Equations
+slug: Points_Lines_Segments_and_Angles
+-->
+  <div class="box tint">
+    <div class="lbl">Objectives</div>
+    <ul class="obj">
+      <li>Name points, lines, segments, rays, and planes</li>
+      <li>Write segments, rays, lines, and angles with the correct symbols</li>
+      <li>Name an angle and classify it as acute, right, obtuse, or straight</li>
+      <li>Tell what a figure shows for sure and what it only seems to show</li>
+    </ul>
+  </div>
+
+  <h2>Warm-Up</h2>
+  <div class="ex">
+    <div class="q">1. Plot <var>A</var>(3, 2), <var>B</var>(&minus;3, 2), and <var>C</var>(&minus;3, &minus;4). &nbsp;
+      2. Draw a path from <var>A</var> to <var>B</var>, then from <var>B</var> to <var>C</var>.
+      What kind of corner does the path make at <var>B</var>? &nbsp;
+      3. Solve <var>x</var> + 35 = 90.</div>
+    <div class="work">
+      <div class="cols2">
+        <div>
+          <p>2. The corner at <var>B</var> is <span class="b m">{{a}}a right angle (square corner){{/a}}</span></p>
+          <p>3. <var>x</var> + 35 = 90</p>
+          <div class="h08">{{a}}<p><var>x</var> + 35 &minus; 35 = 90 &minus; 35</p>{{/a}}</div>
+          <p><var>x</var> = <span class="b s">{{a}}55{{/a}}</span></p>
+        </div>
+        <div>{{grid-sm}}</div>
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="num">1.1.1</span>Points, Lines, and Planes</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>point</b> is an exact <span class="b m">{{a}}location{{/a}}</span>. It has no
+        <span class="b s">{{a}}size{{/a}}</span>. We name it with a <span class="b m">{{a}}capital letter{{/a}}</span>.</li>
+      <li>A <b>line</b> is straight and goes on forever in <span class="b m">{{a}}both directions{{/a}}</span>.
+        The arrows show that it never stops.</li>
+      <li>A <b>plane</b> is a <span class="b s">{{a}}flat{{/a}}</span> surface that goes on forever in every direction.</li>
+      <li>Through any two points there is exactly <span class="b s">{{a}}one{{/a}}</span> line.</li>
+      <li>Points on the same line are <span class="b m">{{a}}collinear{{/a}}</span>.
+        Points in the same plane are <span class="b m">{{a}}coplanar{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th style="width:.9in">Object</th><th style="width:1.6in">Picture</th><th>Name</th><th style="width:1.2in">Symbol</th></tr>
+    <tr><td>point</td><td>{{fig 1.1_point|a point labelled A|1.3in}}</td><td>point <var>A</var></td><td><var>A</var></td></tr>
+    <tr><td>line</td><td>{{fig 1.1_line|a line through points A and B|1.3in}}</td>
+      <td>line <var>AB</var>, or one small letter like line <i>&#8467;</i></td><td>{{a}}{{line AB}}{{/a}}</td></tr>
+    <tr><td>plane</td><td>{{fig 1.1_plane|a plane labelled P|1.3in}}</td>
+      <td>plane <var>P</var>, or three points in it that are not on one line</td><td></td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 1.</b> Use the figure.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">
+        {{fig 1.1_collinear|line l through points A, B and C in plane M, point D in the plane off the line, point E above the plane|3in}}
+        <div>
+          <p>a. Name line <i>&#8467;</i> another way. <span class="b m">{{a}}{{line AB}}{{/a}}</span></p>
+          <p>b. Name three collinear points. <span class="b m">{{a}}<var>A</var>, <var>B</var>, <var>C</var>{{/a}}</span></p>
+          <p>c. Are <var>A</var>, <var>B</var>, and <var>D</var> collinear? <span class="b l">{{a}}No. <var>D</var> is not on line <i>&#8467;</i>.{{/a}}</span></p>
+          <p>d. Name a point that is not in plane <var>M</var>. <span class="b s">{{a}}<var>E</var>{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 2.</b> Use the figure in EX 1.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Name line <i>&#8467;</i> using points <var>B</var> and <var>C</var>. <span class="b m">{{a}}{{line BC}}{{/a}}</span></p>
+      <p>b. Name three points in plane <var>M</var> that are <b>not</b> collinear. <span class="b m">{{a}}<var>A</var>, <var>B</var>, <var>D</var>{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">1.1.2</span>Segments and Rays</h2>
+
+  <div class="keys">
+    <ul>
+      <li>A <b>segment</b> is part of a line between two <span class="b m">{{a}}endpoints{{/a}}</span>.</li>
+      <li>A <b>ray</b> starts at one endpoint and goes on forever in <span class="b m">{{a}}one direction{{/a}}</span>.</li>
+    </ul>
+  </div>
+
+  <table class="steps">
+    <tr><th style="width:.9in">Object</th><th style="width:1.6in">Picture</th><th>Name</th><th style="width:1.2in">Symbol</th></tr>
+    <tr><td>segment</td><td>{{fig 1.1_segment|a segment with endpoints A and B|1.3in}}</td><td>segment <var>AB</var></td><td>{{a}}{{seg AB}}{{/a}}</td></tr>
+    <tr><td>ray</td><td>{{fig 1.1_ray|a ray that starts at A and goes through B|1.3in}}</td><td>ray <var>AB</var></td><td>{{a}}{{ray AB}}{{/a}}</td></tr>
+  </table>
+
+  <div class="box warn">
+    <div class="lbl">Order matters for a ray</div>
+    {{seg AB}} and {{seg BA}} are <span class="b m">{{a}}the same{{/a}}</span> segment.
+    {{ray AB}} and {{ray BA}} are <span class="b m">{{a}}different{{/a}}</span> rays.
+    The first letter of a ray is always its <span class="b m">{{a}}endpoint{{/a}}</span>.
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Segment or length?</div>
+    {{seg AB}}, with a bar, is the <span class="b m">{{a}}segment{{/a}}</span>.
+    <var>AB</var>, with no bar, is its <span class="b m">{{a}}length{{/a}}</span>, a number like <var>AB</var> = 5.
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 3.</b> Opposite rays</div>
+    <div class="work">
+      {{fig 1.1_opposite_rays|points P, Q and R on a line, with Q in the middle|3.4in}}
+      <p>a. Name the two rays that start at <var>Q</var>. <span class="b m">{{a}}{{ray QP}} and {{ray QR}}{{/a}}</span></p>
+      <p>They have the same endpoint and go in opposite directions. They are <span class="b m">{{a}}opposite rays{{/a}}</span>.</p>
+      <p>b. Name every segment in the figure. <span class="b l">{{a}}{{seg PQ}}, {{seg QR}}, {{seg PR}}{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 4.</b> Use the figure in EX 3.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Is {{ray PQ}} the same ray as {{ray PR}}? Explain.</p>
+      {{a}}<p>Yes. Both start at <var>P</var> and go right forever through the same points.</p>{{/a}}
+      <div class="ruled"></div>
+      <p>b. Is {{ray QP}} the same ray as {{ray PQ}}? Explain.</p>
+      {{a}}<p>No. {{ray QP}} starts at <var>Q</var> and goes left. {{ray PQ}} starts at <var>P</var> and goes right.</p>{{/a}}
+      <div class="ruled"></div>
+    </div>
+  </div>
+
+  <h2><span class="num">1.1.3</span>Angles</h2>
+
+  <div class="cols2" style="grid-template-columns:1fr 2.9in;align-items:center">
+    <div class="keys">
+      <ul>
+        <li>An <b>angle</b> is two <span class="b s">{{a}}rays{{/a}}</span> with the same endpoint.</li>
+        <li>The rays are the <span class="b s">{{a}}sides{{/a}}</span>. The shared endpoint is the <span class="b s">{{a}}vertex{{/a}}</span>.</li>
+        <li>We measure angles in <span class="b s">{{a}}degrees{{/a}}</span> (&deg;). One full turn is <span class="b s">{{a}}360&deg;{{/a}}</span>.</li>
+      </ul>
+    </div>
+    {{fig 1.1_angle_parts|angle ABC with vertex B, labelled 1 inside, its two sides marked|2.9in}}
+  </div>
+
+  <p>Three ways to name this angle:</p>
+  <p>&nbsp;&nbsp;Three letters, vertex in the middle: <span class="b m">{{a}}&ang;<var>ABC</var> or &ang;<var>CBA</var>{{/a}}</span>
+    &nbsp; The vertex only: <span class="b s">{{a}}&ang;<var>B</var>{{/a}}</span>
+    &nbsp; The number: <span class="b s">{{a}}&ang;1{{/a}}</span></p>
+  <p>This angle measures 130&deg;. Write it with symbols: <span class="b m">{{a}}{{mang ABC}} = 130&deg;{{/a}}</span></p>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 5.</b> Name the three angles that have their vertex at <var>B</var>.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.4in 1fr;align-items:center">
+        {{fig 1.1_shared_vertex|three rays from point B through points A, C and D|2.3in}}
+        <div>
+          <p><span class="b m">{{a}}{{ang ABC}}{{/a}}</span></p>
+          <p><span class="b m">{{a}}{{ang CBD}}{{/a}}</span></p>
+          <p><span class="b m">{{a}}{{ang ABD}}{{/a}}</span></p>
+          <div class="box warn">
+            <div class="lbl">When one letter is not enough</div>
+            &ang;<var>B</var> could mean any of these angles. When angles share a vertex, use
+            <span class="b m">{{a}}three letters{{/a}}</span>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 6.</b> Use the figure in EX 5.<span class="yt">your turn</span></div>
+    <div class="work">
+      <p>a. Name {{ang CBD}} another way with three letters. <span class="b m">{{a}}{{ang DBC}}{{/a}}</span></p>
+      <p>b. Which of the three angles is the largest? Why? <span class="b l">{{a}}{{ang ABD}}. It is the other two together.{{/a}}</span></p>
+    </div>
+  </div>
+
+  <h2><span class="num">1.1.4</span>Classifying Angles</h2>
+
+  <table class="steps">
+    <tr><th style="width:1in">Type</th><th>Draw one</th><th style="width:2.7in">Measure</th></tr>
+    <tr><td><b>acute</b></td><td class="h08">{{a}}(a small, sharp angle){{/a}}</td><td>{{a}}more than 0&deg; and less than 90&deg;{{/a}}</td></tr>
+    <tr><td><b>right</b></td><td class="h08">{{a}}(a square corner, marked with a box){{/a}}</td><td>{{a}}exactly 90&deg;{{/a}}</td></tr>
+    <tr><td><b>obtuse</b></td><td class="h08">{{a}}(a wide angle){{/a}}</td><td>{{a}}more than 90&deg; and less than 180&deg;{{/a}}</td></tr>
+    <tr><td><b>straight</b></td><td class="h08">{{a}}(looks like a line){{/a}}</td><td>{{a}}exactly 180&deg;{{/a}}</td></tr>
+  </table>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 7.</b> What angle do the hands of a clock make at 2:00?</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:1.7in 1fr;align-items:center">
+        {{fig 1.1_clock|a clock showing 2 o'clock, with the angle between the hands marked|1.6in}}
+        <div>
+          <p>A full turn is 360&deg;. A clock has 12 hour marks.</p>
+          <p>One hour mark to the next: 360&deg; &divide; 12 = <span class="b s">{{a}}30&deg;{{/a}}</span></p>
+          <p>At 2:00 the hands are 2 hour marks apart: 2 &times; 30&deg; = <span class="b s">{{a}}60&deg;{{/a}}</span></p>
+          <p>The angle is <span class="b m">{{a}}acute{{/a}}</span> because <span class="b m">{{a}}60&deg; &lt; 90&deg;{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 8.</b> What angle do the hands make at 5:00? Classify the angle.<span class="yt">your turn</span></div>
+    <div class="work h08">{{a}}<p>5 &times; 30&deg; = 150&deg;. It is between 90&deg; and 180&deg;, so the angle is obtuse.</p>{{/a}}</div>
+  </div>
+
+  <h2><span class="num">1.1.5</span>What a Figure Shows</h2>
+
+  <div class="keys">
+    A drawing can fool your eyes. We only trust what we are <span class="b s">{{a}}told{{/a}}</span>
+    and what the figure <span class="b s">{{a}}marks{{/a}}</span>.
+    <ul>
+      <li>A small square at a vertex means a <span class="b m">{{a}}right angle{{/a}}</span>.</li>
+      <li>Matching <span class="b m">{{a}}tick marks{{/a}}</span> mean segments have the same length.</li>
+    </ul>
+  </div>
+
+  <div class="ex">
+    <div class="q"><b class="tag">EX 9.</b> Marks and looks</div>
+    <div class="work">
+      {{fig 1.1_marks|two angles that look like right angles, only angle 1 has a square mark; four segments, only AB and CD have tick marks|5.2in}}
+      <p>a. Which angle is a right angle for sure? <span class="b l">{{a}}&ang;1. It has the square mark.{{/a}}</span></p>
+      <p>b. Is &ang;2 a right angle? <span class="b l">{{a}}Cannot tell. It has no mark.{{/a}}</span></p>
+      <p>c. Which segments have the same length for sure? <span class="b l">{{a}}{{seg AB}} and {{seg CD}}{{/a}}</span></p>
+      <p>d. Do {{seg EF}} and {{seg GH}} have the same length? <span class="b l">{{a}}Cannot tell. They have no marks.{{/a}}</span></p>
+    </div>
+  </div>
+
+  <div class="ex yours">
+    <div class="q"><b class="tag">EX 10.</b> Lines go on forever. Do lines <i>&#8467;</i> and <var>m</var> intersect? Explain.<span class="yt">your turn</span></div>
+    <div class="work">
+      {{fig 1.1_lines_meet|two lines l and m that get closer to the right but do not touch on the page|3.6in}}
+      {{a}}<p>Yes. They get closer to the right, and lines go on forever, so they meet past the edge of the page.</p>{{/a}}
+      <div class="ruled"></div><div class="ruled"></div>
+    </div>
+  </div>
+
+  <div class="box tint summary">
+    <div class="lbl">Summary</div>
+    <div class="wordbank"><span>acute</span><span>endpoint</span><span>line</span><span>marks</span><span>obtuse</span><span>ray</span><span>segment</span><span>vertex</span></div>
+    <p>1. A <span class="b m">{{a}}segment{{/a}}</span> has two endpoints. A <span class="b m">{{a}}ray{{/a}}</span> has one.</p>
+    <p>2. The first letter in the name of a ray is its <span class="b m">{{a}}endpoint{{/a}}</span>.</p>
+    <p>3. In the name &ang;<var>ABC</var>, the <span class="b m">{{a}}vertex{{/a}}</span> is <var>B</var>.</p>
+    <p>4. An angle of 120&deg; is <span class="b m">{{a}}obtuse{{/a}}</span>.</p>
+    <p>5. We trust what a figure <span class="b m">{{a}}marks{{/a}}</span>, not what it looks like.</p>
+  </div>
+
+{{practice-head}}
+
+  <h2>Practice</h2>
+  <h3>Points, Lines, and Planes</h3>
+
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:3in 1fr;align-items:center">
+        {{fig 1.1_practice_line|line n through points R, S and T in plane Q, point U in the plane off the line, point V above the plane|3in}}
+        <div>
+          <p>1. Name line <var>n</var> two other ways. <span class="b m">{{a}}{{line RS}}, {{line ST}}{{/a}}</span></p>
+          <p>2. Name three collinear points. <span class="b m">{{a}}<var>R</var>, <var>S</var>, <var>T</var>{{/a}}</span></p>
+          <p>3. Name a point in plane <var>Q</var> that is not on line <var>n</var>. <span class="b s">{{a}}<var>U</var>{{/a}}</span></p>
+          <p>4. Name a point that is not in plane <var>Q</var>. <span class="b s">{{a}}<var>V</var>{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Write the Symbol</h3>
+
+  <div class="ex">
+    <div class="work">
+      <div class="cols2">
+        <p>5. The segment with endpoints <var>R</var> and <var>S</var>. <span class="b s">{{a}}{{seg RS}}{{/a}}</span></p>
+        <p>6. The ray that starts at <var>T</var> and goes through <var>U</var>. <span class="b s">{{a}}{{ray TU}}{{/a}}</span></p>
+        <p>7. The line through <var>M</var> and <var>N</var>. <span class="b s">{{a}}{{line MN}}{{/a}}</span></p>
+        <p>8. The length of the segment with endpoints <var>X</var> and <var>Y</var>. <span class="b s">{{a}}<var>XY</var>{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>True or False? Explain Your Answer.</h3>
+
+  <div class="ex">
+    <div class="work">
+      <p>9. {{seg GH}} and {{seg HG}} are the same segment.</p>
+      {{a}}<p>True. A segment is named by its two endpoints in either order.</p>{{/a}}
+      <div class="ruled"></div>
+      <p>10. {{ray GH}} and {{ray HG}} are the same ray.</p>
+      {{a}}<p>False. {{ray GH}} starts at <var>G</var>. {{ray HG}} starts at <var>H</var> and goes the other way.</p>{{/a}}
+      <div class="ruled"></div>
+    </div>
+  </div>
+
+  <h3>Naming and Classifying Angles</h3>
+
+  <div class="ex">
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2.5in 1fr;align-items:center">
+        {{fig 1.1_practice_angles|three rays from point K through points J, L and M|2.4in}}
+        <div>
+          <p>11. Name the three angles with vertex <var>K</var>.</p>
+          <p><span class="b l">{{a}}{{ang JKL}}, {{ang LKM}}, {{ang JKM}}{{/a}}</span></p>
+          <p>12. Why is &ang;<var>K</var> not a good name for any of them?</p>
+          {{a}}<p>Three angles share vertex <var>K</var>, so &ang;<var>K</var> does not say which one.</p>{{/a}}
+          <div class="ruled"></div>
+          <p>13. Classify {{ang LKM}}. <span class="b m">{{a}}acute{{/a}}</span></p>
+          <p>14. Classify {{ang JKM}}. <span class="b m">{{a}}obtuse{{/a}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">Classify each angle as acute, right, obtuse, or straight.</div>
+    <div class="work">
+      <div class="cols4">
+        <p>15. 12&deg; <span class="b s">{{a}}acute{{/a}}</span></p>
+        <p>16. 90&deg; <span class="b s">{{a}}right{{/a}}</span></p>
+        <p>17. 145&deg; <span class="b s">{{a}}obtuse{{/a}}</span></p>
+        <p>18. 180&deg; <span class="b s">{{a}}straight{{/a}}</span></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Clock Angles</h3>
+
+  <div class="ex">
+    <div class="q">Find the angle between the hands of a clock. Then classify the angle.</div>
+    <div class="work">
+      <table class="steps">
+        <tr><th style="width:1in">Time</th><th>Work</th><th style="width:1in">Angle</th><th style="width:1.2in">Type</th></tr>
+        <tr><td>19. &nbsp;3:00</td><td>{{a}}3 &times; 30&deg;{{/a}}</td><td>{{a}}90&deg;{{/a}}</td><td>{{a}}right{{/a}}</td></tr>
+        <tr><td>20. &nbsp;4:00</td><td>{{a}}4 &times; 30&deg;{{/a}}</td><td>{{a}}120&deg;{{/a}}</td><td>{{a}}obtuse{{/a}}</td></tr>
+        <tr><td>21. &nbsp;6:00</td><td>{{a}}6 &times; 30&deg;{{/a}}</td><td>{{a}}180&deg;{{/a}}</td><td>{{a}}straight{{/a}}</td></tr>
+        <tr><td>22. &nbsp;1:00</td><td>{{a}}1 &times; 30&deg;{{/a}}</td><td>{{a}}30&deg;{{/a}}</td><td>{{a}}acute{{/a}}</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3>What Does the Figure Show?</h3>
+
+  <div class="ex">
+    <div class="q">The figure looks like a square. Write <b>must be true</b> or <b>cannot tell</b>.</div>
+    <div class="work">
+      <div class="cols2" style="grid-template-columns:2in 1fr;align-items:center">
+        {{fig 1.1_practice_square|a four-sided figure ABCD that looks like a square; only angle A has a square mark and only sides AB and BC have tick marks|1.8in}}
+        <div>
+          <p>23. &ang;<var>A</var> is a right angle. <span class="b m">{{a}}must be true{{/a}}</span></p>
+          <p>24. &ang;<var>C</var> is a right angle. <span class="b m">{{a}}cannot tell{{/a}}</span></p>
+          <p>25. <var>AB</var> = <var>BC</var> <span class="b m">{{a}}must be true{{/a}}</span></p>
+          <p>26. <var>CD</var> = <var>DA</var> <span class="b m">{{a}}cannot tell{{/a}}</span></p>
+        </div>
+      </div>
+      <p>27. Is <var>ABCD</var> a square? Explain how you know.</p>
+      {{a}}<p>We cannot tell. Only &ang;<var>A</var> is marked as a right angle, and only {{seg AB}} and {{seg BC}} are marked equal.</p>{{/a}}
+      <div class="ruled"></div><div class="ruled"></div>
+    </div>
+  </div>
+
+  <h3>Test Practice</h3>
+
+  <div class="ex">
+    <div class="q">28. Points <var>A</var>, <var>B</var>, and <var>C</var> are collinear, and point <var>B</var> is
+      between <var>A</var> and <var>C</var>. Which statement is true?</div>
+    <div class="work">
+      <p>A. {{ray BA}} and {{ray BC}} are opposite rays. {{a}}&larr; correct{{/a}}</p>
+      <p>B. {{ray AB}} and {{ray BC}} are opposite rays.</p>
+      <p>C. {{ray BA}} and {{ray AB}} are the same ray.</p>
+      <p>D. {{seg AB}} is longer than {{seg AC}}.</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <div class="q">29. The measure of an angle is 3 times 32&deg;. Which word describes the angle?</div>
+    <div class="work">
+      <div class="cols4"><p>A. acute</p><p>B. right</p><p>C. obtuse {{a}}&larr; 96&deg;{{/a}}</p><p>D. straight</p></div>
+    </div>
+  </div>
+
+  <h3>Challenge</h3>
+
+  <div class="ex">
+    <div class="q">30. Four points lie in a plane. No three of them are collinear. How many different
+      lines can you draw through two of the points? Draw a picture to check.</div>
+    <div class="work h16">{{a}}<p>6 lines: <var>AB</var>, <var>AC</var>, <var>AD</var>, <var>BC</var>, <var>BD</var>, <var>CD</var>.</p>{{/a}}</div>
+  </div>
+
+  <div class="box tint">
+    <div class="lbl">Questions I still have</div>
+    <div class="ruled"></div><div class="ruled"></div>
+  </div>

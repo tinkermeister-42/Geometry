@@ -1,0 +1,14 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  % looks like a square; only one right angle and two sides are marked
+  \coordinate (A) at (0,0); \coordinate (B) at (2.6,0); \coordinate (C) at (2.65,2.55); \coordinate (D) at (0.02,2.6);
+  \draw[fig,tick1] (A) -- (B);
+  \draw[fig,tick1] (B) -- (C);
+  \draw[fig] (C) -- (D) -- (A);
+  \pic[rt] {right angle = B--A--D};
+  \foreach \p/\pos in {A/below left, B/below right, C/above right, D/above left}
+    \fill (\p) circle[radius=\ptr] node[\pos] {$\p$};
+\end{tikzpicture}
+\end{document}

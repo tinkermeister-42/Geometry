@@ -1,0 +1,20 @@
+{
+  "acute-angle": "An angle that measures more than $0^\\circ$ and less than $90^\\circ$.",
+  "angle": "Two rays with the same endpoint. The endpoint is the vertex. Write $\\angle ABC$, with the vertex in the middle.",
+  "collinear": "Points that lie on the same line.",
+  "coplanar": "Points or lines that lie in the same plane.",
+  "degree": "The unit for measuring angles, written $^\\circ$. A full turn is $360^\\circ$. A right angle is $90^\\circ$.",
+  "endpoint": "A point at the end of a segment or the start of a ray.",
+  "intersect": "To cross or meet. Two lines intersect at a point. Two planes intersect in a line.",
+  "line": "A straight path of points that goes on forever in both directions. Write $\\overleftrightarrow{AB}$ or name it with one small letter, like line $\\ell$.",
+  "measure-of-an-angle": "How far an angle opens, in degrees. Write $m\\angle ABC = 40^\\circ$. Read it as “the measure of angle $ABC$ is 40 degrees.”",
+  "obtuse-angle": "An angle that measures more than $90^\\circ$ and less than $180^\\circ$.",
+  "opposite-rays": "Two rays with the same endpoint that go in opposite directions. Together they make a line.",
+  "plane": "A flat surface that goes on forever in every direction. Name it with one capital letter, like plane $P$, or with three points in it that are not on one line.",
+  "point": "An exact location. A point has no size. Name it with a capital letter, like point $A$.",
+  "ray": "Part of a line that starts at one endpoint and goes on forever in one direction. Write $\\overrightarrow{AB}$: it starts at $A$ and goes through $B$.",
+  "right-angle": "An angle that measures exactly $90^\\circ$. A small square at the vertex marks a right angle.",
+  "segment": "Part of a line between two endpoints. Write $\\overline{AB}$. Its length is written $AB$, with no bar.",
+  "straight-angle": "An angle that measures exactly $180^\\circ$. Its sides are opposite rays, so it looks like a line.",
+  "vertex": "The point where the two sides of an angle meet. The plural is vertices."
+}

@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \draw[very thick] (0,0) circle (1.6);
+  \foreach \h in {1,...,12} {
+    \draw[thick] ({90-30*\h}:1.45) -- ({90-30*\h}:1.6);
+    \node[font=\small] at ({90-30*\h}:1.18) {\h};}
+  \coordinate (O) at (0,0); \coordinate (T) at (90:1); \coordinate (H) at (30:0.75);
+  \pic[ang,angle radius=4mm,"?",angle eccentricity=1.8] {angle = H--O--T};
+  \draw[line width=2.4pt] (O) -- (90:1.05);
+  \draw[line width=3.2pt] (O) -- (30:0.78);
+  \fill (O) circle (2.5pt);
+\end{tikzpicture}
+\end{document}

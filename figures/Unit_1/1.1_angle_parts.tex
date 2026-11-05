@@ -1,0 +1,19 @@
+\documentclass[border=6pt]{standalone}
+\input{../preamble}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \coordinate (B) at (0,0);
+  \coordinate (A) at (150:3);
+  \coordinate (C) at (20:3.2);
+  \draw[ray] (B) -- (150:3.6);
+  \draw[ray] (B) -- (20:3.8);
+  \fill (A) circle[radius=\ptr] node[above] {$A$};
+  \fill (C) circle[radius=\ptr] node[below] {$C$};
+  \fill (B) circle[radius=\ptr] node[below left] {$B$};
+  \pic[ang,"$1$",angle eccentricity=1.45] {angle = C--B--A};
+  \node[font=\small,anchor=west] (v) at (0.7,-0.75) {vertex};
+  \draw[->,thin] (v.west) -- (0.08,-0.1);
+  \node[font=\small,rotate=20] at (20:2.0) [above=1pt] {side};
+  \node[font=\small,rotate=-30] at (150:1.9) [above=1pt] {side};
+\end{tikzpicture}
+\end{document}
