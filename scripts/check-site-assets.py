@@ -58,7 +58,9 @@ for src in sorted(root.glob("figures/Unit_*/*.tex")):
     newest = max([stamp(src), stamp(preamble)] + [stamp(h) for h in helpers if h.exists()])
     for name in names:
         svg = root / "images" / src.parent.name / (name + ".svg")
-        if not svg.exists() or stamp(svg) < newest:
+        # an output rebuilt to identical bytes keeps its old commit time, so
+        # its file time counts too
+        if not svg.exists() or max(stamp(svg), svg.stat().st_mtime) < newest:
             bad.append(f"stale or missing {svg.relative_to(root)} (run scripts/make-figures.sh)")
 
 notes = subprocess.run([sys.executable, str(root / "scripts" / "build-guided-notes.py"), "--check"],
